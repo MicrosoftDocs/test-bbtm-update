@@ -10,7 +10,7 @@ ms.topic: conceptual
 helpviewer_keywords: 
   - "ADO, about"
 ms.assetid: 2fa6237b-44b8-4b6c-9952-5acd80a54e20
-author: MightyPen
+author: Masayoshi Yamada
 ms.author: genemi
 ---
 # Test Microsoft ActiveX Data Objects (ADO)
