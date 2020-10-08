@@ -1,7 +1,7 @@
 ---
 title: "index"
 description: ""
-author: Masayoshi yamada
+author: msmyamada
 ms.prod: sql
 ms.technology: 
 ms.custom: ""
