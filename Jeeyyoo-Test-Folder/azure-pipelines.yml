@@ -3,17 +3,29 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
-- master
+trigger: none
+
+pr: none
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: windows-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: OneLocBuild@1
+  inputs:
+    locProj: 'Jeeyyoo-Test-Folder/Localize/LocProject.json'
+    outDir: '$(Build.ArtifactStagingDirectory)'
+    isCreatePrSelected: true
+    repoType: 'gitHub'
+    prSourceBranchPrefix: 'locfiles'
+    gitHubPatVariable: '$(GitHubPat)'
+    isDeletePrSourceBranchSelected: false
+    gitHubPrMergeMethod: 'squash'
+    packageSourceAuth: 'patAuth'
+    patVariable: '$(OneLocBuildPat)'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
