@@ -1,0 +1,14 @@
+{
+  "Projects": [
+    {
+      "LanguageSet": "Azure_Languages",
+      "LocItems": [
+        {
+          "SourceFile": "src\\OneLocBuildSample1\\ClassLibrary1\\Resource1.resx",
+          "CopyOption": "LangIDOnName",
+          "OutputPath": "src\\OneLocBuildSample1\\ClassLibrary1"
+        }
+      ]
+    }
+  ]
+}
