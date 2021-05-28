@@ -1,0 +1,52 @@
+### YamlMime:Module
+uid: learn.azure.azure-architecture-fundamentals
+metadata:
+  title: Menjelaskan komponen arsitektur Azure inti (AZ-900)
+  description: Pelajari tentang langganan Azure, manajemen grup, sumber daya grup, manajer sumber daya Azure, wilayah Azure, dan ketersediaan zona. Mempersiapkan AZ-900
+  ms.date: 09/14/2020
+  author: Randall-Knapp
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 5475679d4ea8b608b638887aa9085e0ae0c325c9
+  ms.sourcegitcommit: 80b4e4480e0e96a358992b590a9c49064f5b658d
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/13/2021
+  ms.locfileid: "107706001"
+title: Menjelaskan komponen arsitektur inti Azure
+summary: Pada modul ini, Anda akan menguji berbagai konsep, sumber daya, dan terminologi yang dibutuhkan untuk bekerja dengan infrastruktur Azure. Misalnya, Anda akan mempelajari tentang langganan Azure dan grup manajemen, sumber daya grup dan manajer grup sumber daya, serta wilayah Azure dan ketersediaan zona.
+abstract: >
+  Setelah menyelesaikan modul ini, Anda akan dapat menjelaskan keuntungan dan penggunaan dari:
+
+  - Langganan Azure dan manajemen grup.
+
+  - Sumber daya Azure, sumber daya grup, dan Manajer sumber daya Azure.
+
+  - Wilayah Azure, pasangan wilayah, dan ketersdiaan zona.
+prerequisites: >
+  - Anda harus terbiasa dengan konsep dan terminologi komputasi.
+
+  - Sebuah pemahaman komputasi cloud sangat membantu, tapi tidak di perlukan.
+iconUrl: /learn/achievements/azure-architecture-fundamentals.svg
+levels:
+- beginner
+roles:
+- administrator
+- solution-architect
+- developer
+- student
+products:
+- azure
+- azure-resource-manager
+units:
+- learn.azure.azure-architecture-fundamentals.introduction
+- learn.azure.azure-architecture-fundamentals.overview
+- learn.azure.azure-architecture-fundamentals.management-groups-subscriptions
+- learn.azure.azure-architecture-fundamentals.resources-resource-manager
+- learn.azure.azure-architecture-fundamentals.regions-availability-zones
+- learn.azure.azure-architecture-fundamentals.exercise-create-website
+- learn.azure.azure-architecture-fundamentals.knowledge-check
+- learn.azure.azure-architecture-fundamentals.summary
+badge:
+  uid: learn.azure.azure-architecture-fundamentals.badge

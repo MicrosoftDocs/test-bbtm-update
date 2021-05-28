@@ -1,0 +1,54 @@
+### YamlMime:Module
+uid: learn.tour-azure-portal-features
+metadata:
+  title: Mengelola layanan dengan portal Microsoft Azure
+  description: Kenali platform cloud Azure melalui portal Microsoft Azure, tempat Anda membuat dan mengelola semua sumber daya Azure.
+  ms.date: 09/24/2018
+  author: cwatson-cat
+  ms.author: cwatson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 3d0fa613b2f8773cc38f4bf0f02f1cdd32cee663
+  ms.sourcegitcommit: 80b4e4480e0e96a358992b590a9c49064f5b658d
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/13/2021
+  ms.locfileid: "107705960"
+title: Mengelola layanan dengan portal Microsoft Azure
+summary: Jelajahi fitur dan layanan portal Microsoft Azure, dan kustomisasi portal Anda.
+abstract: >
+  Dalam modul ini, Anda akan:
+
+  - Pelajari tentang opsi manajemen Azure
+
+  - Navigasikan ke portal Microsoft Azure
+
+  - Mengkustomisasi dasbor
+
+  - Pelajari cara ikut serta untuk melihat layanan dan fitur
+iconUrl: /learn/achievements/tour-azure-portal-features.svg
+hidden: false
+levels:
+- beginner
+prerequisites: >
+  - Pengetahuan tentang istilah dan konsep komputasi awan dasar
+roles:
+- administrator
+- solution-architect
+- developer
+- student
+products:
+- azure
+- azure-portal
+units:
+- learn.tour-azure-portal-features.1-introduction
+- learn.tour-azure-portal-features.2-azure-management
+- learn.tour-azure-portal-features.3-navigate-the-portal
+- learn.tour-azure-portal-features.4-exercise-work-with-blades
+- learn.tour-azure-portal-features.5-exercise-navigate-the-portal
+- learn.tour-azure-portal-features.6-customize-the-dashboard
+- learn.tour-azure-portal-features.7-exercise-customize-the-dashboard
+- learn.tour-azure-portal-features.8-preview-features
+- learn.tour-azure-portal-features.9-summary
+badge:
+  uid: learn.tour-azure-portal-features.badge

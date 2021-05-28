@@ -1,0 +1,11 @@
+Selama jalur pembelajaran Azure Fundamentals, kami akan bekerja sama dengan [Tailwind Traders](https://www.tailwindtraders.com/?azure-portal=true), peritel perbaikan rumah fiktif. Perusahaan ini mengoperasikan toko ritel perangkat keras di seluruh dunia dan online.
+
+:::image type="content" source="../media/tailwind-traders-web-top.png" alt-text="Cuplikan layar situs web Tailwind Traders. Anda dapat mengunggah foto ke fitur belanja pintar atau menelusuri produk yang direkomendasikan." border="false":::
+
+Tailwind Traders saat ini mengelola pusat data lokal yang menjadi tuan rumah situs web ritel perusahaan. Pusat data juga menyimpan semua data dan video streaming untuk aplikasinya. Departemen IT saat ini bertanggung jawab atas semua tugas manajemen untuk perangkat keras dan perangkat lunak komputasinya. Misalnya, Anda bekerja sebagai spesialis TI untuk departemen TI perusahaan. Tim IT Anda menangani proses pengadaan untuk membeli perangkat keras baru, menginstal dan mengonfigurasi perangkat lunak, serta menyebarkan semuanya ke seluruh pusat data.
+
+Tanggung jawab manajemen ini menciptakan beberapa hambatan untuk memberikan aplikasi Anda kepada pengguna Anda secara tepat waktu. Sebagai profesional IT, Anda menyadari bahwa memiliki server, penyimpanan, database, dan layanan lain siap digunakan saat Anda mengembangkan dan menerapkan aplikasi akan menjadi sebuah keuntungan. Anda ingin memulai server baru atau menambahkan layanan ke solusi Anda dengan mudah.
+
+Di unit lain modul pembelajaran ini, Anda telah mempelajari beberapa layanan berbasis cloud yang dapat digunakan Tailwind Traders untuk mengatasi tantangan teknologinya. Dengan mempertimbangkan hal tersebut, layanan yang tersedia melalui Azure dapat membantu Tailwind Traders menjalankan bisnisnya dengan lebih efisien.
+
+Saat Anda menyelesaikan berbagai modul di jalur pembelajaran Azure Fundamentals, kami akan menganalisis tantangan yang dihadapi Tailwind Traders. Anda akan melihat bagaimana Anda dapat menggunakan layanan Azure untuk mengatasi setiap masalah saat muncul. Setelah Anda menyelesaikan masing-masing modul, pengetahuan yang Anda peroleh dari menyelesaikan tantangan hipotetis yang dihadapi perusahaan Tailwind Traders fiksi akan menguntungkan Anda di lingkungan dunia nyata Anda.

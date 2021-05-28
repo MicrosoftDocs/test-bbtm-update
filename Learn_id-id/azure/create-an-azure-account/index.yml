@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.create-azure-account
+metadata:
+  title: Membuat akun Azure
+  description: Cari tahu cara mulai menggunakan Azure dengan membuat akun tempat Anda akan melihat layanan dan pengaturan pribadi untuk identitas, tagihan, dan preferensi.
+  ms.date: 11/26/2019
+  author: cwatson-cat
+  ms.author: cwatson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: e44e4d7ed148e21e0e6cc7c78970471c4fc23393
+  ms.sourcegitcommit: aac22a0a75e59057b804f6d34b2fb71638eb378a
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 01/29/2021
+  ms.locfileid: "107703573"
+title: Membuat akun Azure
+summary: 'Langkah pertama untuk menggunakan Azure adalah mendaftar. Anda dapat mendaftar langsung melalui Azure.com, dengan bantuan perwakilan Microsoft, atau melalui mitra. Jika Anda baru menggunakan Azure, Anda dapat mendaftar akun gratis Azure untuk mulai menjelajah dengan kredit gratis $200 USD dan layanan gratis. '
+abstract: "Dalam modul ini, Anda akan:\n- Mempelajari tentang opsi pendaftaran Azure termasuk akun gratis Azure.\n- Membuat akun gratis Azure.\n- Memahami cara kerja tagihan di Azure.   \n- Mempelajari tentang berbagai opsi dukungan.\n"
+prerequisites: >
+  - Pengetahuan tentang istilah dan konsep komputasi awan dasar
+
+  - Kartu kredit yang valid untuk mendaftar akun gratis Azure (opsional)
+iconUrl: /learn/achievements/create-azure-account.svg
+levels:
+- beginner
+roles:
+- administrator
+- solution-architect
+- developer
+- security-engineer
+- student
+products:
+- azure
+- azure-portal
+units:
+- learn.create-azure-account.1-introduction
+- learn.create-azure-account.2-azure-accounts-and-subscriptions
+- learn.create-azure-account.5-exercise-create-an-azure-account
+- learn.create-azure-account.3-multiple-subscriptions
+- learn.create-azure-account.6-support-options
+- learn.create-azure-account.knowledge-check
+- learn.create-azure-account.7-summary
+badge:
+  uid: learn.create-azure-account.badge

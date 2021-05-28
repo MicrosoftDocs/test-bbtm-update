@@ -1,0 +1,71 @@
+### YamlMime:Module
+uid: learn.azure.azure-database-fundamentals
+metadata:
+  title: Jelajahi database Azure dan layanan analitik (AZ-900)
+  description: Pelajari tentang layanan database yang tersedia di Microsoft Azure, seperti Azure Cosmos DB, Azure SQL Database, Azure SQL Managed Instance, Azure Database for MySQL, Azure Database for PostgreSQL, serta big data dan analitik. (AZ-900)
+  ms.date: 09/14/2020
+  author: Randall-Knapp
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: e6d3840f8accb003ad02cb55e792d4ce852c19cd
+  ms.sourcegitcommit: 80b4e4480e0e96a358992b590a9c49064f5b658d
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/13/2021
+  ms.locfileid: "107705939"
+title: Jelajahi database Azure dan layanan analitik
+summary: Dalam modul ini, Anda akan belajar tentang beberapa layanan database yang tersedia di Microsoft Azure, seperti Azure Cosmos DB, Azure SQL Database, Azure SQL Managed Instance, Azure Database for MySQL, dan Azure Database for PostgreSQL. Selain itu, Anda akan mempelajari beberapa layanan big data dan analisis di Azure.
+abstract: >
+  Setelah menyelesaikan modul ini, Anda akan dapat menjelaskan keuntungan dan penggunaan dari:
+
+  - Azure Cosmos DB
+
+  - Azure SQL Database
+
+  - Instans Terkelola Azure SQL
+
+  - Azure Database untuk MySQL
+
+  - Azure Database untuk PostgreSQL
+
+  - Azure Synapse Analytics
+
+  - Azure HDInsight
+
+  - Azure Databricks
+
+  - Azure Data Lake Analytics
+prerequisites: >
+  - Anda harus terbiasa dengan konsep dan terminologi komputasi dasar.
+
+  - Pemahaman dalam komputasi cloud sangat membantu, namun tidak diperlukan.
+iconUrl: /learn/achievements/azure-database-fundamentals.svg
+levels:
+- beginner
+roles:
+- administrator
+- solution-architect
+- developer
+- student
+products:
+- azure
+- azure-sql-database
+- azure-cosmos-db
+- azure-synapse-analytics
+- azure-hdinsight
+- azure-databricks
+- azure-data-lake
+units:
+- learn.azure.azure-database-fundamentals.introduction
+- learn.azure.azure-database-fundamentals.azure-cosmos-db
+- learn.azure.azure-database-fundamentals.azure-sql-database
+- learn.azure.azure-database-fundamentals.exercise-create-sql-database
+- learn.azure.azure-database-fundamentals.azure-sql-managed-instance
+- learn.azure.azure-database-fundamentals.azure-mysql-database
+- learn.azure.azure-database-fundamentals.azure-postgresql-database
+- learn.azure.azure-database-fundamentals.azure-big-data-analytics
+- learn.azure.azure-database-fundamentals.knowledge-check
+- learn.azure.azure-database-fundamentals.summary
+badge:
+  uid: learn.azure.azure-database-fundamentals.badge

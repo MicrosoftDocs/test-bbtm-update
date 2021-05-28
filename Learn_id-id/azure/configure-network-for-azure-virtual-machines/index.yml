@@ -1,0 +1,53 @@
+### YamlMime:Module
+uid: learn.configure-the-network-for-your-virtual-machines
+metadata:
+  title: Mengonfigurasi jaringan untuk komputer virtual Anda
+  description: Pelajari cara menyambungkan jaringan lokal di tempat Anda ke Azure menggunakan jaringan virtual, gateway VPN, dan Azure ExpressRoute.
+  ms.date: 09/24/2018
+  author: cwatson-cat
+  ms.author: cwatson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 11f57d5f78c59254ea68f718f2529243f98eb493
+  ms.sourcegitcommit: b7b254bc5b10d7fa2732ed7b013503fc06cd25e7
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 03/08/2021
+  ms.locfileid: "107704540"
+title: Mengonfigurasi jaringan untuk komputer virtual Anda
+summary: Pelajari cara mengonfigurasi jaringan dengan cara yang aman untuk komputer virtual Azure Anda.
+abstract: >
+  Dalam modul ini, Anda akan:
+
+  - Membuat Azure Virtual Network
+
+  - Membuat VPN Gateway
+
+  - Belajar bekerja dengan Azure ExpressRoute
+prerequisites: >
+  [!include[](includes/prerequisites.md)]
+iconUrl: /learn/achievements/configure-network-for-azure-virtual-machines.svg
+levels:
+- intermediate
+roles:
+- developer
+- administrator
+- security-engineer
+products:
+- azure
+- azure-virtual-machines
+- azure-virtual-network
+- azure-expressroute
+- azure-vpn-gateway
+- azure-virtual-network
+units:
+- learn.configure-the-network-for-your-virtual-machines.1-introduction
+- learn.configure-the-network-for-your-virtual-machines.2-describe-azure-virtual-networking
+- learn.configure-the-network-for-your-virtual-machines.3-exercise-create-azure-virtual-network
+- learn.configure-the-network-for-your-virtual-machines.4-explore-azure-vpn-gateway
+- learn.configure-the-network-for-your-virtual-machines.5-exercise-create-azure-vpn-gateway
+- learn.configure-the-network-for-your-virtual-machines.6-describe-azure-expressroute
+- learn.configure-the-network-for-your-virtual-machines.7-knowledge-check-azure-expressroute
+- learn.configure-the-network-for-your-virtual-machines.8-summary
+badge:
+  uid: learn.configure-the-network-for-your-virtual-machines.badge

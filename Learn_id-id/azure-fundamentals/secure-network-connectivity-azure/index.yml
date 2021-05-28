@@ -1,0 +1,57 @@
+### YamlMime:Module
+uid: learn.azure.secure-network-connectivity-azure
+metadata:
+  title: Konektivitas jaringan aman di Azure (AZ-900)
+  description: Pelajari tentang layanan Azure yang dapat Anda gunakan untuk membantu memastikan bahwa jaringan Anda aman, terjamin, dan tepercaya. Bersiaplah untuk AZ-900.
+  ms.date: 09/14/2020
+  author: Randall-Knapp
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: d8d6d0fd5d73d358ae5391cc3c5f0cbc00c3c744
+  ms.sourcegitcommit: 80b4e4480e0e96a358992b590a9c49064f5b658d
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/13/2021
+  ms.locfileid: "107705991"
+title: Konektivitas jaringan aman di Azure
+summary: Pelajari tentang layanan Azure yang dapat Anda gunakan untuk membantu memastikan bahwa jaringan Anda aman, terjamin, dan tepercaya.
+abstract: >
+  Setelah menyelesaikan modul ini, Anda dapat:
+
+
+  * Identifikasi lapisan yang membentuk strategi *pertahanan mendalam*.
+
+  * Jelaskan cara Azure Firewall memungkinkan Anda mengontrol lalu lintas yang diizinkan di jaringan.
+
+  * Mengonfigurasi grup keamanan jaringan untuk memfilter lalu lintas jaringan ke dan dari sumber daya Azure dalam jaringan virtual Microsoft Azure.
+
+  * Jelaskan bagaimana Azure DDoS Protection membantu melindungi sumber daya Azure Anda dari serangan DDoS.
+prerequisites: >
+  - Anda harus terbiasa dengan konsep serta terminologi komputasi dasar.
+
+  - Pemahaman komputasi cloud sangat membantu, tetapi tidak diwajibkan.
+iconUrl: /learn/achievements/secure-network-connectivity.svg
+levels:
+- beginner
+roles:
+- administrator
+- developer
+- business-owner
+- business-user
+- student
+- technology-manager
+products:
+- azure
+units:
+- learn.azure.secure-network-connectivity-azure.1-introduction
+- learn.azure.secure-network-connectivity-azure.2-what-is-defense-in-depth
+- learn.azure.secure-network-connectivity-azure.3-protect-network-azure-firewall
+- learn.azure.secure-network-connectivity-azure.4-protect-attacks-azure-ddos-protection
+- learn.azure.secure-network-connectivity-azure.5-filter-traffic-network-security-groups
+- learn.azure.secure-network-connectivity-azure.6-configure-access-network-security-group
+- learn.azure.secure-network-connectivity-azure.7-combine-services-complete-solution
+- learn.azure.secure-network-connectivity-azure.8-knowledge-check
+- learn.azure.secure-network-connectivity-azure.9-summary
+badge:
+  uid: learn.azure.secure-network-connectivity-azure.badge

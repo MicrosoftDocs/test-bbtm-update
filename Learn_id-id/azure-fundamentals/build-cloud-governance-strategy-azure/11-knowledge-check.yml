@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.build-cloud-governance-strategy-azure.11-knowledge-check
+title: Uji pengetahuan
+metadata:
+  title: Uji pengetahuan
+  description: Uji pengetahuan
+  ms.date: 09/14/2020
+  author: Randall-Knapp
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 26f36c0c01da0309809e8bda9c92105cc1ce3e93
+  ms.sourcegitcommit: 8123172051092a8e372ed70fae318675961979c0
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/07/2021
+  ms.locfileid: "107705815"
+durationInMinutes: 3
+content: >
+  [!include[](includes/11-knowledge-check.md)]
+quiz:
+  title: Uji pengetahuan Anda
+  questions:
+  - content: Bagaimana Tailwind Traders dapat memungkinkan beberapa pengguna untuk mengontrol komputer virtual di setiap lingkungan tetapi mencegah mereka memodifikasi jaringan serta sumber daya lain dalam grup sumber daya yang sama atau langganan Azure?
+    choices:
+    - content: Buat penetapan peran melalui kontrol akses berbasis peran Azure (Azure RBAC).
+      isCorrect: true
+      explanation: Azure RBAC memungkinkan Anda untuk membuat peran yang menentukan izin akses. Anda dapat membuat satu peran yang membatasi akses hanya ke komputer virtual serta peran kedua yang memberi administrator akses ke semuanya.
+    - content: Buat kebijakan dalam Azure Policy yang mengaudit penggunaan sumber daya.
+      isCorrect: false
+      explanation: Meskipun Anda mungkin dapat mengaudit bagaimana sumber daya Anda digunakan, adakah cara untuk _mencegah_ pengguna mengubah sumber daya yang tidak dimaksudkan untuk mereka akses?
+    - content: Pisahkan lingkungan menjadi grup sumber daya terpisah.
+      isCorrect: false
+      explanation: Grup sumber daya dimaksudkan untuk memuat sumber daya terkait. Meskipun Anda mungkin dapat membagi lingkungan menjadi kelompok sumber daya yang terpisah, pendekatan ini kemungkinan akan lebih kompleks daripada yang diperlukan.
+  - content: Mana cara terbaik bagi Tailwind Traders untuk memastikan bahwa tim hanya menerapkan ukuran SKU komputer virtual yang hemat biaya?
+    choices:
+    - content: Buat kebijakan dalam Azure Policy yang menentukan ukuran SKU yang diizinkan.
+      isCorrect: true
+      explanation: Setelah Anda mengaktifkan kebijakan ini, kebijakan tersebut diterapkan saat Anda membuat komputer virtual baru atau mengubah ukuran yang sudah ada. Azure Policy juga mengevaluasi setiap komputer virtual saat ini di lingkungan Anda.
+    - content: Secara berkala memeriksa penyebaran secara manual untuk melihat ukuran SKU mana yang digunakan.
+      isCorrect: false
+      explanation: Apakah terdapat cara yang lebih otomatis untuk memverifikasi bahwa ukuran SKU yang diizinkan digunakan sebelum komputer virtual digunakan?
+    - content: Buat peran RBAC Azure yang menentukan ukuran SKU komputer virtual yang diizinkan.
+      isCorrect: false
+      explanation: Azure RBAC memungkinkan Anda membuat peran yang menentukan izin akses, tetapi tidak memungkinkan Anda menentukan ukuran SKU komputer virtual yang diizinkan.
+  - content: Mana yang mungkin merupakan cara terbaik bagi Tailwind Traders untuk mengidentifikasi departemen penagihan mana yang dimiliki setiap sumber daya Azure?
+    choices:
+    - content: Lacak penggunaan sumber daya di spreadsheet.
+      isCorrect: false
+      explanation: Bentuk pelacakan ini manual serta rentan terhadap kesalahan. Apakah terdapat cara yang lebih otomatis untuk melacak penggunaan sumber daya?
+    - content: Pisahkan penyebaran menjadi langganan Azure terpisah, di mana setiap langganan milik departemen penagihannya sendiri.
+      isCorrect: false
+      explanation: Meskipun Anda dapat menggunakan langganan untuk memisahkan tagihan berdasarkan departemen, apakah terdapat metode lain yang memungkinkan semua sumber daya untuk tetap berada dalam langganan yang sama?
+    - content: Terapkan tag ke setiap sumber daya yang menyertakan departemen penagihan terkait.
+      isCorrect: true
+      explanation: Tag menyediakan informasi tambahan, atau metadata, mengenai sumber daya Anda. Tim mungkin membuat sebuah tag yang bernama **BillingDept** yang nilainya akan menjadi nama departemen penagihan. Anda dapat menggunakan Azure Policy untuk memastikan bahwa tag yang tepat ditetapkan saat sumber daya disediakan.

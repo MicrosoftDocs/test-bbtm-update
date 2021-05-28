@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.secure-network-connectivity-azure.8-knowledge-check
+title: Uji pengetahuan
+metadata:
+  description: Uji pengetahuan
+  ms.date: 09/14/2020
+  author: Randall-Knapp
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  adobe-target: true
+  ms.openlocfilehash: 2aafe81490b2f3a3800d355c527d8f79ec321488
+  ms.sourcegitcommit: 80b4e4480e0e96a358992b590a9c49064f5b658d
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/13/2021
+  ms.locfileid: "107705991"
+durationInMinutes: 3
+content: >
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: Uji pengetahuan Anda
+  questions:
+  - content: Penyerang dapat menonaktifkan situs web Anda dengan mengirim lalu lintas jaringan dalam jumlah besar ke server Anda. Layanan Azure mana yang dapat membantu Tailwind Traders melindungi instans App Service dari serangan semacam ini?
+    choices:
+    - content: Azure Firewall
+      isCorrect: false
+      explanation: Azure Firewall memungkinkan Anda membuat aturan jaringan yang menentukan alamat sumber, protokol, port tujuan, dan alamat tujuan. Firewall ini tidak secara khusus membantu melawan serangan DDoS.
+    - content: Kelompok keamanan jaringan
+      isCorrect: false
+      explanation: Kelompok keamanan jaringan memungkinkan Anda memfilter lalu lintas jaringan ke dan dari sumber daya Azure dalam jaringan virtual. Kelompok keamanan ini tidak secara khusus membantu melawan serangan DDoS.
+    - content: Azure DDoS Protection
+      isCorrect: true
+      explanation: DDoS Protection membantu melindungi sumber daya Azure Anda dari serangan DDoS. Serangan DDoS berupaya membanjiri dan menghabiskan sumber daya aplikasi, membuat aplikasi lambat atau tidak responsif terhadap pengguna yang sah.
+  - content: Apa cara terbaik bagi Tailwind Traders untuk membatasi semua lalu lintas keluar dari VM ke host yang dikenal?
+    choices:
+    - content: Konfigurasikan Azure DDoS Protection untuk membatasi akses jaringan ke port dan host tepercaya.
+      isCorrect: false
+      explanation: DDoS Protection membantu melindungi sumber daya Azure Anda dari serangan DDoS, tetapi tidak bertindak sebagai firewall dengan tujuan umum.
+    - content: Membuat aturan aplikasi di Azure Firewall.
+      isCorrect: true
+      explanation: Azure Firewall memungkinkan Anda membatasi lalu lintas HTTP/S keluar ke daftar khusus nama domain yang sepenuhnya memenuhi syarat (FQDN).
+    - content: Pastikan bahwa semua aplikasi yang berjalan hanya berkomunikasi dengan port dan host tepercaya.
+      isCorrect: false
+      explanation: Apakah ada cara untuk mengonfigurasi akses jaringan tanpa modifikasi perangkat lunak dengan lebih mudah?
+  - content: Bagaimana Tailwind Trader dapat dengan mudah menerapkan _kebijakan tolak secara default_ sehingga VM tidak dapat tersambung satu sama lain?
+    choices:
+    - content: Alokasikan setiap VM pada jaringan virtualnya sendiri.
+      isCorrect: false
+      explanation: Meskipun Anda dapat mengisolasi setiap VM dengan menempatkannya di jaringan virtual terpisah, apakah ada cara yang lebih mudah yang memungkinkan semua VM tersedia dengan aman di jaringan virtual yang sama?
+    - content: Buat aturan kelompok keamanan jaringan yang mencegah akses dari VM lain pada jaringan yang sama.
+      isCorrect: true
+      explanation: Aturan grup keamanan jaringan memungkinkan Anda memfilter lalu lintas ke dan dari sumber daya berdasarkan port, protokol, dan alamat IP sumber dan tujuan.
+    - content: Konfigurasikan Azure DDoS Protection untuk membatasi akses jaringan dalam jaringan virtual.
+      isCorrect: false
+      explanation: DDoS Protection membantu melindungi sumber daya Azure Anda dari serangan DDoS, tetapi tidak menentukan aturan koneksi dalam jaringan virtual.

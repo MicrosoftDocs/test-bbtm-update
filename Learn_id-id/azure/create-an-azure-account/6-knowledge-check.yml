@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-account.knowledge-check
+title: Uji pengetahuan
+metadata:
+  title: Uji pengetahuan
+  description: Uji pengetahuan
+  ms.date: 11/27/2019
+  author: cwatson-cat
+  ms.author: cwatson
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  adobe-target: true
+  ms.openlocfilehash: e46446610d0a92b31ba463df1b8b8bb88e696246
+  ms.sourcegitcommit: aac22a0a75e59057b804f6d34b2fb71638eb378a
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 01/29/2021
+  ms.locfileid: "107703573"
+durationInMinutes: 2
+quiz:
+  title: Uji pengetahuan Anda
+  questions:
+  - content: Manakah dari pernyataan berikut ini yang benar tentang langganan Azure?
+    choices:
+    - content: Menggunakan Azure tidak memerlukan langganan
+      isCorrect: false
+      explanation: 'Salah: Menggunakan Azure memerlukan langganan Azure. Saat Anda mendaftar, langganan Azure dibuat secara default.'
+    - content: Langganan Azure adalah unit logis dari layanan Azure
+      isCorrect: true
+      explanation: 'Benar: Langganan Azure adalah kontainer yang digunakan untuk menyediakan sumber daya di Azure. Untuk membuat dan menggunakan layanan Azure, Anda memerlukan langganan Azure.'
+    - content: Anda tidak dapat memiliki lebih dari satu langganan
+      isCorrect: false
+      explanation: 'Salah: Saat Anda mendaftar, langganan Azure dibuat secara default. Anda mungkin ingin membuat langganan tambahan untuk tujuan manajemen sumber daya atau tagihan.'
+  - content: Tagihan Anda didasarkan pada penggunaan sumber daya Azure dan ditagih ______________
+    choices:
+    - content: Tiap tahun
+      isCorrect: false
+      explanation: 'Salah: Penggunaan Azure tidak ditagih tiap tahun.'
+    - content: Tiap bulan
+      isCorrect: true
+      explanation: 'Benar: Penggunaan Azure ditagih tiap bulan.'
+    - content: Harian
+      isCorrect: false
+      explanation: 'Salah: Penggunaan Azure tidak ditagih tiap hari.'
+  - content: Saat Anda membuat sumber daya Azure seperti komputer virtual, Anda memilih ______________ miliknya.
+    choices:
+    - content: Akun tagihan
+      isCorrect: false
+      explanation: 'Salah: Anda menggunakan akun tagihan untuk mengelola faktur, pembayaran, dan melacak biaya. '
+    - content: Profil tagihan
+      isCorrect: false
+      explanation: 'Salah: Anda menggunakan profil tagihan untuk mengelola faktur dan metode pembayaran Anda.'
+    - content: Langganan Azure
+      isCorrect: true
+      explanation: 'Benar: Langganan Azure adalah kontainer yang digunakan untuk menyediakan sumber daya di Azure.'
+  - content: Paket dukungan Azure mana yang paling baik untuk beban kerja yang sangat penting bagi bisnis?
+    choices:
+    - content: Azure Developer
+      isCorrect: false
+      explanation: 'Salah: Paket dukungan Azure Developer menawarkan waktu respons satu hari kerja dan yang sangat cocok untuk beban kerja non-kritis.'
+    - content: Azure Professional Direct
+      isCorrect: true
+      explanation: 'Benar: Paket dukungan Azure Professional Direct adalah yang paling baik untuk beban kerja yang sangat penting bagi bisnis. Paket dukungan ini menawarkan waktu respons 1 jam dan pelacakan prioritas kasus kritis.'
+    - content: Azure Standard
+      isCorrect: false
+      explanation: 'Salah: Paket dukungan Azure Standard menawarkan waktu respons 1 jam untuk kasus kritis dan sangat cocok untuk lingkungan beban kerja Produksi.'

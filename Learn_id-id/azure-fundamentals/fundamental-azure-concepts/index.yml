@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.azure.fundamental-azure-concepts
+metadata:
+  title: Membahas konsep dasar Azure (AZ-900)
+  description: Pelajari tentang berbagai jenis dan kategori komputasi cloud. Bersiaplah untuk AZ-900.
+  ms.date: 09/14/2020
+  author: Randall-Knapp
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 75f1d1f9589906c2c5e40588e324aada4809b2f8
+  ms.sourcegitcommit: 8123172051092a8e372ed70fae318675961979c0
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/07/2021
+  ms.locfileid: "107705802"
+title: Membahas konsep dasar Azure
+summary: Anda tertarik dengan cloud, tetapi tidak yakin apa yang bisa dilakukan untuk Anda? Dalam modul ini, Anda akan mempelajari tentang manfaat menggunakan layanan komputasi cloud, dan Anda akan belajar membedakan antara kategori dan jenis komputasi cloud.
+abstract: >
+  Setelah menyelesaikan modul ini, Anda dapat:
+
+  - Mengidentifikasi manfaat dan pertimbangan penggunaan layanan cloud
+
+  - Menjelaskan perbedaan di antara kategori layanan cloud
+
+  - Menjelaskan perbedaan di antara jenis komputasi cloud
+prerequisites: >
+  - Anda sudah memahami konsep serta terminologi komputasi dasar.
+
+  - Pemahaman komputasi cloud berguna, tetapi tidak wajib.
+iconUrl: /learn/achievements/fundamental-azure-concepts.svg
+levels:
+- beginner
+roles:
+- administrator
+- solution-architect
+- developer
+- student
+products:
+- azure
+- azure-functions
+units:
+- learn.azure.fundamental-azure-concepts.introduction
+- learn.azure.fundamental-azure-concepts.benefits-of-cloud-computing
+- learn.azure.fundamental-azure-concepts.categories-of-cloud-services
+- learn.azure.fundamental-azure-concepts.types-of-cloud-computing
+- learn.azure.fundamental-azure-concepts.knowledge-check
+- learn.azure.fundamental-azure-concepts.summary
+badge:
+  uid: learn.azure.fundamental-azure-concepts.badge

@@ -1,0 +1,67 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.protect-against-security-threats-azure.7-knowledge-check
+title: Uji pengetahuan
+metadata:
+  description: Uji pengetahuan
+  ms.date: 09/14/2020
+  author: Randall-Knapp
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  adobe-target: true
+  ms.openlocfilehash: 1110ad4064d48fff23af97a771555fec3d083cbd
+  ms.sourcegitcommit: a1ba5f62ae552f0f8d4800c1d16db758ccd38da2
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/09/2021
+  ms.locfileid: "107705893"
+durationInMinutes: 2
+content: >
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: Uji pengetahuan Anda
+  questions:
+  - content: Bagaimana Tailwind Traders dapat menerapkan bhawa hanya aplikasi tertentu yang berjalan pada VM-nya?
+    choices:
+    - content: Sambungkan VM Anda ke Azure Sentinel.
+      isCorrect: false
+      explanation: Azure Sentinel memungkinkan Anda menggabungkan data keamanan dari berbagai sumber untuk memberikan kemampuan tambahan terkait deteksi ancaman dan merespons ancaman.
+    - content: Buat aturan kontrol aplikasi di Azure Security Center.
+      isCorrect: true
+      explanation: Dengan Azure Security Center, Anda dapat menentukan daftar aplikasi yang diizinkan untuk memastikan bahwa hanya aplikasi yang Anda izinkan yang dapat dijalankan. Azure Security Center juga dapat mendeteksi dan memblokir perangkat lunak jahat yang terinstal di VM Anda.
+    - content: Jalankan skrip secara berkala yang mencantumkan proses yang sedang berjalan pada setiap VM. Manajer TI kemudian dapat mematikan aplikasi apa pun yang seharusnya tidak berjalan.
+      isCorrect: false
+      explanation: Meskipun Anda dapat mengikuti pendekatan ini, hal itu membosankan, memakan waktu, dan rentan terhadap kesalahan. Apakah ada pendekatan yang lebih otomatis yang dapat dilakukan perusahaan?
+  - content: Apa cara termudah bagi Tailwind Traders untuk menggabungkan data keamanan dari semua alat pemantauannya ke dalam satu laporan yang dapat ditindaklanjuti?
+    choices:
+    - content: Kumpulkan data keamanan di Azure Sentinel.
+      isCorrect: true
+      explanation: Azure Sentinel adalah SIEM berbasis cloud dari Microsoft. SIEM menggabungkan data keamanan dari berbagai sumber untuk memberikan kemampuan tambahan untuk deteksi ancaman dan menanggapi ancaman.
+    - content: Buat alat kustom yang mengumpulkan data keamanan, dan menampilkan laporan melalui aplikasi web.
+      isCorrect: false
+      explanation: Meskipun Anda dapat mengambil pendekatan ini, apakah ada layanan berfitur lengkap di Azure yang menyediakan fungsionalitas ini?
+    - content: Lihat setiap log keamanan setiap hari dan kirimkan ringkasan melalui email ke tim Anda.
+      isCorrect: false
+      explanation: Pendekatan ini memakan waktu. Ini mungkin juga menunda peristiwa keamanan penting sehingga tidak segera ditangani.
+  - content: Manakah cara terbaik bagi Tailwind Traders untuk menyimpan sertifikatnya dengan aman sehingga dapat diakses oleh VM cloud?
+    choices:
+    - content: Tempatkan sertifikat pada berbagi jaringan.
+      isCorrect: false
+      explanation: Meskipun Anda dapat menempatkan sertifikat Anda pada berbagi jaringan, apakah ada layanan yang dapat menangani akses dan pendaftaran yang aman untuk Anda?
+    - content: Simpan di VM yang dilindungi oleh kata sandi.
+      isCorrect: false
+      explanation: Meskipun Anda dapat melakukan ini, itu kurang aman. Selain itu, Anda kemudian akan membutuhkan cara untuk mengelola kata sandi Anda dengan aman. Apakah ada layanan yang dapat menangani akses dan pendaftaran yang aman untuk Anda?
+    - content: Simpan sertifikat di Azure Key Vault.
+      isCorrect: true
+      explanation: Azure Key Vault memungkinkan Anda menyimpan rahasia dalam satu lokasi terpusat. Key Vault juga memudahkan pendaftaran dan perpanjangan sertifikat dari otoritas sertifikat (CA) publik.
+  - content: Bagaimana Tailwind Traders dapat memastikan bahwa beban kerja VM tertentu secara fisik terisolasi dari beban kerja yang dijalankan oleh pelanggan Azure lainnya?
+    choices:
+    - content: Konfigurasikan jaringan untuk memastikan bahwa VM pada host fisik yang sama diisolasi.
+      isCorrect: false
+      explanation: Di Azure, Anda tidak perlu mengonfigurasi jaringan untuk mengisolasi VM pada host fisik yang sama. Melakukan hal tersebut juga mungkin tidak memenuhi persyaratan peraturan.
+    - content: Ini tidak mungkin. Beban kerja ini perlu dijalankan secara lokal.
+      isCorrect: false
+      explanation: Apakah ada layanan Azure yang menyediakan server fisik khusus untuk menghosting VM Anda untuk Windows dan Linux?
+    - content: Jalankan VM di Azure Dedicated Host.
+      isCorrect: true
+      explanation: Azure Dedicated Host menyediakan server fisik khusus untuk menghosting Azure VM Anda untuk Windows dan Linux.
