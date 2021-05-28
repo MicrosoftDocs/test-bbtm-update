@@ -1,0 +1,11 @@
+### YamlMime:Episode
+entryId: 4f6437d5-1fdd-4112-92f7-2732f87d15fb
+showId: iot
+uid: how-to-update-disconnected-iot-devices
+title: "How to Update Disconnected IoT Devices"
+description: |
+  <p>Wait what? Updating disconnected IoT devices over the air?</p><div>Here is how to update your disconnected IoT devices with Azure Update for IoT Hub. The Microsoft Connected Cache Preview IoT Edge module will provide Device Update for Azure IoT Hub customers with the capability of an intelligent in-network cache, which enables image-based and package-based updates of Linux OS-based devices behind and IoT Edge gateway (downstream IoT devices). In cases where downstream Azure IoT Edge devices do not have internet connectivity or may not be allowed to download content from the internet, this capability is important.</div><div>&nbsp;</div><div>&nbsp;</div><div>Check out the docs:&nbsp;<a href="https://aka.ms/iotshow/UpdateDisconnectedDevices">https://aka.ms/iotshow/UpdateDisconnectedDevices</a></div><p>&nbsp;</p><div class="ms-editor-squiggler">&nbsp;</div><div class="ms-editor-squiggler">&nbsp;</div>
+creators: 
+- Olivier Bloch
+- ricardoesway
+uploadDate: "2021-03-22T15:00:00.000Z"

@@ -1,0 +1,10 @@
+### YamlMime:Episode
+entryId: TBD
+showId: beginners-series-to-unity
+uid: physics-and-collisions-5-of-7
+title: "Physics and collisions [5 of 7] "
+description: |
+  <p>In this video we will cover how to apply physics to an object, and how to have them collide with others. We will also cover how to code C# for collisions.</p><ul><li>Download Unity by going to:&nbsp;<a href="http://store.unity.com/download">store.unity.com/download</a></li><li>Download Visual Studio:&nbsp;<a href="https://aka.ms/AAa3k87">aka.ms/AAa3k87</a></li><li>To learn C# check out the&nbsp;<a href="https://www.youtube.com/watch?v=BM4CHBmAPh4&amp;list=PLdo4fOcmZ0oVxKLQCHpiUWun7vlJJvUiN">C# 101 video series</a></li></ul> <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/njs.gif?dcssip=channel9.msdn.com&dcsuri=https://s.ch9.ms/Series/Beginners-Series-to-Unity/feed&WT.dl=0&WT.entryid=Entry:RSSView:238063cce9fd48af9f53ac6300192b17">
+creators:
+- Kaitlin McKinnon
+uploadDate: "2020-11-09T16:00:05.000Z"

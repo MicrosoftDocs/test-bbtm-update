@@ -1,0 +1,16 @@
+### YamlMime:Episode
+entryId: b2cd4620-f11a-4460-a6eb-008d9119d7bb
+showId: iot
+uid: azure-percept-dk-and-wi-fi-zero-touch-provisioning
+title: "Azure Percept DK and Wi-Fi Zero Touch Provisioning"
+description: |
+  <div>Microsoft Azure Percept is a comprehensive platform with added security for creating edge AI solutions.&nbsp;With the pilot-ready development kit Azure Percept DK, you can now use&nbsp;Zero Touch Provisioning (ZTP) to simplify the onboarding and provisioning of Wi-Fi enabled&nbsp;devices into Azure IoT services. Learn how the&nbsp;Azure Percept DK leverages&nbsp;Azure IoT Hub Device Provisioning Service (DPS) with the Wi-Fi Alliance's industry-standard Wi-Fi Easy Connect™ to&nbsp;enable scaled device onboarding scenarios&nbsp;by simply powering on a device. Read more about how we've partnered with Aruba to bring this first to market solution:&nbsp; <a href="https://aka.ms/iotshow/AzurePerceptWifiZTP" target="_blank">https://aka.ms/iotshow/AzurePerceptWifiZTP</a></div><div class="ms-editor-squiggler">&nbsp;</div>
+creators: 
+- Olivier Bloch
+uploadDate: "2021-03-02T14:00:00.000Z"
+products: 
+- azure
+- azure-iot
+- azure-iot-hub
+roles:
+- devops-engineer

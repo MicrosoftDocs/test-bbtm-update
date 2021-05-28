@@ -1,0 +1,11 @@
+### YamlMime:Episode
+entryId: f359833c-e966-4b74-8312-b2d3addadeeb
+showId: iot
+uid: device-update-for-iot-hub
+title: "Device Update for IoT Hub"
+description: |
+  <p><strong>What is it?</strong></p><p>Device Update for IoT Hub is a comprehensive platform that customers can use to publish, distribute, and manage over-the-air updates for everything from tiny sensors to gateway-level devices. This platform is now in preview in the Western US, Asia, and Europe to keep devices and applications secure and updated.</p><p><strong>Why should partners and customers care?</strong></p><p>Keeping a network of IoT devices secure and up to date can be complex and costly, especially for organizations with limited technology staffing. Rather than take on the cost and work of building and maintaining custom update solutions, Device Update for IoT Hub customers can take advantage of a platform that is tailored for IoT devices and built on the experience Microsoft has developed&nbsp;through&nbsp;regularly updating hundreds of millions of Windows devices.&nbsp;&nbsp;&nbsp;&nbsp;</p><p>Learn more by reading the blog post at <a href="https://aka.ms/iot-hub-device-update-blog" target="_blank">https://aka.ms/iot-hub-device-update-blog</a></p>
+creators: 
+- Olivier Bloch
+- ricardoesway
+uploadDate: "2021-03-02T14:00:00.000Z"
