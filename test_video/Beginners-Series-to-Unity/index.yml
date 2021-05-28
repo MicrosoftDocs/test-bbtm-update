@@ -1,0 +1,11 @@
+### YamlMime: Show
+uid: beginners-series-to-unity
+title: "Beginner's Series to: Unity"
+description: |
+  Modern games are made differently from how traditional applications are made. Games can also be a creative outlet for programmers. This is why we created this bite sized video series to help .NET developers, as well as coding beginners, learn how to make games and more using Unity.  Unity is a popular and powerful game engine, a game creation tool, that uses C# and .NET to deliver a powerful yet approachable experience when making games.  We will cover basic of the interface, objects, scripts, input, physics, debugging, and building. After watching the video, you will have the tools needed to diver deeper to each individual topic on your journey to become a master in game development.  
+creators:
+- Kaitlin McKinnon
+imageUrl: /en-us/test/learn/tv/shows/media/feedimage.png
+locale: en
+type: series
+ms.localizationpriority: high
