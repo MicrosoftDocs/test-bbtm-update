@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.azure-storage-fundamentals.knowledge-check
+title: Uji pengetahuan
+metadata:
+  title: Uji pengetahuan
+  description: Uji pengetahuan
+  ms.date: 09/14/2020
+  author: Randall-Knapp
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: fe36a90643d7d025d371c1e8bec359ce31e6f6a3
+  ms.sourcegitcommit: 497cbb8c55488f0a9d2eba385fa09fab99bd6fec
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/01/2021
+  ms.locfileid: "107705653"
+durationInMinutes: 3
+content: >
+  [!include[](includes/knowledge-check.md)]
+quiz:
+  title: Uji pengetahuan Anda
+  questions:
+  - content: Apa langkah pertama yang akan Anda ambil untuk berbagi file gambar sebagai blob di Microsoft Azure Storage?
+    choices:
+    - content: Buat kontainer Microsoft Azure Storage untuk menyimpan gambar.
+      isCorrect: false
+      explanation: Anda harus membuat akun Microsoft Azure Storage sebelum dapat menggunakan fitur Microsoft Azure Storage apa pun.
+    - content: Buat akun Microsoft Azure Storage.
+      isCorrect: true
+      explanation: Anda harus membuat akun Microsoft Azure Storage sebelum dapat menggunakan fitur Microsoft Azure Storage apa pun.
+    - content: Unggah file gambar dan buat kontainer.
+      isCorrect: false
+      explanation: Anda harus membuat akun Microsoft Azure Storage sebelum dapat menggunakan fitur Microsoft Azure Storage apa pun.
+    - content: Gunakan token Tanda Tangan Akses Bersama (SAS) untuk membatasi akses ke gambar.
+      isCorrect: false
+      explanation: Anda harus membuat akun Microsoft Azure Storage sebelum dapat menggunakan fitur Microsoft Azure Storage apa pun.
+  - content: Opsi Microsoft Azure Storage mana yang lebih baik untuk menyimpan data untuk cadangan dan pemulihan, pemulihan bencana, serta pengarsipan?
+    choices:
+    - content: Azure Files Storage
+      isCorrect: false
+      explanation: Azure Blob Storage adalah opsi terbaik untuk menyimpan file dan arsip pemulihan bencana.
+    - content: Azure Disk Storage
+      isCorrect: false
+      explanation: Azure Blob Storage adalah opsi terbaik untuk menyimpan file dan arsip pemulihan bencana.
+    - content: Azure Blob Storage
+      isCorrect: true
+      explanation: Azure Blob Storage adalah opsi terbaik untuk menyimpan file dan arsip pemulihan bencana.

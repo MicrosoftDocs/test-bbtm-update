@@ -1,0 +1,58 @@
+### YamlMime:Module
+uid: learn.azure.azure-storage-fundamentals
+metadata:
+  title: Mengeksplorasi layanan Azure Storage (AZ-900)
+  description: Pelajari tentang berbagai opsi penyimpanan yang tersedia di Azure Storage. Bersiaplah untuk AZ-900.
+  ms.date: 09/14/2020
+  author: Randall-Knapp
+  ms.author: rknapp
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 957fa24b00696faa9cee53716e40cb052c8923bb
+  ms.sourcegitcommit: 497cbb8c55488f0a9d2eba385fa09fab99bd6fec
+  ms.translationtype: HT
+  ms.contentlocale: id-ID
+  ms.lasthandoff: 04/01/2021
+  ms.locfileid: "107705653"
+title: Mengeksplorasi layanan Azure Storage
+summary: Dalam modul ini, Anda akan mempelajari beberapa opsi penyimpanan berbeda yang tersedia di layanan Azure Storage, dan skenario ketika tiap opsi penyimpanan sesuai. Setelah menyelesaikan unit satu per satu dalam modul ini, Anda akan mempelajari tentang tingkat akses Azure Blob Storage, Azure Disk Storage, Azure Files, dan Blob.
+abstract: >
+  Setelah menyelesaikan modul ini, Anda akan dapat menjelaskan manfaat dan penggunaan dari:
+
+  - Azure Blob Storage
+
+  - Azure Disk Storage
+
+  - File Azure
+
+  - Tingkat akses Azure Blob
+prerequisites: >
+  - Anda harus memahami konsep serta terminologi komputasi dasar.
+
+  - Pemahaman tentang komputasi cloud sangat membantu, tetapi tidak diwajibkan.
+iconUrl: /learn/achievements/azure-storage-fundamentals.svg
+levels:
+- beginner
+roles:
+- administrator
+- solution-architect
+- developer
+- student
+products:
+- azure
+- azure-storage
+- azure-storage-accounts
+- azure-blob-storage
+- azure-files
+- azure-storage-explorer
+units:
+- learn.azure.azure-storage-fundamentals.introduction
+- learn.azure.azure-storage-fundamentals.azure-storage-accounts
+- learn.azure.azure-storage-fundamentals.azure-disk-storage
+- learn.azure.azure-storage-fundamentals.azure-blob-container-storage
+- learn.azure.azure-storage-fundamentals.azure-file-storage
+- learn.azure.azure-storage-fundamentals.azure-storage-tiers
+- learn.azure.azure-storage-fundamentals.knowledge-check
+- learn.azure.azure-storage-fundamentals.summary
+badge:
+  uid: learn.azure.azure-storage-fundamentals.badge
