@@ -1,0 +1,75 @@
+### YamlMime:Examination
+title: Implementing an Azure Data Solution
+metadata:
+  title: 'Exam DP-200: Implementing an Azure Data Solution'
+  description: 'Exam DP-200: Implementing an Azure Data Solution'
+uid: exam.dp-200
+displayName: DP-200
+summary: |-
+  <div>
+  <div><font color='red'><strong>THIS EXAM RETIRED ON AUGUST 31, 2021. A replacement exam, DP-203, is available. For more information, visit the <a href='/learn/certifications/exams/dp-203'>DP-203</a>, exam details page.</strong></font><br/><br/></div>
+  <div><strong>The content of this exam was updated on November 24, 2020. Please download the skills measured document below to see what changed.</strong><br/><br/></div>
+  </div>
+  
+  Candidates for this exam are Microsoft Azure data engineers who collaborate with business stakeholders to identify and meet the data requirements to implement data solutions that use Azure data services.
+  
+  Azure data engineers are responsible for data-related implementation tasks that include provisioning data storage services, ingesting streaming and batch data, transforming data, implementing security requirements, implementing data retention policies, identifying performance bottlenecks, and accessing external data sources.
+  
+  Candidates for this exam must be able to implement data solutions that use the following Azure services: Azure Cosmos DB, Azure Synapse Analytics (formerly Azure SQL DW), Azure Data Factory, Azure Stream Analytics, Azure Databricks, and Azure Blob storage.
+subTitle: 'This exam measures your ability to accomplish the following technical tasks: implement data storage solutions; manage and develop data processing; and monitor and optimize data solutions.'
+iconUrl: /media/learn/certification/badges/certification-exam.svg
+pdfDownloadUrl: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Vzx2
+practiceTestUrl: https://www.mindhub.com/p/MU-DP-200?utm_source=microsoft&utm_medium=certpage&utm_campaign=msofficialpractice
+locales:
+- en
+- ja
+- zh-cn
+- ko
+levels:
+- intermediate
+skills:
+- The content of this exam was updated on November 24, 2020. Please download the exam skills outline below to see what changed.
+- Implement data storage solutions (40-45%)
+- Manage and develop data processing (25-30%)
+- Monitor and optimize data solutions (30-35%)
+retirementDate: 08/31/2021
+roles:
+- data-engineer
+products:
+- azure
+- azure-cosmos-db
+- azure-data-lake
+- azure-databricks
+- azure-notebooks
+- azure-stream-analytics
+- azure-sql-database
+- azure-storage
+- azure-monitor
+- azure-hdinsight
+exams:
+- uid: exam.dp-201
+resources:
+- title: Journey to certification
+  description: Explore steps to get certified as an Azure Data Engineer Associate and the resources available to help you prepare.
+  href: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ARli
+- title: Training and certification guide
+  description: Explore all certifications in a concise training and certifications guide.
+  href: https://aka.ms/TrainingCertDeck
+- title: Certification poster
+  description: Check out an overview of fundamentals, role-based and specialty certifications.
+  href: https://aka.ms/traincertposter
+- title: Exam Replay
+  description: See two great offers to help boost your odds of success.
+  href: ../deals.md
+- title: Support for certification exams
+  description: Get help through Microsoft Certification support forums. A forum moderator will respond in one business day, Monday-Friday.
+  href: ../help.md
+- title: Certification dashboard
+  description: Review and manage your scheduled appointments, certificates, and transcripts.
+  href: https://www.microsoft.com/learning/dashboard.aspx
+- title: Request accommodations
+  description: Learn more about requesting an accommodation for your exam.
+  href: ../request-accommodations.md
+- title: Exam policies and FAQs
+  description: Review the exam policies and frequently asked questions.
+  href: ../certification-exam-policies.md
