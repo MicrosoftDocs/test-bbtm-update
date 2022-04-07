@@ -1,0 +1,6 @@
+{
+    "Slug": "announcing-general-availability-of-premium-encoding",
+    "Title": "Announcing general availability of premium encoding",
+    "Summary": "Premium encoding is now generally available in Azure Media Services. Its capabilities such as automated decision-making logic can adapt to a variety of input and output file formats.",
+    "Content": "Premium encoding is now generally available in Azure Media Services. This advanced encoder has been successfully deployed by several customers since its release for public preview. Its capabilities such as automated decision-making logic can adapt to a variety of input and output file formats such as MXF, support for additional input and output codecs such as DNxHD, support for higher output resolutions – up to 4K in AVC, support for closed captions,  and much more.\n\nFor more information on its pricing, please see the <a href=\"https://azure.microsoft.com/en-us/pricing/details/media-services/\" target=\"_blank\">Media Services Pricing</a> webpage, while descriptions of its capabilities are on <a href=\"https://azure.microsoft.com/blog/2015/03/05/introducing-premium-encoding-in-azure-media-services/\" target=\"_blank\">this blog</a>. You can also view training videos on this blog."
+}
