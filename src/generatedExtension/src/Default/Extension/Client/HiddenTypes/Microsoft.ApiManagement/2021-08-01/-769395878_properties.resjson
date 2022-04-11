@@ -1,0 +1,23 @@
+{
+  "microsoftapimanagementservicegroupsuserssingular" : "Microsoft.ApiManagement service groups user",
+  "microsoftapimanagementservicegroupsuserssingularlc" : "microsoft.apimanagement service groups user",
+  "microsoftapimanagementservicegroupsusersplural" : "Microsoft.ApiManagement service groups users",
+  "microsoftapimanagementservicegroupsusersplurallc" : "microsoft.apimanagement service groups users",
+  "itemdescription_id" : "Resource Id",
+  "itemdisplayname_id" : "Id",
+  "itemdescription_name" : "Resource name",
+  "itemdisplayname_name" : "Name",
+  "itemdescription_type" : "Resource type",
+  "itemdisplayname_type" : "Type",
+  "itemdescription_apiversion" : "Api version",
+  "itemdisplayname_apiversion" : "Api version",
+  "refresh": "Refresh",
+  "delete": "Delete",
+  "deleteResourceTitle": "Delete resource",
+  "deleteResourceMessage": "Do you want to delete resource?",
+  "yes": "Yes",
+  "resourceId": "Resource id",
+  "propertiesTitle": "Microsoft.ApiManagement service groups user properties",
+  "typeLabel": "Type",
+  "properties": "Properties"
+}
