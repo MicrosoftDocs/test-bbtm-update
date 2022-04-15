@@ -1,0 +1,38 @@
+﻿microsoftappplatformspringmonitoringsettingssingular: Microsoft.AppPlatform spring monitoring setting
+microsoftappplatformspringmonitoringsettingssingularlc: microsoft.appplatform spring monitoring setting
+microsoftappplatformspringmonitoringsettingsplural: Microsoft.AppPlatform spring monitoring settings
+microsoftappplatformspringmonitoringsettingsplurallc: microsoft.appplatform spring monitoring settings
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_systemdata: Metadata pertaining to creation and last modification of the resource.
+itemdisplayname_systemdata: System data
+itemdescription_propertiesprovisioningstate: State of the Monitoring Setting.
+itemdisplayname_propertiesprovisioningstate: Provisioning state
+itemdescription_propertiestraceenabled: Indicates whether enable the trace functionality, which will be deprecated since api version 2020-11-01-preview. Please leverage appInsightsInstrumentationKey to indicate if monitoringSettings enabled or not
+itemdisplayname_propertiestraceenabled: Trace enabled
+itemdescription_propertiesappinsightsinstrumentationkey: Target application insight instrumentation key, null or whitespace include empty will disable monitoringSettings
+itemdisplayname_propertiesappinsightsinstrumentationkey: App insights instrumentation key
+itemdescription_propertiesappinsightssamplingrate: Indicates the sampling rate of application insight agent, should be in range [0.0, 100.0]
+itemdisplayname_propertiesappinsightssamplingrate: App insights sampling rate
+groupdescription_propertieserror: The error code compose of code and message.
+groupdisplayname_propertieserror: Error
+itemdescription_propertieserrorcode: The code of error.
+itemdisplayname_propertieserrorcode: Code
+itemdescription_propertieserrormessage: The message of error.
+itemdisplayname_propertieserrormessage: Message
+groupdescription_propertiesappinsightsagentversions: Application Insights agent versions properties payload
+groupdisplayname_propertiesappinsightsagentversions: App insights agent versions
+itemdescription_propertiesappinsightsagentversionsjava: Indicates the version of application insight java agent
+itemdisplayname_propertiesappinsightsagentversionsjava: Java
+refresh: Refresh
+resourceId: Resource id
+propertiesTitle: Microsoft.AppPlatform spring monitoring setting properties
+typeLabel: Type
+properties: Properties
+essentials: Essentials

@@ -1,0 +1,21 @@
+﻿microsoftapimanagementservicenotificationsrecipientemailssingular: Microsoft.ApiManagement service notifications recipient email
+microsoftapimanagementservicenotificationsrecipientemailssingularlc: microsoft.apimanagement service notifications recipient email
+microsoftapimanagementservicenotificationsrecipientemailsplural: Microsoft.ApiManagement service notifications recipient emails
+microsoftapimanagementservicenotificationsrecipientemailsplurallc: microsoft.apimanagement service notifications recipient emails
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service notifications recipient email properties
+typeLabel: Type
+properties: Properties

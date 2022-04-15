@@ -1,0 +1,26 @@
+﻿microsoftappplatformspringappsdomainssingular: Microsoft.AppPlatform spring apps domain
+microsoftappplatformspringappsdomainssingularlc: microsoft.appplatform spring apps domain
+microsoftappplatformspringappsdomainsplural: Microsoft.AppPlatform spring apps domains
+microsoftappplatformspringappsdomainsplurallc: microsoft.appplatform spring apps domains
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_systemdata: Metadata pertaining to creation and last modification of the resource.
+itemdisplayname_systemdata: System data
+itemdescription_propertiesthumbprint: The thumbprint of bound certificate.
+itemdisplayname_propertiesthumbprint: Thumbprint
+itemdescription_propertiesappname: The app name of domain.
+itemdisplayname_propertiesappname: App name
+itemdescription_propertiescertname: The bound certificate name of domain.
+itemdisplayname_propertiescertname: Cert name
+refresh: Refresh
+resourceId: Resource id
+propertiesTitle: Microsoft.AppPlatform spring apps domain properties
+typeLabel: Type
+properties: Properties
+essentials: Essentials

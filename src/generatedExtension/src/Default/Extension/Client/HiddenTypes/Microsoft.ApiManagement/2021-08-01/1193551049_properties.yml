@@ -1,0 +1,21 @@
+﻿microsoftapimanagementservicecontenttypescontentitemssingular: Microsoft.ApiManagement service content types content item
+microsoftapimanagementservicecontenttypescontentitemssingularlc: microsoft.apimanagement service content types content item
+microsoftapimanagementservicecontenttypescontentitemsplural: Microsoft.ApiManagement service content types content items
+microsoftapimanagementservicecontenttypescontentitemsplurallc: microsoft.apimanagement service content types content items
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service content types content item properties
+typeLabel: Type
+properties: Properties

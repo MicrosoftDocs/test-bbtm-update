@@ -1,0 +1,25 @@
+﻿microsoftapimanagementserviceproductspoliciessingular: Microsoft.ApiManagement service products policy
+microsoftapimanagementserviceproductspoliciessingularlc: microsoft.apimanagement service products policy
+microsoftapimanagementserviceproductspoliciesplural: Microsoft.ApiManagement service products policies
+microsoftapimanagementserviceproductspoliciesplurallc: microsoft.apimanagement service products policies
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertiesvalue: Contents of the Policy as defined by the format.
+itemdisplayname_propertiesvalue: Value
+itemdescription_propertiesformat: Format of the policyContent.
+itemdisplayname_propertiesformat: Format
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service products policy properties
+typeLabel: Type
+properties: Properties

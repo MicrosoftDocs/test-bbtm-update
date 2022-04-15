@@ -1,0 +1,109 @@
+﻿microsoftapimanagementserviceapissingular: Microsoft.ApiManagement service api
+microsoftapimanagementserviceapissingularlc: microsoft.apimanagement service api
+microsoftapimanagementserviceapisplural: Microsoft.ApiManagement service apis
+microsoftapimanagementserviceapisplurallc: microsoft.apimanagement service apis
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_format: Format in which the API Details are exported to the Storage Blob with Sas Key valid for 5 minutes.
+itemdisplayname_format: Format
+itemdescription_value: The object defining the schema of the exported API Detail
+itemdisplayname_value: Value
+itemdescription_propertiesvalue: ""
+itemdisplayname_propertiesvalue: Value
+itemdescription_propertiesformat: ""
+itemdisplayname_propertiesformat: Format
+itemdescription_propertiesapitype: ""
+itemdisplayname_propertiesapitype: Api type
+itemdescription_propertiessourceapiid: ""
+itemdisplayname_propertiessourceapiid: Source api id
+itemdescription_propertiesdisplayname: ""
+itemdisplayname_propertiesdisplayname: Display name
+itemdescription_propertiesserviceurl: ""
+itemdisplayname_propertiesserviceurl: Service URL
+itemdescription_propertiespath: ""
+itemdisplayname_propertiespath: Path
+itemdescription_propertiesprotocols: ""
+itemdisplayname_propertiesprotocols: Protocols
+itemdescription_propertiesdescription: ""
+itemdisplayname_propertiesdescription: Description
+itemdescription_propertiestype: ""
+itemdisplayname_propertiestype: Type
+itemdescription_propertiesapirevision: ""
+itemdisplayname_propertiesapirevision: Api revision
+itemdescription_propertiesapiversion: ""
+itemdisplayname_propertiesapiversion: Api version
+itemdescription_propertiesiscurrent: ""
+itemdisplayname_propertiesiscurrent: Is current
+itemdescription_propertiesisonline: ""
+itemdisplayname_propertiesisonline: Is online
+itemdescription_propertiesapirevisiondescription: ""
+itemdisplayname_propertiesapirevisiondescription: Api revision description
+itemdescription_propertiesapiversiondescription: ""
+itemdisplayname_propertiesapiversiondescription: Api version description
+"itemdescription_propertiesapiversionsetid": ""
+"itemdisplayname_propertiesapiversionsetid": "Api version set id"
+itemdescription_propertiessubscriptionrequired: ""
+itemdisplayname_propertiessubscriptionrequired: Subscription required
+itemdescription_propertiestermsofserviceurl: ""
+itemdisplayname_propertiestermsofserviceurl: Terms of service URL
+groupdescription_propertieswsdlselector: ""
+groupdisplayname_propertieswsdlselector: Wsdl selector
+itemdescription_propertieswsdlselectorwsdlservicename: ""
+itemdisplayname_propertieswsdlselectorwsdlservicename: Wsdl service name
+itemdescription_propertieswsdlselectorwsdlendpointname: ""
+itemdisplayname_propertieswsdlselectorwsdlendpointname: Wsdl endpoint name
+groupdescription_propertiesapiversionset: ""
+groupdisplayname_propertiesapiversionset: Api version set
+itemdescription_propertiesapiversionsetid: ""
+itemdisplayname_propertiesapiversionsetid: Id
+itemdescription_propertiesapiversionsetname: ""
+itemdisplayname_propertiesapiversionsetname: Name
+itemdescription_propertiesapiversionsetdescription: ""
+itemdisplayname_propertiesapiversionsetdescription: Description
+itemdescription_propertiesapiversionsetversioningscheme: ""
+itemdisplayname_propertiesapiversionsetversioningscheme: Versioning scheme
+itemdescription_propertiesapiversionsetversionqueryname: ""
+itemdisplayname_propertiesapiversionsetversionqueryname: Version query name
+itemdescription_propertiesapiversionsetversionheadername: ""
+itemdisplayname_propertiesapiversionsetversionheadername: Version header name
+groupdescription_propertiesauthenticationsettings: ""
+groupdisplayname_propertiesauthenticationsettings: Authentication settings
+itemdescription_propertiesauthenticationsettingsoauth2: ""
+itemdisplayname_propertiesauthenticationsettingsoauth2: O auth2
+itemdescription_propertiesauthenticationsettingsopenid: ""
+itemdisplayname_propertiesauthenticationsettingsopenid: Openid
+groupdescription_propertiessubscriptionkeyparameternames: ""
+groupdisplayname_propertiessubscriptionkeyparameternames: Subscription key parameter names
+itemdescription_propertiessubscriptionkeyparameternamesheader: ""
+itemdisplayname_propertiessubscriptionkeyparameternamesheader: Header
+itemdescription_propertiessubscriptionkeyparameternamesquery: ""
+itemdisplayname_propertiessubscriptionkeyparameternamesquery: Query
+groupdescription_propertiescontact: ""
+groupdisplayname_propertiescontact: Contact
+itemdescription_propertiescontactname: ""
+itemdisplayname_propertiescontactname: Name
+itemdescription_propertiescontacturl: ""
+itemdisplayname_propertiescontacturl: URL
+itemdescription_propertiescontactemail: ""
+itemdisplayname_propertiescontactemail: Email
+groupdescription_propertieslicense: ""
+groupdisplayname_propertieslicense: License
+itemdescription_propertieslicensename: ""
+itemdisplayname_propertieslicensename: Name
+itemdescription_propertieslicenseurl: ""
+itemdisplayname_propertieslicenseurl: URL
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service api properties
+typeLabel: Type
+properties: Properties

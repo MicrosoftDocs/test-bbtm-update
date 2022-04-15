@@ -1,0 +1,54 @@
+﻿microsoftbotservicebotservicessingular: Bot Service
+microsoftbotservicebotservicessingularlc: bot service
+microsoftbotservicebotservicesplural: Bot Services
+microsoftbotservicebotservicesplurallc: bot services
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_location: Specifies the location of the resource.
+itemdisplayname_location: Location
+itemdescription_tags: Contains resource tags defined as key/value pairs.
+itemdisplayname_tags: Tags
+itemdescription_sku: The SKU of the cognitive services account.
+itemdisplayname_sku: Sku
+itemdescription_kind: Indicates the type of bot service
+itemdisplayname_kind: Kind
+itemdescription_etag: Entity Tag
+itemdisplayname_etag: Etag
+itemdescription_propertiesdisplayname: The Name of the bot
+itemdisplayname_propertiesdisplayname: Display name
+itemdescription_propertiesdescription: The description of the bot
+itemdisplayname_propertiesdescription: Description
+itemdescription_propertiesiconurl: The Icon Url of the bot
+itemdisplayname_propertiesiconurl: Icon URL
+itemdescription_propertiesendpoint: The bot's endpoint
+itemdisplayname_propertiesendpoint: Endpoint
+itemdescription_propertiesendpointversion: The bot's endpoint version
+itemdisplayname_propertiesendpointversion: Endpoint version
+itemdescription_propertiesmsaappid: Microsoft App Id for the bot
+itemdisplayname_propertiesmsaappid: Msa app id
+itemdescription_propertiesconfiguredchannels: Collection of channels for which the bot is configured
+itemdisplayname_propertiesconfiguredchannels: Configured channels
+itemdescription_propertiesenabledchannels: Collection of channels for which the bot is enabled
+itemdisplayname_propertiesenabledchannels: Enabled channels
+itemdescription_propertiesdeveloperappinsightkey: The Application Insights key
+itemdisplayname_propertiesdeveloperappinsightkey: Developer app insight key
+itemdescription_propertiesdeveloperappinsightsapikey: The Application Insights Api Key
+itemdisplayname_propertiesdeveloperappinsightsapikey: Developer app insights api key
+itemdescription_propertiesdeveloperappinsightsapplicationid: The Application Insights App Id
+itemdisplayname_propertiesdeveloperappinsightsapplicationid: Developer app insights application id
+itemdescription_propertiesluisappids: Collection of LUIS App Ids
+itemdisplayname_propertiesluisappids: Luis app ids
+itemdescription_propertiesluiskey: The LUIS Key
+itemdisplayname_propertiesluiskey: Luis key
+refresh: Refresh
+resourceId: Resource id
+propertiesTitle: Bot Service properties
+typeLabel: Type
+properties: Properties
+essentials: Essentials

@@ -1,0 +1,31 @@
+﻿microsoftapimanagementserviceapistagdescriptionssingular: Microsoft.ApiManagement service apis tag description
+microsoftapimanagementserviceapistagdescriptionssingularlc: microsoft.apimanagement service apis tag description
+microsoftapimanagementserviceapistagdescriptionsplural: Microsoft.ApiManagement service apis tag descriptions
+microsoftapimanagementserviceapistagdescriptionsplurallc: microsoft.apimanagement service apis tag descriptions
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertiesdescription: Description of the Tag.
+itemdisplayname_propertiesdescription: Description
+itemdescription_propertiesexternaldocsurl: Absolute URL of external resources describing the tag.
+itemdisplayname_propertiesexternaldocsurl: External docs URL
+itemdescription_propertiesexternaldocsdescription: Description of the external resources describing the tag.
+itemdisplayname_propertiesexternaldocsdescription: External docs description
+itemdescription_propertiestagid: Identifier of the tag in the form of /tags/{tagId}
+itemdisplayname_propertiestagid: Tag id
+itemdescription_propertiesdisplayname: Tag name.
+itemdisplayname_propertiesdisplayname: Display name
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service apis tag description properties
+typeLabel: Type
+properties: Properties

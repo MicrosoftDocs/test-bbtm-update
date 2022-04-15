@@ -1,0 +1,73 @@
+﻿microsoftauthorizationaccessreviewhistorydefinitionssingular: Microsoft.Authorization access review history definition
+microsoftauthorizationaccessreviewhistorydefinitionssingularlc: microsoft.authorization access review history definition
+microsoftauthorizationaccessreviewhistorydefinitionsplural: Microsoft.Authorization access review history definitions
+microsoftauthorizationaccessreviewhistorydefinitionsplurallc: microsoft.authorization access review history definitions
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_displayname: ""
+itemdisplayname_displayname: Display name
+itemdescription_reviewhistoryperiodstartdatetime: ""
+itemdisplayname_reviewhistoryperiodstartdatetime: Review history period start date time
+itemdescription_reviewhistoryperiodenddatetime: ""
+itemdisplayname_reviewhistoryperiodenddatetime: Review history period end date time
+itemdescription_decisions: ""
+itemdisplayname_decisions: Decisions
+itemdescription_status: ""
+itemdisplayname_status: Status
+itemdescription_createddatetime: ""
+itemdisplayname_createddatetime: Created date time
+itemdescription_createdby: ""
+itemdisplayname_createdby: Created by
+itemdescription_scopes: ""
+itemdisplayname_scopes: Scopes
+itemdescription_settings: ""
+itemdisplayname_settings: Settings
+itemdescription_instances: ""
+itemdisplayname_instances: Instances
+itemdescription_propertiesdisplayname: The display name for the history definition.
+itemdisplayname_propertiesdisplayname: Display name
+itemdescription_propertiesreviewhistoryperiodstartdatetime: Date time used when selecting review data, all reviews included in data start on or after this date. For use only with one-time/non-recurring reports.
+itemdisplayname_propertiesreviewhistoryperiodstartdatetime: Review history period start date time
+itemdescription_propertiesreviewhistoryperiodenddatetime: Date time used when selecting review data, all reviews included in data end on or before this date. For use only with one-time/non-recurring reports.
+itemdisplayname_propertiesreviewhistoryperiodenddatetime: Review history period end date time
+itemdescription_propertiesdecisions: Collection of review decisions which the history data should be filtered on. For example if Approve and Deny are supplied the data will only contain review results in which the decision maker approved or denied a review request.
+itemdisplayname_propertiesdecisions: Decisions
+itemdescription_propertiesstatus: This read-only field specifies the of the requested review history data. This is either requested, in-progress, done or error.
+itemdisplayname_propertiesstatus: Status
+itemdescription_propertiescreateddatetime: Date time when history definition was created
+itemdisplayname_propertiescreateddatetime: Created date time
+itemdescription_propertiesscopes: A collection of scopes used when selecting review history data
+itemdisplayname_propertiesscopes: Scopes
+itemdescription_propertiesinstances: Set of access review history instances for this history definition.
+itemdisplayname_propertiesinstances: Instances
+groupdescription_propertiescreatedby: Details of the actor identity
+groupdisplayname_propertiescreatedby: Created by
+itemdescription_propertiescreatedbyprincipalid: ""
+itemdisplayname_propertiescreatedbyprincipalid: Principal id
+itemdescription_propertiescreatedbyprincipaltype: ""
+itemdisplayname_propertiescreatedbyprincipaltype: Principal type
+itemdescription_propertiescreatedbyprincipalname: ""
+itemdisplayname_propertiescreatedbyprincipalname: Principal name
+itemdescription_propertiescreatedbyuserprincipalname: ""
+itemdisplayname_propertiescreatedbyuserprincipalname: User principal name
+groupdescription_propertiessettings: Recurrence settings of an Access Review History Definition.
+groupdisplayname_propertiessettings: Settings
+itemdescription_propertiessettingspattern: ""
+itemdisplayname_propertiessettingspattern: Pattern
+itemdescription_propertiessettingsrange: ""
+itemdisplayname_propertiessettingsrange: Range
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.Authorization access review history definition properties
+typeLabel: Type
+properties: Properties

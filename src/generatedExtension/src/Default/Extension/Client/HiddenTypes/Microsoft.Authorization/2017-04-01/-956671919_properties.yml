@@ -1,0 +1,27 @@
+﻿microsoftauthorizationlockssingular: Microsoft.Authorization lock
+microsoftauthorizationlockssingularlc: microsoft.authorization lock
+microsoftauthorizationlocksplural: Microsoft.Authorization locks
+microsoftauthorizationlocksplurallc: microsoft.authorization locks
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertieslevel: 'The level of the lock. Possible values are: NotSpecified, CanNotDelete, ReadOnly. CanNotDelete means authorized users are able to read and modify the resources, but not delete. ReadOnly means authorized users can only read from a resource, but they can''t modify or delete it.'
+itemdisplayname_propertieslevel: Level
+itemdescription_propertiesnotes: Notes about the lock. Maximum of 512 characters.
+itemdisplayname_propertiesnotes: Notes
+itemdescription_propertiesowners: The owners of the lock.
+itemdisplayname_propertiesowners: Owners
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.Authorization lock properties
+typeLabel: Type
+properties: Properties

@@ -1,0 +1,33 @@
+﻿microsoftapimanagementserviceloggerssingular: Microsoft.ApiManagement service logger
+microsoftapimanagementserviceloggerssingularlc: microsoft.apimanagement service logger
+microsoftapimanagementserviceloggersplural: Microsoft.ApiManagement service loggers
+microsoftapimanagementserviceloggersplurallc: microsoft.apimanagement service loggers
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertiesloggertype: Logger type.
+itemdisplayname_propertiesloggertype: Logger type
+itemdescription_propertiesdescription: Logger description.
+itemdisplayname_propertiesdescription: Description
+itemdescription_propertiesisbuffered: Whether records are buffered in the logger before publishing. Default is assumed to be true.
+itemdisplayname_propertiesisbuffered: Is buffered
+itemdescription_propertiesresourceid: Azure Resource Id of a log target (either Azure Event Hub resource or Azure Application Insights resource).
+itemdisplayname_propertiesresourceid: Resource id
+groupdescription_propertiescredentials: |-
+  The name and SendRule connection string of the event hub for azureEventHub logger.
+  Instrumentation key for applicationInsights logger.
+groupdisplayname_propertiescredentials: Credentials
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service logger properties
+typeLabel: Type
+properties: Properties

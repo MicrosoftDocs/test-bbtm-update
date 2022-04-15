@@ -1,0 +1,33 @@
+﻿microsoftapimanagementservicegatewayshostnameconfigurationssingular: Microsoft.ApiManagement service gateways hostname configuration
+microsoftapimanagementservicegatewayshostnameconfigurationssingularlc: microsoft.apimanagement service gateways hostname configuration
+microsoftapimanagementservicegatewayshostnameconfigurationsplural: Microsoft.ApiManagement service gateways hostname configurations
+microsoftapimanagementservicegatewayshostnameconfigurationsplurallc: microsoft.apimanagement service gateways hostname configurations
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertieshostname: Hostname value. Supports valid domain name, partial or full wildcard
+itemdisplayname_propertieshostname: Hostname
+itemdescription_propertiescertificateid: Identifier of Certificate entity that will be used for TLS connection establishment
+itemdisplayname_propertiescertificateid: Certificate id
+itemdescription_propertiesnegotiateclientcertificate: Determines whether gateway requests client certificate
+itemdisplayname_propertiesnegotiateclientcertificate: Negotiate client certificate
+itemdescription_propertiestls10enabled: Specifies if TLS 1.0 is supported
+itemdisplayname_propertiestls10enabled: Tls10 enabled
+itemdescription_propertiestls11enabled: Specifies if TLS 1.1 is supported
+itemdisplayname_propertiestls11enabled: Tls11 enabled
+itemdescription_propertieshttp2enabled: Specifies if HTTP/2.0 is supported
+itemdisplayname_propertieshttp2enabled: Http2 enabled
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service gateways hostname configuration properties
+typeLabel: Type
+properties: Properties

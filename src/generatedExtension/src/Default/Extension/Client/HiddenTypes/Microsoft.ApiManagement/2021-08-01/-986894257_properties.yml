@@ -1,0 +1,33 @@
+﻿microsoftapimanagementserviceportalrevisionssingular: Microsoft.ApiManagement service portal revision
+microsoftapimanagementserviceportalrevisionssingularlc: microsoft.apimanagement service portal revision
+microsoftapimanagementserviceportalrevisionsplural: Microsoft.ApiManagement service portal revisions
+microsoftapimanagementserviceportalrevisionsplurallc: microsoft.apimanagement service portal revisions
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertiesdescription: Portal revision description.
+itemdisplayname_propertiesdescription: Description
+itemdescription_propertiesstatusdetails: Portal revision publishing status details.
+itemdisplayname_propertiesstatusdetails: Status details
+itemdescription_propertiesstatus: Status of the portal's revision.
+itemdisplayname_propertiesstatus: Status
+itemdescription_propertiesiscurrent: Indicates if the portal's revision is public.
+itemdisplayname_propertiesiscurrent: Is current
+itemdescription_propertiescreateddatetime: Portal's revision creation date and time.
+itemdisplayname_propertiescreateddatetime: Created date time
+itemdescription_propertiesupdateddatetime: Last updated date and time.
+itemdisplayname_propertiesupdateddatetime: Updated date time
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service portal revision properties
+typeLabel: Type
+properties: Properties

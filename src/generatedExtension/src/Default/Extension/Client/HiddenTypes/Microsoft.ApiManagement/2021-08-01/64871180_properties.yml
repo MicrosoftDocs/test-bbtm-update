@@ -1,0 +1,31 @@
+﻿microsoftapimanagementserviceapiversionsetssingular: Microsoft.ApiManagement service api version set
+microsoftapimanagementserviceapiversionsetssingularlc: microsoft.apimanagement service api version set
+microsoftapimanagementserviceapiversionsetsplural: Microsoft.ApiManagement service api version sets
+microsoftapimanagementserviceapiversionsetsplurallc: microsoft.apimanagement service api version sets
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertiesdisplayname: Name of API Version Set
+itemdisplayname_propertiesdisplayname: Display name
+itemdescription_propertiesversioningscheme: An value that determines where the API Version identifier will be located in a HTTP request.
+itemdisplayname_propertiesversioningscheme: Versioning scheme
+itemdescription_propertiesdescription: Description of API Version Set.
+itemdisplayname_propertiesdescription: Description
+itemdescription_propertiesversionqueryname: Name of query parameter that indicates the API Version if versioningScheme is set to `query`.
+itemdisplayname_propertiesversionqueryname: Version query name
+itemdescription_propertiesversionheadername: Name of HTTP header parameter that indicates the API Version if versioningScheme is set to `header`.
+itemdisplayname_propertiesversionheadername: Version header name
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service api version set properties
+typeLabel: Type
+properties: Properties

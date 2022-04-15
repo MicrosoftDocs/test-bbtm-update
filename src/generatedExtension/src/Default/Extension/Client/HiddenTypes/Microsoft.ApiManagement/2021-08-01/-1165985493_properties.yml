@@ -1,0 +1,44 @@
+﻿microsoftapimanagementserviceuserssingular: Microsoft.ApiManagement service user
+microsoftapimanagementserviceuserssingularlc: microsoft.apimanagement service user
+microsoftapimanagementserviceusersplural: Microsoft.ApiManagement service users
+microsoftapimanagementserviceusersplurallc: microsoft.apimanagement service users
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertiesemail: Email address.
+itemdisplayname_propertiesemail: Email
+itemdescription_propertiesfirstname: First name.
+itemdisplayname_propertiesfirstname: First name
+itemdescription_propertieslastname: Last name.
+itemdisplayname_propertieslastname: Last name
+itemdescription_propertiespassword: ""
+itemdisplayname_propertiespassword: Password
+itemdescription_propertiesapptype: ""
+itemdisplayname_propertiesapptype: App type
+itemdescription_propertiesconfirmation: ""
+itemdisplayname_propertiesconfirmation: Confirmation
+itemdescription_propertiesstate: Account state. Specifies whether the user is active or not. Blocked users are unable to sign into the developer portal or call any APIs of subscribed products. Default state is Active.
+itemdisplayname_propertiesstate: State
+itemdescription_propertiesnote: Optional note about a user set by the administrator.
+itemdisplayname_propertiesnote: Note
+itemdescription_propertiesidentities: Collection of user identities.
+itemdisplayname_propertiesidentities: Identities
+itemdescription_propertiesregistrationdate: |
+  Date of user registration. The date conforms to the following format: `yyyy-MM-ddTHH:mm:ssZ` as specified by the ISO 8601 standard.
+itemdisplayname_propertiesregistrationdate: Registration date
+itemdescription_propertiesgroups: Collection of groups user is part of.
+itemdisplayname_propertiesgroups: Groups
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service user properties
+typeLabel: Type
+properties: Properties

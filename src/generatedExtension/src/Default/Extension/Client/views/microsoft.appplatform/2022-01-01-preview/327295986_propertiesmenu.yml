@@ -1,0 +1,20 @@
+﻿microsoftappplatformspringcertificatessingular: Microsoft.AppPlatform spring certificate
+microsoftappplatformspringcertificatessingularlc: microsoft.appplatform spring certificate
+microsoftappplatformspringcertificatesplural: Microsoft.AppPlatform spring certificates
+microsoftappplatformspringcertificatesplurallc: microsoft.appplatform spring certificates
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_systemdata: Metadata pertaining to creation and last modification of the resource.
+itemdisplayname_systemdata: System data
+refresh: Refresh
+resourceId: Resource id
+propertiesTitle: Microsoft.AppPlatform spring certificate properties
+typeLabel: Type
+properties: Properties
+essentials: Essentials

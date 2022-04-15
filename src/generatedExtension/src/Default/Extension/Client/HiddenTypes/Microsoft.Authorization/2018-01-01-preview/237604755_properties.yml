@@ -1,0 +1,31 @@
+﻿microsoftauthorizationroledefinitionssingular: Microsoft.Authorization role definition
+microsoftauthorizationroledefinitionssingularlc: microsoft.authorization role definition
+microsoftauthorizationroledefinitionsplural: Microsoft.Authorization role definitions
+microsoftauthorizationroledefinitionsplurallc: microsoft.authorization role definitions
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertiesrolename: The role name.
+itemdisplayname_propertiesrolename: Role name
+itemdescription_propertiesdescription: The role definition description.
+itemdisplayname_propertiesdescription: Description
+itemdescription_propertiestype: The role type.
+itemdisplayname_propertiestype: Type
+itemdescription_propertiespermissions: Role definition permissions.
+itemdisplayname_propertiespermissions: Permissions
+itemdescription_propertiesassignablescopes: Role definition assignable scopes.
+itemdisplayname_propertiesassignablescopes: Assignable scopes
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.Authorization role definition properties
+typeLabel: Type
+properties: Properties

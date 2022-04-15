@@ -1,0 +1,29 @@
+﻿microsoftapimanagementserviceapisreleasessingular: Microsoft.ApiManagement service apis release
+microsoftapimanagementserviceapisreleasessingularlc: microsoft.apimanagement service apis release
+microsoftapimanagementserviceapisreleasesplural: Microsoft.ApiManagement service apis releases
+microsoftapimanagementserviceapisreleasesplurallc: microsoft.apimanagement service apis releases
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertiesapiid: Identifier of the API the release belongs to.
+itemdisplayname_propertiesapiid: Api id
+itemdescription_propertiescreateddatetime: 'The time the API was released. The date conforms to the following format: yyyy-MM-ddTHH:mm:ssZ as specified by the ISO 8601 standard.'
+itemdisplayname_propertiescreateddatetime: Created date time
+itemdescription_propertiesupdateddatetime: The time the API release was updated.
+itemdisplayname_propertiesupdateddatetime: Updated date time
+itemdescription_propertiesnotes: Release Notes
+itemdisplayname_propertiesnotes: Notes
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service apis release properties
+typeLabel: Type
+properties: Properties

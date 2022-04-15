@@ -1,0 +1,27 @@
+﻿microsoftapimanagementserviceapisissuesattachmentssingular: Microsoft.ApiManagement service apis issues attachment
+microsoftapimanagementserviceapisissuesattachmentssingularlc: microsoft.apimanagement service apis issues attachment
+microsoftapimanagementserviceapisissuesattachmentsplural: Microsoft.ApiManagement service apis issues attachments
+microsoftapimanagementserviceapisissuesattachmentsplurallc: microsoft.apimanagement service apis issues attachments
+itemdescription_id: Resource Id
+itemdisplayname_id: Id
+itemdescription_name: Resource name
+itemdisplayname_name: Name
+itemdescription_type: Resource type
+itemdisplayname_type: Type
+itemdescription_apiversion: Api version
+itemdisplayname_apiversion: Api version
+itemdescription_propertiestitle: Filename by which the binary data will be saved.
+itemdisplayname_propertiestitle: Title
+itemdescription_propertiescontentformat: Either 'link' if content is provided via an HTTP link or the MIME type of the Base64-encoded binary data provided in the 'content' property.
+itemdisplayname_propertiescontentformat: Content format
+itemdescription_propertiescontent: An HTTP link or Base64-encoded binary data.
+itemdisplayname_propertiescontent: Content
+refresh: Refresh
+delete: Delete
+deleteResourceTitle: Delete resource
+deleteResourceMessage: Do you want to delete resource?
+"yes": "Yes"
+resourceId: Resource id
+propertiesTitle: Microsoft.ApiManagement service apis issues attachment properties
+typeLabel: Type
+properties: Properties
