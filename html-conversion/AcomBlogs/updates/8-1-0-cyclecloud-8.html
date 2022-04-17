@@ -1,0 +1,31 @@
+﻿<p id="Slug">8-1-0-cyclecloud-8</p>
+<p id="Title">Generally available: Azure HPC – CycleCloud 8.1.0 </p>
+<p id="Summary">Check the list of improvements and resolved issues include in this release.</p>
+<p id="Content"><p>CycleCloud 8.1.0 is now available.</p>
+
+<h3 id="new-features"><strong>New Features:</strong></h3>
+
+<ul style="margin-left: 40px;">
+	<li>Evicted spot nodes are now detected immediately</li>
+	<li>New <strong>Support</strong>&nbsp;button shows cluster details for&nbsp;<a data-linktype="relative-path" href="https://docs.microsoft.com/en-us/azure/cyclecloud/how-to/report-issues?view=cyclecloud-8">support and diagnostics</a></li>
+	<li>Log directories can now be uploaded to Azure Storage from nodes via&nbsp;<code>jetpack report_issue</code>&nbsp;<a data-linktype="relative-path" href="https://docs.microsoft.com/en-us/azure/cyclecloud/jetpack?view=cyclecloud-8#jetpack-report_issue">command</a></li>
+	<li>&#39;Exclusive&#39; flag is now supported in Grid Engine autoscaling plugin</li>
+	<li><a data-linktype="relative-path" href="https://docs.microsoft.com/en-us/azure/cyclecloud/gridengine?view=cyclecloud-8">Univa GridEngine cluster</a>&nbsp;provides intelligent resource management and deep integration with native gridengine resources; hostgroups, parallel environments, queues, complexes.</li>
+	<li>Added &#39;Enterprise Linux 8&#39; support for compute nodes.</li>
+	<li>&#39;OpenPBS v20.0.1 with Enterprise Linux 8&#39; is now available.</li>
+	<li><a data-linktype="external" href="https://github.com/Azure/cyclecloud-scalelib/blob/master/README.md">cyclecloud-scalelib</a>, a python library used to write your own autoscaler, is now GA</li>
+	<li><a data-linktype="relative-path" href="https://docs.microsoft.com/en-us/azure/cyclecloud/slurm?view=cyclecloud-8">Slurm</a>&nbsp;template supports enabling SlurmDBD on Slurm 20.11+</li>
+	<li>Nodes can now be deployed into an existing&nbsp;<a data-linktype="relative-path" href="https://docs.microsoft.com/en-us/azure/cyclecloud/cluster-references/node-nodearray-reference?view=cyclecloud-8#additional-attributes">proximity placement group</a></li>
+	<li>The full URN for a selected image is now displayed in the UI</li>
+	<li>Jetpack now uses Python 3.8</li>
+</ul>
+
+<h3 id="resolved-issues"><strong>Resolved Issues:</strong></h3>
+
+<ul style="margin-left: 40px;">
+	<li>&#39;DefaultValue&#39; was incorrectly ignored by the region &#39;ParameterType&#39; in cluster templates</li>
+	<li>NFS worked incorrectly on some systemd based platforms.</li>
+</ul>
+
+<p><a href="https://docs.microsoft.com/en-us/azure/cyclecloud/release-notes/8-1-0?view=cyclecloud-8">Read the release notes</a><a href="https://docs.microsoft.com/en-us/azure/cyclecloud/release-notes/8-1-0?view=cyclecloud-8">.</a></p>
+</p>

@@ -1,0 +1,47 @@
+﻿<p id="Slug">8-1-1-cyclecloud-8</p>
+<p id="Title">Generally available: Azure HPC – CycleCloud 8.1.1</p>
+<p id="Summary">This release includes a considerable list of resolved issues and a retired feature.</p>
+<p id="Content"><p>CycleCloud 8.1.1 is now available.</p>
+
+<h3><strong>New Features:</strong></h3>
+
+<ul style="margin-left: 40px;">
+	<li>Slurm is updated to 20.11.4 and supports CentOS 8 and Ubuntu 18.</li>
+	<li>Infiniband-based SKUs have accelerated networking disabled by default, to avoid device-ordering issues</li>
+</ul>
+
+<h3 id="resolved-issues"><strong>Resolved Issues:</strong></h3>
+
+<ul style="margin-left: 40px;">
+	<li>MPI jobs in Slurm failed due to missing slurm-libmpi</li>
+	<li>Setting&nbsp;<code>webServerContextPath</code>&nbsp;in cycle_server.properties did not work properly</li>
+	<li>Pre-installing Jetpack on an image would incorrectly report an installation failure.</li>
+	<li>Default NFS mounting options were incompatible with NFS version 3</li>
+	<li>Jetpack PATH was incorrectly ordered on Windows.</li>
+	<li>Nodes whose images had embedded data disks could not be restarted once terminated</li>
+	<li>CycleCloud 7.x clusters would not run cluster-init if CycleCloud was upgraded to version 8</li>
+	<li>When scaling up large clusters, CycleCloud&#39;s self-throttling was too strict, keeping it from making progress</li>
+	<li>Execute nodes would sometimes get &quot;resource not found&quot; errors that would prevent scaling up</li>
+	<li>Healthcheck did not support Python3</li>
+	<li>Evicted spot nodes for MPI jobs in Slurm could not be restarted</li>
+	<li>In some cases, nodes would not start with the following error: &quot;This node does not match existing scaleset attributes: Configuration.cyclecloud.mounts.additional_nfs.export_path, Configuration.cyclecloud.mounts.additional_nfs.mountpoint&quot;</li>
+	<li>In certain cases, execute nodes could not be restarted after editing the cluster through the UI</li>
+	<li>Nodes with disks that referenced snapshots could not be started</li>
+	<li>Jetpack would incorrectly handle a list of IP addresses for network shares</li>
+	<li>The <em>restore.sh</em> script failed because it tried to start the (now-removed) broker service</li>
+	<li>Waiting for CloudInit would timeout after 5 minutes (increased to 60 minutes)</li>
+	<li>Page rendering was broken in some versions of Safari</li>
+	<li>The image picker displayed the incorrect image ID for CentOS 7</li>
+	<li>CycleCloud CLI incorrectly used the deprecated&nbsp;<code>tostring()</code>&nbsp;method on arrays</li>
+	<li>CycleCloud encountered a &quot;Conversion: 2&quot; error when processing insufficient-quota error messages for VMs</li>
+	<li>Mitigated CVE issue 2020-25649</li>
+</ul>
+
+<h3 id="deprecated"><strong>Retired:</strong></h3>
+
+<ul style="margin-left: 40px;">
+	<li>Removed legacy SAML support</li>
+</ul>
+
+<p><a href="https://docs.microsoft.com/en-us/azure/cyclecloud/release-notes/8-1-1?view=cyclecloud-8">Read the release notes</a><a href="https://docs.microsoft.com/en-us/azure/cyclecloud/release-notes/8-1-1?view=cyclecloud-8">.</a></p>
+</p>

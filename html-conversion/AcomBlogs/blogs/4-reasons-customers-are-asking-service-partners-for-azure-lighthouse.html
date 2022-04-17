@@ -1,0 +1,55 @@
+﻿<p id="Slug">4-reasons-customers-are-asking-service-partners-for-azure-lighthouse</p>
+<p id="Title">4 reasons customers are asking service partners for Azure Lighthouse</p>
+<p id="Summary">With an increasingly complex security landscape and an ever-growing service partner portfolio, how do you stay on top of industry standard best practices? As your business needs grow, you employ more and more partners to support your infrastructure, network, apps, and employees, but with that support comes a required level of access—how do you keep track of who has access to what and what exactly their doing to your resources?</p>
+<p id="Content"><p><em>This blog post was co-authored by Sonia Cuff, Senior Cloud Advocate Azure</em></p>
+
+<p>With an increasingly complex security landscape and an ever-growing service partner portfolio, how do you stay on top of industry-standard best practices? As your business needs grow, you employ more and more partners to support your infrastructure, network, apps, and employees, but with that support comes a required level of access&mdash;how do you keep track of who has access to what and what exactly they&#39;re doing to your resources?</p>
+
+<p>Typically, when working with a Managed Service Provider (MSP) to manage your Azure estate, you would provision guest identities for the service partner within the Azure tenant, where the resources live. While this gives you full control over the service partner&rsquo;s footprint on your environment, this option often involves significant overhead on your end.</p>
+
+<p>For example, you need to ensure timely deprovisioning of service partner identities when that identity is no longer associated with an engagement in your estate. Many customers often overcome some of the associated overhead by giving named accounts from the service partner a higher level of role-based access control over a larger scope than required&mdash;sometimes to their entire Azure tenant. While contributor or privileged access is critical for service partners to deliver certain services, not every operator at the service partner needs this level of standing access. However, the associated overhead of managing tens or hundreds of service partner identities, sometimes for multiple service partners, is expensive and laborious for many customers.</p>
+
+<p>You need a solution to give you peace of mind that your partners can efficiently support your organization without compromising security&mdash;something that enables zero-trust security and least-privileged access principles with just enough and just-in-time access to granular scopes.</p>
+
+<p>Azure Lighthouse helps you take control, stay secure, and be informed. Let&rsquo;s take a look at the top four reasons why our customers are asking their service partners for <a href="https://azure.microsoft.com/en-us/services/azure-lighthouse/" target="_blank">Azure Lighthouse</a>.</p>
+
+<h2>1. Securely onboard a service provider with Azure Lighthouse</h2>
+
+<p>Customers can access service partner offers in the marketplace or through deployed Azure Resource Manager (ARM) templates. These offers specify which users, groups, and automation accounts need authorization in order to deliver the managed service. For example, you may see an offer that grants all service partner support agents Reader access to your Azure subscription with only certain members gaining Backup Contributor access.</p>
+
+<p>You can review these offers with service partners before deploying them, selecting only the scopes (subscriptions and resource groups) you want the partner to manage, giving you more control and granularity over who can do what in your environment.</p>
+
+<p><a href="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/9af7b473-2bce-43f5-a970-b7d5a49a534a.jpg"><img alt="An example of an Azure Lighthouse ARM template offer and customer ARM template deployment workflow from the Azure Portal" border="0" height="436" src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/1a8a02a4-1eff-4c06-b358-2c4a7c5da820.jpg" style="border: 0px currentcolor; border-image: none; display: inline; background-image: none;" title="" width="1024"></a></p>
+
+<p><em>Figure 1: An example of an Azure Lighthouse ARM template offer and customer ARM template deployment workflow from the Azure Portal</em></p>
+
+<h2>2. View and manage your service partners in a centralized control plane</h2>
+
+<p>The <a href="https://docs.microsoft.com/en-us/azure/lighthouse/how-to/view-manage-service-providers" target="_blank">Azure Lighthouse Service Providers</a> experience in the <a href="https://portal.azure.com/" target="_blank">Azure portal</a> provides details about your service partners and their related Azure Lighthouse offers, allowing you to delegate specific resources and update to the latest versions of the offers, and discover other service partner offers. At any time, you can remove a service partner&#39;s access by deleting the delegation from within your Azure portal. This also means reduced overhead &mdash;for example, you do not have to keep up to date with any changes made to employees that aren&rsquo;t your staff. If the service partner is using groups in their Azure Lighthouse offers, they can manage the group membership on their own tenant. If the service provider is using individual named users or automation accounts, then you can view and update to the latest Azure Lighthouse offer from the service partner.&nbsp;</p>
+
+<p><a href="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/84fe4974-6775-4516-a25a-9e27cf889adc.png"><img alt="An example of a customer using Azure Lighthouse to manage multiple service providers" border="0" height="386" src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/74ad2053-45c4-4796-bc1c-818f4ac67fd9.png" style="border: 0px currentcolor; border-image: none; display: inline; background-image: none;" title="" width="1024"></a></p>
+
+<p><em>Figure 2: An example of a customer using Azure Lighthouse to manage multiple service providers</em></p>
+
+<p><em><a href="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/ce0fd972-8c0f-4d2f-b8f3-621df5b8f8cd.png"><img alt="An example of a customer using Azure Lighthouse to view delegation details for a specific subscription managed by the service provider" border="0" height="486" src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/092b0507-1619-45cf-9fb9-5c6794132eaf.png" style="border: 0px currentcolor; border-image: none; display: inline; background-image: none;" title="" width="1024"></a></em></p>
+
+<p><em>Figure 3: An example of a customer using Azure Lighthouse to view delegation details for a specific subscription managed by the service provider</em></p>
+
+<h2>3. Gain full visibility into changes made by the service partner in your Azure environment</h2>
+
+<p>With Azure Lighthouse, you can view Azure Activity Logs from your Azure Tenant, filter to scopes delegated to a service partner, and view all create, read, update, and delete (CRUD) actions taken against these Azure resources (for example, creating, updating, or deleting resources). If any individual or service principal from the service partner acts against a customer resource, the associated contact email will be logged against that action in your activity log, giving you <a href="https://docs.microsoft.com/en-us/azure/lighthouse/how-to/view-service-provider-activity" target="_blank">full visibility into any changes made by the service partner</a> on delegated scopes. Additionally, actions against this service partner&rsquo;s activity are still governed&mdash;for example, Azure policies that you might have specified at a higher-scope, such as a management group, will still be enforced against service partner activity.</p>
+
+<h2>4. Enable further granularity and security with privileged identity management and MFA private preview</h2>
+
+<p>At Microsoft Inspire 2020, Azure Lighthouse announced an integration with Azure Privileged Identity Management (PIM) in private preview. The integration allows Azure Lighthouse offers to now be authored to require service partner operators to elevate to a privileged role and/or use Azure Multi-factor Authentication (MFA) before performing privileged operations on your scopes. (Currently, the Azure AD P2 or E5 license is only required on the service partner&rsquo;s tenant, irrespective of the Azure AD SKU the customer may have.)</p>
+
+<p>Customers can review the access type (permanent or eligible) and MFA enforcement (Azure MFA or none) within the Azure Lighthouse offers at the point of onboarding to the service partner and view details within the Azure Lighthouse Service Providers on the Azure Portal at any time. Once onboarded, the service partner operators can elevate to the privileged role for the agreed duration without any additional approvals from you. This enables the service partner to use a least-privileged approach to daily tasks, only raising their level to a role when needed to perform certain operations, while still maintaining visibility into all changes the service partner operator is performing on your scopes.</p>
+
+<h2>Announcing a new web experience for customers</h2>
+
+<p>Recently, the Azure Lighthouse product page on azure.com was redesigned to showcase the benefits of working with an Azure Lighthouse-enabled partner, including resources, videos, and customer testimonials for customers. To learn more, head to our <a href="https://azure.microsoft.com/en-us/services/azure-lighthouse/" target="_blank">Azure Lighthouse homepage</a> and the <a href="https://www.microsoft.com/azure/partners/azure-lighthouse" target="_blank">Azure Lighthouse page for partners</a>.</p>
+
+<p>Azure Lighthouse was designed to enhance the professional services relationship between a service provider and a customer, maintaining transparency and customer control while reducing security exposures.&nbsp;If you have any feedback on this capability, the product group would love to hear from you via the <a href="https://feedback.azure.com/forums/922753" target="_blank">Azure Lighthouse Product feedback channel</a> or email us on <a href="mailto:azurelighthouse@microsoft.com">azurelighthouse@microsoft.com</a>.</p>
+
+<p>Take control of your Azure estate. <strong>Ask for Azure Lighthouse</strong>.</p>
+</p>

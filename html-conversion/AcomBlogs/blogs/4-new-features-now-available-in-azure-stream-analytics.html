@@ -1,0 +1,41 @@
+﻿<p id="Slug">4-new-features-now-available-in-azure-stream-analytics</p>
+<p id="Title">4 new features now available in Azure Stream Analytics</p>
+<p id="Summary">Azure Stream Analytics is a serverless PaaS service in Azure to run real-time analytics on fast moving streams of data. Today, we are excited to announce several new features in Azure Stream Analytics.</p>
+<p id="Content"><p>Azure Stream Analytics is a serverless PaaS service in Azure to run real-time analytics on fast moving streams of data. Today, we are excited to announce several new features in Azure Stream Analytics.</p>
+
+<h2>In public preview</h2>
+
+<h3>Session window</h3>
+
+<p>Native support for windowing functions is a key capability in Azure Stream Analytics that helps developers author complex stream processing logic on temporal windows. Historically, Stream Analytics offered Tumbling, Hopping and Sliding windows to perform temporal operations on streaming data. Today, we announce a brand new window type known as <a href="https://msdn.microsoft.com/azure/stream-analytics/reference/session-window-azure-stream-analytics">session window</a>. Unlike the three existing window types, a session window creates dynamic temporal windows of variable sizes based on the batches of incoming data. It therefore allows users to filter out periods of time where there is no data. With three main parameters: timeout, maximum duration and partitioning key (optional), it helps developers easily build solutions for scenarios such as clickstream analytics, connected car telemetry and many more.</p>
+
+<p><a href="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/395a5fc6-659e-4335-95f6-f7a42db50d3a.png"><img alt="image" border="0" height="249" src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/611af02f-4fb5-425f-bedc-f3144408730f.png" style="border-image: none; padding-top: 0px; padding-right: 0px; padding-left: 0px; margin-right: auto; margin-left: auto; float: none; display: block; background-image: none;" title="image" width="598"></a></p>
+
+<p align="center"><em>Example of a session window with a 5 minutes timeout</em></p>
+
+<h2 align="left">In private preview</h2>
+
+<h3 align="left">C# custom code support for Stream Analytics jobs on IoT Edge</h3>
+
+<p align="left">Last year we introduced JavaScript <a href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-javascript-user-defined-functions" target="_blank">User-Defined functions</a>. Since then, we heard from many customers that they wanted to use several other languages for extensibility. Today we are pleased to announce the support of C# custom code in <a href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-edge" target="_blank">Azure Stream Analytics for IoT Edge</a>. With Visual Studio support for query authoring and ease of deployment provided by IoT Edge, it will enable users to author rich streaming pipelines. In addition to the simplicity of our SQL language, this will enable users to leverage existing code and libraries, or develop new logic that will run directly in the streaming engine.</p>
+
+<h3 align="left">Blob output partitioning by custom attribute</h3>
+
+<p align="left">It is now possible to partition your Azure Stream Analytics output to Blob storage based on any column in the query. Previously, only {date} and {time} partitioning were supported. This feature is designed to greatly improve downstream data-processing workflows by allowing more fine-grained control over the blob output. The partition key can be a column from the input stream or it may be a field in the query itself. For instance, one could simply set the Path Prefix field in Blob output to {client_id} in a real-time application for customer intelligence.</p>
+
+<h3 align="left">Updated Built-In ML models for Anomaly Detection</h3>
+
+<p align="left">This feature has been in public preview for several months. Acting on valuable customer feedback we are adding ML model support for &lsquo;spike&rsquo; and &lsquo;dip&rsquo; detection in addition to currently available Bi-directional, Slow positive and Slow negative trends detection. We are also improving anomaly scores normalization to help customers interpret the results better.</p>
+
+<p align="left"><a href="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/d18c23e7-b742-48d6-8fd6-57a6d5b73d86.png"><img alt="image" border="0" height="189" src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/8eaaa771-fc65-478d-91c1-2c85d2ed32b5.png" style="border: 0px currentColor; border-image: none; padding-top: 0px; padding-right: 0px; padding-left: 0px; margin-right: auto; margin-left: auto; float: none; display: block; background-image: none;" title="image" width="645"></a></p>
+
+<p align="center"><em>Level change anomalies indicated by red dots and spike anomalies indicated by red arrows</em></p>
+
+<p align="center"><a href="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/eea6e687-261c-4894-8e86-8940b865e828.png"><img alt="image" border="0" height="210" src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/ea1ff6f8-1566-4192-ab54-a34f3d66135f.png" style="border: 0px currentColor; border-image: none; padding-top: 0px; padding-right: 0px; padding-left: 0px; display: inline; background-image: none;" title="image" width="300"></a></p>
+
+<p align="center"><em>Positive trend change anomaly</em></p>
+
+<h3>Keep the feedback and ideas coming</h3>
+
+<p>Azure Stream Analytics team is highly committed to listening to your feedback and let the user voice dictate our future investments. We welcome you to join the conversation and make your voice heard via our <a href="https://feedback.azure.com/forums/270577-stream-analytics/filters/top" target="_blank">UserVoice</a>.</p>
+</p>
