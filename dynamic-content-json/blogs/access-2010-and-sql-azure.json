@@ -1,6 +1,0 @@
-{
-    "Slug": "access-2010-and-sql-azure",
-    "Title": "Access 2010 and SQL Azure",
-    "Summary": "[This article was contributed by the SQL Azure team.]Access 2010 supports connections to SQL Azure over ODBC, opening up opportunities for Access users and technology providers to create rich…",
-    "Content": "<p>[This article was contributed by the SQL Azure team.]</p><p>Access 2010 supports connections to SQL Azure over <a href=\"https://support.microsoft.com/kb/110093\">ODBC</a>, opening up opportunities for Access users and technology providers to create rich experiences using cloud computing. For Information Workers, this gives an easy way to connect directly from Access to cloud-based relational databases, enabling ease of use and providing flexibility to IT. Access users now have more choices to integrate rich client-server applications that can connect directly to both on-premise or cloud databases, creating unique and agile solutions.</p>  <p>Read more about this in this blog post by the Microsoft Access team.</p>"
-}
