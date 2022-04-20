@@ -1,1 +1,0 @@
-Pilih respons terbaik untuk setiap pertanyaan. Pilih **Periksa jawaban Anda**.

@@ -1,1 +1,0 @@
-Pilih jawaban terbaik untuk setiap pertanyaan. Lalu pilih **Periksa jawaban Anda**.

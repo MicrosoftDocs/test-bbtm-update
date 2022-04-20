@@ -1,1 +1,0 @@
-Pilih jawaban terbaik untuk setiap pertanyaan di bawah ini. Lalu pilih “Periksa jawaban Anda”.
