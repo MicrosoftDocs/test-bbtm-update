@@ -1,0 +1,646 @@
+en:
+  audit_log_entry:
+    icon:
+      default: "info"
+      account:
+        default: "credit-card"
+      account_recovery_token:
+        default: "key"
+        recover_error: "stop"
+      action_invocation:
+        default: "lock"
+      advisory_credit:
+        default: "shield"
+      billing:
+        default: "credit-card"
+      braintree:
+        default: "credit-card"
+      business:
+        default: "briefcase"
+      business_secret_scanning_custom_pattern:
+        default: "shield"
+      checks:
+        default: "filter"
+      codespaces:
+        change_sku: "pencil"
+        deprovision_environment: "x-circle"
+        destroy: "x-circle"
+        export_environment: "git-branch"
+        suspend_environment: "clock"
+        transfer_ownership: "people"
+        trusted_repositories_access_update: "lock"
+      commit_comment:
+        default: "comment"
+      config_entry:
+        default: "filter"
+      contact_form:
+        blacklisted: "stop"
+        honeypot: "stop"
+        success: "mail"
+        spam: "stop"
+        ratelimited: "stop"
+      discussion:
+        default: "comment-discussion"
+      discussion_comment:
+        default: "comment-discussion"
+      discussion_post:
+        default: "comment"
+      discussion_post_reply:
+        default: "comment"
+      enterprise_installation:
+        default: "server"
+      dotcom_connection:
+        default: "server"
+      gist:
+        default: "code-square"
+      git_signing_ssh_public_key:
+        default: "lock"
+      gpg_key:
+        default: "lock"
+      hook:
+        default: "plug"
+      integration:
+        default: "plug"
+      integration_installation:
+        default: "plug"
+      invoice:
+        download: "file"
+        pay: "credit-card"
+      ip_allow_list_entry:
+        default: "check"
+      ip_allow_list:
+        default: "filter"
+      issue:
+        default: "issue-opened"
+      issues:
+        default: "filter"
+      issue_comment:
+        default: "comment"
+      job_posting:
+        default: "briefcase"
+      lockout:
+        default: "stop"
+      marketplace_agreement_signature:
+        default: "law"
+      marketplace_listing:
+        default: "plug"
+        change_featured_at: "rocket"
+      message:
+        default: "comment"
+      metered_billing_configuration:
+        default: "credit-card"
+      non_marketplace_listing:
+        default: "plug"
+      oauth_authorization:
+        default: "key"
+      oauth_access:
+        default: "key"
+      oauth_application:
+        default: "link"
+      organization_default_label:
+        default: "filter"
+      organization_moderators:
+        default: "person"
+      organization_programmatic_access_grant_request:
+        default: "key"
+      organization_projects_change:
+        default: "filter"
+      org_secret_scanning_custom_pattern:
+        default: "shield"
+      org:
+        default: "organization"
+        add_security_manager: "shield"
+        remove_security_manager: "shield"
+        secret_scanning_push_protection_new_repos_enable: "shield"
+        secret_scanning_push_protection_new_repos_disable: "shield"
+        secret_scanning_push_protection_enable: "shield"
+        secret_scanning_push_protection_disable: "shield"
+        secret_scanning_push_protection_custom_message_enabled: "shield"
+        secret_scanning_push_protection_custom_message_disabled: "shield"
+        secret_scanning_push_protection_custom_message_updated: "shield"
+      org_credential_authorization:
+        default: "key"
+      pages_protected_domain:
+        delete: "x-circle"
+      payment_method:
+        default: "credit-card"
+      pending_plan_change:
+        default: "clock"
+      pending_subscription_change:
+        default: "clock"
+      plan_subscription:
+        default: "credit-card"
+      prepaid_metered_refill:
+        default: "credit-card"
+      private_repository_forking:
+        default: "filter"
+      profile_picture:
+        default: "device-camera"
+      project:
+        default: "project"
+      protected_branch:
+        default: "shield"
+      public_key:
+        default: "key"
+      pull_request:
+        default: "git-pull-request"
+      pull_request_review:
+        default: "code-review"
+      pull_request_review_comment:
+        default: "comment"
+      repo:
+        default: "repo"
+        create: "repo"
+        add_member: "person"
+        update_member: "person"
+        remove_member: "person"
+        transfer: "mirror"
+        transfer_outgoing: "mirror"
+        transfer_start: "mirror"
+        destroy: "repo"
+        disk_archive: "repo"
+        archived: "repo"
+        unarchived: "repo"
+        pages_https_redirect_enabled: "file"
+        pages_https_redirect_disabled: "file"
+        pages_create: "file"
+        pages_destroy: "file"
+        pages_cname: "file"
+        pages_source: "file"
+        pages_public: "file"
+        pages_private: "file"
+        restore: "repo"
+      repository_content_analysis:
+        default: "shield"
+      repository_dependency_graph:
+        default: "shield"
+      repository_image:
+        default: "image"
+      repository_invitation:
+        default: "mail"
+      repository_projects_change:
+        default: "filter"
+      repository_secret_scanning:
+        default: "shield"
+      repository_secret_scanning_custom_pattern:
+        default: "shield"
+      repository_secret_scanning_push_protection:
+        default: "shield"
+      repository_snapshot:
+        default: "archive"
+      repository_visibility_change:
+        default: "filter"
+      repository_vulnerability_alert:
+        default: "alert"
+      repository_vulnerability_alerts:
+        default: "shield"
+        authorized_users_teams: "eye"
+      scoped_integration_installation:
+        default: "plug"
+      secret_scanning_alert:
+        default: "shield"
+      secret_scanning_push_protection:
+        default: "shield"
+      secret_scanning_new_repos:
+        default: "shield"
+      ssh_certificate_authority:
+        default: "key"
+      ssh_certificate_requirement:
+        default: "key"
+      spam:
+        default: "stop"
+      sponsors:
+        default: "credit-card"
+      staff:
+        default: "person"
+        block_user: "stop"
+        flag_for_standard_contractual_clauses: "law"
+        mark_as_spammy: "stop"
+        remove_standard_contractual_clauses_flag: "law"
+        repo_extract: "repo-clone"
+        repo_detach: "repo-clone"
+        repo_reattach: "repo"
+        repo_restore: "repo"
+      successor_invitation:
+        default: "mail"
+      team:
+        default: "people"
+        add_member: "person"
+        remove_member: "person"
+        add_repository: "repo"
+        remove_repository: "repo"
+        update_repository_permission: "repo"
+        ldap_sync: "sync"
+        ldap_sync_error: "sync"
+      team_discussions:
+        default: "comment"
+      two_factor_authentication:
+        default: "lock"
+      two_factor_account_recovery:
+        default: link
+      two_factor_account_recovery_review:
+        default: link
+      user:
+        default: "person"
+        login: "sign-in"
+        add_email: "mail"
+        lockout: "lock"
+        remove_email: "mail"
+        two_factor_requested: "lock"
+        ldap_sync: "sync"
+        ldap_sync_error: "sync"
+        report_abuse: "law"
+        report_content: "law"
+      user_email:
+        default: "mail"
+      user_session:
+        default: "person"
+      user_status:
+        default: "person"
+
+    title:
+      default: "%{title}"
+      account:
+        plan_change: "%{note}"
+        billing_date_change: "changed from %{old_date} to %{date}"
+      billing:
+        change_email: "%{old_email} changed to %{email}"
+        metered_usage_email_sent: "%{product} has hit threshold level %{threshold_level}"
+        update_education_bundle: "Education bundle changed from %{previous_education_bundle} to %{education_bundle}"
+      braintree:
+        default: "%{error}"
+        update: "%{note}"
+      business:
+        members_can_update_protected_branches:
+          enable: "Members can now update protected branches"
+          disable: "Members can no longer update protected branches"
+          clear: "Organization administrators can now change whether members can update protected branches on repositories for individual organizations"
+        add_owner: "Added %{user} as an owner of the %{name} enterprise"
+        add_billing_manager: "Added %{user} as a billing manager of the %{name} enterprise"
+        add_organization: "Added the %{org} organization to the %{name} enterprise"
+        cancel_admin_invitation: "Canceled %{user}’s invitation to be an owner of the %{name} enterprise"
+        cancel_billing_manager_invitation: "Canceled %{user}’s invitation to be a billing manager for the %{name} enterprise"
+        cancel_trial: "The enterprise trial account for %{org} has been canceled."
+        clear_default_repository_permission: "Cleared the base repository permission for the %{name} enterprise"
+        clear_members_can_create_repos: "Cleared the repository creation setting for the %{name} enterprise"
+        clear_members_can_invite_outside_collaborators: "Cleared the outside collaborators invitation setting for %{name} enterprise"
+        clear_new_repository_default_branch_setting: "Cleared default branch setting for new repositories"
+        convert_trial: "%{org} has been upgraded to an enterprise account."
+        create: "Created the %{name} enterprise"
+        create_trial: "The trial period has started for the %{name} enterprise."
+        delete: "Deleted the %{name} enterprise"
+        disable_saml: "%{actor} disabled SAML SSO for the %{name} enterprise"
+        disable_two_factor_requirement: "%{actor} disabled two-factor authentication requirement for the %{name} enterprise"
+        enable_saml: "%{actor} enabled SAML SSO for the %{name} enterprise"
+        enable_two_factor_requirement: "%{actor} enabled two-factor authentication requirement for the %{name} enterprise"
+        expire_trial: "The enterprise trial account for %{org} has expired."
+        import_license_usage: "Imported enterprise server license usage to the %{name} enterprise"
+        invite_admin: "Invited %{user} to be an owner of the %{name} enterprise"
+        invite_billing_manager: "Invited %{user} to be a billing manager for the %{name} enterprise"
+        referrer_policy_override_disabled: "%{actor} disabled referrer policy override"
+        referrer_policy_override_enabled: "%{actor} enabled referrer policy override"
+        remove_admin: "Removed %{user} from being an owner of the %{name} enterprise"
+        remove_billing_manager: "Removed %{user} from being a billing manager of the %{name} enterprise"
+        remove_member: "Removed all of %{user}'s connections to the %{name} enterprise"
+        remove_organization: "Removed the %{org} organization from the %{name} enterprise"
+        rename_slug: "Renamed enterprise URL slug from %{slug_was} to %{business}"
+        revoke_external_identity: "%{actor} revoked external SSO identity for %{user} in the %{business} enterprise"
+        revoke_sso_session: "%{actor} revoked external SSO session for %{user} in the %{business} enterprise"
+        role:
+          create: "Created %{name} custom role"
+          destroy: "Deleted %{name} custom role"
+          update: "Updated %{name} custom role"
+        set_fork_pr_workflows_policy: "%{actor} changed fork pull request workflows policy to %{policy}"
+        sso_response: "%{protocol} single sign-on was %{result} for %{id_column_name} %{external_id}"
+        update_default_repository_permission: "Updated the base repository permission for the %{name} enterprise"
+        update_member_repository_creation_permission: "Updated the repository creation setting for the %{name} enterprise"
+        update_member_repository_invitation_permission: "Members can now invite outside collaborators for the %{name} enterprise"
+        update_new_repository_default_branch_setting: "Updated default branch setting for new repositories"
+        update_saml_provider_settings: "%{actor} updated the SAML provider settings for the %{name} enterprise"
+      checks:
+        auto_trigger_enabled: "Automatic creation of check suites for %{app} was enabled"
+        auto_trigger_disabled: "Automatic creation of check suites for %{app} was disabled"
+      config_entry:
+        create: "%{name} - %{value} (final: %{final})"
+        update: "%{name} - %{old_value} -> %{value} (final: %{final})"
+        destroy: "%{name}"
+      custom_hosted_runner:
+        create: "Custom-hosted runner created"
+        destroy: "Custom-hosted runner deleted"
+        update: "Custom-hosted runner updated"
+      discussion_post:
+        destroy: "Destroyed @%{team} discussion #%{number}"
+        update: "Updated @%{team} discussion #%{number}"
+      discussion_post_reply:
+        destroy: "Destroyed @%{team} discussion #%{discussion_post_number} reply #%{number}"
+        update: "Updated @%{team} discussion #%{discussion_post_number} reply #%{number}"
+      dotcom_connection:
+        create: "Created connection to GitHub.com"
+        destroy: "Removed connection to GitHub.com"
+        token_updated: "Updated connection token for GitHub.com"
+        upload_license_usage: "Uploaded license usage information to GitHub.com"
+        upload_usage_metrics: "Uploaded server telemetry data to GitHub"
+      enterprise:
+        config:
+          enable_anonymous_git_access: "Enabled anonymous git access for this GitHub Enterprise instance"
+          disable_anonymous_git_access: "Disabled anonymous git access for this GitHub Enterprise instance"
+          lock_anonymous_git_access: "Locked anonymous git access for this GitHub Enterprise instance"
+          unlock_anonymous_git_access: "Unlocked anonymous git access for this GitHub Enterprise instance"
+      github_hosted_runner:
+        create: "GitHub-hosted runner created"
+        destroy: "GitHub-hosted runner deleted"
+        update: "GitHub-hosted runner updated"
+      gist:
+        create: "%{user}/%{gist_repo_name}"
+        destroy: "%{user}/%{gist_repo_name}"
+        visibility_change: "%{user}/%{gist_repo_name} visiblity changed to %{visibility}"
+      gpg_key:
+        create: "primary key-id %{key_id}"
+        destroy: "primary key-id %{key_id}"
+      hook:
+        create: "%{name} installed by %{creator}"
+        destroy: "%{name} uninstalled"
+        config_changed: "%{name} configuration was changed"
+        events_changed: "%{name} events were changed"
+      integration:
+        create: "Integration %{name} was created"
+        destroy: "Integration %{name} was destroyed"
+        generate_client_secret: "New client secret generated for integration %{name} "
+        remove_client_secret: "Client secret removed for integration %{name} "
+        transfer: "Integration %{name} was transferred to %{transfer_to}"
+      integration_installation:
+        create: "Integration %{name} was installed"
+        destroy: "Integration %{name} was uninstalled"
+        repositories_added: "Integration %{name} was granted access to additional repositories"
+        repositories_removed: "Integration %{name} has lost access to certain repositories"
+        version_updated: "Integration %{name} permissions updated from v%{old_version} to v%{new_version}"
+      integration_installation_request:
+        create: "Integration %{integration} was requested to be installed on %{target}"
+        close: "Request to install Integration %{integration} on %{target} was %{reason}"
+      issues:
+        deletes_enabled: "Members can now delete issues"
+        deletes_disabled: "Members can no longer delete issues"
+        deletes_policy_cleared: "Organization administrators can now change whether members can delete issues for individual organizations"
+      job_posting:
+        create: "Add %{title} in the %{category} category"
+      marketplace_agreement_signature:
+        create: "Signed %{marketplace_agreement} version %{version}"
+      marketplace_listing:
+        create: "Create draft Marketplace listing %{marketplace_listing} in the %{primary_category} category"
+        change_category: "Changed categories for Marketplace listing %{marketplace_listing}: primary is %{primary_category}, secondary is %{secondary_category}"
+        reject: "Marketplace listing %{marketplace_listing} was rejected"
+        delist: "Marketplace listing %{marketplace_listing} was delisted"
+        redraft: "Marketplace listing %{marketplace_listing} was sent back to draft state"
+        approve: "Marketplace listing %{marketplace_listing} was approved"
+      message:
+        destroy: "Message deleted: \"%{message_body}\""
+      metered_billing_configuration:
+        default: "Spending limit for %{spending_limit_product_name} set to %{spending_limit_description}."
+        destroy: "Spending limit for %{spending_limit_product_name} deleted."
+      members_can_create_pages:
+        enable: "Members can now publish GitHub Pages"
+        disable: "Members can no longer publish GitHub Pages"
+      members_can_create_private_pages:
+        enable: "Members can now publish private GitHub Pages"
+        disable: "Members can no longer publish private GitHub Pages"
+      members_can_create_public_pages:
+        enable: "Members can now publish public GitHub Pages"
+        disable: "Members can no longer publish public GitHub Pages"
+      members_can_delete_repos:
+        enable: "Members can now delete or transfer repositories"
+        disable: "Members can no longer delete or transfer repositories"
+        clear: "Organization administrators can now change whether members can delete or transfer repositories for individual organizations"
+      non_marketplace_listing:
+        create: "Submitted draft Works with GitHub listing %{non_marketplace_listing} in the %{category} category"
+        reject: "%{non_marketplace_listing} was rejected for Works with GitHub"
+        approve: "%{non_marketplace_listing} was approved for Works with GitHub"
+        delist: "Works with GitHub listing %{non_marketplace_listing} was delisted"
+      oauth_authorization:
+        default: "%{application_type} (%{application_name})"
+        destroy: "%{application_type} (%{application_name}) %{explanation}"
+      oauth_access:
+        default: "%{application_type} (%{application_name})"
+        destroy: "%{application_type} (%{application_name}) %{explanation}"
+      oauth_application:
+        default: "%{oauth_application}"
+        create: "%{oauth_application} was created"
+        destroy: "%{oauth_application} was destroyed"
+        revoke_tokens: "Revoked tokens for %{oauth_application}"
+        generate_client_secret: "New client secret generated for %{oauth_application} "
+        remove_client_secret: "Client secret removed for %{oauth_application} "
+        reset_secret: "%{oauth_application} secret token was reset"
+      organization_moderators:
+        add_team: "Added the %{team} team as moderators"
+        add_user: "Added %{user} as a moderator"
+        remove_team: "Removed the %{team} team as moderators"
+        remove_user: "Removed %{user} as a moderator"
+      organization_programmatic_access_grant_request:
+        cancel: "Access request cancelled"
+      organization_projects_change:
+        enable: "Organization projects are now enabled"
+        disable: "Organization projects are now disabled"
+        clear: "Organization projects are controlled by their respective organization settings"
+      org:
+        members_can_update_protected_branches:
+          enable: "Members can now update protected branches"
+          disable: "Members can no longer update protected branches"
+          clear: "Organization administrators can now change whether members can update protected branches on repositories for individual organizations"
+        accept_business_invitation: "The invitation for the %{org} organization to join the %{business} business was accepted"
+        add_member: "Add member %{user} with %{ability_action} access"
+        cancel_business_invitation: "The invitation for the %{org} organization to join the %{business} business was canceled"
+        clear_default_repository_permission: "Cleared the base repository permission for the %{org} organization"
+        clear_members_can_create_repos:  "Cleared the repository creation setting for the %{org} organization"
+        clear_members_can_invite_outside_collaborators: "Cleared the outside collaborators invitation setting for %{name}% business"
+        clear_new_repository_default_branch_setting: "Cleared the default branch setting for new repositories"
+        config:
+          disable_collaborators_only: "Disabled collaborators only interaction limit for the %{org} organization"
+          disable_contributors_only: "Disabled contributors only interaction limit for the %{org} organization"
+          disable_sockpuppet_disallowed: "Disabled existing users interaction limit for the %{org} organization"
+          enable_collaborators_only: "Enabled collaborators only interaction limit for the %{org} organization"
+          enable_contributors_only: "Enabled contributors only interaction limit for %{org} organization"
+          enable_sockpuppet_disallowed: "Enabled existing users interaction limit for the %{org} organization"
+        confirm_business_invitation: "The invitation for the %{org} organization to join the %{business} business was confirmed"
+        update_member: "Update %{user} to %{ability_action} access"
+        disable_two_factor_requirement: "%{actor} disabled two_factor authentication requirement for %{org} organization"
+        disable_saml: "%{actor} disabled SAML SSO for %{org} organization"
+        enable_two_factor_requirement: "%{actor} enabled two_factor authentication requirement for the %{org} organization"
+        enable_saml: "%{actor} enabled SAML SSO for the %{org} organization"
+        invite_to_business: "The %{org} organization was invited to join the %{business} business"
+        remove_member: "Remove member %{user}"
+        remove_outside_collaborator: "Remove outside collaborator %{user}"
+        restore_member: "Restore member %{user}'s access to org"
+        revoke_external_identity: "%{actor} revoked external SSO identity for %{user} in the %{org} organization"
+        revoke_sso_session: "%{actor} revoked external SSO session for %{user} in the %{org} organization"
+        role:
+          create: "Created %{name} custom role"
+          destroy: "Deleted %{name} custom role"
+          update: "Updated %{name} custom role"
+        set_fork_pr_workflows_policy: "%{actor} changed fork pull request workflows policy to %{policy}"
+        sso_response: "SAML single sign-on was %{result} for NameID %{name_id}"
+        invite_member: "Invite member %{user}"
+        cancel_invitation: "Cancel %{user}'s invitation"
+        rename: "%{old_login} renamed to %{user}"
+        enable_oauth_app_restrictions: "Enable OAuth application restrictions"
+        disable_oauth_app_restrictions: "Disable OAuth application restrictions"
+        update_member_repository_creation_permission: "Updated to %{permission}"
+        update_member_repository_invitation_permission: "Updated to %{permission}"
+        oauth_app_access_requested: "Requested approval for %{application_name} to access organization resources"
+        oauth_app_access_approved: "Approved %{application_name} to access organization resources"
+        oauth_app_access_denied: "Denied request for %{application_name} to access organization resources"
+        update_default_repository_permission: "Updated the base repository permission for the %{org} organization"
+        update_new_repository_default_branch_setting: "Updated default branch setting for new repositories"
+        update_saml_provider_settings: "%{actor} updated the SAML provider settings for %{org} organization"
+      org_credential_authorization:
+        grant: "%{actor} granted access to the %{org} organization for their %{credential_type}"
+        deauthorize: "%{actor} deauthorized their %{credential_type} from accessing the %{org} organization"
+        revoke: "%{actor} revoked access to the %{org} organization for %{owner}'s %{credential_type}"
+      plan_subscription:
+        synchronize: "plan changes synchronized"
+      premium_runner:
+        create: "premium runner created"
+        destroy: "premium runner deleted"
+        update: "premium runner updated"
+      private_repository_forking:
+        enable: "Private repositories can now be forked"
+        disable: "Private repositories can no longer be forked"
+        clear: "Organization administrators can now change whether private repositories may be forked for individual organizations"
+      project:
+        close: "%{actor} closed the project %{project}"
+        create: "%{actor} created the project %{project}"
+        delete: "%{actor} deleted the project %{project}"
+        open: "%{actor} reopened the project %{project}"
+        rename: "%{actor} renamed the project %{old_name} to %{project}"
+        access: "Changed to %{access}"
+        link: "%{actor} linked a repository on project %{project}"
+        unlink: "%{actor} unlinked a repository on project %{project}"
+        update_org_permission: "Update owning organization's permission on %{project}"
+        update_team_permission: "Update %{team}'s permission on %{project}"
+        update_user_permission: "Update %{user}'s permission on %{project}"
+      public_key:
+        default: "%{fingerprint}"
+        unverify: "%{fingerprint} - %{explanation}"
+      pull_request:
+        close: "Closed pull request %{pull_request}"
+        converted_to_draft: "Marked pull request %{pull_request} as 'draft'"
+        create: "Created pull request %{pull_request}"
+        create_review_request: "Requested review on %{pull_request}"
+        in_progress: "Marked pull request %{pull_request} as 'in progress'"
+        indirect_merge: "Merged (indirect) pull request %{pull_request}"
+        merge: "Merged pull request %{pull_request}"
+        ready_for_review: "Marked pull request %{pull_request} as 'ready for review'"
+        remove_review_request: "Removed review request on %{pull_request}"
+        rebase: "Rebased pull request %{pull_request}"
+        reopen: "Reopened pull request %{pull_request}"
+      pull_request_review:
+        delete: "Deleted review %{review}"
+        dismiss: "Dismissed review %{review}"
+        submit: "Submitted review %{review}"
+      pull_request_review_comment:
+        create: "Created review comment %{comment}"
+        delete: "Deleted review comment %{comment}"
+        updated: "Updated review comment %{comment}"
+      repo:
+        config:
+          enable_anonymous_git_access: "Enabled anonymous git access for %{repo}"
+          disable_anonymous_git_access: "Disabled anonymous git access for %{repo}"
+          lock_anonymous_git_access: "Locked anonymous git access for %{repo}"
+          unlock_anonymous_git_access: "Unlocked anonymous git access for %{repo}"
+          disable_collaborators_only: "Disabled collaborators only interaction limit for %{repo}"
+          disable_contributors_only: "Disabled contributors only interaction limit for %{repo}"
+          disable_sockpuppet_disallowed: "Disabled existing users interaction limit for %{repo}"
+          enable_collaborators_only: "Enabled collaborators only interaction limit for %{repo}"
+          enable_contributors_only: "Enabled contributors only interaction limit for %{repo}"
+          enable_sockpuppet_disallowed: "Enabled existing users interaction limit for %{repo}"
+        create: "%{repo}"
+        destroy: "%{repo}"
+        access: "Changed to %{access}"
+        add_member: "Add %{user} to %{repo}"
+        add_topic: "Added \"%{topic}\" to %{repo}"
+        update_member: "Update %{user}'s permission on %{repo}"
+        remove_member: "Remove %{user} from %{repo}"
+        remove_topic: "Removed \"%{topic}\" from %{repo}"
+        rename: "%{old_name} renamed to %{repo}"
+        rename_branch: "branch %{old_branch} renamed to %{new_branch}"
+        set_actions_retention_limit: "%{actor} changed artifact and log retention duration to %{limit}"
+        set_fork_pr_workflows_policy: "%{actor} changed fork pull request workflows policy to %{policy}"
+        transfer: "%{old_user} transferred to %{repo}"
+        transfer_outgoing: "%{actor} transferred %{repo} to %{new_nwo}"
+        change_merge_setting: "%{merge_type} was set to %{enabled}"
+        archived: "Archived %{repo}"
+        unarchived: "Unarchived %{repo}"
+        update_default_branch: "default branch %{old_default_branch} changed to %{default_branch}"
+      repository_image:
+        create: "Uploaded image \"%{repository_image}\" to represent %{repo}"
+        destroy: "Removed image \"%{repository_image}\" that represented %{repo}"
+      repository_projects_change:
+        enable: "Repository projects are now enabled"
+        disable: "Repository projects are now disabled"
+        clear: "Repository projects are now controlled by their respective organization settings"
+      repository_snapshot:
+        enable: "Enabled repository snapshot"
+        disable: "Disabled repository snapshot"
+        set_interval: "Set repository snapshot interval"
+        set_location: "Set repository snapshot location"
+        perform: "Created repository snapshot for ${repo}"
+      repository_visibility_change:
+        enable: "Members can now change repository visibilities"
+        disable: "Members can no longer change repository visibilities"
+        clear: "Organization administrators can now change whether members can change repository visibilities for individual organizations"
+      scoped_integration_installation:
+        create: "Integration %{name} was scoped installed"
+      security_key:
+        register: "%{nickname}"
+        remove: "%{nickname}"
+      ssh_certificate_authority:
+        default: "%{fingerprint}"
+      staff:
+        default: "%{note}"
+      team:
+        default: "%{team}"
+        change_parent_team: "Changed %{team}'s parent team"
+        add_repository: "Add %{repo} to team %{team}"
+        remove_repository: "Remove %{repo} from team %{team}"
+        add_member: "Add %{user} to team %{team}"
+        remove_member: "Remove %{user} from team %{team}"
+        ldap_sync: "Team %{team} synchronized with LDAP"
+      trusted_device:
+        register: "%{nickname}"
+        remove: "%{nickname}"
+      two_factor_authentication:
+        default: "Originated from %{actor_ip}"
+      user:
+        default: "Originated from %{actor_ip}"
+        rename: "%{old_login} renamed to %{user}"
+        forgot_password: "Sent to %{email}"
+        recreate: "GitHub Support recreated this account upon user request"
+        add_email: "%{email}"
+        remove_email: "%{email}"
+        unlock: "%{note}"
+        promote: "%{reason}"
+        demote: "%{reason}"
+        block_user: "Blocked user %{blocked_user}"
+        unblock_user: "Unblocked user %{blocked_user}"
+        reset_password: "Originated from %{actor_ip}"
+        change_password: "Originated from %{actor_ip}"
+        clear_new_repository_default_branch_setting: "Cleared default branch setting for new repositories"
+        enable_open_messages: "Opened messages, allowing other users to message you regardless of trusted status"
+        disable_open_messages: "Closed messages, preventing untrusted users from messaging you"
+        opt_into_messages: "Opted into messages, allowing other users to message you"
+        opt_out_of_messages: "Opted out of messages, preventing other users from sending messages to you"
+        update_new_repository_default_branch_setting: "Updated default branch setting for new repositories"
+        disable_collaborators_only: "Disabled collaborators only interaction limit for %{user}"
+        disable_contributors_only: "Disabled contributors only interaction limit for %{user}"
+        disable_sockpuppet_disallowed: "Disabled existing users interaction limit for %{user}"
+        enable_collaborators_only: "Enabled collaborators only interaction limit for %{user}"
+        enable_contributors_only: "Enabled contributors only interaction limit for %{user}"
+        enable_sockpuppet_disallowed: "Enabled existing users interaction limit for %{user}"
+      user_email:
+        default: "%{email}"
+      user_license:
+        create_license: "Added %{license_type} license for %{user}"
+        update_license: "Changed license type for %{user} from %{license_type_was} to %{license_type}"
+        destroy_license: "Deleted %{license_type} license for %{user}"
+      user_session:
+        default: "Accessed from %{country_code}"
+      user_status:
+        default: "%{emoji} \"%{message}\""

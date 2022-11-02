@@ -1,0 +1,105 @@
+en:
+  oauth_authorization:
+    discussion:
+      icon: comment-discussion
+      title: Discussions
+      help: /articles/authorizing-oauth-apps#discussions
+      write:
+        slug: Write, update, and react to Team discussions.
+        details: This application will be able to write, update, and react to Team discussions.
+      read:
+        slug: Read access to Team discussions.
+        details: This application will be able to read Team discussion posts.
+    gpg_key:
+      icon: key
+      title: GPG Keys
+      help: /articles/authorizing-oauth-apps#gpg_keys
+      read:
+        slug: Read access to your GPG keys.
+        details: This application will be able to read your GPG keys.
+      write:
+        slug: Write access to your GPG keys.
+        details: This application will be able to add GPG keys to your account.
+      full:
+        slug: Full control of your GPG keys.
+        details: This application will be able to create, remove, and view your GPG keys.
+    ssh_signing_key:
+      icon: key
+      title: SSH Signing Keys
+      help: /articles/authorizing-oauth-apps#ssh_signing_keys
+      read:
+        slug: Read access to your SSH signing keys.
+        details: This application will be able to read your SSH signing keys.
+      write:
+        slug: Write access to your SSH signing keys.
+        details: This application will be able to add SSH signing keys to your account.
+      full:
+        slug: Full control of your SSH signing keys.
+        details: This application will be able to create, remove, and view your SSH signing keys.
+    enterprise:
+      icon: briefcase
+      title: Enterprise Account
+      help: /articles/authorizing-oauth-apps#enterprise
+      read:
+        slug: View your GitHub enterprise account.
+        details: This application will be able to view Enterprise audit logs and view your GitHub enterprise account.
+      billing:
+        slug: Manage your GitHub enterprise account billing settings.
+        details: This application will be able to manage billing settings for your GitHub enterprise account.
+      manage_runners:
+        slug: Manage your GitHub Actions runners and runner-groups.
+        details: This application will be able to manage runners and runner-groups for your GitHub enterprise account.
+      admin:
+        slug: Access and administer your GitHub enterprise account.
+        details: This application will be able to view Enterprise audit logs, add and remove organizations, and view your GitHub enterprise account.
+    biztools:
+      icon: tools
+      title: Biztools
+      help: /articles/authorizing-oauth-apps#biztools
+      full:
+        slug: Access biztools.
+        details: This application will be able to access GitHub biztools.
+    workflow:
+      icon: play
+      title: Workflow
+      help: /articles/authorizing-oauth-apps#workflow
+      full:
+        slug: Update GitHub Action Workflow files.
+        details: This application will be able to remove, edit GitHub Action Workflow files for your repositories.
+    security_events:
+      icon: shield
+      title: Security Events
+      help: /articles/authorizing-oauth-apps#security_events
+      full:
+        slug: Access security events
+        details: This application will be able to read and write security events like code scanning alerts.
+    codespace:
+      icon: codespaces
+      title: Codespace
+      help: /articles/authorizing-oauth-apps#codespace
+      full:
+        slug: Manage codespaces
+        details: This application will be able to manage your codespaces.
+      secrets:
+        slug: Manage codespace secrets
+        details: This application will be able to manage your codespace secrets.
+    project:
+      icon: table
+      title: Project
+      help: /articles/authorizing-oauth-apps#project
+      full:
+        slug: Manage project
+        details: This application will be able to manage projects.
+      read:
+        slug: Read access to projects.
+        details: This application will be able to read projects.
+    audit_log:
+      icon: book
+      title: Audit Log
+      help: /articles/authorizing-oauth-apps#audit_log
+      full:
+        slug: Manage audit log
+        details: This application will be able to manage the audit log.
+      read:
+        slug: Read access to audit log.
+        details: This application will be able to read the audit log.

@@ -1,0 +1,110 @@
+en:
+  will_paginate:
+    previous_label: "Previous"
+    next_label: "Next"
+  activerecord:
+    attributes:
+      billing/budget:
+        product: "Service"
+      business_organization_invitation:
+        business: "Enterprise"
+      business_organization_transfer:
+        from_business: "Source enterprise"
+        to_business: "Destination enterprise"
+      repository_advisory:
+        cve_id: "CVE identifier"
+      ldap_mapping:
+        dn: "LDAP DN"
+        dn_hash: "LDAP DN"
+      profile_pin:
+        profile_other_pins_count: "Total pins for your profile"
+      discussion_spotlight:
+        other_repo_spotlights_count: "Total discussion spotlights for your repository"
+      user_dashboard_pin:
+        user_dashboard_other_pins_count: "Total pins for your dashboard"
+      repository_invitation:
+        invitee_id: "User"
+        email: "Email"
+      user:
+        profile_blog: "Profile URL"
+        profile_twitter_username: "Twitter username"
+        login: "Username"
+      organization:
+        login: "Organization name"
+      organization/organization_profile:
+        sponsors_update_email: "Sponsors update email"
+      integration:
+        bgcolor: "Badge background color"
+      oauth_application:
+        bgcolor: "Badge background color"
+      marketplace/listing:
+        short_description: "Very short description"
+        full_description: "Introductory description"
+        extended_description: "Detailed description"
+        tos_url: "Terms of service URL"
+        bgcolor: "Badge background color"
+      marketplace/listing_plan:
+        subscription_items: "subscriptions"
+        has_free_trial: "a free trial"
+      memex_project_column:
+        name_slug: "Name"
+      pre_receive_environment:
+        image_url: "Image URL"
+      key_link:
+        key_prefix: "Reference prefix"
+        url_template: "Target URL"
+      repository_branch_rename:
+        new_name: "New branch"
+        old_name: "Current branch"
+      sponsorship:
+        subscribable_id: "Tier"
+      vulnerability:
+        cvss_v3: "CVSS"
+    errors:
+      models:
+        memex_project_item:
+          attributes:
+            base:
+              archive_limit_reached: "Cannot archive more than %{limit} items. To archive more items, please delete existing archived items."
+        repository_invitation:
+          attributes:
+            invitee_id:
+              taken: "has already been invited"
+            email:
+              taken: "has already been invited"
+        profile_pin:
+          attributes:
+            profile_other_pins_count:
+              less_than: "cannot exceed %{count}"
+        user_dashboard_pin:
+          attributes:
+            user_dashboard_other_pins_count:
+              less_than: "cannot exceed %{count}"
+        marketplace/listing_plan:
+          restrict_dependent_destroy:
+            has_many: "this plan still has %{record}, which you must cancel before deleting the plan itself"
+        billing/plan_subscription:
+          attributes:
+            user_id:
+              taken: "already has a plan subscription for that purpose"
+  activemodel:
+    errors:
+      models:
+        pull_request/batch_merge:
+          duplicate_base_ref: "Only one pull request may target the %{base_ref_name} branch."
+          invalid_base_repository: "All pull requests must target the same repository."
+          invalid_head_repository: "The head repository must be a security workspace in the base repository."
+          missing_advisory: "The head repository no longer exists."
+          multiple_head_repositories: "All pull requests must have the same head repository."
+  repos:
+    meta_description: "Contribute to %{repo} development by creating an account on GitHub."
+  profiles:
+    meta_description:
+      zero: "GitHub is where %{username} builds software."
+      one: "%{username} has one repository available. Follow their code on GitHub."
+      other: "%{username} has %{count} repositories available. Follow their code on GitHub."
+  gists:
+    banner: "Instantly share code, notes, and snippets."
+    meta_description: "GitHub Gist: instantly share code, notes, and snippets."
+  gist_profiles:
+    meta_description: "GitHub Gist: star and fork %{user}'s gists by creating an account on GitHub."

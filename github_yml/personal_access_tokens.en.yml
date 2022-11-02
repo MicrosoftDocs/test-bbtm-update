@@ -1,0 +1,38 @@
+en:
+  personal_access_tokens:
+    onboarding:
+      note: You've selected the following options. If these don't look correct, you can go back through your previous choices before enrolling. These options can be configured at any time on the settings page.
+    permission_selection:
+      heading: "%{permission_type} permissions"
+      none:
+        granted: "This token does not have any %{permission_type} permissions."
+      repository:
+        none:
+          granted: This token does not have any repository permissions
+    repository_selection:
+      heading: Repository access
+      description: Select the repositories this token can access. Personal access tokens can always read from all public repositories on GitHub.com
+      all:
+        granted:
+          admin: "This token has access to all current and future repositories owned by your %{resource_owner_type}."
+          member: "This token has access to all current and future repositories that @%{actor} can access in your %{resource_owner_type}."
+          resource_owner: "This token has access to all repositories owned by %{resource_owner}."
+        requesting: "This token is requesting access to all current and future repositories that @%{actor} can access in your %{resource_owner_type}."
+      subset:
+        none_accessible:
+          granted: This token does not have access to any repositories.
+          requesting: "This token has requested access to repositories that @%{actor} no longer has access to in your %{resource_owner_type}."
+      none:
+        granted: This token does not have access to any repositories.
+        requesting: This token is not requesting access to any repositories.
+      secondary_action: "View @%{actor}'s repository access in your %{resource_owner_type}."
+    settings:
+      restrict_access:
+        heading: Restrict access via fine-grained personal access tokens
+      auto_approve_requests:
+        heading: Require approval of fine-grained personal access tokens
+      restrict_legacy_access:
+        heading: Restrict access via personal access tokens (classic)
+      enterprise:
+        restrict_legacy_access:
+          heading: Restrict personal access tokens (classic) from accessing your organizations

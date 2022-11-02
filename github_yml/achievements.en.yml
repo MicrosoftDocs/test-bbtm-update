@@ -1,0 +1,135 @@
+en:
+  achievements:
+    achievable:
+      arctic_code_vault_contributor:
+        tier_0:
+          description: "%{achieving_user_login} contributed code %{acv_count_with_repository} in the %{link}."
+        unlocking_event:
+          explanation: "%{repository_with_pronoun} archived"
+
+      dust_bunny:
+        tier_0:
+          description: "Thou shall not pass the linter!"
+        unlocking_event:
+          explanation: "Commit message contains \"linter\""
+
+      galaxy_brain:
+        tier_0:
+          description: "%{achieving_user_login} answered discussions."
+        tier_1:
+          description: "%{achieving_user_login} answered discussions."
+        tier_2:
+          description: "%{achieving_user_login} answered discussions."
+        tier_3:
+          description: "%{achieving_user_login} answered discussions."
+        unlocking_event:
+          explanation: "%{threshold_ordinal} accepted answer"
+
+      heart_on_your_sleeve:
+        tier_0:
+          description: "%{achieving_user_login} reacted with ❤️."
+        tier_1:
+          description: "%{achieving_user_login} reacted with ❤️."
+        tier_2:
+          description: "%{achieving_user_login} reacted with ❤️."
+        tier_3:
+          description: "%{achieving_user_login} reacted with ❤️."
+        unlocking_event:
+          explanation: "%{threshold_ordinal} ❤️ reaction"
+
+      heartbreaker:
+        tier_0:
+          description: "You're tearing me apart, %{achieving_user_name}!"
+        unlocking_event:
+          explanation: "Closed with %{reaction_count_phrase}"
+
+      mars2020_contributor:
+        tier_0:
+          description: "%{achieving_user_login} contributed code %{nasa_2020_count_with_repository} used in the %{link}."
+        unlocking_event:
+          explanation: "%{repository_with_pronoun} included"
+
+      open_sourcerer:
+        tier_0:
+          description: "%{achieving_user_login} contributed code to multiple open source repositories."
+        tier_1:
+          description: "%{achieving_user_login} contributed code to multiple open source repositories."
+        tier_2:
+          description: "%{achieving_user_login} contributed code to multiple open source repositories."
+        tier_3:
+          description: "%{achieving_user_login} contributed code to multiple open source repositories."
+        unlocking_event:
+          explanation: "%{threshold_ordinal} open source pull request merged"
+
+      pair_extraordinaire:
+        tier_0:
+          description: "%{achieving_user_login} coauthored commits on merged pull requests."
+        tier_1:
+          description: "%{achieving_user_login} coauthored commits on merged pull requests."
+        tier_2:
+          description: "%{achieving_user_login} coauthored commits on merged pull requests."
+        tier_3:
+          description: "%{achieving_user_login} coauthored commits on merged pull requests."
+        unlocking_event:
+          explanation: "Coauthored with %{coauthor_login_mention}"
+
+      polyglot:
+        tier_0:
+          description: "%{achieving_user_login} committed distinct file types."
+        tier_1:
+          description: "%{achieving_user_login} committed distinct file types."
+        tier_2:
+          description: "%{achieving_user_login} committed distinct file types."
+        unlocking_event:
+          explanation: "%{threshold_ordinal} file type committed"
+
+      public_sponsor:
+        tier_0:
+          description: "%{achieving_user_login} is sponsoring %{public_sponsors_sum_and_types}."
+        unlocking_event:
+          explanation: "1st sponsorship"
+
+      pull_shark:
+        tier_0:
+          description: "%{achieving_user_login} opened pull requests that have been merged."
+        tier_1:
+          description: "%{achieving_user_login} opened pull requests that have been merged."
+        tier_2:
+          description: "%{achieving_user_login} opened pull requests that have been merged."
+        tier_3:
+          description: "%{achieving_user_login} opened pull requests that have been merged."
+        unlocking_event:
+          explanation: "%{threshold_ordinal} pull request merged"
+
+      quickdraw:
+        tier_0:
+          description: "Gitty up!"
+        unlocking_event:
+          explanation: "Closed within %{threshold_duration} of opening"
+
+      starstruck:
+        tier_0:
+          description: "%{achieving_user_login} created a repository that has many stars."
+        tier_1:
+          description: "%{achieving_user_login} created a repository that has many stars."
+        tier_2:
+          description: "%{achieving_user_login} created a repository that has many stars."
+        tier_3:
+          description: "%{achieving_user_login} created a repository that has many stars."
+        unlocking_event:
+          explanation: "⭐️ %{threshold} stars"
+
+      yolo:
+        tier_0:
+          description: "You want it? You merge it."
+        unlocking_event:
+          explanation: "Merged without a review"
+
+    disabled_cta:
+      ach_enabled_private_contributions_hidden: >
+        You unlocked new Achievements with private contributions! Show them off by including
+        private contributions in your Profile in
+      ach_disabled_private_contributions_hidden: >
+        You unlocked new Achievements! Show them off by including achievements and private
+        contributions in your Profile in
+      ach_disabled: "You unlocked new Achievements on GitHub! Show them off by updating your Profile"
