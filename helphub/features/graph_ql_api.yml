@@ -1,0 +1,53 @@
+id: graph-ql-api
+group: developers
+product: GraphQL API
+canned_pattern: graphql|api
+search: graphql
+docs_path: /graphql
+contact_path: /request/developers
+
+articles:
+  - path: /graphql/overview/about-the-graphql-api
+    title: About the GraphQL API
+    subtitle: The GitHub GraphQL API offers flexibility and the ability to define precisely the data you want to fetch.
+  - path: /graphql/guides/introduction-to-graphql
+    title: Introduction to GraphQL
+    subtitle: Learn useful terminology and concepts for using the GitHub GraphQL API.
+  - path: /graphql/guides/migrating-from-rest-to-graphql
+    title: Migrating from REST to GraphQL
+    subtitle: Learn best practices and considerations for migrating from GitHub's REST API to GitHub's GraphQL API.
+  - path: /graphql/overview/breaking-changes
+    title: Breaking changes
+    subtitle: Learn about recent and upcoming breaking changes to the GitHub GraphQL API.
+
+options:
+  - category: documentation
+    title: Guides
+    subtitle: Get started with the GraphQL API.
+    img: microsites/documentation.svg
+    cta: Discover pathways
+    url:
+      docs_url: /graphql/guides
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas in our community discussions.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/apis-and-integrations
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest GraphQL API updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=GraphQL
+
+video:
+  title: Advanced patterns for GitHub's GraphQL API
+  subtitle: The GitHub API is a key part of accelerating workflows at scale. This session will leave you with tactical tips for how to paginate effectively, create and plan queries, use tech-preview features, and manage costs learned from years of practice and iteration at Toast and beyond.
+  url: https://www.youtube.com/embed/i5pIszu9MeM?rel=0&amp;vq=hd720
+
+community:
+  id: 63
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/apis-and-integrations

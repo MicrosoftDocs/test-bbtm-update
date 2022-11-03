@@ -1,0 +1,56 @@
+id: repositories
+group: collaborative-coding
+product: Repositories
+canned_pattern: repo|fork
+search: repo
+docs_path: /repositories
+contact_path: /contact
+
+articles:
+  - path: /repositories/creating-and-managing-repositories
+    title: Creating and managing repositories
+    subtitle: You can create a repository on GitHub to store and collaborate on your project's files, then manage the repository's name and location.
+  - path: /repositories/managing-your-repositorys-settings-and-features
+    title: Managing your repository's settings and features
+    subtitle: You can customize your repository, enable or disable optional features for your repository, and manage your repository’s settings.
+  - path: /repositories/configuring-branches-and-merges-in-your-repository
+    title: Configuring branches and merges in your repository
+    subtitle: You can manage branches in your repository, configure the way branches are merged in your repository, and protect important branches by defining the mergeability of pull requests.
+  - path: /repositories/working-with-files
+    title: Working with files
+    subtitle: Learn how to manage and use files in repositories.
+
+options:
+  - category: documentation
+    title: Help Docs
+    subtitle: Explore our repositories documentation.
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /repositories
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas on the community forum.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/new-to-github
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest repositories updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=repository
+
+video:
+  title: View And Manage Your Dependency Graph - GitHub Checkout
+  subtitle: |
+    GitHub dependency graph identifies all upstream dependencies and public downstream dependents of a repository or package.
+    You can see your project’s dependencies and some of their properties, like vulnerability information.
+    Hear Sasha Rosenbaum and William Barr discuss dependencies and see Dependency Graph in action!
+  url: https://www.youtube.com/embed/gNd_TGdZ1xc?rel=0&amp;vq=hd720
+
+community:
+  id: 48
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/new-to-github

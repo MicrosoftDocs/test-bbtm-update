@@ -1,0 +1,53 @@
+id: developers
+group: developers
+product: Developers
+canned_pattern: developer|app|marketplace|integration
+search: developer
+docs_path: /developers
+contact_path: /request/developers
+
+articles:
+  - path: /developers/overview/about-githubs-apis
+    title: About GitHub's APIs
+    subtitle: Learn about GitHub's APIs to extend and customize your GitHub experience.
+  - path: /developers/webhooks-and-events/webhooks
+    title: Webhooks
+    subtitle: Learn to set up, test, and secure webhooks to integrate with GitHub.
+  - path: /developers/apps
+    title: Apps
+    subtitle: You can automate and streamline your workflow by building your own apps.
+  - path: /developers/github-marketplace
+    title: GitHub Marketplace
+    subtitle: List your tools in GitHub Marketplace for developers to use or purchase.
+
+options:
+  - category: documentation
+    title: Guides
+    subtitle: Get started developing apps for GitHub
+    img: microsites/documentation.svg
+    cta: Discover pathways
+    url:
+      docs_url: /developers/apps/guides
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas in our community discussions.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/apis-and-integrations
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest ecosystem updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=Ecosystem
+
+video:
+  title: Demo Days - Creating a GitHub app
+  subtitle: Steve Winton, Partner Engineer, explains why someone might want to build a GitHub app, then builds one from scratch. Create 3rd party integrations to GitHub via the API and allow them to act autonomously on protected resources.
+  url: https://www.youtube.com/embed/iaBEWB1As0k?rel=0&amp;vq=hd720
+
+community:
+  id: 37
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/apis-and-integrations

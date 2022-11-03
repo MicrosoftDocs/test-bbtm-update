@@ -1,0 +1,53 @@
+id: enterprise-administrators-server
+group: enterprise-and-teams
+product: Enterprise Administrators (Server)
+canned_pattern: enterprise|server|license
+search: enterprise
+docs_path: /enterprise-server/admin
+contact_path: /request/enterprise_server
+
+articles:
+  - path: /enterprise-server/get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-server
+    title: Setting up a trial of GitHub Enterprise Server
+    subtitle: You can try GitHub Enterprise Server for free.
+  - path: /enterprise-server/admin/installation
+    title: Installing GitHub Enterprise
+    subtitle: System administrators and operations and security specialists can install GitHub Enterprise Server.
+  - path: /enterprise-server/billing/managing-your-license-for-github-enterprise
+    title: Managing your license for GitHub Enterprise
+    subtitle: GitHub Enterprise includes both cloud and self-hosted deployment options. If you host a GitHub Enterprise Server instance, you must unlock the instance with a license file. You can view, manage, and update the license file.
+  - path: enterprise-server/admin/configuration/configuring-your-enterprise/command-line-utilities
+    title: Command-line utilities
+    subtitle: GitHub Enterprise Server includes a variety of utilities to help resolve particular problems or perform specific tasks.
+
+options:
+  - category: documentation
+    title: Help Docs
+    subtitle: Explore our GitHub Enterprise documentation.
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /enterprise-server/admin
+  - category: documentation
+    title: Upgrade
+    subtitle: Find the upgrade path from your current release of GitHub Enterprise Server
+    img: microsites/enterprise-server.svg
+    cta: Upgrade GitHub Enterprise Server
+    url: /enterprise/server-upgrade
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest GitHub Enterprise updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=enterprise
+
+video:
+  title: GitHub in the Enterprise - GitHub Universe 2021
+  subtitle: Presented by Maya Ross, Senior Director, Enterprise
+  url: https://www.youtube.com/embed/1-i39RqaxRs?rel=0&amp;vq=hd720
+
+community:
+  id: 36
+  status: public
+  after: nil
+  path: https://github.com/orgs/community/discussions/categories/announcements
