@@ -1,6 +1,0 @@
-{
-    "Slug": "announcing-http-2-support-for-all-azure-cdn-customers",
-    "Title": "Announcing HTTP/2 support for all Azure CDN customers",
-    "Summary": "Azure CDN",
-    "Content": "<p>In August 2016, we <a href=\"https://azure.microsoft.com/en-us/blog/announcing-http-2-support-for-all-customers-with-azure-cdn-from-akamai/\">announced</a> the HTTP/2 support for Azure CDN from Akamai. Today, we are pleased to announce that&nbsp;HTTP/2&nbsp;is also&nbsp;available for all&nbsp;customers using Azure CDN from Verizon.&nbsp;No further action is&nbsp;required from customers. HTTP/2 is on by default, for all existing and new Azure CDN profiles with no additional fees.</p>\n\n<p>HTTP/2 is designed to improve webpage loading speed and optimize user experience. You&nbsp;will start enjoying the benefits of HTTP/2 without the need to update any of your code base today!</p>\n\n<h3>Read also</h3>\n\n<ul>\n\t<li><a href=\"https://msdn.microsoft.com/library/mt762901.aspx\">Azure CDN HTTP/2 doc</a></li>\n\t<li><a href=\"https://http2.github.io/http2-spec/\">HTTP/2 spec</a></li>\n\t<li><a href=\"https://http2.github.io/faq/\">HTTP/2 FAQ</a></li>\n</ul>\n"
-}

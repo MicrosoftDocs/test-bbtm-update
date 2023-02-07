@@ -1,6 +1,0 @@
-{
-    "Slug": "accessing-sds-from-c-and-java",
-    "Title": "Accessing SDS from C# and Java",
-    "Summary": "[This article was contributed by the SQL Azure team.]Hey Everyone,  Jeff Currier, one of our superstar, non-slacker, dev leads has put together some examples for accessing SDS from both C# and Java.…",
-    "Content": "<p>[This article was contributed by the SQL Azure team.]</p><p>Hey Everyone,</p>  <p>Jeff Currier, one of our superstar, non-slacker, dev leads has put together some examples for accessing SDS from both C# and Java. The C# example can be found <a href=\"https://blogs.msdn.com/jcurrier/archive/2009/03/29/sds-coding-examples-part-1-c-ado-net.aspx\" target=\"_blank\">here</a> and the Java one <a href=\"https://blogs.msdn.com/jcurrier/archive/2009/03/29/sds-java-jdbc-examples.aspx\" target=\"_blank\">here</a>. In the C# example Jeff also gives a good explanation of our logical server and user database model. Check it out!!!</p>  <p>Any questions, just ask :)</p>  <p>-Dave</p>"
-}
