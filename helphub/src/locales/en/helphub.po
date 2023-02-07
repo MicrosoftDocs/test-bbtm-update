@@ -1,0 +1,1761 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: github-helphub\n"
+"PO-Revision-Date: 2022-03-18 06:17\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: github-helphub\n"
+"X-Crowdin-Project-ID: 501032\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: helphub.po\n"
+"X-Crowdin-File-ID: 261854\n"
+
+msgid "A diagnostic file provides an overview of a GitHub Enterprise Server instance's settings and environment."
+msgstr ""
+
+msgid "A user is abusing my trademark or intellectual property."
+msgstr ""
+
+msgid "A user is making threats or inciting or glorifying violence."
+msgstr ""
+
+msgid "A user is posting false information or is using my identity."
+msgstr ""
+
+msgid "About GitHub Actions"
+msgstr ""
+
+msgid "About GitHub Packages"
+msgstr ""
+
+msgid "About the Support Portal"
+msgstr ""
+
+msgid "Account or billing issues"
+msgstr ""
+
+msgid "Account or organization"
+msgstr ""
+
+msgid "Account or organization select"
+msgstr ""
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Actions, Packages, and Codespaces consumption"
+msgstr ""
+
+msgid "Activity notifications"
+msgstr ""
+
+msgid "Add CC"
+msgstr ""
+
+msgid "Add a bulleted list"
+msgstr ""
+
+msgid "Add a link"
+msgstr ""
+
+msgid "Add a numbered list"
+msgstr ""
+
+msgid "Add bold text"
+msgstr ""
+
+msgid "Add comment"
+msgstr ""
+
+msgid "Add header text"
+msgstr ""
+
+msgid "Add italic text"
+msgstr ""
+
+msgid "Administrators and support members of your enterprise account will be able to view the contents of this request."
+msgstr ""
+
+msgid "Administrators and support members of your organization's enterprise account will be able to view the contents of this request."
+msgstr ""
+
+msgid "All deliveries will be scheduled around these key dates and based on first availability."
+msgstr ""
+
+msgid "All professional services engagements will take place as scheduled."
+msgstr ""
+
+msgid "Although we welcome you to write to us in Japanese, our responses will only be sent in English at this time."
+msgstr ""
+
+msgid "Although we welcome you to write to us in Portuguese, our responses will only be sent in English at this time."
+msgstr ""
+
+msgid "An enterprise account administrator can entitle other people to use this support portal. See the %{About the Support Portal} article for more information."
+msgstr ""
+
+msgid "An older release"
+msgstr ""
+
+msgid "Appeal and Reinstatement"
+msgstr ""
+
+msgid "Applications may take several weeks to be approved."
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Are you absolutely sure?"
+msgstr ""
+
+msgid "As a Premium Support customer, your request will automatically be prioritized."
+msgstr ""
+
+msgid "As always, we are here to support you and will have support available during these key dates. If you are in need of assistance, please open up a ticket as you normally would."
+msgstr ""
+
+msgid "As long as the proof you submit demonstrates current enrollment, GitHub will consider any documentation you provide. If we cannot accept your uploaded proof on your first attempt, you will receive an email asking you to submit supplementary information."
+msgstr ""
+
+msgid "Ask for Code Security help at our Community forum"
+msgstr ""
+
+msgid "Ask for GitHub Actions help at our Community forum"
+msgstr ""
+
+msgid "Ask for GitHub Codespaces help in our community discussions"
+msgstr ""
+
+msgid "Ask for GitHub Discussions help in our community discussions"
+msgstr ""
+
+msgid "Ask for GitHub Issues help at our Community forum"
+msgstr ""
+
+msgid "Ask for GitHub Packages help at our Community forum"
+msgstr ""
+
+msgid "Ask for GitHub Pages help at our Community forum"
+msgstr ""
+
+msgid "Ask for GitHub Sponsors help at our Community forum"
+msgstr ""
+
+msgid "Ask for Pull Request help at our Community forum"
+msgstr ""
+
+msgid "Ask for account help at our Community forum"
+msgstr ""
+
+msgid "Ask for billing and payments help at our Community forum"
+msgstr ""
+
+msgid "Ask for developer help at our Community forum"
+msgstr ""
+
+msgid "At this time, support for tickets with Urgent priority is only available in the English language. Please either downgrade the priority or rephrase your question in English, we'll do what we can to help."
+msgstr ""
+
+msgid "At this time, we are only able to offer English language support. If you can rephrase your question in English, we'll do what we can to help."
+msgstr ""
+
+msgid "Attach a fork"
+msgstr ""
+
+msgid "Attach files by dragging & dropping, or selecting them."
+msgstr ""
+
+msgid "Attach files by selecting them."
+msgstr ""
+
+msgid "Attach, detach, or reroute forks"
+msgstr ""
+
+msgid "Audit log migration script"
+msgstr ""
+
+msgid "Authentication"
+msgstr ""
+
+msgid "Blocking"
+msgstr ""
+
+msgid "Bug Report"
+msgstr ""
+
+msgid "Bug report"
+msgstr ""
+
+msgid "CC:"
+msgstr ""
+
+msgid "Callback requested"
+msgstr ""
+
+msgid "Campus Program"
+msgstr ""
+
+msgid "Can you provide any logs? i.e. response headers, output"
+msgstr ""
+
+msgid "Can't find what you're looking for?"
+msgstr ""
+
+msgid "Can't sign in to GitHub? %{Click here to return to Microsoft}"
+msgstr ""
+
+msgid "Can't sign in to GitHub? %{Try resetting your password}"
+msgstr ""
+
+msgid "Can't sign in, or don't have an account?"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Changelog"
+msgstr ""
+
+msgid "Check your application status over at GitHub Education"
+msgstr ""
+
+msgid "Choose a topic"
+msgstr ""
+
+msgid "Choose a topic that best matches your request."
+msgstr ""
+
+msgid "Choose a topic to help us route your request quickly."
+msgstr ""
+
+msgid "Choose one of these categories to continue."
+msgstr ""
+
+msgid "Clear cached views"
+msgstr ""
+
+msgid "Click \"Download diagnostics info\"."
+msgstr ""
+
+msgid "Click here for information on GitHub Copilot billing."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Close dialog"
+msgstr ""
+
+msgid "Close menu"
+msgstr ""
+
+msgid "Close the assistant"
+msgstr ""
+
+msgid "Close ticket"
+msgstr ""
+
+msgid "Close with transcript"
+msgstr ""
+
+msgid "Code Security examples"
+msgstr ""
+
+msgid "Code Security guides"
+msgstr ""
+
+msgid "Code collaboration should be safe for everyone, so we take abuse and harassment seriously at GitHub. We want to hear about harmful behavior on the site that violates GitHub's %{Terms of Service}. Let us know about a user or content you're concerned with. Rest assured, we'll keep your identifying information private."
+msgstr ""
+
+msgid "Codespaces overview"
+msgstr ""
+
+msgid "Collaborating on Tickets"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Commenting will reveal your email to the requester and any CCs"
+msgstr ""
+
+msgid "Community"
+msgstr ""
+
+msgid "Community Forum"
+msgstr ""
+
+msgid "Complete this form if you would like to contact the Grievance Officer for India."
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid "Composition"
+msgstr ""
+
+msgid "Connect to your GitHub Enterprise Server via %{SSH}."
+msgstr ""
+
+msgid "Connect with experts on the Community Forum"
+msgstr ""
+
+msgid "Contact GitHub Enterprise Support"
+msgstr ""
+
+msgid "Contact Social Impact"
+msgstr ""
+
+msgid "Contact Support for older releases"
+msgstr ""
+
+msgid "Contact us"
+msgstr ""
+
+msgid "Continue to GitHub"
+msgstr ""
+
+msgid "Copy conversation to contact form"
+msgstr ""
+
+msgid "Copyright, trademark, or private information removal"
+msgstr ""
+
+msgid "Country code"
+msgstr ""
+
+msgid "Creating a diagnostic file from the Management Console"
+msgstr ""
+
+msgid "Creating a diagnostic file using SSH"
+msgstr ""
+
+msgid "Creating ticket"
+msgstr ""
+
+msgid "Credit card declined"
+msgstr ""
+
+msgid "DMCA counter notice"
+msgstr ""
+
+msgid "DMCA takedown notice"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete a pull request"
+msgstr ""
+
+msgid "Delete account"
+msgstr ""
+
+msgid "Deprecation notice — Legacy GitHub Enterprise support portal"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Detach a fork"
+msgstr ""
+
+msgid "Developers"
+msgstr ""
+
+msgid "Diagnostic file"
+msgstr ""
+
+msgid "Dialog"
+msgstr ""
+
+msgid "Digital Signature"
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+msgid "Do you believe this name was once owned by you or your organization?"
+msgstr ""
+
+msgid "Do you have a GitHub account?"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Don't send duplicate notices."
+msgstr ""
+
+msgid "Don’t panic you are welcome to re-apply with additional documentation. If you weren’t approved, we may have had trouble reading the image, or we may need additional information. Trying to resubmit the same information will only produce the same results."
+msgstr ""
+
+msgid "Due to high support volume, it may take up to seven business days to hear back from our Support Engineers."
+msgstr ""
+
+msgid "Education Forum"
+msgstr ""
+
+msgid "Elasticsearch migration script"
+msgstr ""
+
+msgid "Enterprise Server Support"
+msgstr ""
+
+msgid "Enterprise account"
+msgstr ""
+
+msgid "Enterprise administrators (owners and billing managers) are automatically entitled."
+msgstr ""
+
+msgid "Enterprises"
+msgstr ""
+
+msgid "Error requesting Health Check, this may be a temporary issue, please try again later."
+msgstr ""
+
+msgid "Error requesting callback, this may be a temporary issue, please try again."
+msgstr ""
+
+msgid "Error requesting escalation, this may be a temporary issue, please try again."
+msgstr ""
+
+msgid "Escalation requested"
+msgstr ""
+
+msgid "Extra considerations"
+msgstr ""
+
+msgid "FAQ"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Find additional answers and resources by %{searching our support site}."
+msgstr ""
+
+msgid "Find answers in the GitHub Education Community"
+msgstr ""
+
+msgid "Find anything in the GitHub universe"
+msgstr ""
+
+msgid "Finished"
+msgstr ""
+
+msgid "First response"
+msgstr ""
+
+msgid "For assistance, check the repository's README or SUPPORT file for an official website or contact information. You can also %{open an issue on the repository's issues tab} or get in touch with the repository owner directly by checking their GitHub profile for contact details."
+msgstr ""
+
+msgid "For businesses and orgs we recommend considering options that will ensure your ability to retain access to the name even if individual staff leave."
+msgstr ""
+
+msgid "For help with other Pages errors, please see"
+msgstr ""
+
+msgid "Found a security issue? %{Submit a vulnerability to our Bug Bounty program}"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "From an administrative account on GitHub Enterprise Server, click"
+msgstr ""
+
+msgid "Fund the open source projects you depend on"
+msgstr ""
+
+msgid "Get help with GitHub"
+msgstr ""
+
+msgid "Get help with GitHub Education"
+msgstr ""
+
+msgid "Get help with GitHub Enterprise Server"
+msgstr ""
+
+msgid "Get help with the GitHub Campus Program"
+msgstr ""
+
+msgid "Get help with your account"
+msgstr ""
+
+msgid "Get started with the Support Portal"
+msgstr ""
+
+msgid "GitHub Actions billing"
+msgstr ""
+
+msgid "GitHub Codespaces Guides"
+msgstr ""
+
+msgid "GitHub Discussions Guides"
+msgstr ""
+
+msgid "GitHub Education"
+msgstr ""
+
+msgid ""
+"GitHub Education helps students, teachers, and schools access the tools and events they need to shape\n"
+"    the next generation of software development. If you need help with any of our offerings you can contact\n"
+"    us by filling out this form."
+msgstr ""
+
+msgid "GitHub Education program or benefits"
+msgstr ""
+
+msgid "GitHub Enterprise Server - Upgrade"
+msgstr ""
+
+msgid "GitHub Enterprise Server 3.0, 3.1, 3.2, and 3.3 support bundles could include unsanitized secrets. While support bundles are sent and stored securely, we recommend upgrading to %{3.0.22}, %{3.1.14}, %{3.2.6}, %{3.3.1} or later."
+msgstr ""
+
+msgid "GitHub Enterprise Server is failing in a production environment, and the failure directly impacts the operation of your business."
+msgstr ""
+
+msgid "GitHub Enterprise Server licensing and support is now managed through a GitHub.com %{enterprise account}."
+msgstr ""
+
+msgid "GitHub Enterprise license file or Diagnostics file"
+msgstr ""
+
+msgid "GitHub Holiday Message"
+msgstr ""
+
+msgid "GitHub Issues Guides"
+msgstr ""
+
+msgid "GitHub Marketplace purchases"
+msgstr ""
+
+msgid "GitHub Packages billing"
+msgstr ""
+
+msgid "GitHub Pages errors"
+msgstr ""
+
+msgid "GitHub Sponsors feedback"
+msgstr ""
+
+msgid "GitHub Sponsors transactions"
+msgstr ""
+
+msgid "GitHub Support"
+msgstr ""
+
+msgid "GitHub Username Policy"
+msgstr ""
+
+msgid "GitHub account names are available on a first-come, first-served basis, and are intended for immediate and active use. To learn more please visit our %{Username Policy}."
+msgstr ""
+
+msgid "GitHub hosts millions of repositories, each with their own unique workflows. While we can help with issues related to GitHub.com, we aren't able to answer questions about repositories that are hosted on GitHub."
+msgstr ""
+
+msgid "GitHub no longer accepts requests to release dormant usernames"
+msgstr ""
+
+msgid "GitHub plan subscriptions (Pro, Team, Enterprise)"
+msgstr ""
+
+msgid "GitHub will have limited staffing 8/6, 8/13, 8/20, and 8/27 to allow employees to recharge."
+msgstr ""
+
+msgid "GitHub’s goal is to help learners of all types. If your institution doesn’t qualify you for the Pack, ask an instructor to apply for your school to become a GitHub Campus partner."
+msgstr ""
+
+msgid "Go to open tickets"
+msgstr ""
+
+msgid "GraphQL API Reference"
+msgstr ""
+
+msgid "GraphQL Explorer"
+msgstr ""
+
+msgid "Hang tight. We're creating a support ticket for you."
+msgstr ""
+
+msgid "Have a question about GitHub or require further technical support? %{Contact our technical support team}"
+msgstr ""
+
+msgid "Have you encountered a bug with one of GitHub's products?"
+msgstr ""
+
+msgid "Have you tried to contact the current owner of the name?"
+msgstr ""
+
+msgid "Health Check - Stafftools"
+msgstr ""
+
+msgid "Health Check failed, try requesting a new Health Check or contact support."
+msgstr ""
+
+msgid "Health Check successfully requested, your Health Check will be listed in the Premium Support Portal once completed."
+msgstr ""
+
+msgid "Health Checks"
+msgstr ""
+
+msgid "Hello @%{login}, what can we help with?"
+msgstr ""
+
+msgid "Help with GitHub Pages"
+msgstr ""
+
+msgid "Help with a HTTPS certificate"
+msgstr ""
+
+msgid "Help with a custom domain"
+msgstr ""
+
+msgid "Help with your GitHub account"
+msgstr ""
+
+msgid "Hide API results"
+msgstr ""
+
+msgid "High—System performance issues or bugs impacting business operations"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "How can we help with Code Security?"
+msgstr ""
+
+msgid "How can we help with Enterprise Server?"
+msgstr ""
+
+msgid "How can we help with GitHub Actions?"
+msgstr ""
+
+msgid "How can we help with GitHub Codespaces?"
+msgstr ""
+
+msgid "How can we help with GitHub Discussions?"
+msgstr ""
+
+msgid "How can we help with GitHub Issues?"
+msgstr ""
+
+msgid "How can we help with GitHub Packages?"
+msgstr ""
+
+msgid "How can we help with GitHub Pages?"
+msgstr ""
+
+msgid "How can we help with GitHub Sponsors?"
+msgstr ""
+
+msgid "How can we help with billing and payments?"
+msgstr ""
+
+msgid "How can we help with developing GitHub Apps?"
+msgstr ""
+
+msgid "How can we help with removing data from a repository you own?"
+msgstr ""
+
+msgid "How can we help with your Account?"
+msgstr ""
+
+msgid "How can we help with your forks?"
+msgstr ""
+
+msgid "How can we help with your pull requests?"
+msgstr ""
+
+msgid "How can we help you with GitHub Education?"
+msgstr ""
+
+msgid "How can we help?"
+msgstr ""
+
+msgid "How do I remove a file from the latest commit?"
+msgstr ""
+
+msgid "How do I remove sensitive data from a repository?"
+msgstr ""
+
+msgid "How?"
+msgstr ""
+
+msgid "I believe this name is infringing on a Trademark I own."
+msgstr ""
+
+msgid "I don't see my problem here."
+msgstr ""
+
+msgid "I have a question about a repository on GitHub"
+msgstr ""
+
+msgid "I have an existing and established software project that would benefit from owning this name."
+msgstr ""
+
+msgid "I need this name for security reasons."
+msgstr ""
+
+msgid "I swear, under the penalty of perjury, that the information in this notification is accurate and that I am authorized to act on behalf of my organization or business to request and take ownership of this name."
+msgstr ""
+
+msgid "I want to report SPAM, a user that is disrupting me or my organization's experience on GitHub, or a user who is using my personal information without my permission"
+msgstr ""
+
+msgid "I want to report a copyright violation."
+msgstr ""
+
+msgid "I want to report a copyright, trademark violation, or private information."
+msgstr ""
+
+msgid "I want to report a private information violation."
+msgstr ""
+
+msgid "I want to report a threat of imminent physical harm to myself or another person because of content or behavior on GitHub."
+msgstr ""
+
+msgid "I want to report a trademark violation."
+msgstr ""
+
+msgid "I want to report abusive content or behavior."
+msgstr ""
+
+msgid "I want to report false or misleading information, impersonation or username squatting."
+msgstr ""
+
+msgid "I want to report harmful code, such as malware, phishing, or cryptocurrency abuse."
+msgstr ""
+
+msgid "I want to report sexually obscene or exploitative content."
+msgstr ""
+
+msgid "I want to report violence, terrorism, or discriminatory content."
+msgstr ""
+
+msgid "I would like to use this name, but have no direct connection to it, or I have an idea for a new project that could benefit from using this name."
+msgstr ""
+
+msgid "I'm seeing a GitHub Pages error"
+msgstr ""
+
+msgid "If it's been over 10 minutes and your changes still haven't appeared, your browser may be serving a cached version of the page. To fix this, you can reset your browser's cache or visit your site in an incognito or private browsing window."
+msgstr ""
+
+msgid "If prompted, type your Management Console password."
+msgstr ""
+
+msgid "If you are a Premium Support customer, you must be %{support entitled} for your SLA to apply to your ticket."
+msgstr ""
+
+msgid "If you are a business or organization, this request must be submitted from an email domain that matches your business."
+msgstr ""
+
+msgid "If you believe a user is violating a trademark that you own, please visit our %{Trademark policy}."
+msgstr ""
+
+msgid "If you believe private data, such as access credentials, AWS tokens, or passwords that should have been kept confidential, and whose public availability poses a specific or targeted security risk to you or your organization has been shared without your permission on Github, please visit our %{Private Information Removal Policy}."
+msgstr ""
+
+msgid "If you believe that content on GitHub infringes a valid copyright you own, please see our %{Copyright - DMCA Takedown Policy} and our %{Guide to Submitting a DMCA Takedown Notice}."
+msgstr ""
+
+msgid "If you believe that content on GitHub infringes a valid copyright you own, please see our %{Copyright - DMCA Takedown Policy}."
+msgstr ""
+
+msgid "If you cannot login to your GitHub.com account or your enterprise account administrator has not entitled you, you can submit a GitHub Enterprise Server support ticket by providing your license, a diagnostics file from your server, or by clicking the 'New support request' button in the GitHub Enterprise server management console. If you do not have an enterprise account please also submit a  %{request for a new enterprise account}"
+msgstr ""
+
+msgid "If you encounter a bug with one of GitHub's products, please let us know by describing the issue you are facing, reproduction steps, any logs you might have, and our support engineers will dive right in."
+msgstr ""
+
+msgid "If you have a GitHub account, please sign in so we may help you faster."
+msgstr ""
+
+msgid "If you hold a relevant trademark and you believe someone's GitHub account is violating your trademark rights, you can find more information about making a complaint on our %{Trademark policy}."
+msgstr ""
+
+msgid "If you hold a trademark to this name and believe there is a clear case of confusion between the module name and your mark, please review our %{Trademark Policy} to determine if you should submit a trademark policy violation report."
+msgstr ""
+
+msgid "If you recently graduated or transferred, you can still apply using the school where you were registered."
+msgstr ""
+
+msgid "If you use GitHub Enterprise Server but are not involved in its adminstration, please contact your company's IT helpdesk for access and use questions or visit the %{GitHub Community Forum}"
+msgstr ""
+
+msgid "If you would like to contact us regarding a different account or billing issue, please select a different option from \"What do you need help with?\""
+msgstr ""
+
+msgid "If you're not sure how to do so, please try the following resources:"
+msgstr ""
+
+msgid "If your credit card was declined, please contact your credit card company GitHub does not have information about why your card was declined."
+msgstr ""
+
+msgid "If your school doesn’t issue email, or we do not consider your school’s email sufficient to demonstrate your current academic status, then we will ask for a different form of proof. This could be a dated student ID, a current registration document, a time-stamped screenshot of your school portal, a letter on school letterhead confirming you are a currently-registered student, etc."
+msgstr ""
+
+msgid "If your school email is trusted, it could take as little as a few minutes. If we have concerns about your school's domain we'll ask for official, dated documentation of your current student status."
+msgstr ""
+
+msgid "If your school email is trusted, it could take as little as a few minutes. If we have concerns about your school’s domain we’ll get in touch to ask for supplementary documentation of your current student status."
+msgstr ""
+
+msgid "If your student email cannot be used as a sole form of proof, upload another form of supporting documentation."
+msgstr ""
+
+msgid "If your ticket is about an upgrade, please select the release you're upgrading to."
+msgstr ""
+
+msgid "Immediate danger means that there is a reasonable belief that the content or behavior being reported will result in physical harm, damage, or destruction."
+msgstr ""
+
+msgid "In a list of tickets, you can see ticket status (open, pending, closed or archived) and update date."
+msgstr ""
+
+msgid "In addition to reporting here, we also recommend that you report this issue to your local authorities. If you're thinking about suicide, please read %{Are You Feeling Suicidal?} or find a suicide helpline in your country at %{IASP}"
+msgstr "https://www.iasp.info/resources/Crisis_Centres/"
+
+msgid "In order to get the best experience in the new portal, there are a few steps you must take:"
+msgstr ""
+
+msgid "In order to prevent unnecessary processing delays, please note the following before submitting your notice:"
+msgstr ""
+
+msgid "In the %{form below}."
+msgstr ""
+
+msgid "In the left sidebar, click \"Management Console\"."
+msgstr ""
+
+msgid "In the upper right of the Management Console, click \"Support\"."
+msgstr ""
+
+msgid "India Grievance Officer"
+msgstr ""
+
+msgid "India Payment Regulations"
+msgstr ""
+
+msgid "Insert a quote"
+msgstr ""
+
+msgid "Insert code"
+msgstr ""
+
+msgid "Intermittent - Occurring irregularly"
+msgstr ""
+
+msgid "Is this issue blocking you?"
+msgstr ""
+
+msgid "It appears that you are looking to contact us regarding releasing a dormant or inactive username. We no longer review individual requests to release dormant or inactive usernames."
+msgstr ""
+
+msgid "It has a lot of helpful information and may answer your question. If not, please ask us by choosing an option below."
+msgstr ""
+
+msgid "JavaScript is required to complete this form."
+msgstr ""
+
+msgid "LFS purchases"
+msgstr ""
+
+msgid "Last known working date"
+msgstr ""
+
+msgid "Last working date"
+msgstr ""
+
+msgid "Learn about GitHub Sponsors →"
+msgstr ""
+
+msgid "Learn about styling with Markdown"
+msgstr ""
+
+msgid "Learning"
+msgstr ""
+
+msgid "Letters of acceptance do not demonstrate actual enrollment at a school. Acceptance at a school doesn’t mean that’s the school you chose to attend."
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Loading... You will be redirected in 5 seconds."
+msgstr ""
+
+msgid "Looking for help with a common request?"
+msgstr ""
+
+msgid "Looking for more information about GitHub Education?"
+msgstr ""
+
+msgid "Looking to request a receipt? %{Fill out this form}"
+msgstr ""
+
+msgid "Low—General question or feature request"
+msgstr ""
+
+msgid "Malware is any code designed to cause damage to a computer, server, client, or computer network. This can include viruses, worms, Trojans, ransomware, spyware, adware, and bots. To learn more about what types of Malware are allowed on Github, please visit our %{Community Guidelines}."
+msgstr ""
+
+msgid "Managing Support Entitlements"
+msgstr ""
+
+msgid "Missing expected parameters."
+msgstr ""
+
+msgid "More resources"
+msgstr ""
+
+msgid "My Tickets"
+msgstr ""
+
+msgid "My credit card was declined"
+msgstr ""
+
+msgid "Need phone support?"
+msgstr ""
+
+msgid "Need to update your address or other information on your receipts? %{Follow this guide}"
+msgstr ""
+
+msgid "Need urgent assistance?"
+msgstr ""
+
+msgid "New hardware requirements"
+msgstr ""
+
+msgid "New ticket"
+msgstr ""
+
+msgid "News"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "No health checks found."
+msgstr ""
+
+msgid "No health checks were found for your accounts."
+msgstr ""
+
+msgid "No results found."
+msgstr ""
+
+msgid "Non-Blocking"
+msgstr ""
+
+msgid "Nonprofit request"
+msgstr ""
+
+msgid "Normal—Technical request, configuration change, or third-party integration"
+msgstr ""
+
+msgid "Not receiving a reset or verification emails? Check your spam and mail filters for \"noreply@github.com\""
+msgstr ""
+
+msgid "Not sure"
+msgstr ""
+
+msgid "Nothing to preview"
+msgstr ""
+
+msgid "Notice: Click here for information on the Heroku and Travis CI security incident."
+msgstr ""
+
+msgid "Notice: Click here for updated information on the Log4j CVE-2021-44228."
+msgstr ""
+
+msgid "Notice: GitHub Actions may fail to start on GitHub Enterprise Server 3.3. Click here for more information."
+msgstr ""
+
+msgid "One of the most common problems GitHub Pages users run into is not seeing changes that they've made to their site. After you push a new commit to your repository, it can take up to 10 minutes for the GitHub Pages build process to complete and for your changes to appear."
+msgstr ""
+
+msgid "Only one point of contact from your organization should submit the notice."
+msgstr ""
+
+msgid "Open Source Guides"
+msgstr ""
+
+msgid "Open menu"
+msgstr ""
+
+msgid "Organizations"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Other Support"
+msgstr ""
+
+msgid "Other questions about Code Security?"
+msgstr ""
+
+msgid "Other questions about Git or GitHub?"
+msgstr ""
+
+msgid "Other questions about GitHub Actions?"
+msgstr ""
+
+msgid "Other questions about GitHub Codespaces?"
+msgstr ""
+
+msgid "Other questions about GitHub Discussions?"
+msgstr ""
+
+msgid "Other questions about GitHub Packages?"
+msgstr ""
+
+msgid "Other questions about GitHub Pages?"
+msgstr ""
+
+msgid "Other questions about GitHub Sponsors?"
+msgstr ""
+
+msgid "Other questions about GitHub app development?"
+msgstr ""
+
+msgid "Other questions about billing and payments?"
+msgstr ""
+
+msgid "Other questions about forks?"
+msgstr ""
+
+msgid "Other questions about issues?"
+msgstr ""
+
+msgid "Other questions about pull requests?"
+msgstr ""
+
+msgid "Other questions about removing data?"
+msgstr ""
+
+msgid "Other questions about your account?"
+msgstr ""
+
+msgid "Our virtual assistant can help"
+msgstr ""
+
+msgid "Pagination"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Permanent - Occurring repeatably"
+msgstr ""
+
+msgid "Phishing content is the attempt to obtain sensitive information or data, such as usernames, passwords and payment details, by impersonating a trusted entity."
+msgstr ""
+
+msgid "Phone number"
+msgstr ""
+
+msgid "Platform"
+msgstr ""
+
+msgid "Platform Samples"
+msgstr ""
+
+msgid "Please allow up to @%{time_to_complete} for the Health Check to be available."
+msgstr ""
+
+msgid "Please describe exactly what you're trying to accomplish."
+msgstr ""
+
+msgid "Please describe the issue you have encountered"
+msgstr ""
+
+msgid "Please describe your problem in as much detail as possible."
+msgstr ""
+
+msgid "Please describe your question in as much detail as possible."
+msgstr ""
+
+msgid "Please note that the GitHub team will be enjoying the holidays between December 21st and January 4th, so you may experience a slight delay in our responses during this period. Have a safe and happy holiday!"
+msgstr ""
+
+msgid "Please note, due to the sensitive nature of these requests, name dispute requests can take multiple weeks to complete. We appreciate your patience. See our %{disputes policy} for more information."
+msgstr ""
+
+msgid "Please provide a direct and working link to the content or behavior you wish to report."
+msgstr ""
+
+msgid "Please provide any applicable links to your projects, organizations, and/or business."
+msgstr ""
+
+msgid "Please provide any logs you might have that illustrate this issue"
+msgstr ""
+
+msgid "Please provide as much detail as possible about the account or behavior you're reporting. It's especially helpful to include specific examples in the form of URLs or screenshots."
+msgstr ""
+
+msgid "Please provide the link to the name you are requesting:"
+msgstr ""
+
+msgid "Please provide the steps to reproduce this issue"
+msgstr ""
+
+msgid "Please provide the username of the person you wish to report."
+msgstr ""
+
+msgid "Please select a choice"
+msgstr ""
+
+msgid "Please select from one the following categories:"
+msgstr ""
+
+msgid "Please tell us the nature of your request."
+msgstr ""
+
+msgid "Please tell us why you are requesting this name. Be sure to include how you plan on using it if your request is granted and what negative impacts you will experience if it is not fulfilled."
+msgstr ""
+
+msgid "Popular links"
+msgstr ""
+
+msgid "Premium"
+msgstr ""
+
+msgid "Premium Content"
+msgstr ""
+
+msgid "Premium Support"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "Privacy"
+msgstr ""
+
+msgid "Privacy help"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Provide feedback"
+msgstr ""
+
+msgid "REST API Reference"
+msgstr ""
+
+msgid "Receipt troubleshooting"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Related tickets"
+msgstr ""
+
+msgid "Release series"
+msgstr ""
+
+msgid "Reload"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove a file I embedded in a comment"
+msgstr ""
+
+msgid "Remove data from a repository I own or control"
+msgstr ""
+
+msgid "Remove file embeded in a comment"
+msgstr ""
+
+msgid "Remove image embeded in a comment"
+msgstr ""
+
+msgid "Remove other data"
+msgstr ""
+
+msgid "Remove pull requests"
+msgstr ""
+
+msgid "Reopen and comment"
+msgstr ""
+
+msgid "Report Abuse"
+msgstr ""
+
+msgid "Report a bug"
+msgstr ""
+
+msgid "Report abuse or spam"
+msgstr ""
+
+msgid "Repositories hosted on GitHub"
+msgstr ""
+
+msgid "Request Health Check"
+msgstr ""
+
+msgid "Request a callback"
+msgstr ""
+
+msgid "Request a callback from GitHub Support?"
+msgstr ""
+
+msgid "Request a callback?"
+msgstr ""
+
+msgid "Request a receipt"
+msgstr ""
+
+msgid "Request an escalation"
+msgstr ""
+
+msgid "Request an escalation to urgent priority?"
+msgstr ""
+
+msgid "Request callback"
+msgstr ""
+
+msgid "Request escalation"
+msgstr ""
+
+msgid "Request security history or audit logs"
+msgstr ""
+
+msgid "Reroute a fork"
+msgstr ""
+
+msgid "Response SLA"
+msgstr ""
+
+msgid "Restart the conversation"
+msgstr ""
+
+msgid "Restore deleted data"
+msgstr ""
+
+msgid "Return to Tickets"
+msgstr ""
+
+msgid "SAML single sign-on"
+msgstr ""
+
+msgid "Search results"
+msgstr ""
+
+msgid "See all articles"
+msgstr ""
+
+msgid "See all topics"
+msgstr ""
+
+msgid "See the %{Providing data to GitHub Support} guide for more information."
+msgstr ""
+
+msgid "Select a priority"
+msgstr ""
+
+msgid "Select a product"
+msgstr ""
+
+msgid "Select a release series"
+msgstr ""
+
+msgid "Select a response"
+msgstr ""
+
+msgid "Select a server installation"
+msgstr ""
+
+msgid "Select an account or organization"
+msgstr ""
+
+msgid "Select an enterprise account"
+msgstr ""
+
+msgid "Select one"
+msgstr ""
+
+msgid "Send request"
+msgstr ""
+
+msgid "Server installation"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Show Upgrade Path"
+msgstr ""
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Sign in for assistance"
+msgstr ""
+
+msgid "Sign in issues"
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+msgid "Sign up issues"
+msgstr ""
+
+msgid "So that we can accurately identify the user or content you wish to report please return to %{GitHub} and follow the instructions in the %{Reporting Abuse or Spam} article."
+msgstr ""
+
+msgid "Someone is using a username I want."
+msgstr ""
+
+msgid "Something went really wrong, and we can’t process that file."
+msgstr ""
+
+msgid "Sorry, a connection error occurred."
+msgstr ""
+
+msgid "Sorry, the ticketing interface is not available. Please refer to your email for updates to your support requests."
+msgstr ""
+
+msgid "Sorry, we're unable to read the provided diagnostic file. Please try again."
+msgstr ""
+
+msgid "Stafftools"
+msgstr ""
+
+msgid "Stafftools - Failed Ticket Creation Jobs"
+msgstr ""
+
+msgid "Start over"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Styling with Markdown is supported"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Submit a Private Information Removal Request"
+msgstr ""
+
+msgid "Submit a Trademark Policy Violation Report"
+msgstr ""
+
+msgid "Submitting a Ticket"
+msgstr ""
+
+msgid "Submitting a school-issued email address is preferred because once we verify that the domain is associated with a qualifying institution and that the school’s email policies disallow non-student use of those emails, we can approve applicants using those domains faster."
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "Support Bundle"
+msgstr ""
+
+msgid "Support by product area"
+msgstr ""
+
+msgid "Support entitlements allow an enterprise owner to specify who can open, view, and comment on all tickets associated to your enterprise account."
+msgstr ""
+
+msgid "Terms"
+msgstr ""
+
+msgid "Thanks for getting in touch with us!"
+msgstr ""
+
+msgid "Thanks for sharing your feedback!"
+msgstr ""
+
+msgid "The GitHub Campus Program is for secondary, informal or tertiary schools. Your school must be a teaching-focused institution that grants degrees or certificates. With the GitHub Campus Program you can roll out version control and GitHub at your school, train students with the tools they’ll use in industry, and support teachers with training so they can master Git and GitHub."
+msgstr ""
+
+msgid "The GitHub Support portal offers a number of benefits:"
+msgstr ""
+
+msgid "The Xen platform is no longer supported"
+msgstr ""
+
+msgid "The content you are reporting will be included in your report:"
+msgstr ""
+
+msgid "The pandemic brought unprecedented challenges, revolutionizing the way our customers and open source community build software."
+msgstr ""
+
+msgid "The ticket either does not exist or you no longer have access to it."
+msgstr ""
+
+msgid "These articles might be helpful:"
+msgstr ""
+
+msgid "This account doesn't have any tickets yet."
+msgstr ""
+
+msgid "This action cannot be undone. This will permanently delete the failed ticket creation job."
+msgstr ""
+
+msgid "This applies to all recurring transactions, including:"
+msgstr ""
+
+msgid "This form will help you find the upgrade path from your current release version of GitHub Enterprise Server to your desired version."
+msgstr ""
+
+msgid "This is not the latest release of GitHub Enterprise Server."
+msgstr ""
+
+msgid "This page has no tickets you can view."
+msgstr ""
+
+msgid "This ticket has been updated."
+msgstr ""
+
+msgid "This will notify GitHub Support of your callback request."
+msgstr ""
+
+msgid "This will notify GitHub Support of your escalation request."
+msgstr ""
+
+msgid "Ticket not found"
+msgstr ""
+
+msgid "Tickets may be omitted if they were created in the legacy support portal or were moved from one account to another by a support engineer."
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "To learn more about sexually obscene content on GitHub, please visit our %{Community Guidelines}."
+msgstr ""
+
+msgid "To learn more, please visit our %{Community Guidelines}."
+msgstr ""
+
+msgid "To protect the integrity of the npm registry, we only transfer names under specific circumstances. If you would like to dispute the ownership of a package, org, or username on npm.js, please use this form."
+msgstr ""
+
+msgid "To qualify as a sole form of academic verification, GitHub requires that school-issued email be provided exclusively to currently-registered students—not to everyone who has applied to the school, nor retained by alumni of the school. We also monitor trends in academic domain usage to weed out potentially compromised domains."
+msgstr ""
+
+msgid "To:"
+msgstr ""
+
+msgid "Transient - Occurring only once"
+msgstr ""
+
+msgid "Troubleshooting GitHub Pages builds"
+msgstr ""
+
+msgid "Try again"
+msgstr ""
+
+msgid "Upgrade GitHub Enterprise Server"
+msgstr ""
+
+msgid "Upgrade details"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Upload Support Bundle"
+msgstr ""
+
+msgid "Upload a %{support bundle} for GitHub Enterprise Support"
+msgstr ""
+
+msgid "Upload a support bundle"
+msgstr ""
+
+msgid "Upload a support bundle for GitHub Enterprise Support"
+msgstr ""
+
+msgid "Upload complete, GitHub Enterprise Support has been notified of your file upload"
+msgstr ""
+
+msgid "Upload failed, please try uploading the file again"
+msgstr ""
+
+msgid "Uploaded proof requires additional scrutiny, which may take more time to review. We do our best to review all applications within two weeks of being submitted."
+msgstr ""
+
+msgid "Uploaded proof requires additional scrutiny, which may take more time to review. We do our best to review all applications within two weeks of being submitted. The application process may take a little longer during times where we receive high volumes of applications, such as the start of a new semester."
+msgstr ""
+
+msgid "Uploading Support Bundles"
+msgstr ""
+
+msgid "Uploading a"
+msgstr ""
+
+msgid "Uploading a diagnostic file to GitHub Support"
+msgstr ""
+
+msgid "Urgent priority and Premium Support SLAs apply only to tickets associated to your enterprise account."
+msgstr ""
+
+msgid "Urgent—Outage impacting critical system operations"
+msgstr ""
+
+msgid "Use the 'ghe-diagnostics' command-line utility to retrieve the diagnostics for your instance."
+msgstr ""
+
+msgid "Using the Support Portal"
+msgstr ""
+
+msgid "View and update your GitHub Support tickets"
+msgstr ""
+
+msgid "View archived tickets"
+msgstr ""
+
+msgid "View our Username Policy"
+msgstr ""
+
+msgid "View ticket"
+msgstr ""
+
+msgid "Viewing and Updating your Tickets"
+msgstr ""
+
+msgid "Virtual Agent"
+msgstr ""
+
+msgid "Virtual Assistant"
+msgstr ""
+
+msgid "Want to block a user?"
+msgstr ""
+
+msgid "We are maintaining staff levels to be able to respond to any production outages. If you experience a production outage please open an Urgent Ticket as you normally would."
+msgstr ""
+
+msgid "We don’t support that file type."
+msgstr ""
+
+msgid "We evaluate all of the proof that you provide us collectively. This means that when you apply again we consider the additional documentation to be a part of the provided proof from your initial attempt."
+msgstr ""
+
+msgid "We have watched our employees step up to ensure that GitHub continues to deliver the experience and innovation that our customers expect from us—while also balancing the unique complexities of remote work, children, health, and more. We recognize that our employees are our greatest asset, so to give back to our employees who give so much, we will be taking company wide wellbeing days four Fridays in August."
+msgstr ""
+
+msgid "We recommend upgrading to the latest version of GitHub Enterprise Server, visit the %{upgrade assistant} for help."
+msgstr ""
+
+msgid "We want everyone to stay productive on GitHub, and we know SPAM can significantly impact your experience. Along with reporting this behavior to us, we recommend reviewing the moderation tools at your disposal %{here}."
+msgstr ""
+
+msgid "We weren't able to find a GitHub Enterprise Server license associated with your account. To ensure your request is sent to the appropriate support team, only select GitHub Enterprise Server (self-hosted) if you are responsible for administering a self-hosted GitHub Enterprise Server."
+msgstr ""
+
+msgid "We weren't able to validate that domain, please check this and try again"
+msgstr ""
+
+msgid "We've identified the basic system information sent by your management console and will include it in your request."
+msgstr ""
+
+msgid "Weekly meetings will not be scheduled during these key dates, however, you may engage your Services engineers asynchronously through your active channels, such as Customer Repo and Slack channels. Your Services Engineer will respond following the break. In the event of an emergency, please contact Support."
+msgstr ""
+
+msgid "Welcome to the GitHub Support ticket portal where you can view the status of your tickets, reply using Markdown, attach images and log files to your replies, and (if you're an %{enterprise account} administrator) manage Organization tickets."
+msgstr ""
+
+msgid "We’re working as fast as we can but the review process can take a while especially during times where we receive high volumes of applications, such as the start of a new semester."
+msgstr ""
+
+msgid "We’re working to make the Pack as easy for students to use as possible. Over the next year, we’ll continue to make the Pack as usable (and valuable) as possible. If you’re still experiencing issues, contact us for help."
+msgstr ""
+
+msgid "What are the steps to reproduce this?"
+msgstr ""
+
+msgid "What can GitHub Education assist you with?"
+msgstr ""
+
+msgid "What can the Campus Program assist you with?"
+msgstr ""
+
+msgid "What can we help with?"
+msgstr ""
+
+msgid "What do you need help with?"
+msgstr ""
+
+msgid "What if I hold the trademark?"
+msgstr ""
+
+msgid "What is the exact name you are requesting:"
+msgstr ""
+
+msgid "What is the nature of your request? (check one)"
+msgstr ""
+
+msgid "What is the primary email address associated with this account?"
+msgstr ""
+
+msgid "What is your username?"
+msgstr ""
+
+msgid "What issue are you facing?"
+msgstr ""
+
+msgid "What proof can I provide to support my application?"
+msgstr ""
+
+msgid "What response did you receive?"
+msgstr ""
+
+msgid "What type of issue is this?"
+msgstr ""
+
+msgid "What type of name are you requesting? (check all that apply)"
+msgstr ""
+
+msgid "What username or organization do you need help with?"
+msgstr ""
+
+msgid "What would you like to report?"
+msgstr ""
+
+msgid "When will my application be approved?"
+msgstr ""
+
+msgid "Who is this for?"
+msgstr ""
+
+msgid "Who would be the new owner of the requested name? For orgs and packages please provide the npm.js username, for usernames please provide the email address."
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "You are submitting a report regarding"
+msgstr ""
+
+msgid "You are viewing archived tickets. Switch to your open or pending tickets."
+msgstr ""
+
+msgid "You can find answers to frequently asked questions in our %{support documentation} or the %{GitHub Community Forum}."
+msgstr ""
+
+msgid "You can find your GitHub Enterprise Server version at the bottom of any page by the GitHub logo."
+msgstr ""
+
+msgid "You can hide a user's content and notifications. Read more about blocking a user from your %{personal account} or %{organization}."
+msgstr ""
+
+msgid "You can only select a reply address that is in the verified domain or has already been CCd"
+msgstr ""
+
+msgid "You cannot comment on this ticket. You do not have an email in the verified domain or that has already been CCd."
+msgstr ""
+
+msgid "You don't have any tickets yet."
+msgstr ""
+
+msgid "You may experience a delayed response during these dates, as well as weeks immediately surrounding as we rotate staff to ensure everyone gets time to rest."
+msgstr ""
+
+msgid "You may need to provide additional documentation before we can approve your application. A common problem is that the uploaded proof was undated, or the photo was too blurry. Regardless of the reason, we’ll try to provide context so that your next application has a greater chance of success."
+msgstr ""
+
+msgid "You must be a resident of India to submit a report to the Grievance Officer for India."
+msgstr ""
+
+msgid "Your account"
+msgstr ""
+
+msgid "Your email address"
+msgstr ""
+
+msgid "Your message has been successfully submitted."
+msgstr ""
+
+msgid "Your name"
+msgstr ""
+
+msgid "Yowza, that’s a big file"
+msgstr ""
+
+msgid "about"
+msgstr ""
+
+msgid "comment"
+msgstr ""
+
+msgid "comments"
+msgstr ""
+
+msgid "contact_description"
+msgstr ""
+
+msgid "diagnostic file"
+msgstr ""
+
+msgid "in the upper-right corner of any page."
+msgstr ""
+
+msgid "more CCs"
+msgstr ""
+
+msgid "no comments"
+msgstr ""
+
+msgid "npm Name Disputes"
+msgstr ""
+
+msgid "opened this ticket for"
+msgstr ""
+
+msgid "priority"
+msgstr ""
+
+msgid "product"
+msgstr ""
+
+msgid "search settings"
+msgstr ""
+
+msgid "send"
+msgstr ""
+
+msgid "subject"
+msgstr ""
+
+msgid "will further assist our support team with your request."
+msgstr ""
+
+msgid "with a"
+msgstr ""
+
+msgid "with a file smaller than 50MB."
+msgstr ""
+
+msgid "with another file."
+msgstr ""
+
+msgid "your organization-verified email has been selected"
+msgstr ""

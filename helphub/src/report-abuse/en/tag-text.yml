@@ -1,0 +1,30 @@
+# These tags are used in the /contact/report-abuse form.
+# When adding a new tag ensure you add the corresponding entry to all other language files
+# under config/forms/report-abuse/<locale>/tag-text.yml
+---
+cat_ts_user_care: "I or someone else is in immediate danger because of content or behavior on GitHub."
+# HARASSING
+cat_ts_harassment: "A user is harassing or trolling me or someone I know."
+# VIOLENCE
+cat_ts_violence: "A user is threatening or inciting violence towards me or others."
+cat_ts_terrorist_content: "A user is posting or promoting terrorist content."
+cat_ts_discriminatory_content: "A user is posting discriminatory content or hate speech."
+# MISLEADING
+cat_ts_disinformation: "A user is posting misleading information that could harm the public interest."
+cat_ts_impersonation: "A user is pretending to be me."
+# SPAM
+cat_ts_disruptive_conduct: "A user is disrupting me or my organization's experience and productivity by posting SPAM off-topic or other types of disruptive content in projects they do not own."
+cat_ts_spam: "A user's profile or repository is SPAM."
+cat_ts_misue_pii: "A user is collecting or using my personal information without my permission including doxxing."
+# OBSCENE
+cat_ts_csam_minor: "A user has posted content that is sexually exploiting and or abusing minors."
+cat_ts_adult_content: "A user is posting sexually obscene content or pornography."
+cat_ts_csam_self: "A user has posted non-consensual intimate imagery of me."
+cat_ts_csam: "" # cat_ts_csam_minor and cat_ts_csam_self both tag to cat_ts_csam
+# MALWARE
+cat_ts_malware: "I want to report malware."
+cat_ts_phishing: "I want to report phishing content."
+cat_ts_crypto: "I want to report suspicious cryptocurrency or mining content."
+cat_ts_malicious_code: "I want to report another type of malicious code."
+# Other
+cat_ts_other: "Other."

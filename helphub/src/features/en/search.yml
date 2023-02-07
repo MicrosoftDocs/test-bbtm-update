@@ -1,0 +1,53 @@
+id: search
+group: project-management
+product: Search on GitHub
+canned_pattern: search
+search: search
+docs_path: /search-github
+contact_path: /contact
+
+articles:
+  - path: /search-github/getting-started-with-searching-on-github/understanding-the-search-syntax
+    title: Understanding the search syntax
+    subtitle: When searching GitHub, you can construct queries that match specific numbers and words.
+  - path: /search-github/getting-started-with-searching-on-github/troubleshooting-search-queries
+    title: Troubleshooting search queries
+    subtitle: If you encounter unexpected results while searching on GitHub, you can troubleshoot by reviewing common problems and limitations.
+  - path: /search-github/getting-started-with-searching-on-github/sorting-search-results
+    title: Sorting search results
+    subtitle: You can sort GitHub search results using the Sort menu, or by adding a sort qualifier to your query.
+  - path: /rest/reference/search
+    title: Search API
+    subtitle: The GitHub Search API lets you to search for the specific item efficiently.
+
+options:
+  - category: documentation
+    title: Help Docs
+    subtitle: Explore our search documentation.
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /search-github
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas on the community forum.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/new-to-github
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest search updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=Search
+
+video:
+  title: Git Good at Finding Files • How to quickly find files on GitHub
+  subtitle: Have you ever lost a file in a giant repository? Can't remember where you stored it? File Finder helps you easily search for files in any repository 🔍
+  url: https://www.youtube.com/embed/aMD7XmtomOI?rel=0&amp;vq=hd720
+
+community:
+  id: 21
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/new-to-github

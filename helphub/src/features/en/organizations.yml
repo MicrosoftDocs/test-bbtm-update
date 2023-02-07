@@ -1,0 +1,53 @@
+id: organizations
+group: enterprise-and-teams
+product: Organizations
+canned_pattern: organization|membership|team
+search: org
+docs_path: /organizations
+contact_path: /contact
+
+articles:
+  - path: /organizations/collaborating-with-groups-in-organizations
+    title: Collaborating with groups in organizations
+    subtitle: Groups of people can collaborate across many projects at the same time in organization accounts.
+  - path: /organizations/managing-membership-in-your-organization
+    title: Managing membership in your organization
+    subtitle: After you create your organization, you can invite people to become members of the organization. You can also remove members of the organization, and reinstate former members.
+  - path: /organizations/managing-peoples-access-to-your-organization-with-roles
+    title: Managing people's access to your organization with roles
+    subtitle: You can control access to your organizations's settings and repositories by giving people organization, repository, and team roles.
+  - path: /organizations/organizing-members-into-teams
+    title: Organizing members into teams
+    subtitle: You can group organization members into teams that reflect your company or group's structure with cascading access permissions and mentions.
+
+options:
+  - category: documentation
+    title: Help Docs
+    subtitle: Explore our organization documentation.
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /organizations
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas on the community forum.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/new-to-github
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest organization updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=organization
+
+video:
+  title: "README Profile for your Org: Introducing Organisation Profile READMEs"
+  subtitle: Your org README is featured on your org's homepage. Create an About section, showcase your awesome projects, or just add a whole stack of gifs!
+  url: https://www.youtube.com/embed/oQnJ6XYp_YM?rel=0&amp;vq=hd720
+
+community:
+  id: 21
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/new-to-github

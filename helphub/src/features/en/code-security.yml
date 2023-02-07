@@ -1,0 +1,52 @@
+id: code-security
+group: security
+product: Code Security
+canned_pattern: code|security
+docs_path: /code-security
+contact_path: /request/code-security
+
+articles:
+  - path: /code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/about-alerts-for-vulnerable-dependencies
+    title: About alerts for vulnerable dependencies
+    subtitle: GitHub sends Dependabot alerts when we detect vulnerabilities affecting your repository.
+  - path: /code-security/security-advisories/about-coordinated-disclosure-of-security-vulnerabilities
+    title: About coordinated disclosure of security vulnerabilities
+    subtitle: Vulnerability disclosure is a coordinated effort between security reporters and repository maintainers.
+  - path: /code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/keeping-your-actions-up-to-date-with-dependabot
+    title: Keeping your actions up to date with Dependabot
+    subtitle: You can use Dependabot to keep the actions you use updated to the latest versions.
+  - path: /code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates
+    title: Configuration options for dependency updates
+    subtitle: Detailed information for all the options you can use to customize how Dependabot maintains your repositories.
+
+options:
+  - category: documentation
+    title: Help Docs
+    subtitle: Explore our account and profile documentation.
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /code-security
+  - category: documentation
+    title: Guides
+    subtitle: Learn about the different ways that GitHub can help you improve your code's security.
+    img: microsites/documentation.svg
+    cta: Learn more
+    url:
+      docs_url: /code-security/guides
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest Code Security updates on our blog.
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=Security
+
+video:
+  title: Automated Security Review - GitHub Code Scanning
+  subtitle: Enabling GitHub Code Scanning is like inviting a team of security researchers to review your every pull request. By configuring Code Scanning with either CodeQL or one of our static code analysis partners you can make sure that all of your code is reviewed seamlessly for security vulnerabilities before going to production.
+  url: https://www.youtube.com/embed/z0wvGf3O69E?rel=0&amp;vq=hd720
+
+community:
+  id: 21
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/new-to-github

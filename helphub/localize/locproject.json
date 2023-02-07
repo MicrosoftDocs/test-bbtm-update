@@ -1,0 +1,20 @@
+{
+  "Projects": [
+    {
+      "LocItems": [
+        {
+          "SourceFile": "helphub\\src\\education\\en\\education-categories.yml",
+          "Languages": "ko",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\education"
+        },
+        {
+          "SourceFile": "helphub\\src\\locales\\en\\helphub.po",
+          "Languages": "ko",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\locales"
+        }
+      ]
+    }
+  ]
+}

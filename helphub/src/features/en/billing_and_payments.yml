@@ -1,0 +1,53 @@
+id: billing_and_payments
+group: get-started
+product: Billing and payments
+canned_pattern: billing|payments
+search: pay
+docs_path: /billing
+contact_path: /request/billing_and_payments # Add billing and payments router
+
+articles:
+  - path: /billing/managing-your-github-billing-settings
+    title: Managing your GitHub billing settings
+    subtitle: Your account's billing settings apply to every paid feature or product you add to the account. You can manage settings like your payment method, billing cycle, and billing email. You can also view billing information such as your subscription, billing date, payment history, and past receipts.
+  - path: /billing/managing-billing-for-your-github-account
+    title: Managing billing for your GitHub account
+    subtitle: GitHub offers free and paid products for every account. You can upgrade, downgrade, and view pending changes to your account's subscription at any time.
+  - path: /billing/managing-billing-for-github-actions
+    title: Managing billing for GitHub Actions
+    subtitle: You can view your usage and set a spending limit for GitHub Actions.
+  - path: billing/managing-billing-for-github-sponsors
+    title: Managing billing for GitHub Sponsors
+    subtitle: You can upgrade or downgrade the tier for each of your sponsorships.
+
+options:
+  - category: documentation
+    title: Help Docs
+    subtitle: Explore our billing and payments documentation.
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /billing
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas on the community forum.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/new-to-github
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest billing and payments updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=Payment
+
+video:
+  title: GitHub Sponsors Experience Improvements - GitHub Checkout
+  subtitle: Sponsor the open source software your team has built its business on. Fund the projects that make up your software supply chain to improve its performance, reliability, and stability.
+  url: https://www.youtube.com/embed/YLhOHFMA5kU?rel=0&amp;vq=hd720
+
+community:
+  id: 42
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/new-to-github
