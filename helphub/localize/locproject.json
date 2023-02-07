@@ -3,14 +3,176 @@
     {
       "LocItems": [
         {
-          "SourceFile": "helphub\\src\\education\\en\\education-categories.yml",
-          "Languages": "ko",
+          "SourceFile": "helphub\\src\\education\\en\\education-categories.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
           "CopyOption": "LangIDOnPath",
           "OutputPath": "helphub\\src\\education"
         },
         {
+          "SourceFile": "helphub\\src\\features\\en\\account.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\actions.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\authentication.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\billing_and_payment.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\building_communities.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\code-security.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\codespaces.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\developers.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\discussions.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\education.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\enterprise_admins_cloud.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\enterprise_admins_server.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\feedback.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\github_bug_bounty.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\graph_ql_api.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\groups.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\issues.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\organizations.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\packages.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\pages.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\pull_requests.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\repositories.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\rest_api.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\search.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\features\\en\\sponsors.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\features"
+        },
+        {
+          "SourceFile": "helphub\\src\\npm-name-disputes\\en\\npm-name-disputes-copy.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\npm-name-disputes"
+        },
+        {
+          "SourceFile": "helphub\\src\\report-abuse\\en\\tag-text.json",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
+          "CopyOption": "LangIDOnPath",
+          "OutputPath": "helphub\\src\\report-abuse"
+        },
+        {
           "SourceFile": "helphub\\src\\locales\\en\\helphub.po",
-          "Languages": "ko",
+          "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
           "CopyOption": "LangIDOnPath",
           "OutputPath": "helphub\\src\\locales"
         }
