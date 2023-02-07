@@ -27,7 +27,7 @@
           "OutputPath": "helphub\\src\\features"
         },
         {
-          "SourceFile": "helphub\\src\\features\\en\\billing_and_payment.json",
+          "SourceFile": "helphub\\src\\features\\en\\billing_and_payments.json",
           "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
           "CopyOption": "LangIDOnPath",
           "OutputPath": "helphub\\src\\features"
