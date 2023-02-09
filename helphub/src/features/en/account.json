@@ -1,0 +1,71 @@
+{
+  "id": "account",
+  "group": "get-started",
+  "product": "Account and profile",
+  "canned_pattern": "account|2fa|two|factor|auth|notification|flagged|email",
+  "search": "account",
+  "docs_path": "/account-and-profile",
+  "contact_path": "/request/account",
+  "articles": [
+    {
+      "path": "/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication",
+      "title": "Two-factor authentication",
+      "subtitle": "With two-factor authentication (2FA), you have to log in with your username and password and provide another form of authentication that only you know or have access to."
+    },
+    {
+      "path": "/account-and-profile/managing-subscriptions-and-notifications-on-github",
+      "title": "Managing subscriptions and notifications on GitHub",
+      "subtitle": "You can specify how to receive notifications, the repositories you are interested in, and the types of activity you want to hear about."
+    },
+    {
+      "path": "/account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/deleting-your-user-account",
+      "title": "Deleting your account",
+      "subtitle": "You can delete your GitHub user account at any time."
+    },
+    {
+      "path": "/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/changing-your-primary-email-address",
+      "title": "Changing your primary email address",
+      "subtitle": "You can change the email address associated with your user account at any time."
+    }
+  ],
+  "options": [
+    {
+      "category": "documentation",
+      "title": "Help Docs",
+      "subtitle": "Explore our account and profile documentation.",
+      "img": "microsites/documentation.svg",
+      "cta": "Start exploring",
+      "url": {
+        "docs_url": "/account-and-profile"
+      }
+    },
+    {
+      "category": "community_forum",
+      "title": "Ask the community",
+      "subtitle": "Ask questions, swap stories, share ideas on the community forum.",
+      "img": "microsites/community.svg",
+      "cta": "Get involved",
+      "url": {
+        "community_url": "https://github.com/orgs/community/discussions/categories/new-to-github"
+      }
+    },
+    {
+      "category": "github_blog",
+      "title": "What's new",
+      "subtitle": "Discover the latest account and profile updates on our blog",
+      "img": "microsites/blog.svg",
+      "cta": "Learn more",
+      "url": "https://github.blog/?s=Account"
+    }
+  ],
+  "video": {
+    "title": "What is GitHub?",
+    "subtitle": "Ever wondered how GitHub works?",
+    "url": "https://www.youtube.com/embed/w3jLJU7DT5E?rel=0&amp;vq=hd720"
+  },
+  "community": {
+    "id": 42,
+    "status": "open",
+    "path": "https://github.com/orgs/community/discussions/categories/new-to-github"
+  }
+}

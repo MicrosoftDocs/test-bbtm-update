@@ -1,0 +1,68 @@
+{
+  "id": "discussions",
+  "group": "collaborative-coding",
+  "product": "GitHub Discussions",
+  "canned_pattern": "discussions",
+  "docs_path": "/discussions",
+  "contact_path": "/request/discussions",
+  "articles": [
+    {
+      "path": "/discussions/guides/granting-higher-permissions-to-top-contributors",
+      "title": "Granting higher permissions to top contributors",
+      "subtitle": "Repository administrators can promote any community member to a moderator and maintainer."
+    },
+    {
+      "path": "/discussions/guides/best-practices-for-community-conversations-on-github",
+      "title": "Best practices for community conversations on GitHub",
+      "subtitle": "You can use discussions to brainstorm with your team, and eventually move the conversation to an issue when you are ready to scope out the work."
+    },
+    {
+      "path": "/discussions/guides/finding-discussions-across-multiple-repositories",
+      "title": "Finding discussions across multiple repositories",
+      "subtitle": "You can easily access every discussion you've created or participated in across multiple repositories."
+    },
+    {
+      "path": "/discussions/collaborating-with-your-community-using-discussions/collaborating-with-maintainers-using-discussions",
+      "title": "Collaborating with maintainers using discussions",
+      "subtitle": "You can contribute to the goals, plans, health, and community for a project on GitHub by communicating with the maintainers of the project in a discussion."
+    }
+  ],
+  "options": [
+    {
+      "category": "documentation",
+      "title": "Guides",
+      "subtitle": "Get started participating and monitoring community discussions.",
+      "img": "microsites/documentation.svg",
+      "cta": "Discover pathways",
+      "url": {
+        "docs_url": "/discussions/guides"
+      }
+    },
+    {
+      "category": "community_forum",
+      "title": "Ask the community",
+      "subtitle": "Ask questions, swap stories, share ideas in our community discussions.",
+      "img": "microsites/community.svg",
+      "cta": "Get involved",
+      "url": "https://github.com/orgs/community/discussions/categories/discussions"
+    },
+    {
+      "category": "github_blog",
+      "title": "What's new",
+      "subtitle": "Discover the latest GitHub Discussions updates on our blog",
+      "img": "microsites/blog.svg",
+      "cta": "Learn more",
+      "url": "https://github.blog/?s=Discussions"
+    }
+  ],
+  "video": {
+    "title": "GitHub Discussions in 60 seconds",
+    "subtitle": "A lightning fast way to get started with GitHub Discussions.",
+    "url": "https://www.youtube.com/embed/IpBw2SJkFyk?rel=0&amp;vq=hd720"
+  },
+  "community": {
+    "id": 48,
+    "status": "open",
+    "path": "https://github.com/orgs/community/discussions/categories/new-to-github"
+  }
+}

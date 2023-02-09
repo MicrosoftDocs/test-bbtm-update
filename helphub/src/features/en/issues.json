@@ -1,0 +1,71 @@
+{
+  "id": "issues",
+  "group": "project-management",
+  "product": "Issues",
+  "canned_pattern": "issue|task|project|board",
+  "search": "issue",
+  "docs_path": "/issues",
+  "contact_path": "/request/issues",
+  "articles": [
+    {
+      "path": "/issues/tracking-your-work-with-issues/about-issues",
+      "title": "About Issues",
+      "subtitle": "Use GitHub Issues to track ideas, feedback, tasks, or bugs for work on GitHub."
+    },
+    {
+      "path": "/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects",
+      "title": "About Projects",
+      "subtitle": "Projects is an adaptable, flexible tool for planning and tracking work on GitHub."
+    },
+    {
+      "path": "/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project",
+      "title": "Creating a project",
+      "subtitle": "Learn how to create an organization or user project."
+    },
+    {
+      "path": "/issues/tracking-your-work-with-issues/about-task-lists",
+      "title": "About task lists",
+      "subtitle": "You can use task lists to break the work for an issue or pull request into smaller tasks, then track the full set of work to completion."
+    }
+  ],
+  "options": [
+    {
+      "category": "documentation",
+      "title": "Help Docs",
+      "subtitle": "Explore our issues documentation.",
+      "img": "microsites/documentation.svg",
+      "cta": "Start exploring",
+      "url": {
+        "docs_url": "/issues"
+      }
+    },
+    {
+      "category": "community_forum",
+      "title": "Ask the community",
+      "subtitle": "Ask questions, swap stories, share ideas on the community forum.",
+      "img": "microsites/community.svg",
+      "cta": "Get involved",
+      "url": {
+        "community_url": "https://github.com/orgs/community/discussions/categories/issues"
+      }
+    },
+    {
+      "category": "github_blog",
+      "title": "What's new",
+      "subtitle": "Discover the latest issue updates on our blog",
+      "img": "microsites/blog.svg",
+      "cta": "Learn more",
+      "url": "https://github.blog/changelog/label/issues"
+    }
+  ],
+  "video": {
+    "title": "GitHub Issues: Using Projects for feature planning",
+    "subtitle": "Project planning for developers. Check out a demo on how to use the new Projects experience for planning your next feature.",
+    "url": "https://www.youtube.com/embed/yFQ-p6wMS_Y?rel=0&amp;vq=hd720&list=PL0lo9MOBetEG8TZty9Z38oSZAY8FjkaB7&index=1"
+  },
+  "community": {
+    "id": 68,
+    "status": "open",
+    "path": "https://github.com/orgs/community/discussions/categories/issues"
+  }
+}

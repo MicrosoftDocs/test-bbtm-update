@@ -1,0 +1,49 @@
+id: rest-api
+group: developers
+product: REST API
+canned_pattern: rest|api
+search: rest
+docs_path: /rest
+contact_path: /request/developers
+articles:
+  - path: /rest/overview/resources-in-the-rest-api
+    title: Resources in the REST API
+    subtitle: Learn how to navigate the resources provided by the GitHub API.
+  - path: /rest/overview/troubleshooting
+    title: Troubleshooting
+    subtitle: Learn how to resolve the most common problems people encounter in the REST API.
+  - path: /rest/guides/basics-of-authentication
+    title: Basics of Authentication
+    subtitle: Learn about the different ways to authenticate with some examples.
+  - path: /rest/guides/best-practices-for-integrators
+    title: Best Practices for Integrators
+    subtitle: Build an app that reliably interacts with the GitHub API and provides the best experience for your users.
+options:
+  - category: documentation
+    title: Guides
+    subtitle: Get started with the REST API and authentication.
+    img: microsites/documentation.svg
+    cta: Discover pathways
+    url:
+      docs_url: /rest/guides
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas in our community discussions.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/apis-and-integrations
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest REST API updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=REST%20API
+video:
+  title: Building GitHub integrations with webhooks and REST - GitHub Satellite 2020
+  subtitle: Webhooks are valuable tools for powering real-time integrations and workflows in your project’s existing tools. This session will walk through an approach of building a webhook-powered application that acts on events as they take place on GitHub. You will also learn how to use the GitHub REST API through the Octokit SDK to call for additional resources after receiving an event.
+  url: https://www.youtube.com/embed/wcxOJq9YemE?rel=0&amp;vq=hd720
+community:
+  id: 60
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/apis-and-integrations

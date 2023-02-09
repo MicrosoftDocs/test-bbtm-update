@@ -1,11 +1,7 @@
 param(
 [Parameter(Mandatory = $true)]
 [ValidateScript({ Test-Path $_ })]
-[string]$RepoRoot,
-
-[Parameter(Mandatory = $true)]
-[ValidateScript({ Test-Path $_ })]
-[string]$ManifestFile,
+[string]$FileList,
 
 [Parameter(Mandatory = $true)]
 [ValidateScript({ Test-Path $_ })]
@@ -27,27 +23,22 @@ function Main
 {
     $params = Configure
 
-    $projects = (Get-Content -Path $ManifestFile -Raw | ConvertFrom-Json).Projects
+    $files = Get-Content -Path $FileList
 
-    foreach ($project in $projects)
+    foreach ($sourceFilePath in $files)
     {
-        foreach ($locItem in $project.LocItems)
+        $extension = [System.IO.Path]::GetExtension($sourceFilePath)
+
+        if ($extension -eq ".json")
         {
-            $extension = [System.IO.Path]::GetExtension($locItem.SourceFile)
+            $targetFilePath = $sourceFilePath -replace "\.json", ".yml"
 
-            if ($extension -eq ".json")
+            Write-Host ">>>>> Converting [$sourceFilePath] as [$targetFilePath]..."
+            & $params.YQCli -P $sourceFilePath | Out-File -FilePath $targetFilePath -Encoding utf8
+
+            if ($LastExitCode -ne 0)
             {
-                $relativeSourceFilePath = $locItem.SourceFile -replace "\.json", ".yml"
-                $sourceFilePath = [System.IO.Path]::Combine($RepoRoot, $relativeSourceFilePath)
-                $targetFilePath = [System.IO.Path]::Combine($RepoRoot, $locItem.SourceFile)
-
-                Write-Host ">>>>> Converting [$sourceFilePath] as [$targetFilePath]..."
-                & $params.YQCli -o=json $sourceFilePath | Out-File -FilePath $targetFilePath -Encoding utf8
-
-                if ($LastExitCode -ne 0)
-                {
-                    throw "[$sourceFilePath] conversion failed."
-                }
+                throw "[$sourceFilePath] conversion failed."
             }
         }
     }

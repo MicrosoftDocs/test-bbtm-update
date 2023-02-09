@@ -1,0 +1,70 @@
+{
+  "id": "actions",
+  "group": "ci-cd-devops",
+  "product": "GitHub Actions",
+  "search": "actions",
+  "canned_pattern": "actions",
+  "docs_path": "/actions",
+  "contact_path": "/request/actions",
+  "articles": [
+    {
+      "path": "/actions/reference/workflow-syntax-for-github-actions",
+      "title": "Workflow syntax",
+      "subtitle": "A workflow is a configurable automated process made up of one or more jobs. You must create a YAML file to define your workflow configuration."
+    },
+    {
+      "path": "/actions/reference/events-that-trigger-workflows",
+      "title": "Events that trigger workflows",
+      "subtitle": "You can configure your workflows to run when specific activity on GitHub happens, at a scheduled time, or when an event outside of GitHub occurs."
+    },
+    {
+      "path": "/actions/reference/context-and-expression-syntax-for-github-actions",
+      "title": "Context and expression syntax",
+      "subtitle": "You can access context information and evaluate expressions in workflows and actions."
+    },
+    {
+      "path": "/actions/reference/encrypted-secrets",
+      "title": "Encrypted secrets",
+      "subtitle": "Encrypted secrets allow you to store sensitive information in your repository or organization."
+    }
+  ],
+  "options": [
+    {
+      "category": "documentation",
+      "title": "Help Docs",
+      "subtitle": "Explore our GitHub Actions documentation.",
+      "img": "microsites/documentation.svg",
+      "cta": "Start exploring",
+      "url": {
+        "docs_url": "/actions"
+      }
+    },
+    {
+      "category": "community_forum",
+      "title": "Ask the community",
+      "subtitle": "Ask questions, swap stories, share ideas on the community forum.",
+      "img": "microsites/community.svg",
+      "cta": "Get involved",
+      "url": {
+        "community_url": "https://github.com/orgs/community/discussions/categories/actions-and-packages"
+      }
+    },
+    {
+      "category": "github_blog",
+      "title": "What's new",
+      "subtitle": "Discover the latest GitHub Actions updates on our blog",
+      "img": "microsites/blog.svg",
+      "cta": "Learn more",
+      "url": "https://github.blog/?s=GitHub%20Actions"
+    }
+  ],
+  "video": {
+    "title": "Watch our GitHub Actions talk from GitHub Satellite",
+    "subtitle": "Learn about the core concepts and various components of GitHub Actions.",
+    "url": "https://www.youtube.com/embed/-2UgL63_yB4?rel=0&amp;vq=hd720"
+  },
+  "community": {
+    "id": 41,
+    "path": "https://github.com/orgs/community/discussions/categories/actions-and-packages"
+  }
+}
