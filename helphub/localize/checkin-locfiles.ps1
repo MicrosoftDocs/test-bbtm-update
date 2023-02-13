@@ -89,7 +89,7 @@ function Main
     Write-Host ">>>>> Creating pull request in repo..."
     $pullRequestUrl = CreatePullRequest
 
-    Write-Host ">>>>> $pullRequestUrl created."
+    Write-Host ">>>>> [$pullRequestUrl] created."
 }
 
 function Configure
@@ -106,9 +106,9 @@ function Configure
 
     Set-Location -Path $env:BUILD_SOURCESDIRECTORY
 
-    $commitMessage = "Check-in of files from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
-    $pullRequestTitle = "Check-in of files from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
-    $pullRequestBody = "Check-in of files from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
+    $commitMessage = "Loc file check-in from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
+    $pullRequestTitle = "Loc file check-in from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
+    $pullRequestBody = "Loc file check-in from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
 
     $paramsObj = [PSCustomObject]@{
         YQCli = $yqLocalFilePath;
@@ -119,7 +119,7 @@ function Configure
         PullRequestTitle = $pullRequestTitle;
         PullRequestBody = $pullRequestBody;
         Pat = $Pat;
-        PullRequestBaseBranch = $env:BUILD_SOURCEBRANCH;
+        PullRequestBaseBranch = $env:BUILD_SOURCEBRANCH -replace "^refs/heads/", "";
     }
 
     return $paramsObj

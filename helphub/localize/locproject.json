@@ -1,13 +1,19 @@
 {
   "Projects": [
     {
+      "LssFiles": [ "helphub\\localize\\lss\\education.lss" ],
       "LocItems": [
         {
           "SourceFile": "helphub\\src\\education\\en\\education-categories.json",
           "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
           "CopyOption": "LangIDOnPath",
           "OutputPath": "helphub\\src\\education"
-        },
+        }
+      ]
+    },
+    {
+      "LssFiles": [ "helphub\\localize\\lss\\features.lss" ],
+      "LocItems": [
         {
           "SourceFile": "helphub\\src\\features\\en\\account.json",
           "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
@@ -157,19 +163,31 @@
           "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
           "CopyOption": "LangIDOnPath",
           "OutputPath": "helphub\\src\\features"
-        },
+        }
+      ]
+    },
+    {
+      "LocItems": [
         {
           "SourceFile": "helphub\\src\\npm-name-disputes\\en\\npm-name-disputes-copy.json",
           "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
           "CopyOption": "LangIDOnPath",
           "OutputPath": "helphub\\src\\npm-name-disputes"
-        },
+        }
+      ]
+    },
+    {
+      "LocItems": [
         {
           "SourceFile": "helphub\\src\\report-abuse\\en\\tag-text.json",
           "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
           "CopyOption": "LangIDOnPath",
           "OutputPath": "helphub\\src\\report-abuse"
-        },
+        }
+      ]
+    },
+    {
+      "LocItems": [
         {
           "SourceFile": "helphub\\src\\locales\\en\\helphub.po",
           "Languages": "ar;de;es;fr;hi;it;ja;ko;pt-BR;ru;tr;zh-Hans",
