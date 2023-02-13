@@ -1,14 +1,14 @@
 param(
 [Parameter(Mandatory = $true)]
-[ValidateScript({ Test-Path $_ })]
+[ValidateScript({ Test-Path -Path $_ })]
 [string]$RepoRoot,
 
 [Parameter(Mandatory = $true)]
-[ValidateScript({ Test-Path $_ })]
+[ValidateScript({ Test-Path -Path $_ })]
 [string]$ManifestFile,
 
 [Parameter(Mandatory = $true)]
-[ValidateScript({ Test-Path $_ })]
+[ValidateScript({ Test-Path -Path $_ })]
 [string]$ToolDir,
 
 [Parameter(Mandatory = $true)]
@@ -39,6 +39,12 @@ function Main
             {
                 $relativeSourceFilePath = $locItem.SourceFile -replace "\.json", ".yml"
                 $sourceFilePath = [System.IO.Path]::Combine($RepoRoot, $relativeSourceFilePath)
+
+                if (-not (Test-Path -Path $sourceFilePath))
+                {
+                    throw "[$sourceFilePath] not found."
+                }
+
                 $targetFilePath = [System.IO.Path]::Combine($RepoRoot, $locItem.SourceFile)
 
                 Write-Host ">>>>> Converting [$sourceFilePath] as [$targetFilePath]..."

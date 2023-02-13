@@ -1,10 +1,10 @@
 param(
 [Parameter(Mandatory = $true)]
-[ValidateScript({ Test-Path $_ })]
+[ValidateScript({ Test-Path -Path $_ })]
 [string]$FileList,
 
 [Parameter(Mandatory = $true)]
-[ValidateScript({ Test-Path $_ })]
+[ValidateScript({ Test-Path -Path $_ })]
 [string]$ToolDir,
 
 [Parameter(Mandatory = $true)]
@@ -36,6 +36,11 @@ function Main
 
     foreach ($sourceFilePath in $files)
     {
+        if (-not (Test-Path -Path $sourceFilePath))
+        {
+            throw "[$sourceFilePath] not found."
+        }
+
         $extension = [System.IO.Path]::GetExtension($sourceFilePath)
 
         if ($extension -eq ".json")
