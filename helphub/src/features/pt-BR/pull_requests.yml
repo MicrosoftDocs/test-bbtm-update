@@ -1,0 +1,49 @@
+id: pull-requests
+group: collaborative-coding
+product: Pull Requests
+canned_pattern: pull|pr|review|branch|fork|conflict|branch
+search: pull request
+docs_path: /pull-requests
+contact_path: /request/pull-requests
+articles:
+  - path: /pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models
+    title: About collaborative development models
+    subtitle: The way you use pull requests depends on the type of development model you use in your project. You can use the fork and pull model or the shared repository model.
+  - path: /pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+    title: Creating a pull request
+    subtitle: Create a pull request to propose and collaborate on changes to a repository. These changes are proposed in a branch, which ensures that the default branch only contains finished and approved work.
+  - path: /pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/committing-changes-to-a-pull-request-branch-created-from-a-fork
+    title: Committing changes to a pull request branch created from a fork
+    subtitle: You can commit changes on a pull request branch that was created from a fork of your repository with permission from the pull request creator.
+  - path: /pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts
+    title: About merge conflicts
+    subtitle: Merge conflicts happen when you merge branches that have competing commits, and Git needs your help to decide which changes to incorporate in the final merge.
+options:
+  - category: documentation
+    title: Help Docs
+    subtitle: Explore our pull request documentation.
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /pull-requests
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas on the community forum.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/pull-requests
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest pull request updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=Pull%20Request
+video:
+  title: Draft Pull Request (WIP)
+  subtitle: If you want to talk and collaborate on a pull request before 'officially' submitting it, you can draft a PR.
+  url: https://www.youtube.com/embed/l0Lw_zPX4TA?rel=0&amp;vq=hd720
+community:
+  id: 69
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/pull-requests

@@ -1,0 +1,18 @@
+get-started:
+  label: Get Started
+ci-cd-devops:
+  label: CI/CD and DevOps
+enterprise-and-teams:
+  label: Enterprise and Teams
+security:
+  label: Security
+feedback:
+  label: Feedback
+collaborative-coding:
+  label: Collaborative Coding
+project-management:
+  label: Project Management
+community:
+  label: Community
+developers:
+  label: Developers
