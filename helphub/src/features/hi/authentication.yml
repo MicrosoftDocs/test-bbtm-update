@@ -1,0 +1,49 @@
+id: authentication
+group: get-started
+product: Authentication
+canned_pattern: auth|2fa|two|factor|password
+search: auth
+docs_path: /authentication
+contact_path: /request/account
+articles:
+  - path: /authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication
+    title: Two-factor authentication
+    subtitle: With two-factor authentication (2FA), you have to log in with your username and password and provide another form of authentication that only you know or have access to.
+  - path: /authentication/keeping-your-account-and-data-secure
+    title: Keeping your account and data secure
+    subtitle: To protect your personal information, you should keep both your account on GitHub.com and any associated data secure.
+  - path: /authentication/troubleshooting-ssh
+    title: Troubleshooting SSH
+    subtitle: When using SSH to connect and authenticate to GitHub, you may need to troubleshoot unexpected issues that may arise.
+  - path: /authentication/troubleshooting-commit-signature-verification
+    title: Troubleshooting commit signature verification
+    subtitle: You may need to troubleshoot unexpected issues that arise when signing commits locally for verification on GitHub.
+options:
+  - category: documentation
+    title: Help Docs
+    subtitle: Explore our authentication documentation.
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /authentication
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas on the community forum.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/new-to-github
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest authentication updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=Authentication
+video:
+  title: Git Good at Securing your Code • How to enable 2FA on GitHub
+  subtitle: "Did you know using 2FA is one of the best ways to secure your code \U0001F512. If you don't already have two-factor authentication setup, check out how to enable this feature now."
+  url: https://www.youtube.com/embed/j6beTHnsumI?rel=0&amp;vq=hd720
+community:
+  id: 42
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/new-to-github
