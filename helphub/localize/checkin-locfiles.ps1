@@ -60,11 +60,28 @@ function Main
     Write-Host ">>>>> Configuring repo..."
     ConfigureRepo
 
-    $guid = New-Guid
-    $pullRequestHeadBranch = "loc/$guid"
+    Write-Host ">>>>> Finding existing pull request in repo..."
+    $pullRequestsObj = TryFindPullRequest
 
-    Write-Host ">>>>> Creating pull request branch [$pullRequestHeadBranch] in repo..."
-    CreateNewBranch -RepoRootDir -BranchName $pullRequestHeadBranch
+    if ($pullRequestsObj.Count -eq 0)
+    {
+        $guid = New-Guid
+        $pullRequestHeadBranch = "loc/$guid"
+
+        Write-Host ">>>>> Creating pull request branch [$pullRequestHeadBranch] in repo..."
+        CreateNewBranch -RepoRootDir -BranchName $pullRequestHeadBranch
+    }
+    else
+    {
+        $pullRequestsObj = $pullRequestsObj | Sort-Object -Property number -Descending
+
+        $pullRequestNumber = $pullRequestsObj.number
+        Write-Host ">>>>> Pull request ID $pullRequestNumber found."
+
+        $pullRequestHeadBranch = $pullRequestsObj.headRefName
+        Write-Host ">>>>> Checking-out pull request branch [$pullRequestBranchName] in repo..."
+        CheckOutBranch -BranchName $pullRequestHeadBranch
+    }
 
     Write-Host ">>>>> Staging files in repo..."
     StageFilesInRepo -Wildcard *.yml
@@ -91,10 +108,18 @@ function Main
     Write-Host ">>>>> Pushing change in repo..."
     PushChangeInRepo -BranchName $pullRequestHeadBranch
 
-    Write-Host ">>>>> Creating pull request in repo..."
-    $pullRequestUrl = CreatePullRequest
+    if ($pullRequestsObj.Count -eq 0)
+    {
+        Write-Host ">>>>> Creating pull request in repo..."
+        $pullRequestUrl = CreatePullRequest
 
-    Write-Host ">>>>> [$pullRequestUrl] created."
+        Write-Host ">>>>> [$pullRequestUrl] created."
+    }
+    else
+    {
+        Write-Host ">>>>> Updating pull request in repo..."
+        UpdatePullRequest -PullRequestNumber $pullRequestNumber
+    }
 }
 
 function Configure
@@ -112,7 +137,9 @@ function Configure
     Set-Location -Path $env:BUILD_SOURCESDIRECTORY
 
     $commitMessage = "Loc file check-in from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
-    $pullRequestTitle = "Loc file check-in from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
+    $pullRequestTitlePrefix = "Loc file check-in from pipeline"
+    $pullRequestTitle = $pullRequestTitlePrefix + " $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
+    $pullRequestSearchTitle = $pullRequestTitlePrefix + " in:title type:pr"
     $pullRequestBody = "Loc file check-in from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
 
     $paramsObj = [PSCustomObject]@{
@@ -122,6 +149,7 @@ function Configure
         GitUserName = $GitUserName;
         CommitMessage = $commitMessage;
         PullRequestTitle = $pullRequestTitle;
+        PullRequestSearchTitle = $pullRequestSearchTitle;
         PullRequestBody = $pullRequestBody;
         Pat = $Pat;
         PullRequestBaseBranch = $env:BUILD_SOURCEBRANCH -replace "^refs/heads/", "";
@@ -155,6 +183,20 @@ function CreateNewBranch
 
     Write-Host "##[command]git checkout -b $BranchName"
     git checkout -b $BranchName
+    if ($LastExitCode -ne 0)
+    {
+        throw "Git checkout error."
+    }
+}
+
+function CheckOutBranch
+{
+    param(
+        [string]$BranchName
+    )
+
+    Write-Host "##[command]git checkout --progress --force $BranchName"
+    git checkout --progress --force $BranchName
     if ($LastExitCode -ne 0)
     {
         throw "Git checkout error."
@@ -252,6 +294,36 @@ function CreatePullRequest
     }
 
     return $pullRequestUrl
+}
+
+function TryFindPullRequest
+{
+    $env:GH_TOKEN = $params.Pat
+
+    Write-Host "##[command]gh pr list -s open -B $($params.PullRequestBaseBranch) -S `"$($params.PullRequestBaseBranch)`" --json number,headRefName"
+    $pullRequestListInJson = gh pr list -s open -B $($params.PullRequestBaseBranch) -S "$($params.PullRequestBaseBranch)" --json number,headRefName
+    if ($LastExitCode -ne 0)
+    {
+        throw "gh pr list error."
+    }
+
+    return @($pullRequestListInJson| ConvertFrom-Json)
+}
+
+function UpdatePullRequest
+{
+    param(
+        [string]$PullRequestNumber
+    )
+
+    $env:GH_TOKEN = $params.Pat
+
+    Write-Host "##[command]gh pr edit $PullRequestNumber -t `"$($params.PullRequestTitle)`" -b `"$($params.PullRequestBody)`""
+    gh pr edit $PullRequestNumber -t "$($params.PullRequestTitle)" -b "$($params.PullRequestBody)"
+    if ($LastExitCode -ne 0)
+    {
+        throw "gh pr edit error."
+    }
 }
 
 . Main
