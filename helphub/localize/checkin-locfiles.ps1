@@ -76,10 +76,10 @@ function Main
         $pullRequestsObj = $pullRequestsObj | Sort-Object -Property number -Descending
 
         $pullRequestNumber = $pullRequestsObj[0].number
-        Write-Host ">>>>> Pull request ID $pullRequestNumber found."
+        Write-Host ">>>>> Pull request $pullRequestNumber found."
 
         $pullRequestHeadBranch = $pullRequestsObj[0].headRefName
-        Write-Host ">>>>> Checking-out pull request branch [$pullRequestBranchName] in repo..."
+        Write-Host ">>>>> Checking-out pull request branch [$pullRequestHeadBranch] in repo..."
         CheckOutBranch -BranchName $pullRequestHeadBranch
     }
 
