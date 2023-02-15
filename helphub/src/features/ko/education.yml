@@ -1,0 +1,48 @@
+id: education
+group: community
+product: Education
+canned_pattern: education|campus|classroom
+docs_path: /education
+contact_path: /request/education
+articles:
+  - path: /education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack
+    title: Apply for a student developer pack
+    subtitle: As a student, you can apply for the GitHub Student Developer Pack, which includes offers and benefits from GitHub partners.
+  - path: /education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/why-wasnt-my-application-for-a-student-developer-pack-approved
+    title: Why wasn't my application for a student developer pack approved?
+    subtitle: Review common reasons that applications for the GitHub Student Developer Pack are not approved and learn tips for reapplying successfully.
+  - path: /education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/about-github-education-for-students
+    title: About GitHub Education for students
+    subtitle: GitHub Education offers students real-world experience with free access to various developer tools from GitHub's partners.
+  - path: /education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount
+    title: Apply for an educator or researcher discount
+    subtitle: If you're an educator or a researcher, you can apply to receive GitHub Team for your organization account for free.
+options:
+  - category: education
+    title: GitHub Education & GitHub Global Campus
+    subtitle: Explore GitHub Global Campus for students, teachers, and schools.
+    img: microsites/education.svg
+    cta: Start exploring
+    url: https://education.github.com
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas on the community forum.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/github-education
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest GitHub Education updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=Education
+video:
+  title: GitHub Global Campus - GitHub Checkout
+  subtitle: Global Campus is the home for our 1.5 million+ students. It’s where students can get the most out of GitHub Education in one place from GitHub Classroom and assignments to offers, Campus Experts, Campus TV and so much more!
+  url: https://www.youtube.com/embed/5GocCQAwnrk?rel=0&amp;vq=hd720
+community:
+  id: 53
+  path: https://github.com/orgs/community/discussions/categories/github-education
+  status: open
+  after: 100

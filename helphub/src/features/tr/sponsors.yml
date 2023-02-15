@@ -1,0 +1,48 @@
+id: sponsors
+group: community
+product: GitHub Sponsors
+canned_pattern: sponsor
+docs_path: /sponsors
+contact_path: /request/sponsors
+articles:
+  - path: /sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor
+    title: Sponsoring an Open Source Contributor
+    subtitle: You can make a monthly recurring payment to a developer or organization who designs, creates, or maintains open source projects you depend on.
+  - path: /sponsors/getting-started-with-github-sponsors/about-github-sponsors
+    title: About GitHub Sponsors
+    subtitle: GitHub Sponsors allows the developer community to financially support the people and organizations who design, build, and maintain the open source projects they depend on, directly on GitHub.
+  - path: /sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors
+    title: Tax Information for GitHub Sponsors
+    subtitle: Sponsored developers and organizations must submit tax information to GitHub and are responsible for evaluating and paying their own taxes.
+  - path: /sponsors/sponsoring-open-source-contributors
+    title: Sponsoring an Open Source Contributor
+    subtitle: You can sponsor contributors, receive updates on developers and organizations you sponsor, and display a sponsor badge throughout GitHub.
+options:
+  - category: documentation
+    title: Help Docs
+    subtitle: Explore our GitHub Sponsors documentation.
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /sponsors
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas on the community forum.
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: https://github.com/orgs/community/discussions/categories/new-to-github
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest GitHub Sponsors updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/changelog/label/sponsors
+video:
+  title: 'GitHub Sponsors: A new way to contribute to open source'
+  subtitle: We’re thrilled to announce GitHub Sponsors, a new way to financially support the developers who build the open source software you use every day. Open source developers build tools for the rest of us. GitHub Sponsors is a new tool to help them succeed, too.
+  url: https://www.youtube.com/embed/FYkBA9epUEk?rel=0&amp;vq=hd720
+community:
+  id: 42
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/new-to-github

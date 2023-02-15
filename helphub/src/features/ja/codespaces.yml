@@ -1,0 +1,48 @@
+id: codespaces
+group: collaborative-coding
+product: GitHub Codespaces
+canned_pattern: codespaces
+search: codespace
+docs_path: /codespaces
+contact_path: /request/codespaces
+articles:
+  - path: /billing/managing-billing-for-github-codespaces/about-billing-for-codespaces
+    title: About billing for GitHub Codespaces
+    subtitle: View pricing and see how to manage Codespaces billing for your organization.
+  - path: /codespaces/managing-codespaces-for-your-organization/enabling-codespaces-for-your-organization
+    title: Enabling Codespaces for your organization
+    subtitle: You can control which users in your organization can use Codespaces.
+  - path: /codespaces/setting-up-your-codespace/configuring-codespaces-for-your-project
+    title: Configuring Codespaces for your project
+    subtitle: You can use a devcontainer.json file to define a Codespaces environment for your repository.
+  - path: /codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces
+    title: Managing repository access for your organization's Codespaces
+    subtitle: You can manage the repositories in your organization that Codespaces can access.
+options:
+  - category: examples
+    title: Code examples
+    subtitle: Explore our codespaces examples
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /codespaces#code-examples
+  - category: community_forum
+    title: Ask the community
+    subtitle: Ask questions, swap stories, share ideas in our community discussions.
+    img: microsites/community.svg
+    cta: Get involved
+    url: https://github.com/orgs/community/discussions/categories/codespaces
+  - category: github_blog
+    title: What's new
+    subtitle: Discover the latest GitHub Codespaces updates on our blog
+    img: microsites/blog.svg
+    cta: Learn more
+    url: https://github.blog/?s=Codespaces
+video:
+  title: Making Codespaces Work for You - GitHub Universe 2021
+  subtitle: 'Presented by: Allison Weins, Senior Project Manager, Bailey Brooks, Project Manager II'
+  url: https://www.youtube.com/embed/X9Z-rUixnzk?rel=0&amp;vq=hd720
+community:
+  id: 52
+  status: open
+  path: https://github.com/orgs/community/discussions/categories/codespaces
