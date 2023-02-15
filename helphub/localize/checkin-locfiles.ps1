@@ -300,8 +300,8 @@ function TryFindPullRequest
 {
     $env:GH_TOKEN = $params.Pat
 
-    Write-Host "##[command]gh pr list -s open -B $($params.PullRequestBaseBranch) -S `"$($params.PullRequestBaseBranch)`" --json number,headRefName"
-    $pullRequestListInJson = gh pr list -s open -B $($params.PullRequestBaseBranch) -S "$($params.PullRequestBaseBranch)" --json number,headRefName
+    Write-Host "##[command]gh pr list -s open -B $($params.PullRequestBaseBranch) -S `"$($params.PullRequestSearchTitle)`" --json number,headRefName"
+    $pullRequestListInJson = gh pr list -s open -B $($params.PullRequestBaseBranch) -S "$($params.PullRequestSearchTitle)" --json number,headRefName
     if ($LastExitCode -ne 0)
     {
         throw "gh pr list error."
