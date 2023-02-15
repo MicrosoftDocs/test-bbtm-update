@@ -115,11 +115,6 @@ function Main
 
         Write-Host ">>>>> [$pullRequestUrl] created."
     }
-    else
-    {
-        Write-Host ">>>>> Updating pull request in repo..."
-        UpdatePullRequest -PullRequestNumber $pullRequestNumber
-    }
 }
 
 function Configure
@@ -308,22 +303,6 @@ function TryFindPullRequest
     }
 
     return @($pullRequestListInJson| ConvertFrom-Json)
-}
-
-function UpdatePullRequest
-{
-    param(
-        [string]$PullRequestNumber
-    )
-
-    $env:GH_TOKEN = $params.Pat
-
-    Write-Host "##[command]gh pr edit $PullRequestNumber -t `"$($params.PullRequestTitle)`" -b `"$($params.PullRequestBody)`""
-    gh pr edit $PullRequestNumber -t "$($params.PullRequestTitle)" -b "$($params.PullRequestBody)"
-    if ($LastExitCode -ne 0)
-    {
-        throw "gh pr edit error."
-    }
 }
 
 . Main
