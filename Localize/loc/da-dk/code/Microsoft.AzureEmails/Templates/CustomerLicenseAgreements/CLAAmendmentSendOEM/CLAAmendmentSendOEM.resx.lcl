@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\CustomerLicenseAgreements\CLAAmendmentSendOEM\CLAAmendmentSendOEM.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="da-DK" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";CLAAmendmentSendOEM.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Accept" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To accept the CLA amendment, select the Terms and Conditions checkbox and then the <strong>ACCEPT AMENDMENT</strong> button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hvis du vil acceptere CLA-ændringen, skal du markere afkrydsningsfeltet Vilkår og betingelser og derefter knappen <strong>ACCEPTÉR ÆNDRING</strong>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_After" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[After receiving the amendment, we’ll review and activate it. You’ll receive a notification email after the amendment is active.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Når vi har modtaget ændringen, gennemgår og aktiverer vi den. Du modtager en meddelelsesmail, når ændringen er aktiv.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Associated" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The CLA and associated amendments are primarily <strong>select to accept</strong>. No signatures are required. The <strong>PRINT ONLINE</strong> version of the amendment that you can download in the CLA app is the document of record. If you require a hard-copy counter signature based on your own internal processes, print the hard-copy version via the <strong>PRINT HARD COPY</strong> button. <strong>We don’t require a hard copy to be executed;</strong> this is at the discretion of the customer. The hard copy can be signed and sent to the address on page 2 of your CLA. We’ll then provide you with a countersigned hard copy.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA og tilknyttede ændringer er primært <strong>vælg for at acceptere</strong>. Der kræves ingen signaturer. <strong>UDSKRIV ONLINE</strong>-versionen af ændringen, som du kan downloade i CLA-appen, er det registrerede dokument. Hvis du har brug for en signatur til en papirkopi baseret på dine egne interne processer, skal du udskrive papirkopien via knappen <strong>UDSKRIV PAPIRKOPI</strong>. <strong>Vi kræver ikke, at der udføres en papirkopi;</strong> dette er kundens skøn. Papirkopien kan signeres og sendes til adressen på side 2 af din CLA. Vi giver dig derefter en kontrasigneret papirkopi.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Authorized" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The <strong>authorized representative</strong> should select <strong>ACCEPT AMENDMENT</strong> at the bottom of the form to send it to us for review. If you aren’t the authorized representative, select the <strong>Amendment Send to Authorized Representative</strong> button, and the CLA will be sent to the representative in your company.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Den <strong>autoriserede repræsentant,</strong>, skal vælge <strong>ACCEPTER ÆNDRINGEN</strong> nederst i formularen for at sende den til gennemgang. Hvis du ikke er den autoriserede repræsentant, skal du vælge knappen <strong>Send ændring til autoriseret repræsentant</strong>, og CLA'en sendes til repræsentanten i din virksomhed.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Button" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open the CLA form]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Åbn CLA-formularen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Contact" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have questions, engage your authorized Microsoft IoT distributor or <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hvis du har spørgsmål, skal du kontakte din autoriserede Microsoft IoT-distributør eller <a href="{0}">kontakte os</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Customer" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft customer license agreement (CLA) amendment <strong>{0}</strong>for <strong>{1}</strong> is awaiting your attention.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ændringen af CLA (Microsoft kundelicensaftale) <strong>{0}</strong>for <strong>{1}</strong> afventer din handling.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Download" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download a copy of the amendment terms for your records via the <strong>PRINT ONLINE</strong> button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Download en kopi af vilkårene for ændringen for dine optegnelser via knappen <strong>UDSKRIV ONLINE</strong>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Link" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The link will be valid for <strong>{0}</strong> days. After you open the CLA web form, complete these steps:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Linket vil være gyldigt i <strong>{0}</strong> dage. Når du har åbnet CLA-webformularen, skal du udføre disse trin:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_More" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Flere oplysninger]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Name" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0},]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0},]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_ToGet" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To get additional guidance on completing the web form, download the <a href="{0}">CLA Reference Guide</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Du kan få yderligere vejledning til at udfylde webformularen ved at downloade <a href="{0}">referencevejledningen til bidragslicensaftalen</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_ToReview" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To review the amendment terms, select the Terms and Conditions link near the bottom of the web form.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hvis du vil gennemgå vilkårene for ændringen, skal du vælge linket Vilkår og betingelser nederst i webformularen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[msazure]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[msazure]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The new amendment is waiting for action from you.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Den nye ændring afventer din handling.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} {1}, a new Microsoft CLA amendment was created for {2}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} {1}, der blev oprettet et nyt Microsoft CLA-tillæg til {2}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A new Microsoft CLA amendment for {0} is waiting for action from you]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[En ny Microsoft CLA-ændring for {0} afventer din handling.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

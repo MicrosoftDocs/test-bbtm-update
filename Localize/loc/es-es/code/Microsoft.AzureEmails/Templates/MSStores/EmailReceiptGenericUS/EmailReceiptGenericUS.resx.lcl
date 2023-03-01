@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\MSStores\EmailReceiptGenericUS\EmailReceiptGenericUS.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="es-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";EmailReceiptGenericUS.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Offer" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Offer valid on purchases of physical products made at Microsoft Experience Center and Microsoft Company Stores for 30 days from purchase date, or 60 days for Surface products, excluding Surface Hub (“Offer Period”). Customer is eligible for price adjustment only if 1) the price of the purchased physical product or Surface is reduced during the Offer Period and in stock for purchase, and 2) Customer returns to the Microsoft location with original receipt and any other information requested by a representative. Credit will be provided to same method of payment. Limited to 5 devices per eligible Customer during the Offer Period, maximum of 1 price adjustment per device.  </br>  ]D;]A;Microsoft reserves the right to modify or discontinue offers at any time.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Oferta válida para las compras de productos físicos realizadas a través del Centro de experiencias de Microsoft y en las Tiendas de Microsoft de empresa por 30 días desde la fecha de compra o 60 días para los productos Surface, excepto Surface Hub (el “Período de oferta”). El cliente es apto para el ajuste de precios solo si: 1) el precio del producto físico o Surface comprado se reduce durante el período de oferta y mientras haya existencias para su compra, y 2) el cliente vuelve a la ubicación de Microsoft con el recibo original y cualquier otra información solicitada por un representante. El crédito se proporcionará al mismo método de pago. Limitado a 5 dispositivos por cliente apto durante el período de oferta, máximo de 1 ajuste de precio por dispositivo.  </br>    ]A;Microsoft se reserva el derecho de modificar o interrumpir las ofertas en cualquier momento.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[*Offer valid from 11/1/22-1/2/23 (“Offer Period”) on eligible consumer purchases only made at the Microsoft Experience Center in New York and Microsoft Company Stores in Redmond, WA and Silicon Valley, CA. Excludes business, commercial, and reseller customer purchases. Customer is eligible for price adjustment only if the price of the purchased item is reduced during the Offer Period and in stock for purchase. For purchases made from Microsoft Store, contact customer service at 877-696-7786 with Order # and any other information requested. If purchased at the Microsoft Experience Center or Microsoft Company Stores, Customer must return to the Microsoft location with receipt to receive price adjustment. Price adjustment will be provided in same manner as payment method. Limit 1 price adjustment per item. For Surface purchases, you may be entitled to additional benefits under the <a href="{0}">Microsoft Store Promise for Surface</a>. Price adjustments do not include taxes, shipping or other fees. Depending on your date of purchase, you may have additional time to request a price adjustment through the evergreen Microsoft Store Price Promise.</br>  ]D;]A;Microsoft reserves the right to modify or discontinue offers at any time.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Price" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Price Promise]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Promesa de precio]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Extended Price Promise:]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Returns" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Returns]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Devoluciones]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Extended Returns]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_WeWant" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want you to be satisfied with your purchase and will accept returns and exchanges for items that meet the return criteria for 30 days from the date of purchase (60 days for purchases of Surface devices, excluding Surface Hub) and to the extent permitted under applicable law. Business customers may be subject to different return criteria. All returns and exchanges must be returned at this location in like-new condition and must be accompanied by the original receipt or gift receipt, original documentation, instruction manuals, registration, parts and components (including cables, controllers, and accessories), and original manufacturer packaging. Failure to include such items may prevent or delay your refund or exchange. EXCEPTIONS: For software and games, you may only return opened items during the return period if: (i) you don’t agree with the license agreement, or (ii) the media does not work, and (iii) only if you do not make or retain any copies. Opened software and games may only be exchanged for the same product. If we no longer have the same product, we will issue you a Microsoft Experience Center credit. For phones, you can return them during our return period, but it is your responsibility to cancel your service within the time specified by your carrier or your carrier may charge you an early termination fee. This is a carrier policy and we have no influence over their cancellation policies. For promotional items and bundles, all included products and/or services must be returned together. If a service included in the promotion or bundle has been used (for example a promo code was used) or bundle includes a non-returnable item, the full retail value of the service and/or non-returnable item will be deducted from the refund amount. When a bundle is purchased and only part of the bundle is returned, the bundle discount is void, and the total bundle discount will be deducted from the refund.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Queremos que esté satisfecho con su compra y aceptaremos devoluciones e intercambios por artículos que cumplan los criterios de devolución por 30 días a partir de la fecha de compra (60 días para compras de dispositivos Surface, excluido Surface Hub) y en la medida en que lo permita la legislación aplicable. Los clientes empresariales podrían estar sujetos a criterios de devolución diferentes. Todas las devoluciones e intercambios deben hacerse en esta ubicación en condiciones similares a las nuevas y deben ir acompañadas del recibo original o el recibo de regalo, la documentación original, los manuales de instrucciones, el registro, las partes y los componentes (incluidos los cables, mandos y accesorios), así como también del empaquetado del fabricante original. Si no se incluyen estos elementos, ello podría impedir o retrasar el reembolso o el cambio. EXCEPCIONES: En el caso de software y juegos, solo se pueden devolver los artículos abiertos durante el período de devolución si: (i) no está de acuerdo con el contrato de licencia o (ii) el medio no funciona, y (iii) siempre que no realice ni conserve ninguna copia. El software y los juegos abiertos solo se pueden intercambiar por el mismo producto. Si ya no tenemos el mismo producto, emitiremos un crédito del Centro de experiencia de Microsoft. En el caso de los teléfonos, puede devolverlos durante el período de devolución, pero es su responsabilidad cancelar el servicio en el plazo especificado por su operador de telefonía móvil o su operador podría cobrarle honorarios por cancelación anticipada. Esta es una directiva del operador y no tenemos influencia sobre las directivas de cancelación. Para los artículos promocionales y los conjuntos de productos, todos los productos o servicios incluidos deben devolverse juntos. Si se ha usado un servicio incluido en una promoción o conjunto de productos (por ejemplo, si se usó un código de promoción) o si el conjunto de productos incluye algún artículo que no se pueda devolver, el valor comercial completo del servicio y/o artículo no devuelto se deducirá del importe del reembolso. Cuando se compra un conjunto de productos y solo se devuelve una parte del conjunto, el descuento por dicho conjunto es nulo y el descuento total se deducirá del reembolso.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to <a href="{0}">office.com/setup</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vaya a <a href="{0}">office.com/setup</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter the 25-charecter code and follow the on-screen instructions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Escriba el código de 25 caracteres y siga las instrucciones en pantalla]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in with or create your Microsoft account using an email address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Inicie sesión con o cree su cuenta de Microsoft con una dirección de correo electrónico]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Follow the on-screen instructions to set up you account and install Office]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Siga las instrucciones en pantalla para configurar su cuenta e instalar Office]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[msazure]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[msazure]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MicrosoftEmployeePurchaseProgram" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Employee Purchase Program]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Programa de compras de empleados Microsoft]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MicrosoftReserves" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Other exclusions and limitations may apply.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pueden aplicarse otras exclusiones y limitaciones.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PleaseKeep" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[PLEASE KEEP THIS RECEIPT FOR YOUR RECORDS, THIS RECEIPT IS THE ONLY RECORD OF YOUR PURCHASED PRODUCT KEY, YOUR PRODUCT KEY CANNOT BE REPLACED.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CONSERVE ESTE RECIBO DESUS REGISTROS. ESTE RECIBO ES EL ÚNICO REGISTRO DE LA CLAVE DE PRODUCTO COMPRADA, NO SE PUEDE REEMPLAZAR LA CLAVE DE PRODUCTO.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PleaseKeepThisReceipt" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please Keep this receipt for your records. This receipt is the only record of your purchased product key. Your product key cannot be replaced.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Conserve este recibo de sus registros. Este recibo es el único registro de la clave de producto comprada. No se puede reemplazar la clave de producto.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review the details of your Microsoft purchase.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Revisa los detalles de tu compra de Microsoft.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchasesOfSoftware" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchases of software and hardware from the Microsoft Store (physical locations and online) under the Microsoft Employee Purchase Program are intended for personal use and/or limited gift giving only. The following restrictions apply to all purchases made at Microsoft Store under the Microsoft Employee Purchase Program: (1) Resale for profit (e.g. selling for a price higher than the employee paid) is strictly prohibited; (2) Trading or bartering of software or hardware for other goods or services is strictly prohibited, regardless of the value of the goods or services received; (3) Microsoft Store purchases are not meant to be used as currency; and (4) The purchase of software/hardware for business use whether for Microsoft business or any other business use is prohibited. Any violation of this policy may lead to disciplinary action, up to and or including immediate termination of employment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Las compras de software y hardware de la Microsoft Store (tanto en ubicaciones físicas como en línea) bajo el Programa de compras de empleados de Microsoft están pensadas solo para uso personal y/o para obsequios limitados. Las siguientes restricciones se aplican a todas las compras realizadas en Microsoft Store bajo el Programa de compras de empleados de Microsoft: (1) la reventa para obtener beneficios (por ejemplo, la venta por un precio superior al pagado por el empleado) está estrictamente prohibida; (2) el comercio o el intercambio de software o hardware por otros bienes o servicios está estrictamente prohibido, independientemente del valor de los bienes o servicios recibidos; (3) las compras de Microsoft Store no están pensadas para usarse como moneda y (4) se prohíbe la compra de software o hardware para uso empresarial, sea para empresas de Microsoft o para cualquier otro uso empresarial. Cualquier infracción de esta directiva puede conllevar a una acción disciplinaria, hasta o incluida la terminación inmediata del empleo.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Purchases of software and hardware from the Microsoft Store under the Microsoft Employee Purchase Program are intended for personal use and/or limited gift giving only. The following restrictions apply to all purchases made at  Microsoft Store under the Microsoft Employee Purchase Program: (1) Resale for profit (e.g. selling for a price higher than the employee paid) is strictly prohibited; (2) Trading or bartering of software or hardware for other goods or services is strictly prohibited, regardless of the value of the goods or services received; (3) Microsoft Store purchases are not meant to be used as currency; and (4) The purchase of software/hardware for business use whether for Microsoft business or any other business use is prohibited. Any violation of this policy may lead to disciplinary action, up to and or including immediate termination of employment.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Redeem" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redeem you code online]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Canjee el código en línea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your receipt from Microsoft – {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Su recibo de Microsoft –{0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for your purchase]]></Val>
+          <Tgt Cat="Text" Stat="Update" Orig="New">
+            <Val><![CDATA[Gracias por su compra.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Thank you for your purchase.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ToReturnAnyOfTheItems" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To return any of the items, print this barcode or show it on the phone when returning it at the {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para devolver cualquiera de los elementos, imprima este código de barras o muéstrelo en el teléfono al devolverlo en {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";YourOrderBarcode" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your order barcode]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Código de barras del pedido]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

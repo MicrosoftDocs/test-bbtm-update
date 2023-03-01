@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\PriceChangeRenewalReminder\PriceChangeRenewalReminder.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="tr-TR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";PriceChangeRenewalReminder.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";CFQ7TTC0K6L8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass for Console gives you access to over 100 high-quality console games. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Konsol için Xbox Game Pass, 100'den fazla yüksek kaliteli konsol oyununa erişmenizi sağlar. Xbox Game Studios oyunları da dahil olmak üzere sürekli eklenen oyunlarla her zaman oynayacak yeni bir şeyiniz olur. Bundan sonraki oyununuzu bugün keşfedin.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KGQ8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[PC Game Pass gives you access to over 100 high-quality PC games and EA Play. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[PC Game Pass, 100'den fazla yüksek kaliteli bilgisayar oyununa ve EA Play'e erişmenizi sağlar. Xbox Game Studios oyunları da dahil olmak üzere sürekli eklenen oyunlarla her zaman oynayacak yeni bir şeyiniz olur. Bundan sonraki oyununuzu bugün keşfedin.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KHS0" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass Ultimate gives you access to over 100 high-quality games on console, PC, and mobile devices, plus EA Play and Xbox Live Gold. With games added all the time, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Game Pass Ultimate; konsolda, bilgisayarda ve mobil cihazlarda 100'den fazla yüksek kaliteli oyuna, ayrıca EA Play'e ve mobil Xbox Live Gold'a erişim sağlar. Sürekli eklenen oyunlarla, her zaman oynayacak yeni bir şeyiniz olur. Bundan sonraki oyununuzu bugün keşfedin.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Cta_String" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage subscriptions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Abonelikleri yönet]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Manage your subscription]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ticaret]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[en-only]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoApplicableTaxes" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[including taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[vergiler dahil]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You last paid for your {0} subscription with a prepaid product key or code on {1}. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} aboneliğiniz için en son {1} tarihinde ön ödemeli bir ürün anahtarı veya koduyla ödeme yaptınız. Ödemeniz için teşekkür ederiz.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bir sonraki ödemenizin tutarındaki bir değişiklik hakkında sizi bilgilendirmek istiyoruz. {0} tarihinden iki gün önce iptal etmemeniz durumunda, {4} ödemenizin her {3} dönemi için {1} {2} ile ücretlendirileceksiniz.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We hope you’re enjoying your trial of {0} that started on {1}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{1} tarihinde başlayan {0} aboneliği denemenizin tadını çıkardığınızı umarız.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Deneme sürenizin yakında sona ereceğini size bildirmek istiyoruz. {0} tarihinden iki gün önce iptal etmemeniz durumunda {4} ödemenizin her {3} dönemi için {1} {2} ile ücretlendirileceksiniz.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P5" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We received your last payment of {0} on {1} for your {2} subscription. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{2} aboneliğiniz için {0} tutarındaki son ödemenizi {1} tarihinde aldık. Ödeme için teşekkür ederiz.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P6" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bir sonraki ödemenizin tutarındaki bir değişiklik hakkında sizi bilgilendirmek istiyoruz. {0} tarihinden iki gün önce iptal etmemeniz durumunda, {4} ödemenizin her {3} dönemi için {1} {2} ile ücretlendirileceksiniz.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P7" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel any time to stop future charges or change how you pay by managing your subscription in your Microsoft account.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bu fiyatın değişip değişmediği size bildirilecektir. Gelecekteki ücretleri durdurmak veya aboneliğinizi Microsoft hesabınızda yöneterek ödeme şeklinizi değiştirmek için istediğiniz zaman iptal edin.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about how to <a href="{0}">cancel your subscription</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<a href="{0}">Aboneliğinizi iptal etme</a> hakkında daha fazla bilgi edinin.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There’s a change to the amount of your next payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sonraki ödemenizin tutarında bir değişiklik var.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_Trial" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your trial period is ending soon.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Deneme süreniz yakında sona eriyor.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TaxesNotIncluded" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[plus applicable taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[artı geçerli vergiler]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Important update about your {0} subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} aboneliğinizle ilgili önemli güncelleştirme]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

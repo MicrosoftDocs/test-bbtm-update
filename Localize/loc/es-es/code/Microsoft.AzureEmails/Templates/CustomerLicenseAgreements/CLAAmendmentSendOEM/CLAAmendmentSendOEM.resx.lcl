@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\CustomerLicenseAgreements\CLAAmendmentSendOEM\CLAAmendmentSendOEM.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="es-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";CLAAmendmentSendOEM.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Accept" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To accept the CLA amendment, select the Terms and Conditions checkbox and then the <strong>ACCEPT AMENDMENT</strong> button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para aceptar la modificación de CLA, active la casilla Términos y condiciones y, a continuación, el botón <strong>ACEPTAR MODIFICACIÓN</strong>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_After" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[After receiving the amendment, we’ll review and activate it. You’ll receive a notification email after the amendment is active.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Después de recibir la modificación, la revisaremos y activaremos. Recibirá un correo electrónico de notificación después de que la modificación esté activa.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Associated" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The CLA and associated amendments are primarily <strong>select to accept</strong>. No signatures are required. The <strong>PRINT ONLINE</strong> version of the amendment that you can download in the CLA app is the document of record. If you require a hard-copy counter signature based on your own internal processes, print the hard-copy version via the <strong>PRINT HARD COPY</strong> button. <strong>We don’t require a hard copy to be executed;</strong> this is at the discretion of the customer. The hard copy can be signed and sent to the address on page 2 of your CLA. We’ll then provide you with a countersigned hard copy.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[El CLA y las modificaciones asociadas primero se deben <strong>seleccionar para aceptar</strong>. No se requiere ninguna firma. La versión <strong>IMPRIMIR EN LÍNEA</strong> de la modificación que puede descargar en la aplicación de CLA es el documento de registro. Si necesita una firma de contador de copia impresa en función de sus propios procesos internos, imprima la versión de copia impresa mediante el botón <strong>IMPRIMIR COPIA IMPRESA</strong>. <strong>No es necesario ejecutar una copia impresa</strong>, esto depende del cliente. La copia impresa se puede firmar y enviar a la dirección de la página 2 del CLA. A continuación, le proporcionaremos una copia impresa contrafirmada.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Authorized" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The <strong>authorized representative</strong> should select <strong>ACCEPT AMENDMENT</strong> at the bottom of the form to send it to us for review. If you aren’t the authorized representative, select the <strong>Amendment Send to Authorized Representative</strong> button, and the CLA will be sent to the representative in your company.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[El <strong>representante autorizado</strong> debe seleccionar <strong>ACEPTAR MODIFICACIÓN</strong> en la parte inferior del formulario para enviárnoslo para su revisión. Si no es el representante autorizado, seleccione el botón <strong>Enviar modificación al representante autorizado</strong> y el CLA se enviará al representante de su empresa.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Button" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open the CLA form]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Abrir el formulario de CLA]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Contact" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have questions, engage your authorized Microsoft IoT distributor or <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Si tiene alguna pregunta, póngase en contacto con su distribuidor autorizado de Microsoft IoT o <a href="{0}">contáctenos</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Customer" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft customer license agreement (CLA) amendment <strong>{0}</strong>for <strong>{1}</strong> is awaiting your attention.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[La modificación del contrato de licencia de cliente (CLA) de Microsoft <strong>{0}</strong>para <strong>{1}</strong> está esperando su atención.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Download" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download a copy of the amendment terms for your records via the <strong>PRINT ONLINE</strong> button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Descargue una copia de los términos de modificación de los registros a través del botón <strong>IMPRIMIR EN LÍNEA</strong>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Link" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The link will be valid for <strong>{0}</strong> days. After you open the CLA web form, complete these steps:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[El vínculo será válido durante <strong>{0}</strong> días. Después de abrir el formulario web de CLA, complete estos pasos:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_More" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obtener más información]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Name" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0},]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0},]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_ToGet" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To get additional guidance on completing the web form, download the <a href="{0}">CLA Reference Guide</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para obtener instrucciones adicionales sobre cómo completar el formulario web, descargue la <a href="{0}">Guía de referencia de CLA</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_ToReview" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To review the amendment terms, select the Terms and Conditions link near the bottom of the web form.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para revisar los términos de modificación, seleccione el vínculo Términos y condiciones cerca de la parte inferior del formulario web.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[msazure]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[msazure]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The new amendment is waiting for action from you.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[La nueva modificación está esperando su intervención.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} {1}, a new Microsoft CLA amendment was created for {2}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} {1}, se creó una nueva modificación de CLA de Microsoft para {2}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A new Microsoft CLA amendment for {0} is waiting for action from you]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Una nueva modificación de CLA de Microsoft de {0} está esperando su intervención]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

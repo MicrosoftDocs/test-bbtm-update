@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\PurchaseReceipt\PurchaseReceipt.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="lt-LT" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";PurchaseReceipt.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";AValueAddedTax" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A value-added tax (VAT) invoice will be available for download from your <a href="{0}">order history</a> within 48 hours.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pridėtinės vertės mokesčio (PVM) sąskaitą faktūrą bus galima atsisiųsti iš <a href="{0}">užsakymų istorijos</a> per 48 valandas.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";AnyDownloads" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Any downloads you bought, except preorders, are available now.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Visi įsigyti atsisiuntimai, išskyrus išankstinius užsakymus, dabar yra pasiekiami.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";AnyGiftCard" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Any gift card or code you purchased can be redeemed now.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dabar galima panaudoti bet kurią jūsų įsigytą dovanų kortelę ar kodą.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_AzureVisualLink" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong><a href="{0}">New to Azure? Get $200 Azure credits and start your free trial now</a>.</br>]D;]A;<a href="{1}">Download Visual Studio community version for free</a>.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong><a href="{0}">Pirmą kartą naudojate „Azure“? Gaukite 200 USD „Azure“ kreditų ir pradėkite naudotis nemokama bandomąja versija dabar</a>.</br>]D;]A;<a href="{1}">Atsisiųskite „Visual Studio“ bendruomenės versiją nemokamai</a>.</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_P_US_CA" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<a href="{0}">Learn more</a> about setting up your Microsoft adaptive accessories. Need accessibility support? <a href="{1}">Contact Disability Answer Desk Support | Microsoft Accessibility</a>.  We'd also love to hear <a href="{2}">any feedback</a> you might have on your new accessories]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<a href="{0}">Sužinokite daugiau</a> apie „Microsoft“ adaptyviųjų priedų nustatymą. Reikia pritaikymo neįgaliesiems palaikymo? <a href="{1}">Kreipkitės į Pritaikymo neįgaliesiems „Answer Desk“ palaikymą | „Microsoft“ pritaikymas neįgaliesiems</a>.  Taip pat norėtume išgirsti jūsų turimus  <a href="{2}">bet kokius atsiliepimus</a> apie naujus priedus]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph1_IsGiftCode" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redeem your gift code.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Panaudokite savo dovanos kodą.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph1_IsRental" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for renting from Microsoft Store on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dėkojame, kad išsinuomojote iš „Microsoft Store“ {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CTA_Text" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View or manage your order]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Peržiūrėti arba valdyti užsakymą]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Heading1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Software Update Information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Programinės įrangos naujinimo informacija]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Heading2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Xbox Devices (“Goods”)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[„Microsoft Xbox“ įrenginiai („Prekės“)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Heading3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Windows-based Surface Devices (“Goods”)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[„Microsoft Windows“ pagrindu veikiantys „Surface“ įrenginiai (“Prekės“)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Para1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The above-mentioned software (“<strong>Software</strong>”) may be subject to updates, including security updates (“<strong>Updates</strong>”). This information is provided as required in France.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Anksčiau paminėtai programinei įrangai („<strong>Programinė įranga</strong>“) gali būti taikomi naujinimai, įskaitant saugos naujinimus („<strong>Naujinimai</strong>“). Ši informacija pateikiama, kaip reikalaujama Prancūzijoje.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Updates that are provided beyond the above-mentioned period (“<strong>Period</strong>”) may have consequences on the performance of Goods (for example, available storage space, the availability of RAM (Random Access Memory) or the life of the battery). More specific information on such possible consequences will be provided by Microsoft as soon as such specific information becomes available.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naujinimai, pateikiami po anksčiau paminėto laikotarpio („<strong>Laikotarpis</strong>“) gali turėti įtakos prekių veikimui (pvz., pasiekiamai saugojimo vietai, RAM (laisvosios kreipties atminties) pasiekiamumui ar akumuliatoriaus tarnavimo laikui). Išsamesnę informaciją apie tokias galimas pasekmes pateiks „Microsoft“, kai tik tokia konkreti informacija taps pasiekiama.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Updates that are provided beyond the above-mentioned period (“<strong>Period</strong>”) may have consequences on the performance of Goods (for example, available storage space, the availability of RAM or the life of the battery). More specific information on such possible consequences will be provided by Microsoft as soon as such specific information becomes available.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Software subject to updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Programinei įrangai taikomi naujinimai]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Period of supply of these updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Šių naujinimų teikimo laikotarpis]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Software subject to updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Programinei įrangai taikomi naujinimai]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Period of supply of these updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Šių naujinimų teikimo laikotarpis]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_List1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Windows Operating System]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Operacinė sistema „Windows“]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_List2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Surface device software, firmware, and drivers]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[„Surface“ įrenginio programinė įranga, programinė-aparatinė įranga ir tvarkyklės]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_row1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox device operating system software]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[„Xbox“ įrenginio operacinės sistemos programinė įranga]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_row2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Minimum two years after]D;]A;date of delivery of the goods]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mažiausiai dveji metai po]A;prekių pristatymo datos]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";HereAreYourGift" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Here are your gift details for reference.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Štai jūsų dovanos informacija.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IfYouHavePreOrdered" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have pre-ordered a downloadable product, we will charge you up to 10 days before the release date.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jei iš anksto užsisakėte atsisiunčiamą produktą, apmokestinsime jus likus iki 10 dienų prieš išleidimo datą.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IfYouNeedHelp" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you need help, we're here for you. In addition to free shipping and returns, our <a href={0}>Microsoft Store Promise</a> includes free virtual workshops, video tutorials, expert help, and more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jei reikia pagalbos, mes jums padėsime. Be nemokamo pristatymo ir grąžinimo, mūsų <a href={0}>„Microsoft Store“ pažadas</a> apima nemokamus virtualiuosius seminarus, vaizdo mokomąją medžiagą, specialistų pagalbą ir kt.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[prekyba]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for shopping with us on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dėkojame, kad apsipirkote pas mus {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_IsGiftCode" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redeem your gift code.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Panaudokite savo dovanos kodą.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_IsRental" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for renting from Microsoft Store on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dėkojame, kad išsinuomojote iš „Microsoft Store“ {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Microsoft order #{0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jūsų „Microsoft“ užsakymas Nr. {0} apdorotas]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_Fr" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Processed Microsoft order #{0} and Software Update Information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Apdoroto „Microsoft“ užsakymo Nr. {0} ir programinės įrangos naujinimo informacija]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_GifteeNameForSubject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your gift order to {0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jūsų dovanos užsakymas, kurio gavėjas {0}, apdorotas]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for shopping with us on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dėkojame, kad apsipirkote pas mus {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ToREquestAFapiao" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To request a Fapiao for orders placed through Microsoft Store on Windows, please visit your <a href="{0}">order history</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Norėdami pateikti „Fapiao“ užklausą užsakymams, pateiktiems per „Microsoft Store“ sistemoje „Windows“, apsilankykite <a href="{0}">užsakymų istorijoje</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";WeAlsoOffer" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We also offer one-on-one help with Surface devices and accessories, gaming devices, Microsoft 365, or Windows. If you’ve purchased a product for personal use, <a href={0}>book a free product expert appointment</a> for setup assistance or personal training. For business customers interested in personal training, <a href={1}>book a free appointment with one of our business product experts</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Taip pat siūlome asmeninę pagalbą dėl „Surface“ įrenginių ir priedų, žaidimų įrenginių, „Microsoft 365“ arba „Windows“. Jei įsigijote produktą asmeniniam naudojimui, galite <a href={0}>rezervuoti nemokamą paskyrą su produkto specialistu</a>, jei reikia pagalbos dėl sąrankos arba asmeninio mokymo. Verslo klientai, kuriuos domina asmeninis mokymas, gali <a href={1}>rezervuoti nemokamą paskyrą su vienu iš mūsų verslo produktų specialistų</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";YouWillBeCharged" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You will be charged once your items ship.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Būsite apmokestinti, kai jūsų prekės bus išsiųstos.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

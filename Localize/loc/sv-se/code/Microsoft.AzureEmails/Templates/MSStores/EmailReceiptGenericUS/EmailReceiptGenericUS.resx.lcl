@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\MSStores\EmailReceiptGenericUS\EmailReceiptGenericUS.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="sv-SE" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";EmailReceiptGenericUS.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Offer" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Offer valid on purchases of physical products made at Microsoft Experience Center and Microsoft Company Stores for 30 days from purchase date, or 60 days for Surface products, excluding Surface Hub (“Offer Period”). Customer is eligible for price adjustment only if 1) the price of the purchased physical product or Surface is reduced during the Offer Period and in stock for purchase, and 2) Customer returns to the Microsoft location with original receipt and any other information requested by a representative. Credit will be provided to same method of payment. Limited to 5 devices per eligible Customer during the Offer Period, maximum of 1 price adjustment per device.  </br>  ]D;]A;Microsoft reserves the right to modify or discontinue offers at any time.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Erbjudandet gäller för köp av fysiska produkter som gjorts på Microsoft Experience Center och Microsoft Company-butiker i 30 dagar från inköpsdatum, eller 60 dagar för Surface-produkter, exklusive Surface Hub ("Erbjudandeperiod"). Kunden är berättigad till prisjustering endast om 1) priset för den köpta fysiska produkten eller Surface sänks under erbjudandeperioden och finns i lager för köp, och 2) kunden återvänder till Microsoft-platsen med det ursprungliga kvittot och annan information som en representant har begärt. Krediten tillhandahålls till samma betalningsmetod. Begränsat till 5 enheter per berättigad kund under erbjudandeperioden, maximalt 1 prisjustering per enhet. </br>  ]A;Microsoft förbehåller sig rätten att ändra eller avbryta erbjudanden när som helst.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[*Offer valid from 11/1/22-1/2/23 (“Offer Period”) on eligible consumer purchases only made at the Microsoft Experience Center in New York and Microsoft Company Stores in Redmond, WA and Silicon Valley, CA. Excludes business, commercial, and reseller customer purchases. Customer is eligible for price adjustment only if the price of the purchased item is reduced during the Offer Period and in stock for purchase. For purchases made from Microsoft Store, contact customer service at 877-696-7786 with Order # and any other information requested. If purchased at the Microsoft Experience Center or Microsoft Company Stores, Customer must return to the Microsoft location with receipt to receive price adjustment. Price adjustment will be provided in same manner as payment method. Limit 1 price adjustment per item. For Surface purchases, you may be entitled to additional benefits under the <a href="{0}">Microsoft Store Promise for Surface</a>. Price adjustments do not include taxes, shipping or other fees. Depending on your date of purchase, you may have additional time to request a price adjustment through the evergreen Microsoft Store Price Promise.</br>  ]D;]A;Microsoft reserves the right to modify or discontinue offers at any time.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Price" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Price Promise]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prislöfte]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Extended Price Promise:]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Returns" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Returns]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Returer]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Extended Returns]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_WeWant" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want you to be satisfied with your purchase and will accept returns and exchanges for items that meet the return criteria for 30 days from the date of purchase (60 days for purchases of Surface devices, excluding Surface Hub) and to the extent permitted under applicable law. Business customers may be subject to different return criteria. All returns and exchanges must be returned at this location in like-new condition and must be accompanied by the original receipt or gift receipt, original documentation, instruction manuals, registration, parts and components (including cables, controllers, and accessories), and original manufacturer packaging. Failure to include such items may prevent or delay your refund or exchange. EXCEPTIONS: For software and games, you may only return opened items during the return period if: (i) you don’t agree with the license agreement, or (ii) the media does not work, and (iii) only if you do not make or retain any copies. Opened software and games may only be exchanged for the same product. If we no longer have the same product, we will issue you a Microsoft Experience Center credit. For phones, you can return them during our return period, but it is your responsibility to cancel your service within the time specified by your carrier or your carrier may charge you an early termination fee. This is a carrier policy and we have no influence over their cancellation policies. For promotional items and bundles, all included products and/or services must be returned together. If a service included in the promotion or bundle has been used (for example a promo code was used) or bundle includes a non-returnable item, the full retail value of the service and/or non-returnable item will be deducted from the refund amount. When a bundle is purchased and only part of the bundle is returned, the bundle discount is void, and the total bundle discount will be deducted from the refund.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vi vill att du ska vara nöjd med ditt köp och accepterar returer och byten av artiklar som uppfyller returvillkoren i 30 dagar från inköpsdatum (60 dagar för köp av Surface-enheter, exklusive Surface Hub) och i den utsträckning som tillåts enligt tillämplig lag. Företagskunder kan omfattas av andra returvillkor. Alla returer och byten måste returneras på den här platsen i skick som nya och måste innehålla originalkvittot eller presentkortet, originaldokumentationen, handböcker, registrering, delar och komponenter (inklusive kablar, handkontroller och tillbehör) och originaltillverkarens förpackning. Om du inte inkluderar sådana objekt kan det förhindra eller fördröja återbetalningen eller bytet. UNDANTAG: För programvara och spel kan du endast returnera öppnade objekt under returperioden om: (i) du inte godkänner licensavtalet eller (ii) mediet inte fungerar och (iii) endast om du inte gör eller behåller några kopior. Öppnad programvara och spel kan endast bytas ut mot samma produkt. Om vi inte längre har samma produkt utfärdar vi en Microsoft Experience Center-kredit till dig. När det gäller telefoner kan du returnera dem under returperioden, men det är ditt ansvar att avbryta tjänsten inom den tid som angetts av din operatör. I annat fall kan operatören debitera dig en avgift för tidig uppsägning. Det här är en operatörspolicy och vi har inte möjlighet att påverka deras annulleringsprinciper. När det gäller kampanjartiklar och samlingar måste alla produkter och/eller tjänster som ingår returneras tillsammans. Om en tjänst som ingår i kampanjen eller paketet har använts (t.ex. om en kampanjkod har använts) eller ett paket innehåller en artikel som inte är i returnerbart skick, dras hela återförsäljningsvärdet för tjänsten och/eller objektet som inte returneras från återbetalningsbeloppet. När ett paket köps och endast en del av paketet returneras, annulleras paketrabatten och den totala paketrabatten dras av från återbetalningen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to <a href="{0}">office.com/setup</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gå till <a href="{0}">office.com/setup</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter the 25-charecter code and follow the on-screen instructions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ange koden på 25 tecken och följ anvisningarna på skärmen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in with or create your Microsoft account using an email address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Logga in med eller skapa ditt Microsoft-konto med en e-postadress]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Follow the on-screen instructions to set up you account and install Office]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Följ anvisningarna på skärmen för att ställa in ditt konto och installera Office]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[msazure]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[msazure]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MicrosoftEmployeePurchaseProgram" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Employee Purchase Program]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsofts köpprogram för anställda]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MicrosoftReserves" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Other exclusions and limitations may apply.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Andra undantag och begränsningar kan tillkomma.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PleaseKeep" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[PLEASE KEEP THIS RECEIPT FOR YOUR RECORDS, THIS RECEIPT IS THE ONLY RECORD OF YOUR PURCHASED PRODUCT KEY, YOUR PRODUCT KEY CANNOT BE REPLACED.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[BEHÅLL KVITTOT. KVITTOT ÄR DEN ENDA REGISTRERINGEN AV DIN KÖPTA PRODUKTNYCKEL. PRODUKTNYCKELN KAN INTE ERSÄTTAS.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PleaseKeepThisReceipt" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please Keep this receipt for your records. This receipt is the only record of your purchased product key. Your product key cannot be replaced.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Behåll kvittot. Kvittot är den enda registreringen av din köpta produktnyckel. Produktnyckeln kan inte ersättas.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review the details of your Microsoft purchase.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Granska informationen om ditt Microsoft-köp.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchasesOfSoftware" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchases of software and hardware from the Microsoft Store (physical locations and online) under the Microsoft Employee Purchase Program are intended for personal use and/or limited gift giving only. The following restrictions apply to all purchases made at Microsoft Store under the Microsoft Employee Purchase Program: (1) Resale for profit (e.g. selling for a price higher than the employee paid) is strictly prohibited; (2) Trading or bartering of software or hardware for other goods or services is strictly prohibited, regardless of the value of the goods or services received; (3) Microsoft Store purchases are not meant to be used as currency; and (4) The purchase of software/hardware for business use whether for Microsoft business or any other business use is prohibited. Any violation of this policy may lead to disciplinary action, up to and or including immediate termination of employment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Köp av programvara och maskinvara från Microsoft Store (fysiska platser och online) under Microsofts köpprogram för anställda är endast avsedda för personligt bruk och/eller begränsad gåva. Följande begränsningar gäller för alla köp som görs på Microsoft Store under Microsofts köpprogram för anställda: (1) Återförsäljning i vinstsyfte (t.ex. försäljning till ett högre pris än det medarbetaren betalat) är strikt förbjudet; (2) Handel eller byteshandel med programvara eller maskinvara för andra varor eller tjänster är strikt förbjuden, oavsett värdet på mottagna varor eller tjänster; (3) Microsoft Store-köp är inte avsedda att användas som valuta; och (4) Köp av programvara/maskinvara för företagsanvändning är inte tillåtet varken för Microsoft-företag eller andra företag. Alla överträdelser av den här principen kan leda till disciplinära åtgärder, och till och med till omedelbar uppsägning av anställning.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Purchases of software and hardware from the Microsoft Store under the Microsoft Employee Purchase Program are intended for personal use and/or limited gift giving only. The following restrictions apply to all purchases made at  Microsoft Store under the Microsoft Employee Purchase Program: (1) Resale for profit (e.g. selling for a price higher than the employee paid) is strictly prohibited; (2) Trading or bartering of software or hardware for other goods or services is strictly prohibited, regardless of the value of the goods or services received; (3) Microsoft Store purchases are not meant to be used as currency; and (4) The purchase of software/hardware for business use whether for Microsoft business or any other business use is prohibited. Any violation of this policy may lead to disciplinary action, up to and or including immediate termination of employment.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Redeem" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redeem you code online]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lös in koden online]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your receipt from Microsoft – {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ditt kvitto från Microsoft – {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for your purchase]]></Val>
+          <Tgt Cat="Text" Stat="Update" Orig="New">
+            <Val><![CDATA[Tack för ditt köp.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Thank you for your purchase.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ToReturnAnyOfTheItems" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To return any of the items, print this barcode or show it on the phone when returning it at the {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Om du vill returnera någon av artiklarna skriver du ut den här streckkoden eller visar den på telefonen när du lämnar tillbaka den på {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";YourOrderBarcode" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your order barcode]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Din orderstreckkod]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

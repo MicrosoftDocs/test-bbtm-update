@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\PriceChangeRenewalReminder\PriceChangeRenewalReminder.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="vi-VN" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";PriceChangeRenewalReminder.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";CFQ7TTC0K6L8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass for Console gives you access to over 100 high-quality console games. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Game Pass cho máy chơi game console cấp cho bạn quyền truy nhập vào hơn 100 trò chơi console chất lượng cao. Với các trò chơi được thêm vào mọi lúc, bao gồm các tựa đề Xbox Game Studios vào ngày phát hành, bạn sẽ luôn có một số trò chơi mới để chơi. Khám phá trò chơi tiếp theo của bạn ngay hôm nay.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KGQ8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[PC Game Pass gives you access to over 100 high-quality PC games and EA Play. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[PC Game Pass cấp cho bạn quyền truy nhập vào hơn 100 trò chơi PC và EA Play chất lượng cao. Với các trò chơi được thêm vào mọi lúc, bao gồm các tựa đề Xbox Game Studios vào ngày phát hành, bạn sẽ luôn có một số trò chơi mới để chơi. Khám phá trò chơi tiếp theo của bạn ngay hôm nay.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KHS0" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass Ultimate gives you access to over 100 high-quality games on console, PC, and mobile devices, plus EA Play and Xbox Live Gold. With games added all the time, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Game Pass Ultimate cấp cho bạn quyền truy nhập vào hơn 100 trò chơi chất lượng cao trên console, PC và thiết bị di động, cùng với EA Play và Xbox Live Gold. Với các trò chơi được thêm vào mọi lúc, bạn sẽ luôn có một số trò chơi mới để chơi. Khám phá trò chơi tiếp theo của bạn ngay hôm nay.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Cta_String" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage subscriptions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Quản lý đăng ký]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Manage your subscription]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[thương mại]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[en-only]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoApplicableTaxes" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[including taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[bao gồm thuế]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You last paid for your {0} subscription with a prepaid product key or code on {1}. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lần gần đây nhất, bạn đã thanh toán cho đăng ký {0} bằng mã hoặc khóa sản phẩm trả trước vào {1}. Cảm ơn bạn đã thanh toán.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi muốn thông báo cho bạn về thay đổi với số tiền của khoản thanh toán tiếp theo. Trừ khi bạn hủy bỏ 2 ngày trước {0}, chúng tôi sẽ tính {1} {2} mỗi {3} cho {4} của bạn.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We hope you’re enjoying your trial of {0} that started on {1}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi hy vọng bạn thích bản dùng thử {0} đã bắt đầu vào {1}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi muốn thông báo cho bạn rằng thời hạn dùng thử của bạn sắp kết thúc. Trừ khi bạn hủy bỏ 2 ngày trước {0}, chúng tôi sẽ tính {1} {2} mỗi {3} cho {4} của bạn.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P5" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We received your last payment of {0} on {1} for your {2} subscription. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi đã nhận được khoản thanh toán {0} gần đây nhất vào {1} cho đăng ký {2} của bạn. Cảm ơn bạn đã thanh toán.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P6" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi muốn thông báo cho bạn về thay đổi với số tiền của khoản thanh toán tiếp theo. Trừ khi bạn hủy bỏ 2 ngày trước {0}, chúng tôi sẽ tính {1} {2} mỗi {3} cho {4} của bạn.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P7" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel any time to stop future charges or change how you pay by managing your subscription in your Microsoft account.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi sẽ thông báo cho bạn biết nếu giá này thay đổi. Bạn có thể hủy bỏ bất cứ lúc nào để tránh các khoản phí trong tương lai hoặc thay đổi phương thức thanh toán bằng cách quản lý đăng ký trong tài khoản Microsoft của bạn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about how to <a href="{0}">cancel your subscription</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tìm hiểu thêm về <a href="{0}">cách hủy bỏ đăng ký</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There’s a change to the amount of your next payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã có thay đổi đối với số tiền của lần thanh toán tiếp theo của bạn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_Trial" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your trial period is ending soon.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thời gian dùng thử của bạn sắp kết thúc.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TaxesNotIncluded" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[plus applicable taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[cộng với các khoản thuế hiện hành]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Important update about your {0} subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cập nhật quan trọng về đăng ký {0} của bạn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

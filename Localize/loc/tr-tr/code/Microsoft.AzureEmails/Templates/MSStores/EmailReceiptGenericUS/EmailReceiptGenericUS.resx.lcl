@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\MSStores\EmailReceiptGenericUS\EmailReceiptGenericUS.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="tr-TR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";EmailReceiptGenericUS.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Offer" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Offer valid on purchases of physical products made at Microsoft Experience Center and Microsoft Company Stores for 30 days from purchase date, or 60 days for Surface products, excluding Surface Hub (“Offer Period”). Customer is eligible for price adjustment only if 1) the price of the purchased physical product or Surface is reduced during the Offer Period and in stock for purchase, and 2) Customer returns to the Microsoft location with original receipt and any other information requested by a representative. Credit will be provided to same method of payment. Limited to 5 devices per eligible Customer during the Offer Period, maximum of 1 price adjustment per device.  </br>  ]D;]A;Microsoft reserves the right to modify or discontinue offers at any time.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teklif, Microsoft Experience Center'dan ve Microsoft Company Store’lardan satın alınan fiziksel ürünler için satın alma tarihinden itibaren 30 gün boyunca veya Surface Hub ("Teklif Dönemi") hariç Surface ürünleri için satın alma tarihinden itibaren 60 gün boyunca geçerlidir. Müşteri, yalnızca şu durumlarda fiyat düzeltmeye uygundur: 1) Satın alınan fiziksel ürünün veya Surface'ın fiyatı Teklif Döneminde düşürüldüyse ve satın almak üzere stokta mevcutsa ve 2) Müşteri, orijinal makbuz ve bir temsilci tarafından istenen diğer bilgilerle birlikte Microsoft Experience Center’a iade ederse. Ödeme, aynı ödeme yöntemine yapılır. Teklif Dönemi boyunca uygun Müşteri başına 5 cihazla ve cihaz başına 1 fiyat düzeltmesiyle sınırlıdır. </br>  ]A;Microsoft, teklifleri herhangi bir anda değiştirme veya sona erdirme hakkını saklı tutar.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[*Offer valid from 11/1/22-1/2/23 (“Offer Period”) on eligible consumer purchases only made at the Microsoft Experience Center in New York and Microsoft Company Stores in Redmond, WA and Silicon Valley, CA. Excludes business, commercial, and reseller customer purchases. Customer is eligible for price adjustment only if the price of the purchased item is reduced during the Offer Period and in stock for purchase. For purchases made from Microsoft Store, contact customer service at 877-696-7786 with Order # and any other information requested. If purchased at the Microsoft Experience Center or Microsoft Company Stores, Customer must return to the Microsoft location with receipt to receive price adjustment. Price adjustment will be provided in same manner as payment method. Limit 1 price adjustment per item. For Surface purchases, you may be entitled to additional benefits under the <a href="{0}">Microsoft Store Promise for Surface</a>. Price adjustments do not include taxes, shipping or other fees. Depending on your date of purchase, you may have additional time to request a price adjustment through the evergreen Microsoft Store Price Promise.</br>  ]D;]A;Microsoft reserves the right to modify or discontinue offers at any time.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Price" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Price Promise]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Fiyat Taahhüdü]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Extended Price Promise:]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Returns" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Returns]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[İadeler]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Extended Returns]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_WeWant" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want you to be satisfied with your purchase and will accept returns and exchanges for items that meet the return criteria for 30 days from the date of purchase (60 days for purchases of Surface devices, excluding Surface Hub) and to the extent permitted under applicable law. Business customers may be subject to different return criteria. All returns and exchanges must be returned at this location in like-new condition and must be accompanied by the original receipt or gift receipt, original documentation, instruction manuals, registration, parts and components (including cables, controllers, and accessories), and original manufacturer packaging. Failure to include such items may prevent or delay your refund or exchange. EXCEPTIONS: For software and games, you may only return opened items during the return period if: (i) you don’t agree with the license agreement, or (ii) the media does not work, and (iii) only if you do not make or retain any copies. Opened software and games may only be exchanged for the same product. If we no longer have the same product, we will issue you a Microsoft Experience Center credit. For phones, you can return them during our return period, but it is your responsibility to cancel your service within the time specified by your carrier or your carrier may charge you an early termination fee. This is a carrier policy and we have no influence over their cancellation policies. For promotional items and bundles, all included products and/or services must be returned together. If a service included in the promotion or bundle has been used (for example a promo code was used) or bundle includes a non-returnable item, the full retail value of the service and/or non-returnable item will be deducted from the refund amount. When a bundle is purchased and only part of the bundle is returned, the bundle discount is void, and the total bundle discount will be deducted from the refund.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Satın alma işleminizden memnun kalmanızı isteriz ve iade ölçütlerini sağlayan ürünler için satın alma tarihinden itibaren 30 gün boyunca (Surface Hub hariç Surface cihazlarında 60 gün boyunca) iadeleri ve değişimleri geçerli yasalarda izin verildiği ölçüde kabul ederiz. İş müşterileri farklı iade ölçütlerine tabi olabilir. Tüm iade ve değişim işlemlerinde ürün yeni gibi durumda bu konuma iade edilmelidir. Özgün makbuz, hediye makbuzu, özgün belgeler, yönerge el kitapları, kayıt, parça ve bileşenler (kablolar, oyun kumandaları ve donatılar dahil) ile özgün üretici ambalajı dahil edilmelidir. Bu tür öğelerin dahil edilememesi durumunda para iade veya değişim işleminiz engellenebilir veya gecikebilir. ÖZEL DURUMLAR: Paketi açılmış yazılım ve oyunları iade dönemi boyunca yalnızca şu durumlarda iade edebilirsiniz: (i) lisans sözleşmesini kabul etmiyorsanız veya (ii) medya çalışmıyorsa ve (iii) yalnızca herhangi bir kopya oluşturmadıysanız veya saklamadıysanız. Açılan yazılım ve oyunlar yalnızca aynı ürünle değiştirilebilir. Artık aynı ürüne sahip değilsek size Microsoft Experience Center Kredisi aktarırız. Telefonları iade dönemimizde iade edebilirsiniz, ancak operatörünüz tarafından belirtilen süre içinde hizmetinizi iptal etme sorumluluğu size aittir veya operatörünüz sizden erken sonlandırma ücreti alabilir. Bu operatörün bir ilkesidir ve iptal ilkeleri üzerinde herhangi bir etkimiz bulunmamaktadır. Promosyon öğeleri ve paketlerde, dahil edilen tüm ürünler ve/veya hizmetler birlikte iade edilmelidir. Promosyona veya pakete dahil edilen bir hizmet kullanılmışsa (örneğin bir promosyon kodu kullanılmışsa) veya paket iade edilemez bir ürün içeriyorsa hizmetin tam perakende değeri ve/veya iade edilemeyen ürün para iadesi miktarından düşülür. Bir paket satın alınırsa ve paketin yalnızca bir kısmı iade edilirse paket indirimi geçersiz olur ve toplam paket indirimi iade miktarından düşülür.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to <a href="{0}">office.com/setup</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<a href="{0}">office.com/setup</a> adresine gidin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter the 25-charecter code and follow the on-screen instructions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[25 karakterlik kodu girin ve ekrandaki yönergeleri izleyin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in with or create your Microsoft account using an email address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[E-posta adresi kullanarak Microsoft hesabınızla oturum açın veya hesap oluşturun]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Bullet4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Follow the on-screen instructions to set up you account and install Office]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hesabınızı ayarlamak ve Office'i yüklemek için ekrandaki yönergeleri izleyin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[msazure]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[msazure]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MicrosoftEmployeePurchaseProgram" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Employee Purchase Program]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Çalışan Satın Alma Programı]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MicrosoftReserves" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Other exclusions and limitations may apply.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Başka dışlamalar ve sınırlamalar geçerli olabilir.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PleaseKeep" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[PLEASE KEEP THIS RECEIPT FOR YOUR RECORDS, THIS RECEIPT IS THE ONLY RECORD OF YOUR PURCHASED PRODUCT KEY, YOUR PRODUCT KEY CANNOT BE REPLACED.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[LÜTFEN KAYITLARINIZ İÇİN BU MAKBUZU SAKLAYIN. BU MAKBUZ, SATIN ALDIĞINIZ ÜRÜN ANAHTARININ TEK KAYDIDIR, ÜRÜN ANAHTARINIZ DEĞİŞTİRİLEMEZ.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PleaseKeepThisReceipt" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please Keep this receipt for your records. This receipt is the only record of your purchased product key. Your product key cannot be replaced.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lütfen kayıtlarınız için bu makbuzu Saklayın. Bu makbuz, satın aldığınız ürün anahtarının tek kaydıdır. Ürün anahtarınız değiştirilemez.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review the details of your Microsoft purchase.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft satın alma işleminizin ayrıntılarını gözden geçirin.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchasesOfSoftware" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchases of software and hardware from the Microsoft Store (physical locations and online) under the Microsoft Employee Purchase Program are intended for personal use and/or limited gift giving only. The following restrictions apply to all purchases made at Microsoft Store under the Microsoft Employee Purchase Program: (1) Resale for profit (e.g. selling for a price higher than the employee paid) is strictly prohibited; (2) Trading or bartering of software or hardware for other goods or services is strictly prohibited, regardless of the value of the goods or services received; (3) Microsoft Store purchases are not meant to be used as currency; and (4) The purchase of software/hardware for business use whether for Microsoft business or any other business use is prohibited. Any violation of this policy may lead to disciplinary action, up to and or including immediate termination of employment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Çalışan Satın Alım Programı kapsamında Microsoft Store’dan (fiziksel veya çevrimiçi) yazılım ve donanım satın alma işlemleri yalnızca kişisel kullanım ve/veya sınırlı hediye verme amaçlıdır. Microsoft Çalışan Satın Alım Programı kapsamında Microsoft Store’da yapılan tüm satın alma işlemleri için şu kısıtlamalar geçerlidir: (1) Kar amacıyla yeniden (ör. çalışanın ödediğinden daha yüksek bir fiyata) satmak kesinlikle yasaktır; (2) Yazılım veya donanımı, değerinden bağımsız olarak başka ürün veya hizmetler için takas etmek kesinlikle yasaktır; (3) Microsoft Store satın alımları para birimi olarak kullanılamaz ve (4) Microsoft işlerinde veya başka bir işlerde kullanmak amacıyla yazılım/donanım satın almak yasaktır. Bu ilkenin ihlal edilmesi, çalışanın, işe derhal son vermeye kadar varan disiplin kovuşturmasına uğraması ile sonuçlanabilir.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Purchases of software and hardware from the Microsoft Store under the Microsoft Employee Purchase Program are intended for personal use and/or limited gift giving only. The following restrictions apply to all purchases made at  Microsoft Store under the Microsoft Employee Purchase Program: (1) Resale for profit (e.g. selling for a price higher than the employee paid) is strictly prohibited; (2) Trading or bartering of software or hardware for other goods or services is strictly prohibited, regardless of the value of the goods or services received; (3) Microsoft Store purchases are not meant to be used as currency; and (4) The purchase of software/hardware for business use whether for Microsoft business or any other business use is prohibited. Any violation of this policy may lead to disciplinary action, up to and or including immediate termination of employment.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Redeem" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redeem you code online]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kodunuzdan çevrimiçi olarak yararlanın]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your receipt from Microsoft – {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft'tan aldığınız makbuzunuz – {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for your purchase]]></Val>
+          <Tgt Cat="Text" Stat="Update" Orig="New">
+            <Val><![CDATA[Satın alma işleminiz için teşekkür ederiz.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Thank you for your purchase.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ToReturnAnyOfTheItems" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To return any of the items, print this barcode or show it on the phone when returning it at the {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Öğelerden herhangi birini iade etmek için bu barkodu yazdırın veya {0} mağazasında iade ederken telefonda gösterin.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";YourOrderBarcode" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your order barcode]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sipariş barkodunuz]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

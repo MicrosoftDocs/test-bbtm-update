@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\CustomerLicenseAgreements\CLAAmendmentSendOEM\CLAAmendmentSendOEM.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="de-DE" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";CLAAmendmentSendOEM.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Accept" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To accept the CLA amendment, select the Terms and Conditions checkbox and then the <strong>ACCEPT AMENDMENT</strong> button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Um die Zusatzvereinbarung anzunehmen, aktivieren Sie das Kontrollkästchen "Geschäftsbedingungen" und dann die Schaltfläche <strong>"ZUSATZVEREINBARUNG ANNEHMEN"</strong>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_After" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[After receiving the amendment, we’ll review and activate it. You’ll receive a notification email after the amendment is active.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nach dem Eingang der Zusatzvereinbarung überprüfen und aktivieren wir sie. Sie erhalten eine Benachrichtigungs-E-Mail, nachdem sie aktiv ist.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Associated" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The CLA and associated amendments are primarily <strong>select to accept</strong>. No signatures are required. The <strong>PRINT ONLINE</strong> version of the amendment that you can download in the CLA app is the document of record. If you require a hard-copy counter signature based on your own internal processes, print the hard-copy version via the <strong>PRINT HARD COPY</strong> button. <strong>We don’t require a hard copy to be executed;</strong> this is at the discretion of the customer. The hard copy can be signed and sent to the address on page 2 of your CLA. We’ll then provide you with a countersigned hard copy.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Das CLA und die zugehörigen Zusatzvereinbarungen sind zunächst <strong>zur Annahme ausgewählt</strong>. Das Signieren ist nicht erforderlich. Die <strong>ONLINE-DRUCK</strong>-Version der Zusatzvereinbarung, die Sie in der CLA-App herunterladen können, stellt das hinterlegte Dokument dar. Wenn von Ihrer Seite aufgrund eigener interner Prozesse eine Gegensignierung auf Papier nötig ist, drucken Sie die Papierversion über die Schaltfläche <strong>AUF PAPIER DRUCKEN</strong>. <strong>Unseretwegen muss die Papierkopie nicht unterzeichnet werden.</strong> Dies liegt im Ermessen des Kunden. Der Ausdruck kann unterzeichnet und an die Adresse auf Seite 2 Ihres CLA gesendet werden. Wir stellen Ihnen dann eine gegensignierte Papierkopie zur Verfügung.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Authorized" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The <strong>authorized representative</strong> should select <strong>ACCEPT AMENDMENT</strong> at the bottom of the form to send it to us for review. If you aren’t the authorized representative, select the <strong>Amendment Send to Authorized Representative</strong> button, and the CLA will be sent to the representative in your company.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Der <strong>autorisierte Vertreter</strong> sollte am unteren Rand des Formulars <strong>ZUSATZVEREINBARUNG ANNEHMEN</strong> auswählen, um es uns zur Überprüfung zu senden. Wenn Sie nicht der autorisierte Vertreter sind, wählen Sie die Schaltfläche <strong>"An autorisierten Vertreter senden"</strong> aus, so wird das CLA an den Vertreter in Ihrem Unternehmen gesendet.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Button" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open the CLA form]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA-Formular öffnen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Contact" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have questions, engage your authorized Microsoft IoT distributor or <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bei Fragen wenden Sie sich an Ihren autorisierten Microsoft IoT Distributor, oder<a href="{0}">kontaktieren Sie uns</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Customer" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft customer license agreement (CLA) amendment <strong>{0}</strong>for <strong>{1}</strong> is awaiting your attention.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Die Zusatzvereinbarung des Microsoft-Kundenlizenzvertrags (CLA) <strong>{0}</strong>für <strong>{1}</strong> steht zu Ihrer Kenntnisnahme bereit.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Download" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download a copy of the amendment terms for your records via the <strong>PRINT ONLINE</strong> button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Laden Sie eine Kopie der Bedingungen der Zusatzvereinbarung für Ihre Unterlagen über die Schaltfläche <strong>ONLINE-DRUCK</strong> herunter.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Link" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The link will be valid for <strong>{0}</strong> days. After you open the CLA web form, complete these steps:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Der Link ist <strong>{0}</strong> Tage gültig. Nachdem Sie das CLA-Webformular geöffnet haben, führen Sie die folgenden Schritte aus:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_More" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Weitere Informationen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Name" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0},]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0},]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_ToGet" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To get additional guidance on completing the web form, download the <a href="{0}">CLA Reference Guide</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Um zusätzliche Anleitungen zum Ausfüllen des Webformulars zu erhalten, laden Sie den <a href="{0}">CLA-Referenzleitfaden</a> herunter.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_ToReview" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To review the amendment terms, select the Terms and Conditions link near the bottom of the web form.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Um die Bedingungen der Zusatzvereinbarung zu prüfen, wählen Sie den Link "Geschäftsbedingungen" am unteren Rand des Webformulars aus.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[msazure]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[msazure]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The new amendment is waiting for action from you.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Die neue Zusatzvereinbarung wartet auf eine Aktion Ihrerseits.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} {1}, a new Microsoft CLA amendment was created for {2}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} {1}, eine neue CLA-Zusatzvereinbarung von Microsoft für {2} wurde erstellt.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A new Microsoft CLA amendment for {0} is waiting for action from you]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eine neue CLA-Zusatzvereinbarung von Microsoft für {0} wartet auf eine Aktion Ihrerseits.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\VolumeLicensing\NewCommerce\ConsolidatedInvoice\ConsolidatedInvoice.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="de-DE" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";ConsolidatedInvoice.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Amount" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Amount (inc. tax)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Betrag (inkl. Steuern)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_BillingDate" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Billing date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Abrechnungsdatum]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_BillingDoc" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Billing doc #]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Abrechnungsdokumentnummer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_BillingDocType" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Billing doc type]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Abrechnungsdokumenttyp]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_BillingPeriod" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Billing Period]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Abrechnungszeitraum]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_BillingPeriodStartEnd" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0}-{1}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0}–{1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Combined" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and download your overage billing documents and CSV file on the <a href="{0}">Azure Portal</a>.<br /><br />View and download non-overage billing documents and CSV file on <a href="{1}">Microsoft Admin Center</a>. If you need help accessing the MAC portal, <a href="{2}">see our documentation</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zeigen Sie Ihre Abrechnungsdokumente mit Überschreitung und die CSV-Datei im <a href="{0}">Azure Portal</a> an und laden Sie sie herunter.<br /><br />Zeigen Sie Abrechnungsdokumente ohne Überschreitung und CSV-Dateien im <a href="{1}">Microsoft Admin Center</a> an und laden Sie sie herunter. Wenn Sie Hilfe beim Zugriff auf das MAC-Portal benötigen, <a href="{2}"> lesen Sie unsere Dokumentation</a>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[View and download your overage billing documents and CSV file on the <a href="{0}">Azure Portal</a>.</br>]D;]A;View and download non-overage billing documents and CSV file on <a href="{1}">Microsoft Admin Center</a>.</br>]D;]A; If you need help accessing the  MAC portal, <a href="{2}">see our documentation</a>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Combined1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and download your overage billing documents and CSV file on the Azure Portal.<br /><br />View and download non-overage billing documents and CSV file on Microsoft Admin Center. If you need help accessing the MAC portal, <a href="{0}">see our documentation</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zeigen Sie Ihre Abrechnungsdokumente mit Überschreitung und die CSV-Datei im Azure-Portal an, und laden Sie sie herunter.<br /><br />Zeigen Sie Abrechnungsdokumente ohne Überschreitung und CSV-Dateien im Microsoft Admin Center an und laden Sie sie herunter. Wenn Sie Hilfe beim Zugriff auf das MAC-Portal benötigen, <a href="{0}"> lesen Sie unsere Dokumentation</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Combined2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and download your overage billing documents and CSV file on the <a href="{0}">Azure Portal</a>.<br /><br />View and download non-overage billing documents and CSV file on Microsoft Admin Center. If you need help accessing the MAC portal, <a href="{1}">see our documentation</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zeigen Sie Ihre Abrechnungsdokumente mit Überschreitung und die CSV-Datei im <a href="{0}">Azure Portal</a> an, und laden Sie sie herunter.<br /><br />Zeigen Sie Abrechnungsdokumente ohne Überschreitung und CSV-Dateien im Microsoft Admin Center an und laden Sie sie herunter. Wenn Sie Hilfe beim Zugriff auf das MAC-Portal benötigen, <a href="{1}"> lesen Sie unsere Dokumentation</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Combined3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and download your overage billing documents and CSV file on the Azure Portal.<br /><br />View and download non-overage billing documents and CSV file on <a href="{0}">Microsoft Admin Center</a>. If you need help accessing the MAC portal, <a href="{1}">see our documentation</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zeigen Sie Ihre Abrechnungsdokumente mit Überschreitung und die CSV-Datei im Azure-Portal an, und laden Sie sie herunter.<br /><br />Zeigen Sie Abrechnungsdokumente ohne Überschreitung und CSV-Dateien im <a href="{0}">Microsoft Admin Center</a> an und laden Sie sie herunter. Wenn Sie Hilfe beim Zugriff auf das MAC-Portal benötigen, <a href="{1}"> lesen Sie unsere Dokumentation</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_DueDate" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Due date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Fälligkeitsdatum]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_ForHelp" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For help or questions, contact your partner or <a href="{0}">Microsoft credit.</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Wenden Sie sich bei Hilfe oder Fragen an Ihren Partner oder <a href="{0}">Microsoft-Guthaben.</a>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[For help or questions, contact your partner or <a href="{0}">Microsoft credit</a>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_ForInvoice" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For invoice, payments should be made by EFT or ACH. Payment instructions are included on the invoice. If you’ve prepaid, disregard this mail.]D;]A;You do not need to make payment for credit memo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Für die Rechnung müssen Zahlungen per EFT oder ACH erfolgen. Zahlungsanweisungen sind auf der Rechnung angegeben. Wenn Sie im Voraus bezahlt haben, ignorieren Sie diese E-Mail.]D;]A;Sie müssen keine Zahlung für eine Gutschrift leisten.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_InvoiceDate" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Billing date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Abrechnungsdatum]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsAzureMAC" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and download non-overage billing documents and CSV file on <a href="{0}">Microsoft Admin Center</a>. If you need help accessing the  MAC portal, <a href="{1}">see our documentation</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zeigen Sie Abrechnungsdokumente ohne Überschreitung und CSV-Dateien im  <a href="{0}">Microsoft Admin Center</a> an, und laden Sie sie herunter. Wenn Sie Hilfe beim Zugriff auf das MAC-Portal benötigen, <a href="{1}">lesen Sie unsere Dokumentation</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsAzureMACWithOutLink" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and download non-overage billing documents and CSV file on Microsoft Admin Center. If you need help accessing the  MAC portal, <a href="{1}">see our documentation</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zeigen Sie Abrechnungsdokumente ohne Überschreitung und CSV-Dateien im  Microsoft Admin Center an und laden Sie sie herunter. Wenn Sie Hilfe beim Zugriff auf das MAC-Portal benötigen, <a href="{1}">lesen Sie unsere Dokumentation</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsAzureOnly" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and download your billing documents and CSV file on the <a href="{0}">Azure portal</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zeigen Sie Ihre Abrechnungsdokumente und die CSV-Datei im <a href="{0}">Azure-Portal</a> an, und laden Sie sie herunter.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsAzureOnlyWithOutLink" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and download your billing documents and CSV file on the Azure portal.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zeigen Sie Ihre Abrechnungsdokumente und die CSV-Datei auf dem Azure-Portal an, und laden Sie sie herunter.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsPartner1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and download your billing documents and reconciliation file on <a href="{0}">Explore.MS</a>.<br /><br />For help or questions, contact <a href="{1}">Microsoft credit</a>. Contact your Regional Operations Center for help using the <a href="{2}">Call Logging Tool (CLT)</a> or <a href="{3}">Explore MS Public Home</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zeigen Sie Ihre Abrechnungsdokumente und die Abstimmungsdatei auf <a href="{0}">Explore.MS</a> an, und laden Sie sie herunter.<br /><br />Bei Hilfe oder Fragen wenden Sie sich an <a href="{1}">Microsoft-Gutschrift</a>. Wenden Sie sich an Ihr Regional Operations Center, um Hilfe über das <a href="{2}">Call Logging Tool (CLT)</a> oder <a href="{3}">Explore MS Public Home</a> zu erhalten.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Linked" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Linked invoice #]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Verknüpfte Rechnungsnummer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_PO" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[PO #]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Auftragsnummer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for your recent business.]D;]A;Invoice/ Credit memo for {0} is ready. The attached billing document(s) are ready for your review.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vielen Dank für Ihre aktuellen Transaktionen.]D;]A;Die Rechnung/Gutschrift für {0} ist bereit. Die angefügten Abrechnungsdokumente können überprüft werden.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Para2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you’re a partner, view and download your credit memo and recon file on <a href="{0}">Explore.MS</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Wenn Sie ein Partner sind, können Sie Ihre Gutschrift- und Abstimmungsdatei auf <a href="{0}">Explore.MS</a> anzeigen und herunterladen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Partner" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For help or questions, contact <a href="{0}">Microsoft credit</a>. Contact your Regional Operations Center for help using the <a href="{1}">Call Logging Tool (CLT)</a> or <a href="{2}">Explore MS Public Home</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Wenn Sie Hilfe benötigen oder Fragen haben, wenden Sie sich an <a href="{0}">Microsoft-Gutschrift</a>. Wenden Sie sich mit dem <a href="{1}">Call Logging Tool (CLT)</a> oder über <a href="{2}">Explore MS Public Home</a> an Ihr Regional Operations Center, um Hilfe zu erhalten.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Portal0" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you’re a direct customer, view and download your invoice or credit memo and recon file on Azure portal.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Wenn Sie Direktkunde sind, können Sie Ihre Rechnung oder Gutschrift und die Abstimmungsdatei im Azure-Portal anzeigen und herunterladen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Portal1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you’re a direct customer, view and download your invoice or credit memo and recon file on Azure portal and MAC]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Wenn Sie Direktkunde sind, können Sie Ihre Rechnung oder Gutschrift und die Abstimmungsdatei im Azure-Portal und im MAC-Portal anzeigen und herunterladen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CompanyName" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Company name:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Name des Unternehmens:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";EnrollmentNumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enrollment number:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Registrierungsnummer:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[base]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Basis]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[visual-studio]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review the invoice or credit memo and recon file .]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Überprüfen Sie die Rechnung oder die Gutschrift und die Abstimmungsdatei.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The invoice or credit memo for {0} is ready]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Die Rechnung oder Gutschrift für {0} ist bereit.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your invoice/ credit memo is ready]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ihre Rechnung/Gutschrift ist bereit.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>
