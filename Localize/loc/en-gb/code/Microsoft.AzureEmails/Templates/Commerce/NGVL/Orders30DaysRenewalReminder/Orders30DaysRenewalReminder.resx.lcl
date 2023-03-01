@@ -21,6 +21,9 @@
       <Item ItemId=";Body_ForMore" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[For more information, sign in to <a href="{0}">Microsoft Business Center</a> or contact your Microsoft partner.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[For more information, sign in to <a href="{0}">Microsoft Business Centre</a> or contact your Microsoft partner.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

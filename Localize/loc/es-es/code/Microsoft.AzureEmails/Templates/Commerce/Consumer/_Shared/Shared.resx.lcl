@@ -160,7 +160,7 @@
         <Str Cat="Text">
           <Val><![CDATA[PayPal Buy now, pay later]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[PayPal: compre ahora y pague después]]></Val>
+            <Val><![CDATA[PayPal Comprar ahora, pagar más tarde]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

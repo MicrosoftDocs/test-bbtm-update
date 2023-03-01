@@ -30,6 +30,9 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[We’ve approved third-party integrator (TPI) <strong>{0}</strong>, associated with customer license agreement (CLA) <strong>{1}</strong>, for OEM <strong>{2}</strong>. You don’t need to take any action.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[We’ve approved third-party integrator (TPI) <strong>{0}</strong>, associated with customer licence agreement (CLA) <strong>{1}</strong>, for OEM <strong>{2}</strong>. You don’t need to take any action.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

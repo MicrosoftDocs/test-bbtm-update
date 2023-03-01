@@ -12,6 +12,9 @@
       <Item ItemId=";Body_Customer" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Customer license agreement (CLA) <strong>{0}</strong>, which you initiated, is now active. You don’t need to take any action.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Customer licence agreement (CLA) <strong>{0}</strong>, which you initiated, is now active. You don’t need to take any action.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

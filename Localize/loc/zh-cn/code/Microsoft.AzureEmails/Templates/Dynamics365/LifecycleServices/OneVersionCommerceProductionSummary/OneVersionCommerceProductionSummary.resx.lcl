@@ -93,8 +93,8 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To enhance your service experience, Microsoft updated your Dynamics 365 for Commerce environment. The environment is available for standard use.]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[环境现在可供标准使用。]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[为了增强你的服务体验，Microsoft 更新了 Dynamics 365 for Commerce 环境。该环境可用于标准使用。]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[The environment is now available for standard use.]]></Val>
@@ -105,8 +105,8 @@
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Status of scheduled service update for {0}]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[已成功进行为 Dynamics 365 for Commerce 计划的服务更新]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} 的计划服务更新状态]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[A service update scheduled for Dynamics 365 for Commerce was successful]]></Val>
@@ -117,8 +117,8 @@
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Status of scheduled service update for {0}]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[已成功为 {0} 进行计划的服务更新]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} 的计划服务更新状态]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[A scheduled service update was successful for {0}]]></Val>

@@ -21,6 +21,9 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[The submission of third-party integrator <strong>{0}</strong>, associated with your Microsoft customer license agreement (CLA) <strong>{1}</strong>, has been rejected for this reason:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[The submission of third-party integrator <strong>{0}</strong>, associated with your Microsoft customer licence agreement (CLA) <strong>{1}</strong>, has been rejected for this reason:]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -54,6 +57,9 @@
       <Item ItemId=";contact" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, please engage your authorized Microsoft IoT distributor or <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[If you have questions, please engage your authorised Microsoft IoT distributor or <a href="{0}">contact us</a>.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
