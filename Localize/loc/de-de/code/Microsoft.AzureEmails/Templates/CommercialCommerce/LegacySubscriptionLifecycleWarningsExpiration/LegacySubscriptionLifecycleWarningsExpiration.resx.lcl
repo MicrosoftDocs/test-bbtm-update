@@ -59,7 +59,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Learn more on how to turn recurring billing on]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Weitere Informationen zum Aktivieren der wiederkehrenden Abrechnung]]></Val>
+            <Val><![CDATA[Informieren Sie sich über die Aktivierung der wiederholten Abrechnung]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

@@ -21,12 +21,18 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[You’ve <strong>rejected</strong> the customer license agreement (CLA) sharing request from <strong>{0}</strong> (CLA <strong>{1}</strong>).]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[お客様は、<strong>{0}</strong> (CLA <strong>{1}</strong>) からの顧客ライセンス契約 (CLA) 共有要求を<strong>拒否しました</strong>。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[This authorized Microsoft IoT distributor <strong>may not</strong> use the CLA number for opportunity or sales out report submissions to Microsoft.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[この Microsoft の認可 IoT ディストリビューターは、Microsoft への営業案件または外販レポートの送信に CLA 番号を使用 <strong>できません</strong>。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -42,18 +48,27 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[{0} can’t use the CLA number to submit reports to Microsoft.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} は、CLA 番号を使用して Microsoft にレポートを送信することはできません。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[{0} {1}, the CLA {2} sharing request is rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} {1}、CLA {2} 共有要求は拒否されました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[You’ve rejected the CLA {0} sharing request]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA {0} 共有要求を拒否しました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

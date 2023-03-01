@@ -30,42 +30,63 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[You’ve approved the customer license agreement (CLA) sharing request for <strong>{0}</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[お客様は <strong>{0}</strong> に関する顧客ライセンス契約 (CLA) 共有要求を承認しました。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[This authorized Microsoft IoT distributor that you approved can now use your CLA number for opportunity and sales out report submissions to Microsoft. {0} will now be able to see details of your CLA/ARA contacts and price tier information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[お客様から承認されたこの Microsoft の認可 IoT ディストリビューターは、お客様の CLA 番号を使用して、Microsoft への営業案件と外販レポートの送信を行えるようになりました。{0} は、CLA/ARA の連絡先の詳細と価格帯の情報を表示できるようになります。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To get additional guidance for completing the form, download the <a href="{0}">CLA Reference Guide</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[フォームの入力に関する追加のガイダンスを取得するには、<a href="{0}">CLA リファレンス ガイド</a>をダウンロードしてください。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, engage your authorized Microsoft IoT distributor, or <a href="mailto:{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ご質問がある場合は、Microsoft の認可 IoT ディストリビューター、または<a href="mailto:{0}">こちらからお問い合わせください</a>。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[{0} may now use your CLA number for opportunity and SOR submissions.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} は、営業案件と SOR の送信にお客様の CLA 番号を使用できるようになりました。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[{0} {1}, CLA {2} sharing request for {3} is approved]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} {1}、{3} に対する CLA {2} 共有要求が承認されました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[CLA {0} sharing request is approved]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA {0} 共有要求が承認されました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

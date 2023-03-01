@@ -21,6 +21,9 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[<strong>{0}</strong> has <strong>declined</strong> the customer license agreement (CLA) share request that you submitted, <strong>so you may not use the CLA for an opportunity or a sales out report (SOR) submission</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>{0}</strong> は、お客様が送信した顧客ライセンス契約 (CLA) の共有要求を<strong>拒否</strong>しました。<strong>そのため、この CLA を営業案件または外販レポート (SOR) の送信に使用することはできません</strong>。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -36,18 +39,27 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[You can’t use the CLA for an opportunity or SOR submission.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[この CLA は、営業案件または SOR の送信に使用できません。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[CLA {0} share request is declined]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA {0} の共有要求が拒否されました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Your CLA {0} share request is declined]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[お客様の CLA {0} の共有要求が拒否されました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

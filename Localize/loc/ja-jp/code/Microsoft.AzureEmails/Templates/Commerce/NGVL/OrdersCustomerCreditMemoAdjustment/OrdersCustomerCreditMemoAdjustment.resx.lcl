@@ -40,7 +40,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Invoice date:]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[請求書作成日:]]></Val>
+            <Val><![CDATA[請求書の日付:]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -57,12 +57,18 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[A credit has been applied to your Microsoft order number {0}. To view the credit memo, please sign in to <a href="{1}">Microsoft Business Center</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[お客様の Microsoft 注文番号 {0} にクレジットが適用されました。信用メモを表示するには、<a href="{1}">Microsoft Business Center</a> にサインインしてください。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If the link isn’t working, please copy and paste this link into your web browser: {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[このリンクが機能していない場合は、次のリンクをコピーして Web ブラウザーに貼り付けてください: {0}。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -78,6 +84,9 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[A credit has been applied to your Microsoft order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[お客様の Microsoft の注文にクレジットが適用されました。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -111,12 +120,18 @@
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Microsoft Volume Licensing credit memo for order number {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[注文番号 {0} の Microsoft  ボリューム ライセンス信用メモ]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Microsoft Volume Licensing credit memo for order number {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[注文番号 {0} の Microsoft  ボリューム ライセンス信用メモ]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

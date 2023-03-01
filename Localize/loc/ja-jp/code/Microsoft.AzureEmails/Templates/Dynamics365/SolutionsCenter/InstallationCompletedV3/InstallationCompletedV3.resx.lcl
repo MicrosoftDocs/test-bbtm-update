@@ -39,6 +39,9 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[The solutions below are ready for you to explore and use. Open {0} from the link in this email or navigate to your Microsoft Cloud Solution Center <strong>My deployments</strong> page to begin using them.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[以下のソリューションを探して使用する準備ができました。このメールのリンクから {0} を開くか、Microsoft Cloud Solution Center の <strong>[My deployments]5D;</strong> (自分のデプロイ) ページに移動して使用を開始します。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -63,12 +66,18 @@
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Your solution deployment in Microsoft Cloud Solution Center is complete]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Cloud Solution Center でのお客様のソリューションのデプロイが完了しました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Your solutions have been deployed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[お客様のソリューションはデプロイされました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
