@@ -39,8 +39,8 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[All errors have been successfully fixed on the connection instance {0} (connection instance ID {1}) linked to {2}.]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[{2} にリンクされているインスタンス {0} (インスタンス ID {1}) のすべてのエラーが正常に修正されました。]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{2} にリンクされている接続インスタンス {0} (接続インスタンス ID {1}) のすべてのエラーが正常に修正されました。]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[All errors have been successfully fixed on the instance {0} (instance ID {1}) linked to {2}.]]></Val>
@@ -51,8 +51,8 @@
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To review the status of the connection instance, browse the <strong>Microsoft 365 admin center.</strong>]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[インスタンスの状態を確認するには、Microsoft 管理 センターを参照してください。]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[接続インスタンスの状態を確認するには、<strong>Microsoft 365 管理センター</strong>を参照してください。]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[To review the status of the instance, browse the Microsoft Admin Center.]]></Val>
@@ -81,7 +81,7 @@
       <Item ItemId=";Res2" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Browse cmdlets documentation]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
             <Val><![CDATA[コマンドレットのドキュメントを参照]]></Val>
           </Tgt>
           <Prev Cat="Text">
@@ -93,8 +93,8 @@
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Errors fixed on connection instance: {0}]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[インスタンス: {0} のエラーが修正されました]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[接続インスタンス: {0} のエラーが修正されました]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[Errors fixed on instance: {0}]]></Val>
@@ -105,8 +105,8 @@
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[All the errors on the connection instance {0} have been fixed]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[インスタンス {0} のすべてのエラーが修正されました]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[接続インスタンス {0} のすべてのエラーが修正されました]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[All the errors on the instance {0} have been fixed]]></Val>

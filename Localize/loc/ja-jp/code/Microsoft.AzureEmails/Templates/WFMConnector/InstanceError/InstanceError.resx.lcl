@@ -60,6 +60,9 @@
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To get a list of the errors and take action, browse the <strong>Microsoft 365 admin center.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[エラーの一覧を取得して対処するには、<strong>Microsoft 365 管理センター</strong>を参照します。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

@@ -21,30 +21,45 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[<strong>{0}</strong> has <strong>approved</strong> the customer license agreement (CLA) share request that you submitted. <strong>You may now use this CLA for an opportunity or a sales out report (SOR) submission.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>{0}</strong> は、お客様が送信した顧客ライセンス契約 (CLA) 共有要求を<strong>承認しました</strong>。<strong>この CLA を営業案件または外販レポート (SOR) の送信に使用できるようになりました。</strong>]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, please <a href="mailto:{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ご質問がある場合は、<a href="mailto:{0}">こちらからお問い合わせください</a>。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[You may use this CLA for an opportunity or SOR submission.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[この CLA は、営業案件または SOR 送信に使用できます。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[CLA {0} share request is approved]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA {0} 共有要求が承認されました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[CLA {0} share request is approved]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA {0} 共有要求が承認されました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

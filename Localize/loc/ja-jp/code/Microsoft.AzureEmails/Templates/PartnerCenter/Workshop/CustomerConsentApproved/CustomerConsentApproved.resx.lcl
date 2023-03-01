@@ -150,6 +150,9 @@
       <Item ItemId=";Para11" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[You are approved to start execution of this engagement. Once the engagement is completed, you can submit a claim.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[このエンゲージメントの実行を開始することが承認されました。エンゲージメントが完了したら、申請を送信できます。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

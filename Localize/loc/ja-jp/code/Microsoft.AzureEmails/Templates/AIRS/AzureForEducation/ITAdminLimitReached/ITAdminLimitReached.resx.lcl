@@ -12,6 +12,9 @@
       <Item ItemId=";ButtonText" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Azure Education Hub]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Azure Education Hub]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -27,24 +30,36 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[You’re receiving this email because one or more of the Azure credits you’ve allocated to your educators is reaching your allocated limit. Your educators will soon no longer be able to distribute Azure credit. You can either let the credits expire or increase the limit by going to the Azure Education Hub.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[お客様が教師に割り当てた 1 つ以上の Azure クレジットが間もなく割り当てられた上限に達するため、このメールを受信しています。教師は間もなく Azure クレジットを配布できなくなります。クレジットの有効期限が切れるままにするか、Azure Education Hub に移動して制限を増やすことができます。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Your educators will soon no longer be able to distribute Azure credit.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[教師は間もなく Azure クレジットを配布できなくなります。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[You’re reaching your allocated Azure credit limit]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[間もなく割り当てられた Azure クレジットの上限に達します]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[You’re reaching your allocated Azure credit limit]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[間もなく割り当てられた Azure クレジットの上限に達します]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

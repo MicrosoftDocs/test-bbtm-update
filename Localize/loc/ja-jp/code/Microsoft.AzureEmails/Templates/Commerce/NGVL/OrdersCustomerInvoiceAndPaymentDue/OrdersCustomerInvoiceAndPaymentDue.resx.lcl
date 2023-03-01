@@ -48,6 +48,9 @@
       <Item ItemId=";InvoiceDueDate" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Invoice due date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[請求書の期限]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -81,12 +84,18 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Thanks for your Microsoft order number {0} made on {1}.  Your payment is now due. You can <a href="{2}">pay by credit card</a>. You can also <a href="{3}">view the invoice</a>, which contains remittance information, in your Microsoft Business Center account.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{1} に Microsoft ご注文番号 {0} を作成していただき、ありがとうございます。お支払いの期限になりました。<a href="{2}">クレジット カードでお支払い</a>いただけます。Microsoft Business Center アカウントで、送金情報を含む<a href="{3}">請求書を表示する</a>こともできます。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions regarding your order, please sign in to <a href="{0}">Microsoft Business Center</a> or contact your Microsoft sales representative.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ご注文に関してご質問がある場合は、<a href="{0}">Microsoft Business Center</a> にサインインするか、Microsoft 営業担当者にお問い合わせください。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -102,18 +111,27 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Make a payment for your Microsoft order number {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft ご注文番号 {0} の支払いを行います。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Payment due for Microsoft order number  {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft  ご注文番号 {0} に対する支払い期限]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Payment due for Microsoft order number  {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft  ご注文番号 {0} に対する支払い期限]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

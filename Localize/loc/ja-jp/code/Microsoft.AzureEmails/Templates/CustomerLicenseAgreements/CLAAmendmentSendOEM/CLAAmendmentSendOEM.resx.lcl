@@ -12,54 +12,81 @@
       <Item ItemId=";Body_Accept" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To accept the CLA amendment, select the Terms and Conditions checkbox and then the <strong>ACCEPT AMENDMENT</strong> button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA の変更を承諾するには、[ご契約条件]5D; チェックボックスをオンにし、<strong>[ACCEPT AMENDMENT]5D;</strong> (変更を承諾する) ボタンを選択します。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_After" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[After receiving the amendment, we’ll review and activate it. You’ll receive a notification email after the amendment is active.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[変更を受け取った後、確認して有効化します。変更が有効になると、通知メールが送信されます。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_Associated" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[The CLA and associated amendments are primarily <strong>select to accept</strong>. No signatures are required. The <strong>PRINT ONLINE</strong> version of the amendment that you can download in the CLA app is the document of record. If you require a hard-copy counter signature based on your own internal processes, print the hard-copy version via the <strong>PRINT HARD COPY</strong> button. <strong>We don’t require a hard copy to be executed;</strong> this is at the discretion of the customer. The hard copy can be signed and sent to the address on page 2 of your CLA. We’ll then provide you with a countersigned hard copy.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA および関連する変更を、第一に<strong>選択して受け入れます</strong>。署名は必要ありません。CLA アプリでダウンロードできる変更の<strong>オンライン プリント</strong> バージョンは記録ドキュメントです。独自の内部プロセスに基づいてハードコピー カウンター署名が必要な場合は、[<strong>PRINT HARD COPY</strong>]5D; (ハードコピーを印刷) ボタンを使用してハードコピー バージョンを印刷します。<strong>ハード コピーを実行する必要はありません。</strong>これはお客様の裁量で行ってください。ハード コピーに署名して、CLA の 2 ページのアドレスに送信できます。その後、副署名されたハード コピーを当社から提供します。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_Authorized" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[The <strong>authorized representative</strong> should select <strong>ACCEPT AMENDMENT</strong> at the bottom of the form to send it to us for review. If you aren’t the authorized representative, select the <strong>Amendment Send to Authorized Representative</strong> button, and the CLA will be sent to the representative in your company.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>承認された担当者</strong>は、フォームの下部にある <strong>[ACCEPT AMENDMENT]5D;</strong> (変更を承諾する) を選択して、確認のために送信する必要があります。承認された担当者でない場合は、<strong>[Amendment Send to Authorized Representative]5D;</strong> (承認された担当者に変更を送信) ボタンを選択すると、CLA は社内の担当者に送信されます。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_Button" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Open the CLA form]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA フォームを開く]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_Contact" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, engage your authorized Microsoft IoT distributor or <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ご質問がある場合は、Microsoft の認可 IoT ディストリビューター、または<a href="{0}">こちらからお問い合わせください</a>。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_Customer" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Microsoft customer license agreement (CLA) amendment <strong>{0}</strong>for <strong>{1}</strong> is awaiting your attention.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>{1}</strong> に関する Microsoft 顧客ライセンス契約 (CLA) の変更 <strong>{0}</strong> へのご注意をお待ちしています。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_Download" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Download a copy of the amendment terms for your records via the <strong>PRINT ONLINE</strong> button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[[<strong>PRINT ONLINE]5D;</strong> (プリント オンライン) ボタンを使用して、レコードの変更条項のコピーをダウンロードします。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_Link" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[The link will be valid for <strong>{0}</strong> days. After you open the CLA web form, complete these steps:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[リンクは <strong>{0}</strong> 日間有効です。CLA Web フォームを開いた後、次の手順を実行します。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -84,12 +111,18 @@
       <Item ItemId=";Body_ToGet" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To get additional guidance on completing the web form, download the <a href="{0}">CLA Reference Guide</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Web フォームの入力に関する追加のガイダンスを取得するには、<a href="{0}">CLA リファレンス ガイド</a>をダウンロードしてください。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_ToReview" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To review the amendment terms, select the Terms and Conditions link near the bottom of the web form.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[変更条項を確認するには、Web フォームの下部付近にある [ご契約条件]5D; リンクを選択します。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -105,18 +138,27 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[The new amendment is waiting for action from you.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[新しい変更に対するお客様からのアクションをお待ちしています。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[{0} {1}, a new Microsoft CLA amendment was created for {2}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} {1}、{2} に関する新しい Microsoft CLA 変更が作成されました]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[A new Microsoft CLA amendment for {0} is waiting for action from you]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} に関する新しい Microsoft CLA 変更に対するお客様からのアクションをお待ちしています]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

@@ -12,6 +12,9 @@
       <Item ItemId=";ButtonText" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Open the form]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[フォームを開く]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -36,66 +39,99 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[An authorized Microsoft IoT distributor, <strong>{0}</strong>, has requested that you share your customer license agreement (CLA) <strong>{1}</strong> with them. Sharing the CLA will allow this distributor to use the CLA number to submit opportunity and sales out reports to Microsoft. They’ll also get access to the details of your CLA/ARA contacts and price tier information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[承認された Microsoft IoT ディストリビューター <strong>{0}</strong> が、お客様の顧客ライセンス契約 (CLA) <strong>{1}</strong> を共有するように要求しました。CLA を共有すると、このディストリビューターは CLA 番号を使用して営業案件と外販レポートを Microsoft に送信できるようになります。また、CLA/ARA の連絡先の詳細や価格帯の情報にアクセスできるようにもなります。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[No distributor, including the originating distributor, will be able to see which other distributors have access to this CLA.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[元のディストリビューターを含むディストリビューターは、この CLA にアクセスできる他のディストリビューターを確認できません。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para3" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[When you select <strong>Open the form</strong>, you’ll see a pop-up box:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>[フォームを開く]5D;</strong> を選択すると、次のポップアップ ボックスが表示されます。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para4" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To <strong>approve</strong> the sharing request, select <strong>Yes</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[共有要求を<strong>承認する</strong>には、<strong>[はい]5D;</strong> を選択します。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para5" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To <strong>reject</strong> the sharing request, select <strong>No</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[共有要求を<strong>拒否する</strong>には、<strong>[いいえ]5D;</strong> を選択します。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para6" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[This link to the form is valid for <strong>{0} days</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[フォームへのこのリンクは、<strong>{0} 日間</strong>有効です。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para7" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To get additional guidance for completing the form, download the <a href="{0}">CLA Reference Guide</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[フォームの入力に関する追加のガイダンスを取得するには、<a href="{0}">CLA リファレンス ガイド</a>をダウンロードしてください。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, please engage your authorized Microsoft IoT distributor or <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ご質問がある場合は、Microsoft の認可 IoT ディストリビューターに問い合わせるか、<a href="{0}">こちらからお問い合わせください</a>。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Sharing the CLA will allow this distributor to submit reports to Microsoft.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[CLA を共有すると、このディストリビューターは Microsoft にレポートを送信できるようになります。]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[{0} {1}, {2} is requesting CLA {3} sharing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} {1}、{2} が CLA {3} の共有を要求しています]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Distributor {0} is requesting CLA {1} sharing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ディストリビューター {0} が CLA {1} の共有を要求しています]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
