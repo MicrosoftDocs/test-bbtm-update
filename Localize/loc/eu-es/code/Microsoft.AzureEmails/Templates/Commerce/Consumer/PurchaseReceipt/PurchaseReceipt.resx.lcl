@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\PurchaseReceipt\PurchaseReceipt.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="eu-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";PurchaseReceipt.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";AValueAddedTax" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A value-added tax (VAT) invoice will be available for download from your <a href="{0}">order history</a> within 48 hours.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[48 orduren buruan erabilgarri izango duzu balio erantsiaren gaineko zerga (BEZa) duen faktura deskargagarri bat <a href="{0}">eskaeren historian</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";AnyDownloads" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Any downloads you bought, except preorders, are available now.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Erabilgarri dituzu erositako deskarga guztiak (erreserbak izan ezik).]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";AnyGiftCard" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Any gift card or code you purchased can be redeemed now.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Orain erabil ditzakezu erosi dituzun opari-txartel edo kodeak.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_AzureVisualLink" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong><a href="{0}">New to Azure? Get $200 Azure credits and start your free trial now</a>.</br>]D;]A;<a href="{1}">Download Visual Studio community version for free</a>.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong><a href="{0}">Hasiberria zara Azure-n? Eskuratu 200 USD-ko Azure kredituak eta hasi doako proba erabiltzen</a>.</br>]D;]A;<a href="{1}">Deskargatu Visual Studio komunitatearen bertsioa doan</a>.</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_P_US_CA" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<a href="{0}">Learn more</a> about setting up your Microsoft adaptive accessories. Need accessibility support? <a href="{1}">Contact Disability Answer Desk Support | Microsoft Accessibility</a>.  We'd also love to hear <a href="{2}">any feedback</a> you might have on your new accessories]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<a href="{0}">Lortu informazio gehiago</a> Microsoft-eko osagarri moldagarriei buruz. Erabilerraztasunarekin erlazionatutako laguntza behar duzu? <a href="{1}">Jarri harremanetan Erabilerraztasunerako laguntza-zerbitzuarekin | Microsoft erabilerraztasuna</a>. Halaber, zure osagarri berriei buruz <a href="{2}">dituzun iritziak</a> jakitea gustatuko litzaiguke.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph1_IsGiftCode" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redeem your gift code.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Erabili opari-kodea.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph1_IsRental" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for renting from Microsoft Store on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eskerrik asko Microsoft Store-n egin duzun alokairu-eragiketagatik ({0}).]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CTA_Text" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View or manage your order]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ikusi edo kudeatu eskaera]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Heading1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Software Update Information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Softwarea eguneratzeko informazioa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Heading2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Xbox Devices (“Goods”)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Xbox gailuak ("Ondasunak")]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Heading3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Windows-based Surface Devices (“Goods”)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Windows-en oinarritutako Surface gailuak ("Ondasunak")]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Para1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The above-mentioned software (“<strong>Software</strong>”) may be subject to updates, including security updates (“<strong>Updates</strong>”). This information is provided as required in France.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eguneratzeen mende egon daiteke lehen aipatutako softwarea ("<strong>Softwarea</strong>"); besteak beste, segurtasun-eguneratzeak ("<strong>Eguneratzeak</strong>"). Frantziako eskakizunen arabera ematen da informazio hau.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Updates that are provided beyond the above-mentioned period (“<strong>Period</strong>”) may have consequences on the performance of Goods (for example, available storage space, the availability of RAM (Random Access Memory) or the life of the battery). More specific information on such possible consequences will be provided by Microsoft as soon as such specific information becomes available.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lehen zehaztutako epetik ("<strong>Epea</strong>") harago ematen diren eguneratzeek eragin diezaiokete Ondasunak aukeraren errendimenduari (adibidez, erabilgarri dagoen biltegiratze-lekua, RAM-aren [zuzeneko memoria-atzipena]5D; erabilgarritasuna edo bateriaren iraupena). Microsoft-ek informazio zehatzago emango du ondorio posibleei buruz, xehetasun gehiago erabilgarri egon bezain laster.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Updates that are provided beyond the above-mentioned period (“<strong>Period</strong>”) may have consequences on the performance of Goods (for example, available storage space, the availability of RAM or the life of the battery). More specific information on such possible consequences will be provided by Microsoft as soon as such specific information becomes available.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Software subject to updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eguneratu beharko duzun softwarea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Period of supply of these updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eguneratzeak hornitzeko epea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Software subject to updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eguneratu beharko duzun softwarea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Period of supply of these updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eguneratzeak hornitzeko epea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_List1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Windows Operating System]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Windows sistema eragilea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_List2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Surface device software, firmware, and drivers]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Surface gailuaren softwarea, firmwarea eta kontrolatzaileak]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_row1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox device operating system software]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox gailuaren sistema eragilearen softwarea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_row2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Minimum two years after]D;]A;date of delivery of the goods]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gutxienez, produktuak entregatu data eta]A;bi urte geroago]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";HereAreYourGift" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Here are your gift details for reference.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hona hemen opariaren erreferentzia-xehetasunak.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IfYouHavePreOrdered" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have pre-ordered a downloadable product, we will charge you up to 10 days before the release date.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Produktu deskargagarri baten erreserba egin baduzu, 10 egun kobratuko dizkizugu gehienez, argitalpen-data baino lehen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IfYouNeedHelp" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you need help, we're here for you. In addition to free shipping and returns, our <a href={0}>Microsoft Store Promise</a> includes free virtual workshops, video tutorials, expert help, and more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Laguntza behar baduzu, hemen gaituzu. Doako bidalketa-gastuez eta itzulketez gain, gure <a href={0}>Microsoft Store Promise-ek</a> doako tailer birtualak, bideo-tutorialak, adituen laguntza eta gehiago hartzen ditu barne.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[merkataritza]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for shopping with us on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eskerrik asko egin duzun erosketagatik ({0}).]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_IsGiftCode" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redeem your gift code.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Erabili opari-kodea.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_IsRental" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for renting from Microsoft Store on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eskerrik asko Microsoft Store-n egin duzun alokairu-eragiketagatik ({0}).]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Microsoft order #{0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prozesatu da Microsoft-en {0}. eskaera]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_Fr" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Processed Microsoft order #{0} and Software Update Information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prozesatu da Microsoft-en {0}. eskaera eta softwarea eguneratzeko informazioa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_GifteeNameForSubject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your gift order to {0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prozesatu da {0} opariaren eskaera]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for shopping with us on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eskerrik asko egin duzun erosketagatik ({0}).]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ToREquestAFapiao" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To request a Fapiao for orders placed through Microsoft Store on Windows, please visit your <a href="{0}">order history</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Windows-eko Microsoft Store-n egindako eskaeren Fapiao faktura bat eskatzeko, ikusi zure <a href="{0}">eskaeren historia</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";WeAlsoOffer" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We also offer one-on-one help with Surface devices and accessories, gaming devices, Microsoft 365, or Windows. If you’ve purchased a product for personal use, <a href={0}>book a free product expert appointment</a> for setup assistance or personal training. For business customers interested in personal training, <a href={1}>book a free appointment with one of our business product experts</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Laguntza pertsonalizatua ere eskaintzen dugu gainazaleko gailuetarako eta osagarrietarako, joko-gailuetarako, Microsoft 365-erako edo Windows-erako. Erabilera pertsonalerako produktu bat erosten baduzu, <a href={0}> erreserbatu doako hitzordu bat produktuan aditua den batekin</a>, konfigurazioan eta trebakuntza laguntzeko. Trebakuntza pertsonalean interesa duen negozio-bezeroa bazara, <a href={1}>erreserbatu doako hitzordu bat negozio-produktuetan aditua den batekin</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";YouWillBeCharged" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You will be charged once your items ship.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Produktuak bidali ostean kobratuko dizugu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

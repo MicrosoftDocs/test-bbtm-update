@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\SubscriptionExpirationReminder\SubscriptionExpirationReminder.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="eu-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";SubscriptionExpirationReminder.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";ButtonText" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review account]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Berrikusi kontua]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Review Account]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[merkataritza]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PaymentMethod" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Payment method]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ordainketa-metodoa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review your subscription today]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Berrikusi harpidetza gaur bertan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductAccess1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your {0} subscription will expire on {1}. After this date, you will lose access to the latest AI-powered Office apps and 1 TB of OneDrive cloud storage, and more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} harpidetza honako data honetan iraungiko da: {1}. Data hori igaro ostean, adimen artifizialarekin kudeatutako azken Office aplikazioetarako sarbidea,OneDrive-k eskaintzen duen 1 TB-eko hodeiko biltegiratzea eta antzeko abantailak galduko dituzu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductAccess2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your {0} subscription will expire on {1}. After this date, you will lose access to the flexibility of accessing your photos and files from any device with the automatic sync feature.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} harpidetza honako data honetan iraungiko da: {1}. Data hori igaro ostean, ezingo dituzu atzitu sinkronizazio automatikoa gaituta duten gailuetako argazkiak eta fitxategiak.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductAccess3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your {0} subscription will expire on {1}. After this date, you will lose access to over 100 high-quality PC games, including brand new titles on day one and the EA Play catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} harpidetza honako data honetan iraungiko da: {1}. Data hori igaro ostean, PCrako kalitate handiko 100 joko (joko berri-berriak barne) eta EA Play katalogoa galduko dituzu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductAccess4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your {0} subscription will expire on {1}. After this date, you will lose access to over 100 high-quality PC games, including brand new titles on day one and the EA Play catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} harpidetza honako data honetan iraungiko da: {1}. Data hori igaro ostean, PCrako kalitate handiko 100 joko (joko berri-berriak barne) eta EA Play katalogoa galduko dituzu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductAccess5" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your {0} subscription will expire on {1}. After this date, you will lose access to multiplayer games (except for free-to-play) two free games every month, and discounts on games and add-ons.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} harpidetza honako data honetan iraungiko da: {1}. Data hori igaro ostean, ezingo dituzu atzitu jokalari anitzeko jokoak (doakoak izan ezin), hileko eskaintzen diren bi doako jokoak eta joko eta gehigarrien deskontuak.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductAccess6" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your {0} subscription will expire on {1}. After this date, you will lose access to all the features provided by {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} harpidetza honako data honetan iraungiko da: {1}. Data hori igaro ostean, {0} hornitzaileak emandako eginbide guztietarako sarbidea galduko duzu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductFeatures1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review your subscription today to continue using the smart assistance features in Word, Excel, PowerPoint, and more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Word, Excel, PowerPoint eta antzeko aplikazioetan laguntza-eginbide adimendunak erabiltzen jarraitzeko, berrikusi harpidetza gaur bertan.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductFeatures2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review your subscription today to continue having reliable back up for your documents, ransomware recovery, easy document sharing, cloud storage and more with OneDrive.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zure dokumentuen babeskopiak izateko, erreskatea eskatzen duen malwarearen kontrako neurriak kudeatzeko, dokumentuak erraz partekatzeko, hodeiko biltegiratzea lortzeko eta OneDrive-ren antzeko abantailez gozatzeko, berrikusi zeure harpidetza.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductFeatures3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review your subscription today to get back to playing everything from greatest hits like Forza, Halo, and Minecraft to award-winning gems like It Takes Two.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Forza, Halo, Minecraft, It Takes Two eta antzeko joko saridun eta ezagunekin jokatzen jarraitzeko, berrikusi zeure harpidetza.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductFeatures4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review your subscription today to get back to playing everything from greatest hits like Forza, Halo, and Minecraft to award-winning gems like It Takes Two.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Forza, Halo, Minecraft, It Takes Two eta antzeko joko saridun eta ezagunekin jokatzen jarraitzeko, berrikusi zeure harpidetza.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductFeatures5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review your subscription today to get back to playing with friends on the most advanced multiplayer network. ]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lagunekin jokalari anitzeko sareko joko aurreratuekin jokatzen jarraitzeko, berrikusi zure harpidetza. ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductFeatures6" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Review your subscription today to continue your access to {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} atzitzen jarraitzeko, berrikusi harpidetza gaur bertan.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your {0} subscription will expire soon]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Laster iraungiko da {0} harpidetza]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";SubscriptionPrice" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Subscription Price]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Harpidetzaren prezioa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your {0} subscription will expire soon]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Laster iraungiko da {0} harpidetza]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

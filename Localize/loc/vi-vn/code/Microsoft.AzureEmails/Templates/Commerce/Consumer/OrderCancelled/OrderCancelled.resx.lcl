@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\OrderCancelled\OrderCancelled.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="vi-VN" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";OrderCancelled.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";ButtonOrderAgain" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Order Again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đặt hàng lại]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ButtonText" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage your order]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Quản lý đơn hàng của bạn]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[View your order]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't process some items in your order, so we canceled them. We're sorry for the inconvenience. To purchase the canceled items, please visit Microsoft Store and place another order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi không thể xử lý một số mặt hàng trong đơn hàng của bạn, vì vậy chúng tôi đã hủy bỏ chúng. Chúng tôi rất tiếc vì sự bất tiện này. Để mua các mặt hàng bị hủy, vui lòng truy nhập Microsoft Store và đặt đơn hàng khác.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We couldn't process some items in your order, so we canceled them. You can try buying them again or contacting customer service for additional help.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody2_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You asked us to cancel all or part of your order. We did, and we didn't charge you for those items.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bạn đã yêu cầu chúng tôi hủy tất cả hoặc một phần đơn hàng của bạn. Chúng tôi đã làm vậy và chúng tôi không tính phí bạn cho những mặt hàng đó.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody2_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It may take up to 24 hours before the cancellation is reflected on our website, so don't worry if your order information isn't updated right away.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Có thể mất tối đa 24 giờ thì việc hủy mới được phản ánh trên trang web của chúng tôi, nên đừng lo lắng nếu thông tin đơn hàng của bạn không được cập nhật ngay lập tức.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody3_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for shopping with us.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cảm ơn bạn đã mua sắm với chúng tôi.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody3_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your payment provider couldn't approve your payment, so we’ve revoked the licenses. To reorder, first access your account and update your payment method.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nhà cung cấp dịch vụ thanh toán của bạn không thể chấp thuận khoản thanh toán của bạn, nên chúng tôi đã thu hồi giấy phép. Để đặt hàng lại, trước tiên hãy truy nhập vào tài khoản của bạn và cập nhật phương thức thanh toán.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Your payment provider couldn't approve your payment, so we’ve revoked the licenses for {0}. To reorder, first access your account and update your payment method.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody4_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for shopping with us. The availability date for items that you ordered has changed, and we had to cancel your order. If you were charged for those items, we've refunded you.  ]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cảm ơn bạn đã mua sắm với chúng tôi. Ngày sẵn sàng cho các mặt hàng bạn đặt đã thay đổi và chúng tôi đã phải hủy đơn hàng của bạn. Nếu bạn đã bị tính phí cho các mặt hàng đó thì chúng tôi đã hoàn tiền cho bạn.  ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody4_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're sorry for the inconvenience. To purchase the canceled items, please visit Microsoft Store and place another order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi rất tiếc vì sự bất tiện này. Để mua các mặt hàng bị hủy, vui lòng truy cập Microsoft Store và đặt một đơn hàng khác.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We apologize for the disruption. Please visit the store and place another order to receive the items.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody5_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for shopping with us. Something unexpected went wrong on our end. We couldn't process some items in your order, so we had to cancel them. ]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cảm ơn bạn đã mua sắm với chúng tôi. Đã xảy ra sự cố bất ngờ từ phía chúng tôi. Chúng tôi không thể xử lý một số mặt hàng trong đơn hàng của bạn, nên chúng tôi phải hủy chúng. ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody5_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're sorry for the inconvenience. To purchase the canceled items, please visit Microsoft Store and place another order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi rất tiếc vì sự bất tiện này. Để mua các mặt hàng bị hủy, vui lòng truy cập Microsoft Store và đặt một đơn hàng khác.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We apologize for the disruption. Please visit the store again and place a new order to receive your items.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't process items in your order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi không thể xử lý các mặt hàng trong đơn hàng của bạn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ve canceled items as you requested, and you haven’t been charged for them.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi đã hủy các mặt hàng như bạn yêu cầu và bạn chưa bị tính phí cho các mặt hàng này.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your payment provider couldn't approve your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nhà cung cấp dịch vụ thanh toán của bạn không thể chấp thuận khoản thanh toán của bạn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The availability date for items in your order has changed, so your order has been canceled.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ngày sẵn sàng cho các mặt hàng trong đơn hàng của bạn đã thay đổi, nên đơn hàng của bạn đã bị hủy.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Some items in your order couldn’t be processed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Không thể xử lý một số mặt hàng trong đơn hàng của bạn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[thương mại]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[en-only]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Items in your Microsoft order have been canceled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Các mặt hàng trong đơn hàng Microsoft của bạn đã bị hủy]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Items in your Microsoft order have been canceled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Các mặt hàng trong đơn hàng Microsoft của bạn đã bị hủy]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

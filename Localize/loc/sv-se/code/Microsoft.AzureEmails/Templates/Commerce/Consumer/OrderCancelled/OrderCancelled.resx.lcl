@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\OrderCancelled\OrderCancelled.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="sv-SE" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";OrderCancelled.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";ButtonOrderAgain" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Order Again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Beställ igen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ButtonText" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage your order]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hantera din beställning]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[View your order]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't process some items in your order, so we canceled them. We're sorry for the inconvenience. To purchase the canceled items, please visit Microsoft Store and place another order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Det gick inte att behandla vissa artiklar i beställningen, så de har annullerats. Vi beklagar detta. Om du vill köpa de annullerade artiklarna kan du gå till Microsoft Store och gör en ny beställning.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We couldn't process some items in your order, so we canceled them. You can try buying them again or contacting customer service for additional help.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody2_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You asked us to cancel all or part of your order. We did, and we didn't charge you for those items.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Du har bett oss att annullera hela eller delar av beställningen. Det gjorde vi och vi debiterar dig inte för de artiklarna.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody2_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It may take up to 24 hours before the cancellation is reflected on our website, so don't worry if your order information isn't updated right away.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Det kan ta upp till 24 timmar innan annulleringen visas på vår webbplats, så oroa dig inte om din beställningsinformation inte uppdateras direkt.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody3_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for shopping with us.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tack för att du handlar hos oss.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody3_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your payment provider couldn't approve your payment, so we’ve revoked the licenses. To reorder, first access your account and update your payment method.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Din betalningsleverantör kunde inte godkänna din betalning, så vi har återkallat licenserna. Om du vill beställa på nytt måste du först gå till ditt konto och uppdatera betalningsmetoden.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Your payment provider couldn't approve your payment, so we’ve revoked the licenses for {0}. To reorder, first access your account and update your payment method.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody4_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for shopping with us. The availability date for items that you ordered has changed, and we had to cancel your order. If you were charged for those items, we've refunded you.  ]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tack för att du handlar hos oss. Tillgänglighetsdatumet för artiklar som du har beställt har ändrats och vi var tvungna att annullera din beställning. Vi har återbetalat dig om du debiterades för de artiklarna. ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody4_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're sorry for the inconvenience. To purchase the canceled items, please visit Microsoft Store and place another order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vi beklagar besväret. Om du vill köpa de annullerade artiklarna går du till Microsoft Store och gör en annan beställning.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We apologize for the disruption. Please visit the store and place another order to receive the items.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody5_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for shopping with us. Something unexpected went wrong on our end. We couldn't process some items in your order, so we had to cancel them. ]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tack för att du handlar hos oss. Ett oväntat fel uppstod hos oss. Det gick inte att behandla vissa artiklar i din beställning, så vi var tvungna att annullera dem. ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody5_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're sorry for the inconvenience. To purchase the canceled items, please visit Microsoft Store and place another order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vi beklagar besväret. Om du vill köpa de annullerade artiklarna går du till Microsoft Store och gör en annan beställning.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We apologize for the disruption. Please visit the store again and place a new order to receive your items.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't process items in your order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Det gick inte att behandla artiklarna i din beställning.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ve canceled items as you requested, and you haven’t been charged for them.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vi har annullerat artiklarna enligt din begäran och du har inte debiterats för dem.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your payment provider couldn't approve your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Din betalningsleverantör kunde inte godkänna din betalning.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The availability date for items in your order has changed, so your order has been canceled.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tillgänglighetsdatumet för artiklar i din beställning har ändrats, så din beställning har annullerats.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Some items in your order couldn’t be processed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Det gick inte att behandla vissa artiklar i beställningen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[handel]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[en-only]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Items in your Microsoft order have been canceled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Artiklar i din Microsoft-beställning har annullerats]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Items in your Microsoft order have been canceled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Artiklar i din Microsoft-beställning har annullerats]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

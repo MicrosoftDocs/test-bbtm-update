@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\PriceChangeRenewalReminder\PriceChangeRenewalReminder.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";PriceChangeRenewalReminder.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";CFQ7TTC0K6L8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass for Console gives you access to over 100 high-quality console games. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[콘솔용 Xbox Game Pass를 사용하면 100개 이상의 고품질 콘솔 게임에 액세스할 수 있습니다. 출시 당일에 Xbox Game Studios 타이틀을 포함하여 항상 게임이 추가되므로 항상 새로운 게임을 즐길 수 있습니다. 다음에 즐길 게임을 오늘 찾아보세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KGQ8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[PC Game Pass gives you access to over 100 high-quality PC games and EA Play. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[PC Game Pass는 100개 이상의 고품질 PC 게임과 EA Play에 대한 액세스를 제공합니다. 출시 당일에 Xbox Game Studios 타이틀을 포함하여 항상 게임이 추가되므로 항상 새로운 게임을 즐길 수 있습니다. 다음에 즐길 게임을 오늘 찾아보세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KHS0" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass Ultimate gives you access to over 100 high-quality games on console, PC, and mobile devices, plus EA Play and Xbox Live Gold. With games added all the time, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Game Pass Ultimate를 사용하면 콘솔, PC, 모바일 장치에서 100개 이상의 고품질 게임과 EA Play 및 Xbox Live Gold에 액세스할 수 있습니다. 게임이 항상 추가되므로 항상 새로운 게임을 즐길 수 있습니다. 다음에 즐길 게임을 오늘 찾아보세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Cta_String" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage subscriptions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[구독 관리]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Manage your subscription]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Commerce]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[en-only]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoApplicableTaxes" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[including taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[세금 포함]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You last paid for your {0} subscription with a prepaid product key or code on {1}. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{1}에 선불 제품 키 또는 코드로 {0} 구독을 마지막으로 결제했습니다. 결제해 주셔서 감사합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[다음 결제 금액 변경에 대해 알려 드리고자 합니다. {0}로부터 이틀 전까지 취소하지 않으면 {3} 마다 {1} {2}이(가) 귀하의 {4}에 청구됩니다.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We hope you’re enjoying your trial of {0} that started on {1}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{1}에 시작되는 {0} 평가판을 즐기시기 바랍니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[평가판 기간이 곧 종료됨을 알려드립니다. {0}로부터 이틀 전까지 취소하지 않으면 {3} 마다 {1} {2}이(가) 귀하의 {4}에 청구됩니다.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P5" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We received your last payment of {0} on {1} for your {2} subscription. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[귀하의 {2} 구독에 대한 {0}의 마지막 결제가 {1}에 접수되었습니다. 지불 해 주셔서 감사합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P6" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[다음 결제 금액 변경에 대해 알려 드리고자 합니다. {0}로부터 이틀 전까지 취소하지 않으면 {3} 마다 {1} {2}이(가) 귀하의 {4}에 청구됩니다.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P7" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel any time to stop future charges or change how you pay by managing your subscription in your Microsoft account.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 가격이 변경되면 알려드리겠습니다. Microsoft 계정에서 구독을 관리하여 향후 요금을 중지하거나 결제 방법을 변경하려면 언제든지 취소하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about how to <a href="{0}">cancel your subscription</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<a href="{0}">구독을 취소</a>하는 방법에 대해 자세히 알아보세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There’s a change to the amount of your next payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[다음 결제 금액이 변경되었습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_Trial" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your trial period is ending soon.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[평가판 기간이 곧 종료됩니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TaxesNotIncluded" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[plus applicable taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[관련 세금 추가]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Important update about your {0} subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} 구독에 대한 중요 업데이트]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

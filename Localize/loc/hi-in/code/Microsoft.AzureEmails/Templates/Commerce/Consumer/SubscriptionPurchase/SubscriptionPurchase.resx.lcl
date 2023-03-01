@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\SubscriptionPurchase\SubscriptionPurchase.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="hi-IN" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";SubscriptionPurchase.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";BackupDisplayName_HasNoValue" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've charged {0} to {1}. For a complete breakdown of charges, see your <a href="{2}">order details</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हमने {0} से {1} का शुल्क लिया है. शुल्कों के पूर्ण विश्लेषण के लिए, अपने <a href="{2}">ऑर्डर विवरण</a> देखें.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We've charged {0} to {1} for your first {2} {3} of {4}. For a complete breakdown of charges, see your <a href="{5}">order details</a>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";BackupDisplayName_HasValue" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've charged {0} to your {1} and {2} to {3}. To use your {4}, your preferred way to pay, make sure your balance is sufficient to cover the charge. For a complete breakdown of charges, see your <a href="{5}">order details</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हमने {3} में आपके {1} और {2} में {0} का शुल्क लिया है. अपने {4} का उपयोग करने के लिए, जो आपका भुगतान करने का पसंदीदा तरीका है, सुनिश्चित करें कि आपके पास शुल्क को कवर करने के लिए पर्याप्त शेष है. शुल्क के पूर्ण ब्रेकडाउन के लिए अपना <a href="{5}">ऑर्डर विवरण</a> देखें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your trial of {0} started on {1} and is free for {2} more days.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} का आपका परीक्षण {1} को प्रारंभ हुआ और {2} अधिक दिनों के लिए निःशुल्क है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Starting {0}, you'll be billed every {1} {2} at {3} {4} to {5}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} से, आपसे प्रत्येक {1} {2} को {3} {4} पर {5} में शुल्क लिया जाएगा.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel to stop future charges or change how you pay by visiting your <a href="{0}">Microsoft account</a>. <a href="{1}">How do I cancel my subscription?</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इस मूल्य में नए बदलाव होने पर हम आपको सूचित कर देंगे. अपने भावी शुल्कों को रोकने के लिए रद्द करें या <a href="{0}">Microsoft खाते</a> पर जाकर अपने भुगतान के तरीके को परिवर्तित करें. <a href="{1}">मैं अपनी सदस्यता को कैसे रद्द करूँ?</a>]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We’ll tell you if this price ever changes. Cancel to stop future charges or change how you pay by visiting your <a href="{0}">Microsoft account</a> or <a href="{1}"> Contacting Support</a>. <a href="{2}">How do I cancel my subscription?</a>]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_31" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel to stop future charges or change how you pay by visiting your <a href="{0}">Microsoft account</a> or <a href="{1}">Contacting Support</a>. <a href="{2}">How do I cancel my subscription?</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[यदि यह मूल्य कभी भी बदलता है, तो हम आपको बता देंगे. अपने भावी शुल्कों को रोकने के लिए रद्द करने या अपने भुगतान के तरीके को बदलने के लिए <a href="{0}">Microsoft खाता </a> या <a href="{1}"> सहायता से संपर्क करने के लिए </a> पर जाएँ. <a href="{2}">मैं अपनी सदस्यता कैसे रद्द करूँ?</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_False1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for trying {0}.  We're happy you're here.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} आज़माने के लिए धन्यवाद. हमें खुशी हैं कि आप यहाँ हैं.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_False2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for subscribing to {0}. We’re happy you’re here.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} की सदस्यता लेने के लिए धन्यवाद. हमें खुशी है कि आप यहाँ हैं.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_True1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for trying {0}.  We're happy you're here.  You can share your subscription with up to five people.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} आज़माने के लिए धन्यवाद. हमें खुशी हैं कि आप यहाँ हैं. आप अपनी सदस्यता को अधिकतम पाँच लोगों के साथ साझा कर सकते हैं.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_True2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for subscribing to {0}. We’re happy you’re here.  You can share your subscription with up to five people.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} की सदस्यता लेने के लिए धन्यवाद. हमें खुशी है कि आप यहाँ हैं.  आप अपनी सदस्यता को अधिकतम पाँच लोगों के साथ साझा कर सकते हैं.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsResubscribe_True1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome back to {0}. We're happy to see you again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} में आपका फिर से स्वागत है. हम आपको फिर से देखकर खुशी हुई.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsResubscribe_True2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've charged {0} to {1}. For a complete breakdown of charges, see your <a href="{2}">order details</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हमने {0} से {1} का शुल्क लिया है. शुल्कों के पूर्ण विश्लेषण के लिए, अपने <a href="{2}">ऑर्डर विवरण</a> देखें.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We've charged {0} to {1} for your first {2} {3} of {4}. For a complete breakdown of charges, see your <a href="{5}">order details</a>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ButtonText_Product1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get the PC app to start playing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[खेलना शुरू करने के लिए PC ऐप प्राप्त करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ButtonText_Product2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get started with the mobile app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[मोबाइल ऐप के साथ प्रारंभ करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Discover benefits]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[लाभ का अन्वेषण करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सदस्यता साझा करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Install Office]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Office इंस्टॉल करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सदस्यता प्रबंधित करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsEUMarket_Bullet1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a refund. If your purchase above is for any other Microsoft subscription service, you have 14 days to cancel your purchase and request a refund.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive, और Minecraft Realms के लिए आपके पास अपनी खरीदारी को रद्द करने और धनवापसी का अनुरोध करने के लिए खरीदी की दिनांक से 30 दिन हैं. यदि आपकी उपरोक्त खरीदारी किसी अन्य Microsoft सदस्यता सेवा के लिए है, तो आपके पास अपनी खरीदारी को रद्द करने और धनवापसी का अनुरोध करने के लिए 14 दिन हैं.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Office 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a refund. If your purchase above is for any other Microsoft subscription service, you have 14 days to cancel your purchase and request a refund.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsEUMarket_Bullet2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You will receive a refund of your most recent recurring billing charge if you cancel your subscription and request a refund within 30 days after being charged. This refund right is limited to one time per Microsoft Account, per subscription product.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[यदि आप अपनी सदस्यता रद्द करते हैं और शुल्क लिए जाने के बाद 30 दिनों के भीतर धनवापसी का अनुरोध करते हैं, तो आपको अपने हाल ही के पुनरावर्ती बिलिंग शुल्क की धनवापसी प्राप्त होगी. यह धनवापसी अधिकार प्रति Microsoft खाता, प्रति सदस्यता एक बार तक सीमित है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsEUMarket_Bullet3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Any digital content (such as games) received through your subscription purchase above will not be available to you following cancellation.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपकी उपरोक्त सदस्यता खरीद के माध्यम से प्राप्त की गई कोई भी डिजिटल सामग्री (जैसे गेम्स) रद्दीकरण के बाद आपके लिए उपलब्ध नहीं रहेगी.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsIsraelMarket_True_Bullet1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a full refund. After the initial 30 days, you can <a href="{0}">contact support</a> to receive a pro rata refund.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive और Minecraft Realms के लिए आपके पास अपनी खरीदारी को रद्द करने और पूर्ण धनवापसी का अनुरोध करने के लिए खरीदारी की दिनांक से 30 दिन हैं. प्रारंभिक 30 दिन के बाद आप प्रो रेटा धनवापसी प्राप्त करने के लिए <a href="{0}">सहायता टीम से संपर्क</a> कर सकते हैं.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Office 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a full refund. After the initial 30 days, you can <a href="{0}">contact support</a> to receive a pro rata refund.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsIsraelMarket_True_Para" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you made your subscription purchase above, we provided you with immediate access to your subscription service.  You may exercise your right to cancel for this purchase by <a href="{0}">managing your subscription</a> or <a href="{1}">contacting support</a> to receive a refund under the following conditions:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[जब आपने अपनी उपरोक्त सदस्यता खरीदारी पूरी की थी, तो हमने आपको अपनी सदस्यता सेवा में तुरंत पहुँच प्रदान की थी. आप <a href="{0}">अपनी सदस्यता प्रबंधित करें</a> करके या निम्न स्थितियों में धनवापसी प्राप्त करने के लिए <a href="{1}">सहायता से संपर्क करें</a> से इस खरीदारी के लिए अपने रद्दीकरण के अधिकार का उपयोग कर सकते हैं:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsIsraelMarket_True_Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Additional details on refunds for Microsoft subscription services]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft सदस्यता सेवाओं के लिए धनवापसी पर अतिरिक्त विवरण]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[वाणिज्य]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoApplicableTaxes" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[including taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कर सहित]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Note" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Note: for customers in Europe, the Microsoft contracting entity is Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, D18 P521, Ireland.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[नोट: यूरोप के ग्राहकों के लिए Microsoft अनुबंध निकाय Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, D18 P521, Ireland है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";OrderId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Order Number]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ऑर्डर संख्या]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PlanPrice" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Plan Price]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[प्लान की कीमत]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for subscribing.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सदस्यता लेने के लिए धन्यवाद.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductID1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to PC Game Pass! You now have access to over 100 high-quality PC games, including new titles on day one and the EA Play on PC catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[PC Game Pass में आपका स्वागत है! अब आपके पास पहले दिन के नए शीर्षकों और PC कैटलॉग पर EA Play सहित 100 से अधिक उच्च-गुणवत्ता वाले PC गेम्स तक पहुँच प्राप्त है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductID2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Xbox Game Pass Ultimate! You now have access to over 100 high-quality games across devices, including new titles on day one and the EA Play catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Game Pass Ultimate में आपका स्वागत है! अब आपके पास पहले दिन के नए शीर्षक और EA Play कैटलॉग सहित सभी डिवाइसेस पर 100 से अधिक उच्च-गुणवत्ता वाले गेम्स तक पहुँच प्राप्त है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductID3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Xbox Game Pass for Console! You now have access to over 100 high-quality console games, including new titles on day one.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कंसोल के लिए Xbox Game Pass में आपका स्वागत है! अब आपके पास पहले दिन नए शीर्षकों सहित 100 से अधिक उच्च-गुणवत्ता वाले कंसोल गेम्स की पहुँच है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductName" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सदस्यता]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";RenewalDate" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Renewal Date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[नवीनीकरण की दिनांक]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ShowFapiao_True" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To request Fapiao for orders placed through Microsoft Store on Windows, please visit your <a href="{0}">order history</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Windows पर Microsoft Store के माध्यम से किए गए ऑर्डर के लिए Fapiao का अनुरोध करने के लिए, कृपया अपने <a href="{0}">ऑर्डर इतिहास</a> पर जाएँ.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_False" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your purchase of {0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपकी {0} की खरीद संसाधित कर दी गई है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_True" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to your {0} free trial]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपके {0} के ट्रायल में आपका स्वागत है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";SubscriptionInformation" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Subscription Information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सदस्यता की जानकारी]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TaxesNotIncluded" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[plus applicable taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इसके अलावा लागू कर]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title_False" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your purchase of {0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपकी {0} की खरीदारी संसाधित कर दी गई है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title_True" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to your {0} free trial]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपके {0} के ट्रायल में आपका स्वागत है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

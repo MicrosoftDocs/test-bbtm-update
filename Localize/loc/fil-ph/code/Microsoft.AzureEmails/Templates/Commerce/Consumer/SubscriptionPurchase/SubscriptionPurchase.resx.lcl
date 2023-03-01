@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\SubscriptionPurchase\SubscriptionPurchase.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="fil-PH" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";SubscriptionPurchase.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";BackupDisplayName_HasNoValue" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've charged {0} to {1}. For a complete breakdown of charges, see your <a href="{2}">order details</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naningil kami ng {0} sa {1}. Para sa kumpletong breakdown ng mga singil, tingnan ang iyong <a href="{2}">mga detalye ng order</a>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We've charged {0} to {1} for your first {2} {3} of {4}. For a complete breakdown of charges, see your <a href="{5}">order details</a>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";BackupDisplayName_HasValue" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've charged {0} to your {1} and {2} to {3}. To use your {4}, your preferred way to pay, make sure your balance is sufficient to cover the charge. For a complete breakdown of charges, see your <a href="{5}">order details</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naningil kami ng {0} sa iyong {1} at {2} sa {3}. Para gamitin ang iyong {4}, ang gusto mong paraan para magbayad, tiyaking sapat ang iyong balanse para masaklaw ang singil. Para sa kumpletong breakdown ng mga singil, tingnan ang iyong <a href="{5}">mga detalye ng order</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your trial of {0} started on {1} and is free for {2} more days.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nagsimula ang iyong pagsubok ng {0} noong {1} at libre sa {2} pang araw.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Starting {0}, you'll be billed every {1} {2} at {3} {4} to {5}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Simula {0}, sisingilin ka tuwing {1} {2} ng {3}{4} sa {5}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel to stop future charges or change how you pay by visiting your <a href="{0}">Microsoft account</a>. <a href="{1}">How do I cancel my subscription?</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sasabihin namin sa iyo kung magbabago ang presyong ito. Kanselahin para ihinto ang mga singil sa hinaharap o baguhin kung paano ka magbayad sa pamamagitan ng pagbisita sa iyong <a href="{0}"> Account sa Microsoft.</a>. <a href="{1}">Paano ko kakanselahin ang aking subscription?</a>]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We’ll tell you if this price ever changes. Cancel to stop future charges or change how you pay by visiting your <a href="{0}">Microsoft account</a> or <a href="{1}"> Contacting Support</a>. <a href="{2}">How do I cancel my subscription?</a>]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_31" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel to stop future charges or change how you pay by visiting your <a href="{0}">Microsoft account</a> or <a href="{1}">Contacting Support</a>. <a href="{2}">How do I cancel my subscription?</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sasabihin namin sa iyo kung magbago ang presyong ito. Kanselahin para ihinto ang mga singil sa hinaharap o baguhin kung paano ka magbayad sa pamamagitan ng pagbisita sa iyong <a href="{0}">Account sa Microsoft</a> o <a href="{1}">Pakikipag-ugnayan sa Suporta</a>. <a href="{2}">Paano ako magkakansela ng aking subscription?</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_False1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for trying {0}.  We're happy you're here.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Salamat sa pagsubok sa {0}.  Masaya kaming nandito ka.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_False2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for subscribing to {0}. We’re happy you’re here.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Salamat sa pag-subscribe sa {0}. Masaya kaming nandito ka.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_True1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for trying {0}.  We're happy you're here.  You can share your subscription with up to five people.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Salamat sa pagsubok ng {0}.  Masaya kaming nandito ka.  Maaari mong ibahagi ang iyong subscription sa hanggang limang tao.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_True2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for subscribing to {0}. We’re happy you’re here.  You can share your subscription with up to five people.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Salamat sa pag-subscribe sa {0}. Masaya kaming nandito ka.  Maaari mong ibahagi ang iyong subscription sa hanggang limang tao.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsResubscribe_True1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome back to {0}. We're happy to see you again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Maligayang pagbabalik sa {0}. Masaya kaming makita kang muli.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsResubscribe_True2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've charged {0} to {1}. For a complete breakdown of charges, see your <a href="{2}">order details</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naningil kami ng {0} sa {1}. Para sa kumpletong breakdown ng mga singil, tingnan ang iyong <a href="{2}">mga detalye ng order</a>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We've charged {0} to {1} for your first {2} {3} of {4}. For a complete breakdown of charges, see your <a href="{5}">order details</a>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ButtonText_Product1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get the PC app to start playing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kunin ang app ng PC para magsimulang maglaro]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ButtonText_Product2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get started with the mobile app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Magsimula sa app ng mobile]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Discover benefits]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tuklasin ang mga benepisyo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ibahagi ang subscription]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Install Office]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[I-install ang Office]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pamahalaan ang subscription]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsEUMarket_Bullet1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a refund. If your purchase above is for any other Microsoft subscription service, you have 14 days to cancel your purchase and request a refund.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para sa Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive, at Minecraft Realms, mayroon kang 30 araw mula sa petsa ng pagbili para kanselahin ang iyong pagbili at humiling ng refund. Kung ang iyong pagbili sa itaas ay para sa anumang iba pang serbisyo ng subscription sa Microsoft, mayroon kang 14 na araw para kanselahin ang iyong pagbili at humiling ng refund.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Office 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a refund. If your purchase above is for any other Microsoft subscription service, you have 14 days to cancel your purchase and request a refund.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsEUMarket_Bullet2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You will receive a refund of your most recent recurring billing charge if you cancel your subscription and request a refund within 30 days after being charged. This refund right is limited to one time per Microsoft Account, per subscription product.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Makakatanggap ka ng refund ng iyong pinakabagong nauulit na pagsingil na singil kung magkansela ka ng subscription mo at humiling ng refund sa loob ng 30 araw pagkatapos na masingil. Ang karapatan sa refund na ito ay limitado sa isang beses bawat Account sa Microsoft, bawat produkto ng subscription.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsEUMarket_Bullet3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Any digital content (such as games) received through your subscription purchase above will not be available to you following cancellation.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hindi magiging available sa iyo ang anumang digital na nilalaman (gaya ng mga laro) na natanggap sa pamamagitan ng pagbili mo sa subscription sa itaas kasunod ng pagkansela.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsIsraelMarket_True_Bullet1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a full refund. After the initial 30 days, you can <a href="{0}">contact support</a> to receive a pro rata refund.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para sa Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive, at Minecraft Realms, mayroon kang 30 araw mula sa petsa ng pagbili para kanselahin ang iyong pagbili at humiling ng buong refund. Pagkatapos ng unang 30 araw, maaari kang <a href="{0}">makipag-ugnayan sa suporta</a> para makatanggap ng pro rata na refund.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Office 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a full refund. After the initial 30 days, you can <a href="{0}">contact support</a> to receive a pro rata refund.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsIsraelMarket_True_Para" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you made your subscription purchase above, we provided you with immediate access to your subscription service.  You may exercise your right to cancel for this purchase by <a href="{0}">managing your subscription</a> or <a href="{1}">contacting support</a> to receive a refund under the following conditions:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Noong binili mo ang iyong subscription sa itaas, binigyan ka namin ng agarang access sa serbisyo ng subscription mo.  Maaari mong gamitin ang iyong karapatang kanselahin ang pagbiling ito sa pamamagitan ng <a href="{0}">pamamahala sa iyong subscription</a> o <a href="{1}">pakikipag-ugnayan sa suporta</a> para makatanggap ng refund sa ilalim ng mga sumusunod na kundisyon:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsIsraelMarket_True_Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Additional details on refunds for Microsoft subscription services]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mga karagdagang detalye sa mga refund para sa mga serbisyo ng subscription ng Microsoft]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[commerce]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoApplicableTaxes" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[including taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[kasama ang mga buwis]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Note" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Note: for customers in Europe, the Microsoft contracting entity is Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, D18 P521, Ireland.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tandaan: para sa mga customer sa Europe, ang contracting entity ng Microsoft ay Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, D18 P521, Ireland.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";OrderId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Order Number]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Numero ng Order]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PlanPrice" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Plan Price]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Presyo ng Plan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for subscribing.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Salamat sa pag-subscribe.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductID1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to PC Game Pass! You now have access to over 100 high-quality PC games, including new titles on day one and the EA Play on PC catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Maligayang pagdating sa Game Pass ng PC! Mayroon ka ngayong access sa mahigit 100 mataas na kalidad na mga laro sa PC, kabilang ang mga bagong pamagat sa unang araw at ang EA Play sa catalog ng PC.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductID2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Xbox Game Pass Ultimate! You now have access to over 100 high-quality games across devices, including new titles on day one and the EA Play catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Maligayang pagdating sa Xbox Game Pass Ultimate! Mayroon ka ngayong access sa mahigit 100 mataas na kalidad na laro sa mga device, kabilang ang mga bagong pamagat sa unang araw at catalog ng EA Play.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductID3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Xbox Game Pass for Console! You now have access to over 100 high-quality console games, including new titles on day one.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Maligayang pagdating sa Xbox Game Pass para sa Console! Mayroon ka ngayong access sa mahigit 100 mataas na kalidad na mga laro sa console, kabilang ang mga bagong pamagat sa unang araw.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductName" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Subscription]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";RenewalDate" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Renewal Date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Petsa ng Pag-renew]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ShowFapiao_True" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To request Fapiao for orders placed through Microsoft Store on Windows, please visit your <a href="{0}">order history</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para humiling ng Fapiao para sa mga order sa Microsoft Store sa Windows, pakibisita ang iyong <a href="{0}">kasaysayan ng order</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_False" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your purchase of {0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naproseso ang iyong pagbili ng {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_True" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to your {0} free trial]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Maligayang pagdating sa iyong libreng pagsubok ng {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";SubscriptionInformation" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Subscription Information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Impormasyon ng Subscription]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TaxesNotIncluded" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[plus applicable taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[at mga naangkop na buwis]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title_False" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your purchase of {0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naproseso ang iyong pagbili ng {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title_True" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to your {0} free trial]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Maligayang pagdating sa iyong libreng pagsubok ng {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

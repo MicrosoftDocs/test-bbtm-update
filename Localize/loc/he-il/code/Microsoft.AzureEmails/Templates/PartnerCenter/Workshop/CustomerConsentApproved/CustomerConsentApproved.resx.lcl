@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\PartnerCenter\Workshop\CustomerConsentApproved\CustomerConsentApproved.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="he-IL" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";CustomerConsentApproved.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Bullet1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Partner survey]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[סקר שותפים]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Bullet2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customer survey]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[סקר לקוחות]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Bullet3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invoice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[חשבונית]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Bullet4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Findings and recommendations or POE document]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ממצאים והמלצות או מסמך POE]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Findings and recommendations report]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_POEguidance" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[POE guidance]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[הדרכה של הוכחת ביצוע (POE)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong>{0}</strong> has consented to  move forward with the <strong>{1}</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>{0}</strong> הסכים להתקדם עם <strong>{1}</strong>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Congratulations! <strong>{0}</strong> has consented to participate in the <strong>{1}</strong> with you.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To submit your claim <a href="{0}">{1}</a> for review, <strong>follow the proof of execution (POE) guidance</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[כדי להגיש את תביעת <a href="{0}">{1}</a> שלך לבדיקה, <strong>השלם את ההדרכה להוכחת ביצוע (POE)</strong>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[To submit your workshop claim for review and payment, <strong>review the proof of execution (POE) guidance</strong>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Once the components of the POE are complete, you’ll be able to submit the engagement claim to Microsoft for review. <strong>To start the claim review process, your claim must be submitted within the timeline indicated in the <a href="{0}">program guide</a> and claims tool.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[לאחר שהרכיבים של הוכחת הביצוע (POE) הושלמו, תוכל להגיש את תביעת ההתקשרות ל- Microsoft לבדיקה. <strong>כדי להתחיל בתהליך בדיקת התביעה, יש לשלוח את התביעה שלך במסגרת ציר הזמן שצוין <a href="{0}">במדריך התוכנית</a> ובכלי התביעות.</strong>]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Once the four components of POE are complete, you’ll be able to submit the workshop claim to Microsoft for review.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[After each submitted claim has been reviewed and approved, payment for that claim will be included in the subsequent regular Microsoft Commerce Incentive (MCI) payment cycle.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[לאחר שכל תביעה שהוגשה נבדקה ואושרה, התשלום עבור תביעה זו ייכלל במחזור התשלומים הרגיל הבא של Microsoft Commerce Incentive ‏(MCI).]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Sign in to <a href="{0}">Partner Center</a> to manage and complete your workshop engagement. For additional information, refer to the <a href="{1}">program guide</a>, or submit a <a href="{2}">request ticket</a> for support.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph51" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in to <a href="{0}">Partner Center</a> to manage and complete your engagement. For additional information, refer to the <a href="{1}">program guide</a>, or submit a <a href="{2}">request ticket</a> for support.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[היכנס אל <a href="{0}">מרכז השותפים</a> כדי לנהל את ההתקשרות שלך ולהשלים אותה. לקבלת מידע נוסף, עיין <a href="{1}">במדריך התוכנית</a>, או שלח <a href="{2}">כרטיס בקשה</a> לקבלת תמיכה.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph6" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for your participation in this engagement. We look forward to partnering with you.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[תודה על השתתפותך בהתקשרות זו. אנחנו מצפים לשתף איתך פעולה.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Thanks for your participation in this intent-building activity. We look forward to partnering with you.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_paragraph3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Now that you’ve received customer consent, you’ll need to conduct the engagement and complete the following required documentation in your claim <a href="{0}">{1}</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[כעת, לאחר שקיבלת את הסכמת הלקוח, תצטרך לבצע את ההתקשרות ולהשלים את המסמכים הנדרשים הבאים בתביעת <a href="{0}">{1}</a> שלך]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[For a workshop claim to be approved, within 90 days of receiving customer consent you’ll need to both complete the workshop and submit these documents via the <a href="{0}">workshop claim page</a>:]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[מסחר]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Para11" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You are approved to start execution of this engagement. Once the engagement is completed, you can submit a claim.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[אתה מורשה להתחיל את הביצוע של התקשרות זו. לאחר השלמת ההתקשרות, תוכל להגיש תביעה.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Good news! {0} has consented to move forward with the {1}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[חדשות טובות! {0} הסכים להתקדם עם {1}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Good news! {0} accepted your invitation to participate in the {1}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customer consent was provided for an engagement]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[הסכמת הלקוח סופקה עבור התקשרות]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Customer consent approved for Microsoft engagement workshop]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Consent received from {0} for {1}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ההסכמה התקבלה מ- {0} עבור {1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";WhatNext" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[What’s next]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[מה הלאה]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\OrderCancelled\OrderCancelled.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="sk-SK" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";OrderCancelled.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";ButtonOrderAgain" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Order Again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Objednať znova]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ButtonText" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage your order]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Spravovať objednávku]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[View your order]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't process some items in your order, so we canceled them. We're sorry for the inconvenience. To purchase the canceled items, please visit Microsoft Store and place another order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Niektoré položky vo vašej objednávke sa nám nepodarilo spracovať, preto sme ich zrušili. Ospravedlňujeme sa za spôsobené nepríjemnosti. Ak si chcete kúpiť zrušené položky, navštívte Microsoft Store a zadajte inú objednávku.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We couldn't process some items in your order, so we canceled them. You can try buying them again or contacting customer service for additional help.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody2_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You asked us to cancel all or part of your order. We did, and we didn't charge you for those items.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Požiadali ste nás o zrušenie celej objednávky alebo jej časti. Urobili sme to a za tieto položky sme vám nezaúčtovali žiadne poplatky.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody2_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It may take up to 24 hours before the cancellation is reflected on our website, so don't worry if your order information isn't updated right away.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Môže trvať až 24 hodín, kým sa zrušenie prejaví na našej webovej lokalite, preto sa nemusíte obávať, ak sa informácie o vašej objednávke hneď neaktualizujú.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody3_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for shopping with us.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ďakujeme, že u nás nakupujete.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody3_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your payment provider couldn't approve your payment, so we’ve revoked the licenses. To reorder, first access your account and update your payment method.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Váš poskytovateľ platobných služieb nemohol schváliť vašu platbu, preto sme licencie zrušili. Ak chcete urobiť objednávku znova, najskôr prejdite do svojho konta a aktualizujte spôsob úhrady.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Your payment provider couldn't approve your payment, so we’ve revoked the licenses for {0}. To reorder, first access your account and update your payment method.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody4_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for shopping with us. The availability date for items that you ordered has changed, and we had to cancel your order. If you were charged for those items, we've refunded you.  ]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ďakujeme, že u nás nakupujete. Dátum dostupnosti položiek, ktoré ste si objednali, sa zmenil a vašu objednávku sme museli zrušiť. Ak vám boli za tieto položky účtované poplatky, peniaze sme vám vrátili.  ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody4_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're sorry for the inconvenience. To purchase the canceled items, please visit Microsoft Store and place another order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ospravedlňujeme sa za nepríjemnosti. Ak si chcete kúpiť zrušené položky, navštívte Microsoft Store a zadajte ďalšiu objednávku.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We apologize for the disruption. Please visit the store and place another order to receive the items.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody5_P1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for shopping with us. Something unexpected went wrong on our end. We couldn't process some items in your order, so we had to cancel them. ]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ďakujeme, že u nás nakupujete. Na našej strane sa vyskytla neočakávaná chyba. Niektoré položky vo vašej objednávke sa nám nepodarilo spracovať, preto sme ich museli zrušiť. ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancelBody5_P2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're sorry for the inconvenience. To purchase the canceled items, please visit Microsoft Store and place another order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ospravedlňujeme sa za nepríjemnosti. Ak si chcete kúpiť zrušené položky, navštívte Microsoft Store a zadajte ďalšiu objednávku.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We apologize for the disruption. Please visit the store again and place a new order to receive your items.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't process items in your order.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nepodarilo sa nám spracovať položky vo vašej objednávke.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ve canceled items as you requested, and you haven’t been charged for them.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zrušili sme položky podľa vašej žiadosti a neboli vám za ne účtované žiadne poplatky.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your payment provider couldn't approve your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Váš poskytovateľ platobných služieb nemohol schváliť vašu platbu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The availability date for items in your order has changed, so your order has been canceled.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dátum dostupnosti položiek vo vašej objednávke sa zmenil, preto bola objednávka zrušená.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CancellationReason5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Some items in your order couldn’t be processed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Niektoré položky vo vašej objednávke sa nepodarilo spracovať.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[obchodovanie]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[en-only]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Items in your Microsoft order have been canceled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Položky v objednávke spoločnosti Microsoft boli zrušené]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Items in your Microsoft order have been canceled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Položky v objednávke spoločnosti Microsoft boli zrušené]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

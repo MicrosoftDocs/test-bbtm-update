@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\PriceChangeRenewalReminder\PriceChangeRenewalReminder.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="ru-RU" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";PriceChangeRenewalReminder.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";CFQ7TTC0K6L8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass for Console gives you access to over 100 high-quality console games. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Game Pass для консоли предоставляет вам доступ более чем к ста высококачественным играм для консоли. Благодаря постоянному добавлению игр, включая игры Xbox Game Studios, в день их выпуска вы всегда можете поиграть в что-то новое. Откройте для себя следующую игру сегодня.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KGQ8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[PC Game Pass gives you access to over 100 high-quality PC games and EA Play. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[PC Game Pass предоставляет вам доступ более чем к ста высококачественным играм для ПК и EA Play. Благодаря постоянному добавлению игр, включая игры Xbox Game Studios, в день их выпуска вы всегда можете поиграть в что-то новое. Откройте для себя следующую игру сегодня.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KHS0" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass Ultimate gives you access to over 100 high-quality games on console, PC, and mobile devices, plus EA Play and Xbox Live Gold. With games added all the time, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Game Pass Ultimate предоставляет вам доступ более чем к ста высококачественным играм на консоли, ПК и мобильных устройствах, а также к EA Play и Xbox Live Gold. Благодаря постоянному добавлению игр вы всегда можете поиграть в что-то новое. Откройте для себя следующую игру сегодня.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Cta_String" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage subscriptions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Управление подписками]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Manage your subscription]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[коммерция]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[en-only]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoApplicableTaxes" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[including taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[включая налоги]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You last paid for your {0} subscription with a prepaid product key or code on {1}. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[В последний раз вы оплатили свою подписку {0} с помощью предоплаченного ключа продукта или кода {1}. Благодарим за оплату.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Уведомляем вас об изменении суммы следующего платежа. Если вы не отмените подписку за два дня до {0}, плата в размере {1} {2} будет взиматься кажд. {3} с {4}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We hope you’re enjoying your trial of {0} that started on {1}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Надеемся, что вам нравится пробная версия {0}, использование которой началось {1}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Уведомляем вас о скором завершении пробного периода. Если вы не отмените подписку за два дня до {0}, плата в размере {1} {2} будет взиматься кажд. {3} с {4}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P5" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We received your last payment of {0} on {1} for your {2} subscription. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Мы получили ваш последний платеж в размере {0} {1} за подписку {2}. Благодарим за оплату.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P6" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Уведомляем вас об изменении суммы следующего платежа. Если вы не отмените подписку за два дня до {0}, плата в размере {1} {2} будет взиматься кажд. {3} с {4}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P7" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel any time to stop future charges or change how you pay by managing your subscription in your Microsoft account.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Мы сообщим вам, если эта цена когда-либо изменится. Отмените подписку в любое время, чтобы прекратить будущие списания, или измените способ оплаты путем управления подпиской в учетной записи Майкрософт.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about how to <a href="{0}">cancel your subscription</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Дополнительные сведения о том, как <a href="{0}">отменить подписку</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There’s a change to the amount of your next payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изменяется сумма следующего платежа.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_Trial" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your trial period is ending soon.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Пробный период скоро завершится.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TaxesNotIncluded" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[plus applicable taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[плюс применимые налоги]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Important update about your {0} subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Важное изменение, касающееся вашей подписки на {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

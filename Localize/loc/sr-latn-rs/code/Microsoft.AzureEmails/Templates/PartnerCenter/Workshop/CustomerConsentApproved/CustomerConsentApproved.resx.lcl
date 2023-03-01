@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\PartnerCenter\Workshop\CustomerConsentApproved\CustomerConsentApproved.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="sr-Latn-RS" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";CustomerConsentApproved.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Bullet1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Partner survey]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Anketa za partnere]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Bullet2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customer survey]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Anketa za klijente]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Bullet3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invoice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Faktura]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Bullet4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Findings and recommendations or POE document]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zaključci i preporuke ili POE dokument]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Findings and recommendations report]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_POEguidance" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[POE guidance]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Uputstva za dokaz o izvršenju]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong>{0}</strong> has consented to  move forward with the <strong>{1}</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Klijent <strong>{0}</strong> je pristao da nastavi sa angažmanom <strong>{1}</strong>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Congratulations! <strong>{0}</strong> has consented to participate in the <strong>{1}</strong> with you.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To submit your claim <a href="{0}">{1}</a> for review, <strong>follow the proof of execution (POE) guidance</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Da biste podneli zahtev <a href="{0}">{1}</a> na pregled, <strong>sledite uputstva za dokaz o izvršenju (POE)</strong>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[To submit your workshop claim for review and payment, <strong>review the proof of execution (POE) guidance</strong>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Once the components of the POE are complete, you’ll be able to submit the engagement claim to Microsoft for review. <strong>To start the claim review process, your claim must be submitted within the timeline indicated in the <a href="{0}">program guide</a> and claims tool.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kada komponente za POE budu dovršene, moći ćete da podnesete zahtev za angažman na pregled korporaciji Microsoft. <strong>Da biste započeli proces pregleda zahteva, vaš zahtev mora biti podnet u okviru vremenskog roka navedenog u odeljku <a href="{0}">vodič za program</a> i alatke za zahteve.</strong>]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Once the four components of POE are complete, you’ll be able to submit the workshop claim to Microsoft for review.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[After each submitted claim has been reviewed and approved, payment for that claim will be included in the subsequent regular Microsoft Commerce Incentive (MCI) payment cycle.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nakon razmatranja i odobrenja svakog podnetog zahteva, plaćanje za taj zahtev će biti uključeno u naredni redovni ciklus plaćanja za Microsoft Commerce Incentive (MCI).]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Sign in to <a href="{0}">Partner Center</a> to manage and complete your workshop engagement. For additional information, refer to the <a href="{1}">program guide</a>, or submit a <a href="{2}">request ticket</a> for support.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph51" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in to <a href="{0}">Partner Center</a> to manage and complete your engagement. For additional information, refer to the <a href="{1}">program guide</a>, or submit a <a href="{2}">request ticket</a> for support.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prijavite se u <a href="{0}">Centar za partnere</a> da biste upravljali angažmanom i dovršili ga. Za dodatne informacije pogledajte <a href="{1}">vodič za program</a> ili prosledite <a href="{2}">zahtev za tiket</a> korisničkoj službi.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph6" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for your participation in this engagement. We look forward to partnering with you.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hvala na učešću u ovom angažmanu. Radujemo se partnerstvu sa vama.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Thanks for your participation in this intent-building activity. We look forward to partnering with you.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_paragraph3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Now that you’ve received customer consent, you’ll need to conduct the engagement and complete the following required documentation in your claim <a href="{0}">{1}</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sada kada ste dobili saglasnost klijenta, morate da sprovedete angažman i popunite sledeću potrebnu dokumentaciju u zahtevu <a href="{0}">{1}</a>]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[For a workshop claim to be approved, within 90 days of receiving customer consent you’ll need to both complete the workshop and submit these documents via the <a href="{0}">workshop claim page</a>:]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[trgovina]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Para11" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You are approved to start execution of this engagement. Once the engagement is completed, you can submit a claim.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odobreno vam je da započnete izvršavanje ovog angažmana. Kada se angažman dovrši, možete da prosledite zahtev.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Good news! {0} has consented to move forward with the {1}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dobra vest! Klijent {0} je pristao da nastavi sa angažmanom {1}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Good news! {0} accepted your invitation to participate in the {1}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customer consent was provided for an engagement]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Data je saglasnost klijenta za angažman]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Customer consent approved for Microsoft engagement workshop]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Consent received from {0} for {1}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pristanak od klijenta {0} je primljen za {1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";WhatNext" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[What’s next]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Šta je sledeće]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

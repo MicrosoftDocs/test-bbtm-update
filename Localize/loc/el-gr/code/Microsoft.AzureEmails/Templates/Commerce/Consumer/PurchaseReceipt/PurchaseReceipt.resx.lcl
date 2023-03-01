@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\PurchaseReceipt\PurchaseReceipt.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="el-GR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";PurchaseReceipt.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";AValueAddedTax" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A value-added tax (VAT) invoice will be available for download from your <a href="{0}">order history</a> within 48 hours.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ένα τιμολόγιο φόρου προστιθέμενης αξίας (ΦΠΑ) θα είναι διαθέσιμο για λήψη από το <a href="{0}">ιστορικό παραγγελιών</a> εντός 48 ωρών.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";AnyDownloads" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Any downloads you bought, except preorders, are available now.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Τα στοιχεία λήψης που αγοράσατε, εκτός από τις προπαραγγελίες, είναι διαθέσιμα αυτήν τη στιγμή.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";AnyGiftCard" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Any gift card or code you purchased can be redeemed now.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Οποιαδήποτε δωροκάρτα ή κωδικός που αγοράσατε μπορεί να εξαργυρωθεί τώρα.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_AzureVisualLink" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong><a href="{0}">New to Azure? Get $200 Azure credits and start your free trial now</a>.</br>]D;]A;<a href="{1}">Download Visual Studio community version for free</a>.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong><a href="{0}">Νέοι στο Azure; Αποκτήστε πίστωση 200 $ Azure και ξεκινήστε τη δωρεάν δοκιμαστική έκδοση τώρα</a>.</br>]D;]A;<a href="{1}">Κατεβάστε δωρεάν την έκδοση της κοινότητας του Visual Studio</a>.</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_P_US_CA" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<a href="{0}">Learn more</a> about setting up your Microsoft adaptive accessories. Need accessibility support? <a href="{1}">Contact Disability Answer Desk Support | Microsoft Accessibility</a>.  We'd also love to hear <a href="{2}">any feedback</a> you might have on your new accessories]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<a href="{0}">Μάθετε περισσότερα</a> σχετικά με τη ρύθμιση των προσαρμόσιμων αξεσουάρ της Microsoft. Χρειάζεστε υποστήριξη προσβασιμότητας; <a href="{1}">Επικοινωνήστε με την "Υποστήριξη Answer Desk για άτομα με ειδικές ανάγκες" | Προσβασιμότητα της Microsoft</a>.  Θα χαρούμε επίσης να ακούσουμε <a href="{2}">τυχόν σχόλια</a> που μπορεί να έχετε στα νέα αξεσουάρ σας]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph1_IsGiftCode" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redeem your gift code.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Εξαργυρώστε τον κωδικό δώρου σας.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Paragraph1_IsRental" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for renting from Microsoft Store on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Σας ευχαριστούμε για την ενοικίαση από Microsoft Store στις {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CTA_Text" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View or manage your order]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Προβολή ή διαχείριση της παραγγελίας σας]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Heading1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Software Update Information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Πληροφορίες ενημέρωσης λογισμικού]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Heading2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Xbox Devices (“Goods”)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Συσκευές Microsoft Xbox (“Αγαθά”)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Heading3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Windows-based Surface Devices (“Goods”)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Συσκευές Surface που βασίζονται στα Windows της Microsoft ("Αγαθά")]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Para1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The above-mentioned software (“<strong>Software</strong>”) may be subject to updates, including security updates (“<strong>Updates</strong>”). This information is provided as required in France.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Το λογισμικό που αναφέρθηκε παραπάνω ("<strong>Λογισμικό</strong>") ενδέχεται να υπόκειται σε ενημερώσεις, συμπεριλαμβανομένων των ενημερώσεων ασφαλείας ("<strong>Ενημερώσεις</strong>"). Αυτές οι πληροφορίες παρέχονται όπως απαιτείται στη Γαλλία.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Updates that are provided beyond the above-mentioned period (“<strong>Period</strong>”) may have consequences on the performance of Goods (for example, available storage space, the availability of RAM (Random Access Memory) or the life of the battery). More specific information on such possible consequences will be provided by Microsoft as soon as such specific information becomes available.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ενημερώσεις που παρέχονται μετά την παραπάνω περίοδο ("<strong>Περίοδος</strong>") ενδέχεται να έχουν συνέπειες στην απόδοση των Αγαθών (για παράδειγμα, διαθέσιμος χώρος αποθήκευσης, διαθεσιμότητα RAM (Μνήμη) ή διάρκεια ζωής της μπαταρίας). Θα δοθούν πιο συγκεκριμένες πληροφορίες σχετικά με τέτοιες πιθανές συνέπειες από τη Microsoft μόλις γίνουν διαθέσιμες αυτές οι συγκεκριμένες πληροφορίες.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Updates that are provided beyond the above-mentioned period (“<strong>Period</strong>”) may have consequences on the performance of Goods (for example, available storage space, the availability of RAM or the life of the battery). More specific information on such possible consequences will be provided by Microsoft as soon as such specific information becomes available.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Software subject to updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Το λογισμικό υπόκειται σε ενημερώσεις]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Period of supply of these updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Περίοδος παροχής αυτών των ενημερώσεων]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Software subject to updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Το λογισμικό υπόκειται σε ενημερώσεις]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_Header4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Period of supply of these updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Περίοδος παροχής αυτών των ενημερώσεων]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_List1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Windows Operating System]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Λειτουργικό σύστημα Windows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_List2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Surface device software, firmware, and drivers]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Λογισμικό συσκευής Surface, υλικολογισμικό και προγράμματα οδήγησης]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_row1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox device operating system software]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Λογισμικό λειτουργικού συστήματος συσκευής Xbox]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FR_Table_row2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Minimum two years after]D;]A;date of delivery of the goods]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Τουλάχιστον δύο έτη μετά]A;από την ημερομηνία παράδοσης των αγαθών]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";HereAreYourGift" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Here are your gift details for reference.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Εδώ θα βρείτε τις λεπτομέρειες του δώρου σας για αναφορά.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IfYouHavePreOrdered" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have pre-ordered a downloadable product, we will charge you up to 10 days before the release date.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Αν έχετε προπαραγγείλει ένα προϊόν με δυνατότητα λήψης, θα σας χρεώσουμε έως και 10 ημέρες πριν από την ημερομηνία κυκλοφορίας.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IfYouNeedHelp" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you need help, we're here for you. In addition to free shipping and returns, our <a href={0}>Microsoft Store Promise</a> includes free virtual workshops, video tutorials, expert help, and more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Εάν χρειάζεστε βοήθεια, είμαστε εδώ για εσάς. Εκτός από τη δωρεάν αποστολή και τις επιστροφές, το <a href={0}>Microsoft Store Promise</a> περιλαμβάνει δωρεάν εικονικά εργαστήρια, εκπαιδευτικά βίντεο, βοήθεια από ειδικούς και πολλά άλλα.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[εμπόριο]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for shopping with us on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Σας ευχαριστούμε που πραγματοποιήσατε αγορές μαζί μας στο {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_IsGiftCode" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redeem your gift code.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Εξαργυρώστε τον κωδικό δώρου σας.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_IsRental" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for renting from Microsoft Store on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Σας ευχαριστούμε για την ενοικίαση από Microsoft Store στις {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Microsoft order #{0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Έγινε επεξεργασία της παραγγελίας σας Microsoft #{0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_Fr" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Processed Microsoft order #{0} and Software Update Information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Έγινε επεξεργασία της παραγγελίας Microsoft #{0} και των πληροφοριών ενημέρωσης λογισμικού]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_GifteeNameForSubject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your gift order to {0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Η παραγγελία του δώρου σας προς {0} υποβλήθηκε σε επεξεργασία]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for shopping with us on {0}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Σας ευχαριστούμε που πραγματοποιήσατε αγορές μαζί μας στο {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ToREquestAFapiao" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To request a Fapiao for orders placed through Microsoft Store on Windows, please visit your <a href="{0}">order history</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Για να ζητήσετε ένα Fapiao για παραγγελίες που υποβάλλονται μέσω Microsoft Store στα Windows, επισκεφθείτε το <a href="{0}">ιστορικό παραγγελιών</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";WeAlsoOffer" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We also offer one-on-one help with Surface devices and accessories, gaming devices, Microsoft 365, or Windows. If you’ve purchased a product for personal use, <a href={0}>book a free product expert appointment</a> for setup assistance or personal training. For business customers interested in personal training, <a href={1}>book a free appointment with one of our business product experts</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Προσφέρουμε επίσης ατομική βοήθεια με συσκευές και αξεσουάρ Surface, συσκευές παιχνιδιών, Microsoft 365 ή Windows. Εάν έχετε αγοράσει ένα προϊόν για προσωπική χρήση, <a href={0}>κλείστε ένα δωρεάν ραντεβού ειδικού προϊόντος</a> για βοήθεια κατά τη ρύθμιση ή προσωπική εκπαίδευση. Για επιχειρηματικούς πελάτες που ενδιαφέρονται για προσωπική εκπαίδευση, <a href={1}>κλείστε ένα δωρεάν ραντεβού με έναν από τους ειδικούς των επιχειρηματικών προϊόντων μας</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";YouWillBeCharged" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You will be charged once your items ship.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Θα χρεωθείτε μόλις τα προϊόντα σας αποσταλούν.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

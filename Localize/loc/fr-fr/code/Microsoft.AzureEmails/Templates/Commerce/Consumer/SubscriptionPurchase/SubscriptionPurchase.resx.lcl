@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\SubscriptionPurchase\SubscriptionPurchase.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="fr-FR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";SubscriptionPurchase.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";BackupDisplayName_HasNoValue" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've charged {0} to {1}. For a complete breakdown of charges, see your <a href="{2}">order details</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nous avons facturé {0}à {1}. Pour voir la répartition complète des frais, consultez les <a href="{2}">détails de votre commande</a>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We've charged {0} to {1} for your first {2} {3} of {4}. For a complete breakdown of charges, see your <a href="{5}">order details</a>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";BackupDisplayName_HasValue" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've charged {0} to your {1} and {2} to {3}. To use your {4}, your preferred way to pay, make sure your balance is sufficient to cover the charge. For a complete breakdown of charges, see your <a href="{5}">order details</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nous avons facturé {0} via votre moyen de paiement {1} et {2} sur {3}. Pour utiliser votre moyen de paiement préféré ({4}), assurez-vous que votre solde est suffisant pour couvrir les frais. Pour voir la répartition complète des frais, consultez les <a href="{5}">détails de votre commande</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your trial of {0} started on {1} and is free for {2} more days.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Votre essai de {0} a commencé le {1} et est gratuit pendant {2} jours supplémentaires.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Starting {0}, you'll be billed every {1} {2} at {3} {4} to {5}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[À partir du {0}, vous serez facturé tous les {1} {2} {3} {4} via le moyen de paiement {5}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel to stop future charges or change how you pay by visiting your <a href="{0}">Microsoft account</a>. <a href="{1}">How do I cancel my subscription?</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nous vous indiquerons si ce prix change. Vous pouvez annuler votre abonnement ou modifier votre mode de paiement en vous rendant sur votre <a href="{0}">compte Microsoft</a>. <a href="{1}">Comment faire annuler mon abonnement ?</a>]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We’ll tell you if this price ever changes. Cancel to stop future charges or change how you pay by visiting your <a href="{0}">Microsoft account</a> or <a href="{1}"> Contacting Support</a>. <a href="{2}">How do I cancel my subscription?</a>]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_31" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel to stop future charges or change how you pay by visiting your <a href="{0}">Microsoft account</a> or <a href="{1}">Contacting Support</a>. <a href="{2}">How do I cancel my subscription?</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nous vous indiquerons si ce prix change. Vous pouvez annuler votre abonnement ou modifier votre mode de paiement en vous rendant sur votre <a href="{0}">compte Microsoft</a> ou <a href="{1}">en contactant le support</a>. <a href="{2}">Comment annuler mon abonnement ?</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_False1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for trying {0}.  We're happy you're here.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Merci d’essayer {0}.  Nous sommes heureux que vous soyez là.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_False2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for subscribing to {0}. We’re happy you’re here.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Merci de vous être abonné à {0}. Nous sommes heureux que vous soyez là.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_True1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for trying {0}.  We're happy you're here.  You can share your subscription with up to five people.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Merci d’avoir essayé {0}. Nous sommes heureux que vous soyez là.  Vous pouvez partager votre abonnement avec un maximum de cinq personnes.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsOfficeHome_True2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for subscribing to {0}. We’re happy you’re here.  You can share your subscription with up to five people.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Merci de vous être abonné à {0}. Nous sommes heureux que vous soyez là.  Vous pouvez partager votre abonnement avec un maximum de cinq personnes.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsResubscribe_True1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome back to {0}. We're happy to see you again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bienvenue dans {0}. Nous sommes heureux de vous revoir.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_IsResubscribe_True2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've charged {0} to {1}. For a complete breakdown of charges, see your <a href="{2}">order details</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nous avons facturé {0}à {1}. Pour voir la répartition complète des frais, consultez les <a href="{2}">détails de votre commande</a>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We've charged {0} to {1} for your first {2} {3} of {4}. For a complete breakdown of charges, see your <a href="{5}">order details</a>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ButtonText_Product1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get the PC app to start playing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obtenir l’application PC pour commencer à jouer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ButtonText_Product2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get started with the mobile app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Démarrer avec l’application mobile]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Discover benefits]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Découvrir les avantages]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Partager l’abonnement]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Install Office]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Installez Office]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gérer l'abonnement]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsEUMarket_Bullet1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a refund. If your purchase above is for any other Microsoft subscription service, you have 14 days to cancel your purchase and request a refund.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pour Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive et Minecraft Realms, vous avez 30 jours à compter de la date d’achat pour annuler votre achat et demander un remboursement. Si votre achat ci-dessus concerne un autre service d’abonnement Microsoft, vous avez 14 jours pour annuler votre achat et demander un remboursement.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Office 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a refund. If your purchase above is for any other Microsoft subscription service, you have 14 days to cancel your purchase and request a refund.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsEUMarket_Bullet2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You will receive a refund of your most recent recurring billing charge if you cancel your subscription and request a refund within 30 days after being charged. This refund right is limited to one time per Microsoft Account, per subscription product.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vous recevrez un remboursement de vos frais de facturation récurrents les plus récents si vous annulez votre abonnement et demandez un remboursement dans un délai de 30 jours après avoir été facturé. Ce droit de remboursement est limité à une fois par compte Microsoft, par produit d’abonnement.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsEUMarket_Bullet3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Any digital content (such as games) received through your subscription purchase above will not be available to you following cancellation.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tout contenu numérique (tel que des jeux) reçu via votre achat d’abonnement ci-dessus ne sera pas disponible après l’annulation.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsIsraelMarket_True_Bullet1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a full refund. After the initial 30 days, you can <a href="{0}">contact support</a> to receive a pro rata refund.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pour Xbox Live Gold, Xbox Game Pass, Microsoft 365, MSN, Outlook.com, OneDrive et Minecraft Realms, vous avez 30 jours à compter de la date d’achat pour annuler votre achat et demander un remboursement complet. Après les 30 premiers jours, vous pouvez <a href="{0}">contacter le support</a> pour recevoir un remboursement au prorata.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[For Xbox Live Gold, Xbox Game Pass, Office 365, MSN, Outlook.com, OneDrive, and Minecraft Realms, you have 30 days from the purchase date to cancel your purchase and request a full refund. After the initial 30 days, you can <a href="{0}">contact support</a> to receive a pro rata refund.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsIsraelMarket_True_Para" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you made your subscription purchase above, we provided you with immediate access to your subscription service.  You may exercise your right to cancel for this purchase by <a href="{0}">managing your subscription</a> or <a href="{1}">contacting support</a> to receive a refund under the following conditions:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lors de votre abonnement, nous vous avons fourni un accès immédiat à votre service. Vous pouvez utiliser votre droit de rétractation pour cet achat en vous rendant sur la page <a href="{0}">de gestion de votre abonnement</a> ou <a href="{1}">en contactant le support</a> pour recevoir un remboursement sous les conditions suivantes :]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IsIsraelMarket_True_Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Additional details on refunds for Microsoft subscription services]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Détails supplémentaires sur les remboursements pour les services d’abonnement Microsoft]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[commerce]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoApplicableTaxes" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[including taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[y compris les taxes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Note" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Note: for customers in Europe, the Microsoft contracting entity is Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, D18 P521, Ireland.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Remarque : pour les clients en Europe, l’entité de contrat Microsoft est Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, D18 P521, Irlande.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";OrderId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Order Number]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Numéro de commande]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PlanPrice" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Plan Price]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prix du plan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for subscribing.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Merci pour votre abonnement.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductID1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to PC Game Pass! You now have access to over 100 high-quality PC games, including new titles on day one and the EA Play on PC catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bienvenue dans l’abonnement Game Pass PC ! Vous avez désormais accès à une sélection de plus de 100 jeux PC, y compris de nouveaux titres le jour de leur sortie et le catalogue EA Play sur PC.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductID2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Xbox Game Pass Ultimate! You now have access to over 100 high-quality games across devices, including new titles on day one and the EA Play catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bienvenue dans l’abonnement Xbox Game Pass Ultimate ! Vous avez désormais accès à une sélection de plus de 100 jeux pour tous les supports, y compris de nouveaux titres le jour de leur sortie et le catalogue EA Play.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductID3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Xbox Game Pass for Console! You now have access to over 100 high-quality console games, including new titles on day one.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bienvenue dans l’abonnement Xbox Game Pass pour console ! Vous avez désormais accès à une sélection de plus de 100 jeux console, y compris de nouveaux titres le jour de leur sortie.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductName" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Abonnement]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";RenewalDate" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Renewal Date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Date de renouvellement]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ShowFapiao_True" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To request Fapiao for orders placed through Microsoft Store on Windows, please visit your <a href="{0}">order history</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pour demander Fapiao pour les commandes passées via Microsoft Store sur Windows, visitez votre <a href="{0}">historique des commandes</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_False" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your purchase of {0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Votre achat de {0} a été traité]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject_True" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to your {0} free trial]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bienvenue dans votre {0} essai gratuit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";SubscriptionInformation" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Subscription Information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Informations sur l'abonnement]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TaxesNotIncluded" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[plus applicable taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[plus taxes applicables]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title_False" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your purchase of {0} has been processed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Votre achat de {0} a été traité]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title_True" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to your {0} free trial]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bienvenue dans votre {0} essai gratuit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

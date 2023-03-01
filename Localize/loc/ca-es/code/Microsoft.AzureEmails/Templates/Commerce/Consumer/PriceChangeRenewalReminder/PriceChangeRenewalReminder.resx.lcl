@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\Consumer\PriceChangeRenewalReminder\PriceChangeRenewalReminder.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="ca-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";PriceChangeRenewalReminder.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";CFQ7TTC0K6L8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass for Console gives you access to over 100 high-quality console games. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Game Pass per a la consola de joc t'ofereix accés a més de 100 jocs de consola d'alta qualitat. Com que s'afegeixen jocs constantment, incloent-hi els títols de l'Xbox Game Studios el dia en què es publiquen, sempre tindràs alguna novetat per jugar. Descobreix el teu pròxim joc avui.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KGQ8" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[PC Game Pass gives you access to over 100 high-quality PC games and EA Play. With games added all the time, including Xbox Game Studios titles the day they release, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[PC Game Pass t'ofereix accés a més de 100 jocs d'ordinador d'alta qualitat i EA Play. Com que s'afegeixen jocs constantment, incloent-hi els títols de l'Xbox Game Studios el dia en què es publiquen, sempre tindràs alguna cosa nova per jugar. Descobreix el teu proper joc avui.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CFQ7TTC0KHS0" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Xbox Game Pass Ultimate gives you access to over 100 high-quality games on console, PC, and mobile devices, plus EA Play and Xbox Live Gold. With games added all the time, you’ll always have something new to play. Discover your next game today.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xbox Game Pass Ultimate t'ofereix accés a més de 100 jocs d'alta qualitat a la consola, l'ordinador i dispositius mòbils, a més d'EA Play i Xbox Live Gold. Com que s'afegeixen jocs constantment, sempre tindràs alguna novetat per jugar. Descobreix el teu pròxim joc avui.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Cta_String" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage subscriptions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Administreu les subscripcions]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Manage your subscription]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[commerce]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[en-only]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NoApplicableTaxes" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[including taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[impostos inclosos]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You last paid for your {0} subscription with a prepaid product key or code on {1}. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[L'última vegada que vau pagar la vostra subscripció al {0} va ser el dia {1} amb una clau o un codi de producte de prepagament. Gràcies pel pagament.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Us volem informar d'un canvi en l'import del vostre proper pagament. Tret que cancel·leu dos dies abans del dia {0}, us cobrarem {1} {2} cada {3} a {4}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We hope you’re enjoying your trial of {0} that started on {1}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Esperem que la prova del {0} que va començar el dia {1} us estigui agradant.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Us volem informar que el vostre període de prova finalitza aviat. Tret que cancel·leu dos dies abans del dia {0}, us cobrarem {1} {2} cada {3} a {4}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know that your trial period is ending soon. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P5" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We received your last payment of {0} on {1} for your {2} subscription. Thank you for your payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vam rebre el vostre últim pagament de {0} el dia {1} per a la vostra subscripció al {2}. Gràcies pel pagament.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P6" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} to your {4}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Us volem informar d'un canvi en l'import del vostre proper pagament. Tret que cancel·leu dos dies abans del dia {0}, us cobrarem {1} {2} cada {3} a {4}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We want to let you know about a change to the amount of your next payment. Unless you cancel two days before {0}, we’ll charge {1} {2} every {3} {4} to your {5}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P7" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll tell you if this price ever changes. Cancel any time to stop future charges or change how you pay by managing your subscription in your Microsoft account.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Us avisarem si aquest preu canvia en algun moment. Podeu cancel·lar la subscripció en qualsevol moment perquè no se us continuï cobrant o canviar la forma de pagament. Per administrar-la, aneu al vostre compte de Microsoft.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";P8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about how to <a href="{0}">cancel your subscription</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obteniu més informació sobre com podeu <a href="{0}">cancel·lar la vostra subscripció</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There’s a change to the amount of your next payment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hi ha un canvi en l'import del següent pagament.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader_Trial" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your trial period is ending soon.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[El període de prova finalitza aviat.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TaxesNotIncluded" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[plus applicable taxes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[més els impostos aplicables]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Important update about your {0} subscription]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Informació important sobre la vostra subscripció al {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>
