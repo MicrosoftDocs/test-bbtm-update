@@ -94,7 +94,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Expiration date]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[समय-सीमा खत्म होने का दिनांक]]></Val>
+            <Val><![CDATA[समय-सीमा खत्म होने की तारीख]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

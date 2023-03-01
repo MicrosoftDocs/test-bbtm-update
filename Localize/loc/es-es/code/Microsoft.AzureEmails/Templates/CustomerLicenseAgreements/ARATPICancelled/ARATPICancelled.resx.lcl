@@ -21,24 +21,36 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[The submission of third-party integrator <strong>{0}</strong>, associated with your Microsoft customer license agreement (CLA) <strong>{1}</strong>, has been rejected for this reason:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[El envío del integrador de terceros <strong>{0}</strong>, asociado con su contrato de licencia de cliente (CLA) de Microsoft <strong>{1}</strong>, se ha rechazado por este motivo:]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[View the reason for the rejection.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vea el motivo del rechazo.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[[Microsoft OEM]5D; {0} {1}, submission of third-party integrator {2}  is rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[[OEM de Microsoft]5D; {0}{1}, se ha rechazado el envío del integrador de terceros {2}]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Submission of third-party integrator {0} for {1} is rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Se rechazó el envío del integrador de terceros {0} para {1}]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

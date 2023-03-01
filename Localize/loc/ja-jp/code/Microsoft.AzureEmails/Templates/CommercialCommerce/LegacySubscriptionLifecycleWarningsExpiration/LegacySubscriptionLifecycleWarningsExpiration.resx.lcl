@@ -41,7 +41,7 @@
         <Str Cat="Text">
           <Val><![CDATA[You have {0} active subscriptions that will expire on <strong>{1}</strong>. To avoid a complete service disruption and the loss of your benefits, renew your subscriptions in Microsoft 365 admin center by that date.]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[<strong> {1} </strong>に有効期限が切れるアクティブなサブスクリプション{0}があります。サービスが完全に中断され、ベネフィットが失われないようにするには、その日までにサブスクリプションをMicrosoft 365 管理センターで更新してください。]]></Val>
+            <Val><![CDATA[<strong>{1} </strong>に有効期限が切れるアクティブなサブスクリプションが{0}あります。サービスが完全に中断され、ベネフィットが失われないようにするには、その日までにサブスクリプションをMicrosoft 365 管理センターで更新してください。]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

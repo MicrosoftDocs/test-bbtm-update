@@ -12,6 +12,9 @@
       <Item ItemId=";Body_Button" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Review amendment]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Revisar modificación]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -27,12 +30,18 @@
       <Item ItemId=";Body_Review" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Please review the amendment and take appropriate action.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Revise la enmienda y tome las medidas adecuadas.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Body_Submitted" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[OEM <strong>{0}</strong> has submitted customer license agreement (CLA) amendment <a href="{1}">{2}</a> for your approval.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[OEM <strong>{0}</strong> ha enviado la modificación del contrato de licencia de cliente (CLA) <a href="{1}">{2}</a> para su aprobación.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -48,18 +57,27 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Please review and take appropriate action.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Revise y tome las medidas adecuadas.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[[Microsoft OEM]5D; A CLA amendment for {0} is pending your review]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[[Microsoft OEM]5D; Una modificación de CLA para {0} está pendiente de revisión]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[A CLA amendment for {0} needs your review]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Una modificación de CLA para {0} necesita su revisión]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
