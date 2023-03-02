@@ -12,12 +12,18 @@
       <Item ItemId=";Button_Text" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Review submission]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Revisar envio]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Contact_Us" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, please <a href ="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Em caso de dúvidas, <a href ="{0}">entre em contato conosco</a>.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -33,30 +39,45 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[<strong>{0}</strong> has submitted for Microsoft approval <strong>{1}</strong>as third-party integrator for CLA <strong>{2}</strong>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>{0}</strong> enviou para aprovação da Microsoft <strong>{1}</strong> como integrador de terceiros para CLA <strong>{2}</strong>.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Review the submission and take appropriate action.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Examine o envio e execute a ação apropriada.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Review this submission for CLA {0} and take appropriate action.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Examine este envio para CLA {0} e tome as medidas apropriadas.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[[Microsoft OEM]5D; Approval of third-party integrator {0} for {1} is pending]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[[Microsoft OEM]5D; A aprovação do integrador de terceiros {0} para {1} está pendente]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Submission of third-party integrator {0} for {1} is waiting for your action]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O envio do integrador de terceiros {0} para {1} está aguardando sua ação]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

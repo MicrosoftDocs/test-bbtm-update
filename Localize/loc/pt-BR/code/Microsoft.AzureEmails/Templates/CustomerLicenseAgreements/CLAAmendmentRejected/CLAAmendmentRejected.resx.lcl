@@ -12,12 +12,18 @@
       <Item ItemId=";Body_We" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[We’ve reviewed customer license agreement (CLA) amendment <strong>{0}</strong>, routed for <strong>{1}</strong>, and we’ve rejected it with comments:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Revisamos o aditamento do CLA (Contrato de Licença do Cliente <strong>{0}</strong>, roteado para <strong>{1}</strong> e o rejeitamos com comentários:]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Contact_Us" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, please <a href = "{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Em caso de dúvidas, <a href = "{0}">entre em contato conosco</a>.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -33,18 +39,27 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Please contact us with questions.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Entre em contato conosco para tirar suas dúvidas.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Microsoft OEM A CLA amendment for {0} has been rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft OEM Um aditamento de CLA para {0} foi rejeitado]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[A CLA amendment for {0} has been rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Um aditamento de CLA para {0} foi rejeitado]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

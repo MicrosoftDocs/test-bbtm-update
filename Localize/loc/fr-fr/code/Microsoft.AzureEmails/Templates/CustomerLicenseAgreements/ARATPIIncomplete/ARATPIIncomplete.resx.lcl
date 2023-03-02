@@ -21,6 +21,9 @@
       <Item ItemId=";Contact_Us" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, engage your authorized Microsoft IoT distributor or <a href = {0}>contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Si vous avez des questions, veuillez contacter votre distributeur Microsoft IoT Distributor autorisé ou <a href="{0}">nous contacter</a>.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -36,18 +39,27 @@
       <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[We’ve reviewed your submission of third-party integrator <strong>{0}</strong> for <strong>{1}</strong>, and the submission is incomplete:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nous avons examiné votre soumission de l’intégrateur tiers <strong>{0}</strong> pour <strong>{1}</strong>. Celle-ci est incomplète :]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Please revise and resubmit the form.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Veuillez réviser et renvoyer le formulaire.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Para3" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[This link is valid for <strong>{0} days.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ce lien est valide pendant <strong>{0} jours</strong>.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -63,24 +75,36 @@
       <Item ItemId=";Para5" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To get additional guidance for completing the form, download the <a href ="{0}">CLA Reference Guide</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pour obtenir des instructions supplémentaires sur la manière de compléter le formulaire, téléchargez le <a href="{0}">guide de référence du CLA</a>.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Please revise and resubmit the form.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Veuillez réviser et renvoyer le formulaire.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[[Microsoft OEM]5D; {0} {1}, submission of third-party integrator {2}  is incomplete]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[[Microsoft OEM]5D; {0} {1}, La soumission de l’intégrateur tiers {2} est incomplète]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Submission of third-party integrator {0} for {1} is incomplete]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[La soumission de l’intégrateur tiers {0} pour {1} est incomplète]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

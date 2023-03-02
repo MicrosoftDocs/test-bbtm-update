@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\NGVL\OrderDirectBilling9060DaysRenewalRemainder\OrderDirectBilling9060DaysRenewalRemainder.resx" PsrId="211" SrcCul="en-US" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx" TgtCul="uk-UA">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";OrderDirectBilling9060DaysRenewalRemainder.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";CustomerLegal" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customer legal entity name:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";EmailId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Email ID:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ExpirationDate" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Expiration date]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FooterDetails" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<a href="{0}">Contact Us</a> | <a href="{1}">Help</a> | <a href="{2}">Privacy Statement</a> | <a href="{3}">Terms of Use</a> | <a href="{4}">Trademarks</a> © {5} Microsoft]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - ContactUs, 1 - Help, 2 - url(with LocaleCode), 3 - url, 4 - url, 5 - CurrentYear]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ItemName" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Item name]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ItemNumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Item number]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MPSANumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[MPSA number:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have software assurance or subscriptions that will expire within {0} days.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - RenewalDateString]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To renew software assurance or subscriptions listed in this email and to avoid any interruptions in service, please ask your Microsoft sales representative to order them for you before the expiration date.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Para3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Some subscriptions may be set up to renew automatically. To find out if some of your subscriptions will be automatically renewed, please contact your Microsoft sales representative.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Para4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You can also find more information about your subscriptions if you sign in to <a href="{0}">Microsoft Business Center</a>.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - url]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Para5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for being a Microsoft customer.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contact your Microsoft sales representative to help you renew software assurance or subscriptions.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductType" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Product type]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchasingAccountName" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchasing account name:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchasingAccountNumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchasing account number:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Quantity" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Quantity]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0}-day renewal notice for purchasing account {1} (Account number {2})]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - RenewalDateString, 1 - PurchasingAccountName, 2 - PurchasingAccountNumber]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0}-day renewal notice for purchasing account {1}]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - RenewalDateString, 1 - PurchasingAccountName]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

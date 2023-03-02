@@ -12,12 +12,18 @@
       <Item ItemId=";Body_We" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[We’ve reviewed customer license agreement (CLA) amendment <strong>{0}</strong>, routed for <strong>{1}</strong>, and we’ve rejected it with comments:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nous avons examiné l’avenant au contrat de licence client (CLA)<strong>{0}</strong>, routé pour <strong>{1}</strong>, et nous l’avons rejeté avec les commentaires suivants :]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Contact_Us" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, please <a href = "{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Si vous avez des questions, veuillez <a href = "{0}">nous contacter</a>.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -33,18 +39,27 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Please contact us with questions.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Veuillez nous contacter si vous avez des questions.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Microsoft OEM A CLA amendment for {0} has been rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[[Microsoft OEM]5D; Un avenant au CLA pour {0} a été rejeté]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[A CLA amendment for {0} has been rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Un avenant au CLA pour {0} a été rejeté]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>

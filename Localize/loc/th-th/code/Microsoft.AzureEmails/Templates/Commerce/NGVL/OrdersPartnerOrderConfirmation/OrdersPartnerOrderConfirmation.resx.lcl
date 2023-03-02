@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\NGVL\OrdersPartnerOrderConfirmation\OrdersPartnerOrderConfirmation.resx" PsrId="211" SrcCul="en-US" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx" TgtCul="th-TH">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";OrdersPartnerOrderConfirmation.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";CustomerLegal" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customer legal entity name:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CustomerPurchaseOrderNumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customer purchase order number]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";EmailId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Email ID:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";FooterDetails" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<a href="{0}">Contact Us</a> | <a href="{1}">Help</a> | <a href="{2}">Privacy Statement</a> | <a href="{3}">Terms of Use</a> | <a href="{4}">Trademarks</a> © {5} Microsoft]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - ContactUs, 1 - Help, 2 - url(with LocaleCode), 3 - url, 4 - url, 5 - CurrentYear]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ItemName" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Item name]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ItemNumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Item number]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MPSANumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[MPSA number:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";OrderLineItemType" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Order line item type]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for your order on behalf of the customer, {0}. Here are the details.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - LegalEntityName]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For more information, sign in to <a href="{0}">Microsoft Volume Licensing Partner Center</a> or contact your Microsoft Regional Operations Center.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - url]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Para3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong>Note:</strong> For a transition order, the quantities associated with the Source edition will continue to show as part of available subscriptions totals in Microsoft Volume Licensing Partner Center until they’re de-provisioned, which could take up to ninety (90) days. After the usage start date of the Target editions, the Source editions will have limited functionality. Please ask your customer to move any required data as soon as possible after the target usage start date.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Para4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for partnering with Microsoft.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See the details about the confirmed order.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchaseOption" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchase option]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchaseOrderDate" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchase order date]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchaseOrderNumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchase order number]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchaseType" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchase type]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchasingAccountName" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchasing account name:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";PurchasingAccountNumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Purchasing account number:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Quantity" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Quantity]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";SalesOrderNumber" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sales order number:]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Confirmation of order number {0} for purchasing account {1} (Account number {2})]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - SalesOrderNumber, 1 - PurchasingAccountName, 2 - PurchasingAccountNumber]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Order number {0} confirmation for purchasing account {1}]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 - SalesOrderNumber, 1 - PurchasingAccountName]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";UsagePeriod" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Usage period]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

@@ -12,12 +12,18 @@
       <Item ItemId=";Button_Text" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Review submission]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Analisar submissão]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Contact_Us" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[If you have questions, please <a href ="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Se tiver dúvidas, <a href="{0}">contacte-nos</a>.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
@@ -60,12 +66,18 @@
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[[Microsoft OEM]5D; Approval of third-party integrator {0} for {1} is pending]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[[Microsoft OEM]5D; A aprovação do integrador de terceiros {0} para {1} está pendente]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Submission of third-party integrator {0} for {1} is waiting for your action]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A submissão do integrador de terceiros {0} para {1} aguarda uma ação da sua parte.]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
