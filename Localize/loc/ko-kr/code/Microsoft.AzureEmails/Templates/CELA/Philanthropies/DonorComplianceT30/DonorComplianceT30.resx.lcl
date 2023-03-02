@@ -102,8 +102,8 @@
       <Item ItemId=";Body_YourEligibility" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[<strong>Your eligibility for Microsoft charitable programs is being removed</strong>. To regain your eligibility, please make every effort to meet the requirement to use at least <strong>85 percent</strong> of your assigned licenses. This doesn’t mean you’re losing your Microsoft 365 licenses or any of the data associated with those licenses in your organization. It does mean, however, that your organization has lost eligibility for charity offers. Once you have removed the inactive users from your subscription and meet the 85 percent usage requirement, submit an eligibility appeal to the <a href="{0}">Nonprofit Support team</a> to regain your eligibility for the charitable programs.]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[<strong>Microsoft 자선 프로그램에 대한 귀하의 자격이 제거됩니다</strong>. 자격을 다시 얻으려면 할당된 라이선스의 최소 <strong>85%</strong>를 사용해야 하는 요구 사항을 충족하도록 최선을 다하세요. Microsoft 365 라이선스 또는 조직의 해당 라이선스와 연결된 데이터가 손실된다는 의미는 아닙니다. 그러나 이는 귀하의 조직이 자선 제안에 대한 자격을 상실했음을 의미합니다.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>Microsoft 자선 프로그램에 대한 자격이 제거됩니다</strong>. 자격을 다시 얻으려면 할당된 라이선스의 <strong>85%</strong> 이상을 사용하도록 가능한 모든 조치를 취해 요구 사항을 충족해 주세요. 자격을 잃어도 Microsoft 365 라이선스나 조직의 해당 라이선스와 연결된 데이터는 손실되지 않습니다. 그러나 조직의 자선 행사 자격은 상실됩니다. 구독에서 비활성 사용자를 제거하고 85% 사용량 요구 사항을 충족한 후 <a href="{0}">비영리 지원 팀</a>에 자격 이의를 제출하여 자선 프로그램에 대한 자격을 다시 받으세요.]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[<strong>Your eligibility for Microsoft charitable programs is being removed</strong>. To regain your eligibility, please make every effort to meet the requirement to use at least <strong>85 percent</strong> of your assigned licenses. This doesn’t mean you’re losing your Microsoft 365 licenses or any of the data associated with those licenses in your organization. It does mean, however, that your organization has lost eligibility for charity offers.]]></Val>

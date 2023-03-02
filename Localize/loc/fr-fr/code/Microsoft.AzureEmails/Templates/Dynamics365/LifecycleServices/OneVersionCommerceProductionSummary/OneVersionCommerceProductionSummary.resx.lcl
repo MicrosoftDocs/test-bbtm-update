@@ -93,8 +93,8 @@
       <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[To enhance your service experience, Microsoft updated your Dynamics 365 for Commerce environment. The environment is available for standard use.]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[L’environnement est désormais disponible pour une utilisation standard.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pour améliorer votre expérience de service, Microsoft a mis à jour votre environnement Dynamics 365 for Commerce. L’environnement est disponible pour une utilisation standard.]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[The environment is now available for standard use.]]></Val>
@@ -105,8 +105,8 @@
       <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Status of scheduled service update for {0}]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[Une mise à jour de service planifiée pour Dynamics 365 for Commerce a réussi]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[État de la mise à jour planifiée du service pour {0}]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[A service update scheduled for Dynamics 365 for Commerce was successful]]></Val>
@@ -117,8 +117,8 @@
       <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
         <Str Cat="Text">
           <Val><![CDATA[Status of scheduled service update for {0}]]></Val>
-          <Tgt Cat="Text" Stat="Update" Orig="New">
-            <Val><![CDATA[Une mise à jour planifiée du service a réussi pour {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[État de la mise à jour planifiée du service pour {0}]]></Val>
           </Tgt>
           <Prev Cat="Text">
             <Val><![CDATA[A scheduled service update was successful for {0}]]></Val>

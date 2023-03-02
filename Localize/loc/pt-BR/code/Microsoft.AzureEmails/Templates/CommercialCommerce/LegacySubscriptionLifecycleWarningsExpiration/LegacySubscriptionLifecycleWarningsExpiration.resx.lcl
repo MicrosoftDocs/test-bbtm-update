@@ -125,7 +125,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Action required: renew your Microsoft subscriptions before {0} to avoid disruption]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Ação necessária: renove suas assinaturas da Microsoft antes {0} para evitar interrupções]]></Val>
+            <Val><![CDATA[Ação necessária: renove suas assinaturas da Microsoft antes de {0} para evitar interrupções]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
@@ -134,7 +134,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Warning: renew your Microsoft subscriptions before {0} to avoid disruption]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Atenção: renove suas assinaturas da Microsoft antes {0} para evitar interrupções]]></Val>
+            <Val><![CDATA[Atenção: renove suas assinaturas da Microsoft antes de {0} para evitar interrupções]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
