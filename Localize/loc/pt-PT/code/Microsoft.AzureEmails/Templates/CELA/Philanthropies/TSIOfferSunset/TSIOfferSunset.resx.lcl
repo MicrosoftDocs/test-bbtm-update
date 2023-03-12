@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\CELA\Philanthropies\TSIOfferSunset\TSIOfferSunset.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="pt-PT" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";TSIOfferSunset.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[commerce]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See details of the licensing change.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Consulte os detalhes da alteração de licenciamento.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The Office 365 E2 plan that you’re subscribed to is discontinued]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O plano do Office 365 E2 que subscreveu foi descontinuado]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Office 365 E2 plan is discontinued]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O seu plano do Office 365 E2 foi descontinuado]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're receiving this email because an Office 365 plan that you use is discontinued.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Recebeu este e-mail porque um dos planos do Office 365 que utiliza foi descontinuado.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong>Effective October 1, 2023, nonprofits will no longer be able to renew the legacy Office 365 E2 plan.</strong> The Office 365 E2 plan was discontinued in 2013 and will no longer be supported. <strong>The discontinuation of Office 365 E2 won’t affect any offers currently available in our product catalog,</strong> including 10 granted licenses of Microsoft 365 Business Premium, 300 granted licenses of Microsoft 365 Business Basic, and up to 2,000 granted licenses of Office 365 E1 via Enterprise Agreement. <strong>We’ll continue to provide discounts to nonprofits of up to 75 percent on many Microsoft 365 products.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>A partir de 1 de outubro de 2023, as organizações sem fins lucrativos deixarão de poder renovar o plano legado Office 365 E2.</strong> O plano Office 365 E2 foi descontinuado em 2013 e deixará de ser suportado. <strong>A descontinuação do Office 365 E2 não afetará quaisquer ofertas atualmente disponíveis no nosso catálogo de produtos, </strong> incluindo 10 licenças concedidas do Microsoft 365 Empresas Premium, 300 licenças concedidas de Microsoft 365 Empresas Basic e até 2000 licenças concedidas de Office 365 E1 através de Contrato Enterprise. <strong>Continuaremos a fornecer descontos a organizações sem fins lucrativos até 75% em muitos produtos do Microsoft 365.</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mais informações]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customers will no longer be able to renew this legacy plan starting <strong>October 1, 2023.</strong> At your next renewal, you can transition your users to the existing Office 365 E1 plan, priced at <strong>USD2.50 per user per month.</strong> Or you can <a href="{0}">transition up to 300 of your users</a> from the legacy Office 365 E2 grant to the <strong>Microsoft 365 Business Basic grant.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Os clientes deixarão de poder renovar este plano legado a partir de <strong>1 de outubro de 2023.</strong> Na sua próxima renovação, pode transitar os seus utilizadores para o plano do Office 365 E1 existente, com um preço de <strong>2,50 USD por utilizador por mês.</strong> Em alternativa, pode <a href="{0}">transitar até 300 dos seus utilizadores</a> da concessão legada do Office 365 E2 para a concessão do <strong>Microsoft 365 Empresas Basic.</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft 365 Business Basic has greater functionality than the discontinued Office 365 E2 plan, with the difference that Microsoft 365 Business Basic has a 300-seat cap. We provide grants of up to 300 licenses of Microsoft 365 Business Basic via the Direct and CSP channels, and we continue to provide grants of up to 2,000 licenses of Office 365 E1 through Enterprise Agreement.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O Microsoft 365 Empresas Basic tem uma funcionalidade superior à do plano descontinuado do Office 365 E2, com a diferença de que o Microsoft 365 Empresas Basic tem um limite de 300 concessões. Fornecemos concessões de até 300 licenças do Microsoft 365 Empresas Basic através dos canais Direto e CSP e continuamos a atribuir concessões de até 2000 licenças de Office 365 E1 através de Contrato Enterprise.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par6" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Extra support]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Suporte adicional]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par7" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To help you plan and implement your digital transformation, engage our partners who are experts in the latest tools and resources. Connect now with your current Microsoft partner—or complete <a href="{0}">this form</a>, and we’ll connect you with a new Microsoft partner.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para ajudar a programar e implementar a sua transformação digital, contacte os nossos parceiros especialistas nas ferramentas e recursos mais recentes. Ligue-se agora ao seu parceiro Microsoft atual ou preencha <a href="{0}">este formulário</a> e iremos pô-lo(a) em contacto com um novo parceiro da Microsoft.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have questions about these changes, please <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Se tiver dúvidas sobre estas alterações, <a href="{0}">contacte-nos</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

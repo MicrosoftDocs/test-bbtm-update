@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\CELA\Philanthropies\TSIOfferSunset\TSIOfferSunset.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";TSIOfferSunset.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[상거래]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See details of the licensing change.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[라이선스 변경에 대한 세부 정보를 참조하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The Office 365 E2 plan that you’re subscribed to is discontinued]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[구독 중인 Office 365 E2 플랜이 중단됨]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Office 365 E2 plan is discontinued]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Office 365 E2 플랜이 중단됨]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're receiving this email because an Office 365 plan that you use is discontinued.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[사용하는 Office 365 플랜이 중단되어 이 메일을 발송합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong>Effective October 1, 2023, nonprofits will no longer be able to renew the legacy Office 365 E2 plan.</strong> The Office 365 E2 plan was discontinued in 2013 and will no longer be supported. <strong>The discontinuation of Office 365 E2 won’t affect any offers currently available in our product catalog,</strong> including 10 granted licenses of Microsoft 365 Business Premium, 300 granted licenses of Microsoft 365 Business Basic, and up to 2,000 granted licenses of Office 365 E1 via Enterprise Agreement. <strong>We’ll continue to provide discounts to nonprofits of up to 75 percent on many Microsoft 365 products.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>2023년 10월 1일부터 비영리 단체는 더 이상 기존 Office 365 E2 플랜을 갱신할 수 없습니다.</strong> Office 365 E2 플랜은 2013년에 중단되었으며 더 이상 지원되지 않습니다. <strong>Office 365 E2의 단종은 Microsoft 365 Business Premium의 부여된 라이선스 10개, Microsoft 365 Business Basic의 부여된 라이선스 300개 및 Enterprise Agreement를 통한 Office 365 E1 라이선스의 부여된 최대 2,000개의 부여된 라이선스를 포함하여</strong> 현재 당사 제품 카탈로그에서 제공되는 모든 제안에 영향을 미치지 않습니다. <strong>많은 Microsoft 365 제품에 대해 최대 75%까지 비영리 단체에 할인을 계속 제공할 것입니다.</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가 정보]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customers will no longer be able to renew this legacy plan starting <strong>October 1, 2023.</strong> At your next renewal, you can transition your users to the existing Office 365 E1 plan, priced at <strong>USD2.50 per user per month.</strong> Or you can <a href="{0}">transition up to 300 of your users</a> from the legacy Office 365 E2 grant to the <strong>Microsoft 365 Business Basic grant.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[고객은 <strong>2023년 10월 1일</strong>부터 이 레거시 플랜을 더 이상 갱신할 수 없습니다. 다음 갱신 시 사용자를 기존 Office 365 E1 플랜으로 전환할 수 있으며 <strong>가격은 사용자당 월 USD2.50</strong>입니다. 또는 기존 Office 365 E2 보조금에서 <a href="{0}">최대 300명의 사용자</a>를 <strong>Microsoft 365 Business Basic 권한 부여</strong>로 전환할 수 있습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft 365 Business Basic has greater functionality than the discontinued Office 365 E2 plan, with the difference that Microsoft 365 Business Basic has a 300-seat cap. We provide grants of up to 300 licenses of Microsoft 365 Business Basic via the Direct and CSP channels, and we continue to provide grants of up to 2,000 licenses of Office 365 E1 through Enterprise Agreement.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft 365 Business Basic은 단종된 Office 365 E2 플랜보다 더 많은 기능을 제공하지만 Microsoft 365 Business Basic에는 사용자 한도가 300이라는 차이점이 있습니다. Microsoft는 Direct 및 CSP 채널을 통해 최대 300개의 Microsoft 365 Business Basic 라이선스를 부여하고 기업 계약을 통해 Office 365 E1 라이선스를 최대 2,000개까지 계속 부여합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par6" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Extra support]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가 지원]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par7" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To help you plan and implement your digital transformation, engage our partners who are experts in the latest tools and resources. Connect now with your current Microsoft partner—or complete <a href="{0}">this form</a>, and we’ll connect you with a new Microsoft partner.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[디지털 변환을 계획하고 구현하는 데 도움이 되도록 최신 도구 및 리소스 전문업체인 Microsoft 파트너와 협력하세요. 지금 현재 Microsoft 파트너와 연결하거나 <a href="{0}">이 양식</a>을 작성하면 새로운 Microsoft 파트너와 연결해 드리겠습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have questions about these changes, please <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이러한 변경 사항에 대한 질문이 있으면 <a href="{0}">문의해 주세요</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

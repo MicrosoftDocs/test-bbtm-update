@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\CELA\Philanthropies\TSIOfferSunset\TSIOfferSunset.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="ar-SA" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";TSIOfferSunset.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[تجارة]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See details of the licensing change.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[اطلع على تفاصيل تغيير الترخيص.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The Office 365 E2 plan that you’re subscribed to is discontinued]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[خطة Office 365 E2 المشترك فيها متوقفة]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Office 365 E2 plan is discontinued]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[خطة Office 365 E2 الخاصة بك متوقفة]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're receiving this email because an Office 365 plan that you use is discontinued.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[أنت تستلم رسالة البريد الإلكتروني هذه لأن خطة Office 365 التي تستخدمها متوقفة.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong>Effective October 1, 2023, nonprofits will no longer be able to renew the legacy Office 365 E2 plan.</strong> The Office 365 E2 plan was discontinued in 2013 and will no longer be supported. <strong>The discontinuation of Office 365 E2 won’t affect any offers currently available in our product catalog,</strong> including 10 granted licenses of Microsoft 365 Business Premium, 300 granted licenses of Microsoft 365 Business Basic, and up to 2,000 granted licenses of Office 365 E1 via Enterprise Agreement. <strong>We’ll continue to provide discounts to nonprofits of up to 75 percent on many Microsoft 365 products.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>اعتباراً من 1 أكتوبر 2023، لن تتمكن المؤسسات غير الربحية من تجديد خطة Office 365 E2 القديمة.</strong> تم إيقاف خطة Office 365 E2 في 2013 ولن تكون مدعمة بعد الآن. <strong>لن يؤثر توقف Office 365 E2 على أي عروض متوفرة حالياً في كتالوج المنتجات لدينا،</strong> بما في ذلك 10 تراخيص لـ Microsoft 365 Business Premium ممنوحة و300 ترخيص لـ Microsoft 365 Business Basic ممنوح وما يصل إلى 2000 ترخيص لـ Office 365 E1 ممنوح عبر اتفاقية Enterprise. <strong>سنستمر في توفير خصومات للمؤسسات غير الربحية بنسبة تصل إلى 75 بالمئة على العديد من منتجات Microsoft 365.</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[معلومات إضافية]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customers will no longer be able to renew this legacy plan starting <strong>October 1, 2023.</strong> At your next renewal, you can transition your users to the existing Office 365 E1 plan, priced at <strong>USD2.50 per user per month.</strong> Or you can <a href="{0}">transition up to 300 of your users</a> from the legacy Office 365 E2 grant to the <strong>Microsoft 365 Business Basic grant.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[لن يتمكن العملاء بعد الآن من تجديد هذه الخطة القديمة بدءاً من <strong> 1 أكتوبر 2023.</strong> عندما يحين موعد التجديد التالي الخاص بك، يمكنك نقل المستخدمين لديك إلى خطة Office 365 E1 الحالية بقيمة <strong>2,50 من الدولارات الأمريكية لكل مستخدم في الشهر.</strong> أو يمكنك <a href="{0}">نقل ما يصل إلى 300 مستخدم لديك</a> من منحة Office 365 E2 القديمة إلى <strong>منحة Microsoft 365 Business Basic.</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft 365 Business Basic has greater functionality than the discontinued Office 365 E2 plan, with the difference that Microsoft 365 Business Basic has a 300-seat cap. We provide grants of up to 300 licenses of Microsoft 365 Business Basic via the Direct and CSP channels, and we continue to provide grants of up to 2,000 licenses of Office 365 E1 through Enterprise Agreement.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[لدى Microsoft 365 Business Basic وظائف أكثر من خطة Office 365 E2 المتوقفة باختلاف أن Microsoft 365 Business Basic مزود بسعة قدرها 300 ترخيص جهاز. نحن نقدم منح تصل إلى 300 ترخيص لـ Microsoft 365 Business Basic عبر قناتي Direct وCSP، ونستمر في تقديم منح تصل إلى 2000 ترخيص لـ Office 365 E1 من خلال اتفاقية Enterprise.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par6" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Extra support]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[دعم إضافي]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par7" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To help you plan and implement your digital transformation, engage our partners who are experts in the latest tools and resources. Connect now with your current Microsoft partner—or complete <a href="{0}">this form</a>, and we’ll connect you with a new Microsoft partner.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[لمساعدتك على التخطيط لتحويل أعمالك إلى التقنيات الرقمية وتنفيذه، قم بإشراك شركائنا الخبراء في الأدوات والموارد الأخيرة. اتصل الآن بشريكك الحالي التابع لـ Microsoft أو—أكمل <a href="{0}">هذا النموذج</a>، وسنقوم بتوصيلك بشريك Microsoft جديد.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have questions about these changes, please <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[إذا كانت لديك أسئلة تتعلق بهذه التغييرات، الرجاء <a href="{0}">الاتصال بنا</a>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

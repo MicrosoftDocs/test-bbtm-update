@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\CommercialCommerce\TrialActivationCELA\TrialActivationCELA.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="th-TH" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";TrialActivationCELA.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[การค้า]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Para1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You’ve registered for the Microsoft Tech for Social Impact program and created a nonprofit account. Once your eligibility check is done, you’ll receive a confirmation email, and you can use your new credentials to log in to the <a href="{0}">Nonprofit Hub</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คุณได้ลงทะเบียนสำหรับโปรแกรมเทคโนโลยีเพื่อผลลัพธ์ทางสังคมของ Microsoft และสร้างบัญชีองค์กรไม่แสวงผลกำไรแล้ว เมื่อการตรวจสอบสิทธิ์ของคุณเสร็จสิ้น คุณจะได้รับอีเมลยืนยัน และคุณสามารถใช้ข้อมูลประจำตัวใหม่เพื่อเข้าสู่ระบบ<a href="{0}">ฮับองค์กรไม่แสดงผลกำไร</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Para2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about <a href="{0}">nonprofit offers</a> from Microsoft, or check out these <a href="{1}">resources</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เรียนรู้เพิ่มเติมเกี่ยวกับ<a href="{0}">ข้อเสนอสำหรับองค์กรไม่แสดงผลกำไร</a>จาก Microsoft หรือลองดู<a href="{1}">แหล่งข้อมูล</a>เหล่านี้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your new nonprofit account has been created.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สร้างบัญชีองค์กรไม่แสวงผลกำไรใหม่ของคุณแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You’ve now created a nonprofit account]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ขณะนี้คุณได้สร้างบัญชีองค์กรไม่แสดงผลกำไรแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for creating a Microsoft nonprofit account]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ขอบคุณที่สร้างบัญชีองค์กรไม่แสดงผลกำไรของ Microsoft]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

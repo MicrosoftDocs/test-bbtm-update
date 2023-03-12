@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\Commerce\VolumeLicensing\MBS\CustomerWithInvalidIDEmailMessage\CustomerWithInvalidIDEmailMessage.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="th-TH" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";CustomerWithInvalidIDEmailMessage.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Body_Account" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Account number:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[หมายเลขบัญชี:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Being" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You’re being contacted because one of your customers recently purchased a Microsoft Dynamics Enhancement Plan, which is now active. One of the key benefits of the Microsoft Dynamics Enhancement Plan is access to CustomerSource and the resources within CustomerSource, including a searchable knowledgebase, documentation, and training resources. CustomerSource uses secure authentication. Without a valid e-mail address for at least one customer professional, we’re unable to provide instructions to the customer to access this important benefit. Refer to the instructions in this email.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คุณได้รับการติดต่อเนื่องจากลูกค้ารายหนึ่งของคุณเพิ่งซื้อแผนการปรับปรุง Microsoft Dynamics ซึ่งใช้งานอยู่ในขณะนี้ หนึ่งในประโยชน์หลักของแผนการปรับปรุง Microsoft Dynamics คือการเข้าถึง CustomerSource และทรัพยากรภายใน CustomerSource รวมถึงฐานความรู้ เอกสาร ประกอบ และทรัพยากรการฝึกอบรมที่สามารถค้นหาได้ CustomerSource ใช้การรับรองความถูกต้องที่ปลอดภัย หากไม่มีที่อยู่อีเมลที่ถูกต้องสําหรับผู้เชี่ยวชาญลูกค้าอย่างน้อยหนึ่งคน เราไม่สามารถให้คําแนะนําแก่ลูกค้าในการเข้าถึงสิทธิประโยชน์ที่สําคัญนี้ได้ ดูคําแนะนําในอีเมลนี้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Button" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View upcoming renewals]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ดูการต่ออายุที่กําลังจะมาถึง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Choose" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you choose to give the user access to CustomerSource, the user will receive an email with instructions on how to access the system.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ถ้าคุณเลือกที่จะให้ผู้ใช้เข้าถึง CustomerSource ผู้ใช้จะได้รับอีเมลพร้อมคําแนะนําเกี่ยวกับวิธีการเข้าถึงระบบ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Company" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Company name:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ชื่อบริษัท:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Delete" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete a professional]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ลบมืออาชีพ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Edit" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit an existing professional]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[แก้ไขมืออาชีพที่มีอยู่]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Instructions" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Instructions for managing your customer professionals in PartnerSource Business Center]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คําแนะนําสําหรับการจัดการผู้เชี่ยวชาญลูกค้าของคุณใน PartnerSource Business Center]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in to  <a href="{0}">PartnerSource Business Center.</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ลงชื่อเข้าใช้ <a href="{0}">PartnerSource Business Center</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[On the <strong>Partner Focus</strong> drop-down menu, select <strong>Find a Customer.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[บนเมนูดรอปดาวน์ <strong>โฟกัสคู่ค้า</strong> ให้เลือก <strong>ค้นหาลูกค้า</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter the customer's account number listed in this email and select <strong>Search.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ป้อนหมายเลขบัญชีของลูกค้าที่แสดงในอีเมลนี้ และเลือก <strong>ค้นหา </strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List4" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select the customer's company name in the results list.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือกชื่อบริษัทของลูกค้าในรายการผลลัพธ์]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List4A" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[In the customer drop-down menu, select <strong>View all Professionals.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ในเมนูดรอปดาวน์ของลูกค้า ให้เลือก <strong>ดู มืออาชีพ ทั้งหมด</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List4B" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select the name of the user you’d like to edit.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือกชื่อของผู้ใช้ที่คุณต้องการแก้ไข]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List4C" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select <strong>Edit</strong> at the bottom of the professional form.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือก <strong>แก้ไข</strong> ที่ด้านล่างของฟอร์มแบบมืออาชีพ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List4D" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit the appropriate information for the user.<br/>]D;]A;<strong>Note:</strong> If you want the user to receive access to CustomerSource, be sure you’ve entered an email address.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[แก้ไขข้อมูลที่เหมาะสมสําหรับผู้ใช้<br/>]D;]A;<strong>หมายเหตุ:</strong> หากคุณต้องการให้ผู้ใช้ได้รับสิทธิ์เข้าถึง CustomerSource ตรวจสอบให้แน่ใจว่าคุณได้ป้อนที่อยู่อีเมลแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List5" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[In the customer drop-down menu, select <strong>Add a Professional.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ในเมนูดรอปดาวน์ของลูกค้า ให้เลือก <strong>เพิ่ม มืออาชีพ</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List5A" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select the name of the user you’d like to provide access to CustomerSource.<br/>]D;]A;<strong>Note:</strong> If you want the user to receive access to CustomerSource, be sure you’ve entered an email address.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือกชื่อของผู้ใช้ที่คุณต้องการให้’สิทธิ์เข้าถึง CustomerSource <br/>]D;]A;<strong>หมายเหตุ:</strong> ถ้าคุณต้องการให้ผู้ใช้ได้รับการเข้าถึง CustomerSource ตรวจสอบให้แน่ใจว่าคุณได้ใส่ที่อยู่อีเมลแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List5B" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select <strong>Send Invite Email.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือก <strong>ส่งคําเชิญทางอีเมล </strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List6" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you want the user to receive access to CustomerSource, be sure to select the checkbox for <strong>Send an invitation e-mail to set up Account,</strong> which is located at the bottom of the professional form.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ถ้าคุณต้องการให้ผู้ใช้ได้รับสิทธิ์เข้าถึง CustomerSource อย่าลืมเลือกกล่องกาเครื่องหมายสําหรับ <strong>ส่งอีเมลคําเชิญเพื่อตั้งค่าบัญชี </strong> ซึ่งอยู่ที่ด้านล่างของฟอร์มแบบมืออาชีพ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List6A" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select the name of the user you’d like to delete.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือกชื่อของผู้ใช้ที่คุณต้องการลบ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List6B" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select <strong>Delete.</strong><br/>]D;]A;<strong>Note:</strong> Billing Contact and Shipping Contact are mandatory roles. To delete a professional who has one of these roles, you must first assign the role to another professional. After doing this, you’ll be able to delete the professional. ]D;]A;]D;]A;]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือก <strong>ลบ </strong><br/>]D;]A;<strong>หมายเหตุ:</strong> ผู้ติดต่อการเรียกเก็บเงินและผู้ติดต่อการจัดส่งเป็นบทบาทบังคับ หากต้องการลบมืออาชีพที่มีบทบาทเหล่านี้คุณต้องมอบหมายบทบาทให้กับมืออาชีพคนอื่นก่อน หลังจากทําเช่นนี้คุณจะสามารถลบมืออาชีพได้ ]D;]A;]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_List7" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select <strong>Save.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือก <strong>บันทึก </strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Please" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please complete the following request to ensure your customer receives the full benefits of their Microsoft Dynamics Business Ready Enhancement Plan.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[โปรดดําเนินการตามคําขอต่อไปนี้ให้เสร็จสมบูรณ์เพื่อให้แน่ใจว่าลูกค้าของคุณจะได้รับประโยชน์เต็มที่จากแผนการปรับปรุง Microsoft Dynamics Business Ready ของพวกเขา]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Professional" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Provide a professional with access to CustomerSource]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[มอบการเข้าถึง CustomerSource ให้กับมืออาชีพ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Provide" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You must provide a copy of the Customer Services Agreement (CSA) to your customer before finalizing any Microsoft Dynamics 365 service purchase (except Deluxe).  The customer can find the CSA by <a href="{0}">signing in to their Partner Center account</a> or they can access the CSA by  <a href="{0}">signing in to their Microsoft Dynamics 365 account</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คุณต้องส่งสําเนาของข้อตกลงการบริการลูกค้า (CSA) ให้กับลูกค้าของคุณก่อนที่จะดําเนินการซื้อบริการ Microsoft Dynamics 365 (ยกเว้น Deluxe) ลูกค้าสามารถค้นหา CSA ได้โดย <a href="{0}">ลงชื่อเข้าใช้บัญชีศูนย์คู่ค้า</a> หรือสามารถเข้าถึง CSA ได้โดย  <a href="{0}">ลงชื่อเข้าใช้บัญชี Microsoft Dynamics 365 ของพวกเขา</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_Question" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have questions regarding the functionality of the professional roles, refer to <a href="{0}">How to Use PartnerSource Business Center</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[หากคุณมีคําถามเกี่ยวกับฟังก์ชันการทํางานของบทบาทมืออาชีพ ให้ดู <a href="{0}">วิธีใช้ PartnerSource Business Center</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_SetUp" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Set up a new professional]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ตั้งค่ามืออาชีพใหม่]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Body_TheUser" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The user will receive an email with instructions on how to access the system.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ผู้ใช้จะได้รับอีเมลพร้อมคําแนะนําเกี่ยวกับวิธีการเข้าถึงระบบ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Commerce]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Complete the access request for your customer.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ดําเนินการคําขอการเข้าถึงสําหรับลูกค้าของคุณให้เสร็จสมบูรณ์]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[CustomerSource access for {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[การเข้าถึง CustomerSource สําหรับ {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Complete the CustomerSource access request for {0}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ดําเนินการคําขอการเข้าถึง CustomerSource สําหรับ {0} ให้เสร็จสมบูรณ์]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

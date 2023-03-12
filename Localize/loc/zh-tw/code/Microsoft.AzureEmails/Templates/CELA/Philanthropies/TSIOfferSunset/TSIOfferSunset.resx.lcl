@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\CELA\Philanthropies\TSIOfferSunset\TSIOfferSunset.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="zh-TW" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";TSIOfferSunset.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[commerce]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[商務]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Preheader" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See details of the licensing change.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[查看授權變更的詳細資訊。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The Office 365 E2 plan that you’re subscribed to is discontinued]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[您訂閱的 Office 365 E2 方案已中止]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Title" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Office 365 E2 plan is discontinued]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[您的 Office 365 E2 方案已中止]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're receiving this email because an Office 365 plan that you use is discontinued.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[您收到這封電子郵件是因為您使用的 Office 365 方案已中止。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<strong>Effective October 1, 2023, nonprofits will no longer be able to renew the legacy Office 365 E2 plan.</strong> The Office 365 E2 plan was discontinued in 2013 and will no longer be supported. <strong>The discontinuation of Office 365 E2 won’t affect any offers currently available in our product catalog,</strong> including 10 granted licenses of Microsoft 365 Business Premium, 300 granted licenses of Microsoft 365 Business Basic, and up to 2,000 granted licenses of Office 365 E1 via Enterprise Agreement. <strong>We’ll continue to provide discounts to nonprofits of up to 75 percent on many Microsoft 365 products.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<strong>自 2023 年 10 月 1 日起，非營利組織將無法再續約舊版 Office 365 E2 方案。</strong> Office 365 E2 方案已於 2013 年中止，將不再受到支援。<strong> Office 365 E2 的中止不會影響我們產品目錄中目前提供的任何供應項目，</strong>包括 10 個 Microsoft 365 商務進階版授權、300 個 Microsoft 365 商務基本版授權，以及最多 2,000 個透過 Enterprise 合約授與的 Office 365 E1 授權。<strong>我們會繼續為非營利組織提供許多 Microsoft 365 產品高達 75% 的折扣。</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par3" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[其他資訊]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par4" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Customers will no longer be able to renew this legacy plan starting <strong>October 1, 2023.</strong> At your next renewal, you can transition your users to the existing Office 365 E1 plan, priced at <strong>USD2.50 per user per month.</strong> Or you can <a href="{0}">transition up to 300 of your users</a> from the legacy Office 365 E2 grant to the <strong>Microsoft 365 Business Basic grant.</strong>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[自 <strong>2023 年 10 月 1 日</strong>起客戶將無法再續約此舊版方案。下次續約時， 您可以將您的使用者轉換至現有的 Office 365 E1 方案，價格為 <strong>每個使用者每月美 2.50 元</strong>。或者，您也可以從舊版 Office 365 E2 <a href="{0}">轉換最多 300 個使用者授與</a>至 <strong>Microsoft 365 商務基本版授與。</strong>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par5" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft 365 Business Basic has greater functionality than the discontinued Office 365 E2 plan, with the difference that Microsoft 365 Business Basic has a 300-seat cap. We provide grants of up to 300 licenses of Microsoft 365 Business Basic via the Direct and CSP channels, and we continue to provide grants of up to 2,000 licenses of Office 365 E1 through Enterprise Agreement.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft 365 商務基本版的功能比已中止的 Office 365 E2 方案更多功能，與 Microsoft 365 商務基本版有 300 個基座端點上限的差異。我們透過直接和 CSP 管道提供最多 300 個 Microsoft 365 商務基本版授權，並繼續透過 Enterprise 合約提供最多 2,000 個 Office 365 E1 授權。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par6" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Extra support]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[額外支援]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par7" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To help you plan and implement your digital transformation, engage our partners who are experts in the latest tools and resources. Connect now with your current Microsoft partner—or complete <a href="{0}">this form</a>, and we’ll connect you with a new Microsoft partner.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[若要協助您規劃及實作您的數位轉型，請與我們最新工具與資源的專家合作夥伴合作。立即與您目前的 Microsoft 合作夥伴聯繫，或填寫<a href="{0}">此表單</a>，我們將為您聯繫新的 Microsoft 合作夥伴。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";par8" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you have questions about these changes, please <a href="{0}">contact us</a>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[對於這些變更如有任何問題，請<a href="{0}">與我們連絡</a>。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>
