@@ -187,7 +187,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Your order from Microsoft Store on Rakuten has been delivered]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[楽天の Microsoft Store での注文が出荷されました。]]></Val>
+            <Val><![CDATA[楽天の Microsoft Store からのご注文は配達されました]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />

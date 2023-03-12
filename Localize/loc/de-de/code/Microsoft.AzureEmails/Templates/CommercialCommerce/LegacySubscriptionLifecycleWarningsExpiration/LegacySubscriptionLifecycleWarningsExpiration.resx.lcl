@@ -134,7 +134,7 @@
         <Str Cat="Text">
           <Val><![CDATA[Warning: renew your Microsoft subscriptions before {0} to avoid disruption]]></Val>
           <Tgt Cat="Text" Stat="Loc" Orig="New">
-            <Val><![CDATA[Warnung: Verlängern Sie Ihre Microsoft-Abonnements vor dem {0}, um Unterbrechungen zu vermeiden.]]></Val>
+            <Val><![CDATA[Warnung: Verlängern Sie Ihre Microsoft-Abonnements vor {0}, um Unterbrechungen zu vermeiden.]]></Val>
           </Tgt>
         </Str>
         <Disp Icon="Str" />
