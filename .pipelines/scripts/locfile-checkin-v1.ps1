@@ -1,3 +1,8 @@
+param(
+    [Parameter(Mandatory = $true)]
+    [string]$Pat
+)
+
 trap
 {
     $error[0] | Out-Host
@@ -11,38 +16,45 @@ function Main
 {
     $env:BUILD_SOURCESDIRECTORY = "D:\GitHub\MicrosoftDocs\test-bbtm-update"
     $env:BUILD_ARTIFACTSTAGINGDIRECTORY = "D:\GitHub\MicrosoftDocs\test-bbtm-update\a"
+    $env:BUILD_SOURCEBRANCHNAME = "dev/jeeyyoo/s2311-meo"
 
     $repoRoot = "$env:BUILD_SOURCESDIRECTORY"
     $artifactsRoot = "$env:BUILD_ARTIFACTSTAGINGDIRECTORY"
+
     $locFilesBaseDir = [System.IO.Path]::Combine("code", "Microsoft.AzureEmails", "Templates")
     $lclFilesBaseDir = [System.IO.Path]::Combine("Localize", "loc")
+
     $pullRequestTargetBranch = "$env:BUILD_SOURCEBRANCHNAME"
 
     $locManifestJson = [System.IO.Path]::Combine($artifactsRoot, "loc", "LocPayload.json")
     $locManifestObj = Get-Content -Path $locManifestJson | ConvertFrom-Json
 
+    $pipelineId = $env:SYSTEM_DEFINITIONID
+    $buildNumber = $env:BUILD_BUILDNUMBER
+    $commitMessage = "Loc check-in of files from pipeline $pipelineId, build $buildNumber"
+    $pullRequestTitle = "Loc check-in of files from pipeline $pipelineId, build $buildNumber"
+    $pullRequestBody = "Loc check-in of files from pipeline $pipelineId, build $buildNumber"
+
     SeedLclFiles
 
-    Set-Location $repoRoot
+    Set-Location -Path $repoRoot
 
-<#
     PrepCheckin
     $pullRequestSourceBranch = CreateNewBranch
-    TryStageLocFiles
+    TryStageFiles
 
-    $locFilesCount = GetStagedLocFilesCount
-    if ($locFilesCount -eq 0)
+    $filesCount = GetStagedFilesCount
+    if ($filesCount -eq 0)
     {
-        Write-Host ">>>>> No loc files to be checked-in."
+        Write-Host ">>>>> No files to be checked-in."
         return
     }
     else
     {
-        Write-Host ">>>>> There are $locFilesCount loc files to be checked-in."
+        Write-Host ">>>>> There are $filesCount files to be checked-in."
     }
 
-    CheckinLocFiles $pullRequestSourceBranch
-#>
+    CheckinFiles -PullRequestSourceBranch $pullRequestSourceBranch
 }
 
 function SeedLclFiles
@@ -105,13 +117,28 @@ function PrepCheckin
     }
 }
 
-function TryStageLocFiles
+function CreateNewBranch
 {
-    Write-Host ">>>>> Trying to stage loc files under [$locFilesBaseDir] in repo..."
+    $guid = New-Guid
+    $branchName = "locfiles/$guid"
 
-    # Limits the scope to localized RESX files such as Foo.ko-kr.resx.
-    Write-Host "##[command]git add -- $locFilesBaseDir\*.*.resx"
-    git add -- $locFilesBaseDir\*.*.resx
+    Write-Host "##[command]git checkout -b $branchName"
+    git checkout -b $branchName
+    if ($LastExitCode -ne 0)
+    {
+        throw "Git checkout error."
+    }
+
+    return $branchName
+}
+
+function TryStageFiles
+{
+    Write-Host ">>>>> Trying to stage files under [$locFilesBaseDir] & [$lclFilesBaseDir] in repo..."
+
+    # Limits the scope to localized RESX files such as foo.ko-kr.resx and LCL files like bar.lcl.
+    Write-Host "##[command]git add -- $locFilesBaseDir\*.*.resx $lclFilesBaseDir\*.lcl"
+    git add -- $locFilesBaseDir\*.*.resx $lclFilesBaseDir\*.lcl
     if ($LastExitCode -ne 0)
     {
         throw "Git add error."
@@ -129,59 +156,42 @@ function TryStageLocFiles
     }
 }
 
-function CreateNewBranch
+function GetStagedFilesCount
 {
-    $guid = New-Guid
-    $newBranchName = "loc/$guid"
-
-    Write-Host "##[command]git checkout -b $newBranchName"
-    git checkout -b $newBranchName
-    if ($LastExitCode -ne 0)
-    {
-        throw "Git checkout error."
-    }
-
-    return $newBranchName
-}
-
-function GetStagedLocFilesCount
-{
-    # Limits the scope to localized RESX files such as Foo.ko-kr.resx.
-    Write-Host "##[command]git status --porcelain -- $locFilesBaseDir\*.*.resx"
-    $stagedLocFiles = @(git status --porcelain -- $locFilesBaseDir\*.*.resx)
+    # Limits the scope to localized RESX files such as foo.ko-kr.resx and LCL files like bar.lcl.
+    Write-Host "##[command]git status --porcelain -- $locFilesBaseDir\*.*.resx $lclFilesBaseDir\*.lcl"
+    $stagedFiles = @(git status --porcelain -- $locFilesBaseDir\*.*.resx $lclFilesBaseDir\*.lcl)
     if ($LastExitCode -ne 0)
     {
         throw "Git status error."
     }
 
-    if ($stagedLocFiles.Count -gt 0)
+    if ($stagedFiles.Count -gt 0)
     {
-        Write-Host ">>>>> Loc files to be checked-in are..."
+        Write-Host ">>>>> Files to be checked-in are..."
         Write-Host "-----"
 
-        foreach ($stagedLocFile in $stagedLocFiles)
+        foreach ($stagedFile in $stagedFiles)
         {
-            Write-Host $stagedLocFile
+            Write-Host $stagedFile
         }
 
         Write-Host "-----"
     }
 
-    return $stagedLocFiles.Count
+    return $stagedFiles.Count
 }
 
-function CheckinLocFiles
+function CheckinFiles
 {
     param(
-        [string]$pullRequestSourceBranch
+        [string]$PullRequestSourceBranch
     )
 
-    Write-Host ">>>>> Checking-in loc files in repo..."
+    Write-Host ">>>>> Checking-in files in repo..."
 
-    $message = "Check-in of files from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
-
-    Write-Host "##[command]git commit -m $message -- $locFilesBaseDir"
-    git commit -m $message -- $locFilesBaseDir
+    Write-Host "##[command]git commit -m $commitMessage -- $locFilesBaseDir $lclFilesBaseDir"
+    git commit -m $commitMessage -- $locFilesBaseDir $lclFilesBaseDir
     if ($LastExitCode -ne 0)
     {
         throw "Git commit error."
@@ -198,42 +208,35 @@ function CheckinLocFiles
         throw "Git status error."
     }
 
-    PushChange $pullRequestSourceBranch
-    CreateGitHubPullRequest
+    PushChange -PullRequestSourceBranch $pullRequestSourceBranch
+    $pullRequestId = CreateGitHubPullRequest
+    Start-Sleep -Seconds 10
+    CompleteGitHubPullRequest -PullRequestId $pullRequestId
 }
 
 function PushChange
 {
     param(
-        [string]$pullRequestSourceBranch
+        [string]$PullRequestSourceBranch
     )
 
     Write-Host ">>>>> Pushing change in repo..."
 
-    $basicAuthToken = GetBasicAuthToken
+    $b64Pat = [Convert]::ToBase64String([Syterm.Text.Encoding]::ASCII.GetBytes("username:$Pat"))
 
-    Write-Host "##[command]git -c http.extraheader=`"AUTHORIZATION: Basic ***`" push origin $pullRequestSourceBranch"
-    git -c http.extraheader="AUTHORIZATION: Basic $basicAuthToken" push origin $pullRequestSourceBranch
+    Write-Host "##[command]git -c http.extraheader=`"AUTHORIZATION: Basic ***`" push origin $PullRequestSourceBranch"
+    git -c http.extraheader="AUTHORIZATION: Basic $b64Pat" push origin $PullRequestSourceBranch
     if ($LastExitCode -ne 0)
     {
         throw "Git push error."
     }
 }
 
-function GetBasicAuthToken
-{
-
-    $authToken = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes("pat:$env:BuildRAccessToken"))
-    return $authToken
-}
-
 function CreateGitHubPullRequest
 {
     Write-Host ">>>>> Creating pull request in repo..."
 
-    $env:GH_TOKEN = $env:BuildRAccessToken
-    $pullRequestTitle = "Localized file check-in by OneLocBuild Task: Check-in of files from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
-    $pullRequestBody = "Check-in of files from pipeline $env:SYSTEM_DEFINITIONID, build $env:BUILD_BUILDNUMBER"
+    $env:GH_TOKEN = $Pat
 
     Write-Host "##[command]gh pr create -B $pullRequestTargetBranch -t $pullRequestTitle -b $pullRequestBody"
     $pullRequestUrl = gh pr create -B $pullRequestTargetBranch -t $pullRequestTitle -b $pullRequestBody
@@ -243,6 +246,36 @@ function CreateGitHubPullRequest
     }
 
     Write-Host ">>>>> [$pullRequestUrl] created."
+
+    # Pull request URL is like https://github.com/Azure/azure-emails/pull/30982, extracts pull request ID from it.
+    if ($pullRequestUrl -match "https://github.com/.+?/pull/(\\d+)$")
+    {
+        $pullRequestId = $matches[1]
+    }
+    else
+    {
+        throw "[$pullRequestUrl] invalid."
+    }
+
+    return $pullRequestId
+}
+
+function CompleteGitHubPullRequest
+{
+    param(
+        [string]$PullRequestId
+    )
+
+    Write-Host ">>>>> Completing pull request in repo..."
+
+    $env:GH_TOKEN = $Pat
+
+    Write-Host "##[command]gh pr merge $PullRequestId -s"
+    gh pr merge $PullRequestId -s
+    if ($LastExitCode -ne 0)
+    {
+        throw "gh pr merge error."
+    }
 }
 
 Push-Location
