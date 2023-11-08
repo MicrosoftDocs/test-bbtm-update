@@ -1,5 +1,8 @@
 param(
     [Parameter(Mandatory = $true)]
+    [string]$UserName,
+
+    [Parameter(Mandatory = $true)]
     [string]$Pat
 )
 
@@ -223,7 +226,7 @@ function PushChange
 
     Write-Host ">>>>> Pushing change in repo..."
 
-    $b64Pat = [Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes(":$Pat"))
+    $b64Pat = [Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("${UserName}:$Pat"))
 
     Write-Host "##[command]git -c http.extraheader=`"AUTHORIZATION: Basic ***`" push origin $PullRequestSourceBranch"
     git -c http.extraheader="AUTHORIZATION: Basic $b64Pat" push origin $PullRequestSourceBranch
