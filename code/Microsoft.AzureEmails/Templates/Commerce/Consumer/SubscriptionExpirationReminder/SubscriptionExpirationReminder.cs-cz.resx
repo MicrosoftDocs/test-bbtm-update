@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Preheader" xml:space="preserve">
+    <value>Review your subscription today</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Your {0} subscription will expire soon</value>
+    <comment>0-[ProductName]</comment>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Your {0} subscription will expire soon</value>
+    <comment>0-[ProductName]</comment>
+  </data>
+  <data name="ButtonText" xml:space="preserve">
+    <value>Review account</value>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>Payment method</value>
+  </data>
+  <data name="ProductAccess1" xml:space="preserve">
+    <value>Your {0} subscription will expire on {1}. After this date, you will lose access to the latest AI-powered Office apps and 1 TB of OneDrive cloud storage, and more.</value>
+    <comment>0-[ProductName], 1-[ExpirationDate]</comment>
+  </data>
+  <data name="ProductAccess2" xml:space="preserve">
+    <value>Your {0} subscription will expire on {1}. After this date, you will lose access to the flexibility of accessing your photos and files from any device with the automatic sync feature.</value>
+    <comment>0-[ProductName], 1-[ExpirationDate]</comment>
+  </data>
+  <data name="ProductAccess3" xml:space="preserve">
+    <value>Your {0} subscription will expire on {1}. After this date, you will lose access to over 100 high-quality PC games, including brand new titles on day one and the EA Play catalog.</value>
+    <comment>0-[ProductName], 1-[ExpirationDate]</comment>
+  </data>
+  <data name="ProductAccess4" xml:space="preserve">
+    <value>Your {0} subscription will expire on {1}. After this date, you will lose access to over 100 high-quality PC games, including brand new titles on day one and the EA Play catalog.</value>
+    <comment>0-[ProductName], 1-[ExpirationDate]</comment>
+  </data>
+  <data name="ProductAccess5" xml:space="preserve">
+    <value>Your {0} subscription will expire on {1}. After this date, you will lose access to multiplayer games (except for free-to-play) two free games every month, and discounts on games and add-ons.</value>
+    <comment>0-[ProductName], 1-[ExpirationDate]</comment>
+  </data>
+  <data name="ProductAccess6" xml:space="preserve">
+    <value>Your {0} subscription will expire on {1}. After this date, you will lose access to all the features provided by {0}.</value>
+    <comment>0-[ProductName], 1-[ExpirationDate]</comment>
+  </data>
+  <data name="ProductFeatures1" xml:space="preserve">
+    <value>Review your subscription today to continue using the smart assistance features in Word, Excel, PowerPoint, and more.</value>
+  </data>
+  <data name="ProductFeatures2" xml:space="preserve">
+    <value>Review your subscription today to continue having reliable back up for your documents, ransomware recovery, easy document sharing, cloud storage and more with OneDrive.</value>
+  </data>
+  <data name="ProductFeatures3" xml:space="preserve">
+    <value>Review your subscription today to get back to playing everything from greatest hits like Forza, Halo, and Minecraft to award-winning gems like It Takes Two.</value>
+  </data>
+  <data name="ProductFeatures4" xml:space="preserve">
+    <value>Review your subscription today to get back to playing everything from greatest hits like Forza, Halo, and Minecraft to award-winning gems like It Takes Two.</value>
+  </data>
+  <data name="ProductFeatures5" xml:space="preserve">
+    <value>Review your subscription today to get back to playing with friends on the most advanced multiplayer network. </value>
+  </data>
+  <data name="ProductFeatures6" xml:space="preserve">
+    <value>Review your subscription today to continue your access to {0}.</value>
+    <comment>0-[ProductName]</comment>
+  </data>
+  <data name="SubscriptionPrice" xml:space="preserve">
+    <value>Subscription Price</value>
+  </data>
+  <data name="LocProfileId" xml:space="preserve">
+    <value>commerce</value>
+  </data>
+  <data name="ProductAccess7" xml:space="preserve">
+    <value>Your {0} subscription will expire on {1}. After this date, you will lose access to the latest AI-powered Office apps and 1 TB of OneDrive cloud storage per person, and more.</value>
+    <comment>0-[ProductName], 1-[ExpirationDate]</comment>
+  </data>
+  <data name="ProductFeatures7" xml:space="preserve">
+    <value>Review your subscription today to continue using the smart assistance features in Word, Excel, PowerPoint, Defender, OneDrive, and more.</value>
+  </data>
+  <data name="ProductFeatures8" xml:space="preserve">
+    <value>Review your subscription today to continue enjoying up to100GB of Microsoft Storage, having reliable back up for your documents, advanced security features for your files and emails, including ransomware recovery,  improved customer support, ad-free Outlook, and more.</value>
+  </data>
+</root>
