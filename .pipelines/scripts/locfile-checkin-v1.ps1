@@ -35,12 +35,11 @@ function Main
     $pullRequestTitle = "Loc check-in of files from pipeline $pipelineId, build $buildNumber"
     $pullRequestBody = "Loc check-in of files from pipeline $pipelineId, build $buildNumber"
 
-    SeedLclFiles
-
     Set-Location -Path $repoRoot
 
     PrepCheckin
     $pullRequestSourceBranch = CreateNewBranch
+    TrySeedLclFiles
     TryStageFiles
 
     $filesCount = GetStagedFilesCount
@@ -57,8 +56,43 @@ function Main
     CheckinFiles -PullRequestSourceBranch $pullRequestSourceBranch
 }
 
-function SeedLclFiles
+# Virtually associates Git commit with Localization Team service account to indicate who makes check-in, this is necessary to make Git push succeed in the end.
+function PrepCheckin
 {
+    Write-Host "##[command]git config user.email csiusers@microsoft.com"
+    git config user.email csiusers@microsoft.com
+    if ($LastExitCode -ne 0)
+    {
+        throw "Git config error."
+    }
+
+    Write-Host "##[command]git config user.name `"CSI Users`""
+    git config user.name "CSI Users"
+    if ($LastExitCode -ne 0)
+    {
+        throw "Git config error."
+    }
+}
+
+function CreateNewBranch
+{
+    $guid = New-Guid
+    $branchName = "locfiles/$guid"
+
+    Write-Host "##[command]git checkout -b $branchName"
+    git checkout -b $branchName
+    if ($LastExitCode -ne 0)
+    {
+        throw "Git checkout error."
+    }
+
+    return $branchName
+}
+
+function TrySeedLclFiles
+{
+    Write-Host ">>>>> Trying to seed LCL files under [$lclFilesBaseDir] in repo..."
+
     $languageSets = @{}
 
     foreach ($languageSet in $locManifestObj.LanguageSets)
@@ -97,39 +131,6 @@ function SeedLclFiles
             }
         }
     }
-}
-
-# Virtually associates Git commit with Localization Team service account to indicate who makes check-in, this is necessary to make Git push succeed in the end.
-function PrepCheckin
-{
-    Write-Host "##[command]git config user.email csiusers@microsoft.com"
-    git config user.email csiusers@microsoft.com
-    if ($LastExitCode -ne 0)
-    {
-        throw "Git config error."
-    }
-
-    Write-Host "##[command]git config user.name `"CSI Users`""
-    git config user.name "CSI Users"
-    if ($LastExitCode -ne 0)
-    {
-        throw "Git config error."
-    }
-}
-
-function CreateNewBranch
-{
-    $guid = New-Guid
-    $branchName = "locfiles/$guid"
-
-    Write-Host "##[command]git checkout -b $branchName"
-    git checkout -b $branchName
-    if ($LastExitCode -ne 0)
-    {
-        throw "Git checkout error."
-    }
-
-    return $branchName
 }
 
 function TryStageFiles
