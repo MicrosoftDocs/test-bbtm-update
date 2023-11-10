@@ -31,9 +31,9 @@ function Main
 
     $pipelineId = $env:SYSTEM_DEFINITIONID
     $buildNumber = $env:BUILD_BUILDNUMBER
-    $commitMessage = "Loc check-in from pipeline $pipelineId, build $buildNumber"
-    $pullRequestTitle = "Loc check-in from pipeline $pipelineId, build $buildNumber"
-    $pullRequestBody = "Loc check-in from pipeline $pipelineId, build $buildNumber"
+    $commitMessage = "LocFile Check-in from pipeline $pipelineId, build $buildNumber"
+    $pullRequestTitle = "LocFile Check-in from pipeline $pipelineId, build $buildNumber"
+    $pullRequestBody = "LocFile Check-in from pipeline $pipelineId, build $buildNumber"
 
     Set-Location -Path $repoRoot
 
