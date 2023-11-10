@@ -1,4 +1,24 @@
+<#
+
+.SYNOPSIS
+Checks-in localized RESX files resulted from the OneLocBuild task and seeds LCL files (translation source files) to a repo by creating and completing a pull request.
+
+.DESCRIPTION
+Checks-in localized RESX files resulted from the preceding OneLocBuild task to a repo by creating and completing a pull request.
+Additionally, when new files are introduced, includes template LCL files (that is, translation source files) in the payload to commence localization in the downstream localization pipeline.
+
+.EXAMPLE
+PS > locfile-checkin-v1 -Pat {personal access token}
+
+.NOTES
+The OneLocBuild task should be executed in advance but the 'Create a pull request to check-in localized files to the repo' option should be disabled (on purpose) in the task
+to perform localized RESX file check-in and LCL file seeding at the same time using one single payload.
+Git CLI and GitHub CLI should be available to make creating and completing a pull request work.
+
+#>
+
 param(
+    # Personal access token used for authentication to create and complete a pull request.
     [Parameter(Mandatory = $true)]
     [string]$Pat
 )
@@ -14,10 +34,6 @@ $ErrorActionPreference = "Stop"
 
 function Main
 {
- #   $env:BUILD_SOURCESDIRECTORY = "D:\GitHub\MicrosoftDocs\test-bbtm-update"
- #   $env:BUILD_ARTIFACTSTAGINGDIRECTORY = "D:\GitHub\MicrosoftDocs\test-bbtm-update\a"
- #   $env:BUILD_SOURCEBRANCHNAME = "dev/jeeyyoo/s2311-meo"
-
     $repoRoot = "$env:BUILD_SOURCESDIRECTORY"
     $artifactsRoot = "$env:BUILD_ARTIFACTSTAGINGDIRECTORY"
 
@@ -104,6 +120,8 @@ function TrySeedLclFiles
     {
         foreach ($locItem in $project.LocItems)
         {
+            # Either LanguageSet at the Project level or (optional) Languages at the LocItem level can be used in the loc manifest.
+            # If Languages is specified for a file, it overrides LanguageSet.
             if (-not ([string]::IsNullOrEmpty($locItem.Languages)))
             {
                 $languages = $locItem.Languages -split ";"
@@ -248,7 +266,7 @@ function CreateGitHubPullRequest
 
     Write-Host ">>>>> [$pullRequestUrl] created."
 
-    # Pull request URL is like https://github.com/Azure/azure-emails/pull/30982, extracts pull request ID from it.
+    # Pull request URL is constructed like https://github.com/Azure/azure-emails/pull/30982, extracts pull request ID from it.
     if ($pullRequestUrl -match "https://github.com/.+?/pull/(\d+)$")
     {
         $pullRequestId = $matches[1]
