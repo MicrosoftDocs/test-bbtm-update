@@ -24,7 +24,7 @@ function Main
     $locFilesBaseDir = [System.IO.Path]::Combine("code", "Microsoft.AzureEmails", "Templates")
     $lclFilesBaseDir = [System.IO.Path]::Combine("Localize", "loc")
 
-    $pullRequestTargetBranch = "$env:BUILD_SOURCEBRANCHNAME"
+    $pullRequestTargetBranch = "$env:BUILD_SOURCEBRANCH" -replace "^refs/heads/", ""
 
     $locManifestJson = [System.IO.Path]::Combine($artifactsRoot, "loc", "LocPayload.json")
     $locManifestObj = Get-Content -Path $locManifestJson | ConvertFrom-Json
@@ -191,8 +191,8 @@ function CheckinFiles
 
     Write-Host ">>>>> Checking-in files in repo..."
 
-    Write-Host "##[command]git commit -m $commitMessage -- $locFilesBaseDir $lclFilesBaseDir"
-    git commit -m $commitMessage -- $locFilesBaseDir $lclFilesBaseDir
+    Write-Host "##[command]git commit -m `"$commitMessage`" -- $locFilesBaseDir $lclFilesBaseDir"
+    git commit -m `"$commitMessage`" -- $locFilesBaseDir $lclFilesBaseDir
     if ($LastExitCode -ne 0)
     {
         throw "Git commit error."
@@ -239,8 +239,8 @@ function CreateGitHubPullRequest
 
     $env:GH_TOKEN = $Pat
 
-    Write-Host "##[command]gh pr create -B $pullRequestTargetBranch -t $pullRequestTitle -b $pullRequestBody"
-    $pullRequestUrl = gh pr create -B $pullRequestTargetBranch -t $pullRequestTitle -b $pullRequestBody
+    Write-Host "##[command]gh pr create -B $pullRequestTargetBranch -t `"$pullRequestTitle`" -b `"$pullRequestBody`""
+    $pullRequestUrl = gh pr create -B $pullRequestTargetBranch -t `"$pullRequestTitle`" -b `"$pullRequestBody`"
     if ($LastExitCode -ne 0)
     {
         throw "gh pr create error."
