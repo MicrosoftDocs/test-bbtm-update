@@ -1,0 +1,139 @@
+{
+  "DateTime": "0001-01-01T00:00:00",
+  "SourceControl": {
+    "Type": "",
+    "Url": "",
+    "Branch": "",
+    "Repository": ""
+  },
+  "LanguageSets": [
+    {
+      "Name": "MEO_Azure_Languages",
+      "Languages": "de-de;es-es;fr-fr;it-it;ja-jp;ko-kr;pt-br;ru-ru;zh-cn;zh-tw;cs-cz;da-dk;en-gb;hu-hu;id-id;nb-no;nl-nl;pl-pl;pt-pt;sv-se;tr-tr"
+    },
+    {
+      "Name": "MEO_Commerce_Languages",
+      "Languages": "de-de;es-es;fr-fr;it-it;ja-jp;ko-kr;pt-br;ru-ru;zh-cn;zh-tw;cs-cz;da-dk;en-gb;hu-hu;id-id;nb-no;nl-nl;pl-pl;pt-pt;sv-se;tr-tr;ar-sa;bg-bg;ca-es;el-gr;et-ee;eu-es;fi-fi;fil-ph;gl-es;he-il;hi-in;hr-hr;kk-kz;lt-lt;lv-lv;ms-my;ro-ro;sr-cyrl-ba;sr-cyrl-rs;sr-latn-rs;sk-sk;sl-si;th-th;uk-ua;vi-vn"
+    },
+    {
+      "Name": "MEO_M365_Languages",
+      "Languages": "de-de;es-es;fr-fr;it-it;ja-jp;ko-kr;pt-br;ru-ru;zh-cn;zh-tw;cs-cz;da-dk;en-gb;hu-hu;id-id;nb-no;nl-nl;pl-pl;pt-pt;sv-se;tr-tr;ar-sa;bg-bg;ca-es;el-gr;et-ee;eu-es;fi-fi;gl-es;he-il;hi-in;hr-hr;id-id;kk-kz;lt-lt;lv-lv;ms-my;sr-cyrl-rs"
+    }
+  ],
+  "CloneLanguageSets": [],
+  "Projects": [
+    {
+      "Name": "LocProject.json",
+      "Path": "Localize\\LocProject.json",
+      "LanguageSet": "MEO_Azure_Languages",
+      "LocItems": [
+        {
+          "SourceFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\AAD\\DomainAlert\\DomainAlert.resx",
+          "LclFile": "Localize\\loc\\{Lang}\\code\\Microsoft.AzureEmails\\Templates\\AAD\\DomainAlert\\DomainAlert.resx.lcl",
+          "LcgFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\AAD\\DomainAlert\\DomainAlert.resx.lcg",
+          "LssFiles": [],
+          "Languages": "de-de;ko-kr",
+          "CopyOption": "LangIDOnName",
+          "OutputPath": "code\\Microsoft.AzureEmails\\Templates\\AAD\\DomainAlert"
+        },
+        {
+          "SourceFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\AAD\\IdentityGovernance\\AccessReview\\RecurrentReportGenerated\\RecurrentReportGenerated.resx",
+          "LclFile": "Localize\\loc\\{Lang}\\code\\Microsoft.AzureEmails\\Templates\\AAD\\IdentityGovernance\\AccessReview\\RecurrentReportGenerated\\RecurrentReportGenerated.resx.lcl",
+          "LcgFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\AAD\\IdentityGovernance\\AccessReview\\RecurrentReportGenerated\\RecurrentReportGenerated.resx.lcg",
+          "LssFiles": [],
+          "CopyOption": "LangIDOnName",
+          "OutputPath": "code\\Microsoft.AzureEmails\\Templates\\AAD\\IdentityGovernance\\AccessReview\\RecurrentReportGenerated"
+        },
+        {
+          "SourceFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\AAD\\IdentityGovernance\\UserCentric\\CompletionRbac\\CompletionRbac.resx",
+          "LclFile": "Localize\\loc\\{Lang}\\code\\Microsoft.AzureEmails\\Templates\\AAD\\IdentityGovernance\\UserCentric\\CompletionRbac\\CompletionRbac.resx.lcl",
+          "LcgFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\AAD\\IdentityGovernance\\UserCentric\\CompletionRbac\\CompletionRbac.resx.lcg",
+          "LssFiles": [],
+          "CopyOption": "LangIDOnName",
+          "OutputPath": "code\\Microsoft.AzureEmails\\Templates\\AAD\\IdentityGovernance\\UserCentric\\CompletionRbac"
+        }
+      ],
+      "LssFiles": []
+    },
+    {
+      "Name": "LocProject.json",
+      "Path": "Localize\\LocProject.json",
+      "LanguageSet": "MEO_Commerce_Languages",
+      "LocItems": [
+        {
+          "SourceFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\Commerce\\Consumer\\SubscriptionExpirationReminder\\SubscriptionExpirationReminder.resx",
+          "LclFile": "Localize\\loc\\{Lang}\\code\\Microsoft.AzureEmails\\Templates\\Commerce\\Consumer\\SubscriptionExpirationReminder\\SubscriptionExpirationReminder.resx.lcl",
+          "LcgFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\Commerce\\Consumer\\SubscriptionExpirationReminder\\SubscriptionExpirationReminder.resx.lcg",
+          "LssFiles": [],
+          "CopyOption": "LangIDOnName",
+          "OutputPath": "code\\Microsoft.AzureEmails\\Templates\\Commerce\\Consumer\\SubscriptionExpirationReminder"
+        }
+      ],
+      "LssFiles": []
+    },
+    {
+      "Name": "LocProject.json",
+      "Path": "Localize\\LocProject.json",
+      "LanguageSet": "MEO_M365_Languages",
+      "LocItems": [
+        {
+          "SourceFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\Batch\\MFAPoliciesMultiple\\MFAPoliciesMultiple.resx",
+          "LclFile": "Localize\\loc\\{Lang}\\code\\Microsoft.AzureEmails\\Templates\\Batch\\MFAPoliciesMultiple\\MFAPoliciesMultiple.resx.lcl",
+          "LcgFile": "loc\\en\\code\\Microsoft.AzureEmails\\Templates\\Batch\\MFAPoliciesMultiple\\MFAPoliciesMultiple.resx.lcg",
+          "LssFiles": [],
+          "CopyOption": "LangIDOnName",
+          "OutputPath": "code\\Microsoft.AzureEmails\\Templates\\Batch\\MFAPoliciesMultiple"
+        }
+      ],
+      "LssFiles": []
+    }
+  ],
+  "LanguageFolderMappings": {
+    "ar-SA": "ar-SA",
+    "bg-BG": "bg-BG",
+    "ca-ES": "ca-ES",
+    "cs-CZ": "cs-CZ",
+    "da-DK": "da-DK",
+    "de-DE": "de-DE",
+    "el-GR": "el-GR",
+    "en-GB": "en-GB",
+    "es-ES": "es-ES",
+    "et-EE": "et-EE",
+    "eu-ES": "eu-ES",
+    "fi-FI": "fi-FI",
+    "fil-PH": "fil-PH",
+    "fr-FR": "fr-FR",
+    "gl-ES": "gl-ES",
+    "he-IL": "he-IL",
+    "hi-IN": "hi-IN",
+    "hr-HR": "hr-HR",
+    "hu-HU": "hu-HU",
+    "id-ID": "id-ID",
+    "it-IT": "it-IT",
+    "ja-JP": "ja-JP",
+    "kk-KZ": "kk-KZ",
+    "ko-KR": "ko-KR",
+    "lt-LT": "lt-LT",
+    "lv-LV": "lv-LV",
+    "ms-MY": "ms-MY",
+    "nb-NO": "nb-NO",
+    "nl-NL": "nl-NL",
+    "pl-PL": "pl-PL",
+    "pt-BR": "pt-BR",
+    "pt-PT": "pt-PT",
+    "ro-RO": "ro-RO",
+    "ru-RU": "ru-RU",
+    "sk-SK": "sk-SK",
+    "sl-SI": "sl-SI",
+    "sr-Cyrl-BA": "sr-Cyrl-BA",
+    "sr-Cyrl-RS": "sr-Cyrl-RS",
+    "sr-Latn-RS": "sr-Latn-RS",
+    "sv-SE": "sv-SE",
+    "th-TH": "th-TH",
+    "tr-TR": "tr-TR",
+    "uk-UA": "uk-UA",
+    "vi-VN": "vi-VN",
+    "zh-CN": "zh-CN",
+    "zh-TW": "zh-TW"
+  }
+}

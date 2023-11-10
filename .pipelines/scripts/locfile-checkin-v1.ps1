@@ -14,9 +14,9 @@ $ErrorActionPreference = "Stop"
 
 function Main
 {
-    $env:BUILD_SOURCESDIRECTORY = "D:\GitHub\MicrosoftDocs\test-bbtm-update"
-    $env:BUILD_ARTIFACTSTAGINGDIRECTORY = "D:\GitHub\MicrosoftDocs\test-bbtm-update\a"
-    $env:BUILD_SOURCEBRANCHNAME = "dev/jeeyyoo/s2311-meo"
+ #   $env:BUILD_SOURCESDIRECTORY = "D:\GitHub\MicrosoftDocs\test-bbtm-update"
+ #   $env:BUILD_ARTIFACTSTAGINGDIRECTORY = "D:\GitHub\MicrosoftDocs\test-bbtm-update\a"
+ #   $env:BUILD_SOURCEBRANCHNAME = "dev/jeeyyoo/s2311-meo"
 
     $repoRoot = "$env:BUILD_SOURCESDIRECTORY"
     $artifactsRoot = "$env:BUILD_ARTIFACTSTAGINGDIRECTORY"
