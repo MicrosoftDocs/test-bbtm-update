@@ -1,8 +1,5 @@
 param(
     [Parameter(Mandatory = $true)]
-    [string]$UserName,
-
-    [Parameter(Mandatory = $true)]
     [string]$Pat
 )
 
@@ -226,10 +223,10 @@ function PushChange
 
     Write-Host ">>>>> Pushing change in repo..."
 
-    $b64Pat = [Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("${UserName}:$Pat"))
+    $base64Pat = [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("pat:$Pat"))
 
     Write-Host "##[command]git -c http.extraheader=`"AUTHORIZATION: Basic ***`" push origin $PullRequestSourceBranch"
-    git -c http.extraheader="AUTHORIZATION: Basic $b64Pat" push origin $PullRequestSourceBranch
+    git -c http.extraheader="AUTHORIZATION: Basic $base64Pat" push origin $PullRequestSourceBranch
     if ($LastExitCode -ne 0)
     {
         throw "Git push error."
@@ -252,7 +249,7 @@ function CreateGitHubPullRequest
     Write-Host ">>>>> [$pullRequestUrl] created."
 
     # Pull request URL is like https://github.com/Azure/azure-emails/pull/30982, extracts pull request ID from it.
-    if ($pullRequestUrl -match "https://github.com/.+?/pull/(\\d+)$")
+    if ($pullRequestUrl -match "https://github.com/.+?/pull/(\d+)$")
     {
         $pullRequestId = $matches[1]
     }
