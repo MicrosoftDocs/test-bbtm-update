@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Subject" xml:space="preserve">
+    <value>Action recommended: Review new Conditional Access policies when they’re created in your tenant</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>We'll create new Conditional Access policies in your tenant on or after {0}</value>
+    <comment>0 - PolicyCreateDate</comment>
+  </data>
+  <data name="Preheader" xml:space="preserve">
+    <value>We’ll create the policies on or after {0}.</value>
+    <comment>0 - PolicyCreateDate</comment>
+  </data>
+  <data name="HelpAndSupport" xml:space="preserve">
+    <value>Help and support</value>
+  </data>
+  <data name="List1_1" xml:space="preserve">
+    <value>Review the &lt;a href="{0}"&gt;effects and benefits&lt;/a&gt; of the new policies. If you don’t want us to enable them automatically, set them to &lt;em&gt;Off&lt;/em&gt;. Or, you may set them to &lt;em&gt;On&lt;/em&gt; at any time.</value>
+    <comment>0 - url</comment>
+  </data>
+  <data name="List1_2" xml:space="preserve">
+    <value>Customize these policies according to your specific needs, such as &lt;a href="{0}"&gt;excluding emergency access accounts&lt;/a&gt;.</value>
+    <comment>0 - url</comment>
+  </data>
+  <data name="List1_3" xml:space="preserve">
+    <value>Verify that all users covered by these policies have enabled and registered at least one multifactor authentication method. If necessary, &lt;a href="{0}"&gt;run a registration campaign&lt;/a&gt; to set up the Authenticator app.</value>
+    <comment>0 - url</comment>
+  </data>
+  <data name="List2_1" xml:space="preserve">
+    <value>For &lt;em&gt;Issue type&lt;/em&gt;, select &lt;strong&gt;Technical&lt;/strong&gt;.</value>
+  </data>
+  <data name="List2_2" xml:space="preserve">
+    <value>For &lt;em&gt;Service type&lt;/em&gt;, select &lt;strong&gt;Azure Active Directory Sign-In and Multi Factor Authentication&lt;/strong&gt;.</value>
+  </data>
+  <data name="List2_3" xml:space="preserve">
+    <value>For &lt;em&gt;Summary&lt;/em&gt;, type a description of your issue.</value>
+  </data>
+  <data name="List2_4" xml:space="preserve">
+    <value>For &lt;em&gt;Problem type&lt;/em&gt;, select &lt;strong&gt;Conditional Access&lt;/strong&gt;.</value>
+  </data>
+  <data name="List2_5" xml:space="preserve">
+    <value>For &lt;em&gt;Problem subtype&lt;/em&gt;, select &lt;strong&gt;Microsoft Managed&lt;/strong&gt;.</value>
+  </data>
+  <data name="Para1" xml:space="preserve">
+    <value>You’re receiving this email because you’re a global administrator for {0}.</value>
+    <comment>0 - TenantName</comment>
+  </data>
+  <data name="Para3" xml:space="preserve">
+    <value>&lt;strong&gt;These policies will be created in &lt;a href="{0}"&gt;report-only mode&lt;/a&gt;&lt;/strong&gt;, which means that they won’t block any access, but will generate reports on how they’ll affect users when they’re switched to the &lt;em&gt;On&lt;/em&gt; state.</value>
+    <comment>0, 1 - url</comment>
+  </data>
+  <data name="Para4" xml:space="preserve">
+    <value>After the policies have been created in your tenant, you’ll have 90 days to evaluate and configure them. Then, if you haven’t already moved them to the &lt;em&gt;On&lt;/em&gt; or &lt;em&gt;Off&lt;/em&gt; state, they’ll be automatically moved to &lt;em&gt;On&lt;/em&gt;. &lt;strong&gt;Once the policies are enabled, users covered by them will need to have multifactor authentication.&lt;/strong&gt;</value>
+  </data>
+  <data name="Para5" xml:space="preserve">
+    <value>To avoid any potential disruption to users’ access and to ensure these policies meet your organization’s needs, &lt;strong&gt;take the following actions within 90 days of their creation, before they're moved to the &lt;em&gt;On&lt;/em&gt; state:&lt;/strong&gt;</value>
+  </data>
+  <data name="Para6" xml:space="preserve">
+    <value>If you have questions or need help, create a &lt;a href="{0}"&gt;support request&lt;/a&gt;:</value>
+    <comment>0 - url</comment>
+  </data>
+  <data name="RecommendedAction" xml:space="preserve">
+    <value>Recommended action</value>
+  </data>
+  <data name="TenantID" xml:space="preserve">
+    <value>Tenant ID:</value>
+  </data>
+  <data name="TenantName" xml:space="preserve">
+    <value>Tenant name:</value>
+  </data>
+  <data name="List0_1" xml:space="preserve">
+    <value>Multifactor authentication for admins accessing Microsoft Admin Portals</value>
+  </data>
+  <data name="List0_2" xml:space="preserve">
+    <value>Multifactor authentication for per-user multifactor authentication users</value>
+  </data>
+  <data name="List0_3" xml:space="preserve">
+    <value>Multifactor authentication and reauthentication for risky sign-ins</value>
+  </data>
+  <data name="LocProfileId" xml:space="preserve">
+    <value>M365</value>
+  </data>
+  <data name="Para2" xml:space="preserve">
+    <value>In 2020, we introduced security defaults  in Microsoft Entra ID, which significantly raised baseline security for organizations. Now, to build on those improvements, we’re introducing Microsoft-managed Conditional Access policies. &lt;strong&gt;Between {0}, and December 31, 2023, we’ll create these new Microsoft managed Conditional Access policies in your {1} tenant:&lt;/strong&gt;</value>
+    <comment>0 - PolicyCreateDate, 1 - TenantName</comment>
+  </data>
+</root>
