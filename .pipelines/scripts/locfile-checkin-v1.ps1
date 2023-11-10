@@ -45,12 +45,12 @@ function Main
     $filesCount = GetStagedFilesCount
     if ($filesCount -eq 0)
     {
-        Write-Host ">>>>> No files to be checked-in."
+        Write-Host ">>>>> No files to check-in."
         return
     }
     else
     {
-        Write-Host ">>>>> There are $filesCount files to be checked-in."
+        Write-Host ">>>>> There are $filesCount files to check-in."
     }
 
     CheckinFiles -PullRequestSourceBranch $pullRequestSourceBranch
@@ -169,7 +169,7 @@ function GetStagedFilesCount
 
     if ($stagedFiles.Count -gt 0)
     {
-        Write-Host ">>>>> Files to be checked-in are..."
+        Write-Host ">>>>> Files to check-in are..."
         Write-Host "-----"
 
         foreach ($stagedFile in $stagedFiles)
