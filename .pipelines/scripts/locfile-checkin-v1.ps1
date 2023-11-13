@@ -13,7 +13,7 @@ PS > locfile-checkin-v1 -Pat {personal access token}
 .NOTES
 The OneLocBuild task should be executed in advance but the 'Create a pull request to check-in localized files to the repo' option should be disabled (on purpose) in the task
 to perform localized RESX file check-in and LCL file seeding at the same time using one single payload.
-Git CLI and GitHub CLI should be available to make creating and completing a pull request work.
+Both Git CLI and GitHub CLI should be available to make creating and completing a pull request work.
 
 #>
 
@@ -41,9 +41,6 @@ function Main
     $lclFilesBaseDir = [System.IO.Path]::Combine("Localize", "loc")
 
     $pullRequestTargetBranch = "$env:BUILD_SOURCEBRANCH" -replace "^refs/heads/", ""
-
-    $locManifestJson = [System.IO.Path]::Combine($artifactsRoot, "loc", "LocPayload.json")
-    $locManifestObj = Get-Content -Path $locManifestJson | ConvertFrom-Json
 
     $pipelineId = $env:SYSTEM_DEFINITIONID
     $buildNumber = $env:BUILD_BUILDNUMBER
@@ -109,8 +106,10 @@ function TrySeedLclFiles
 {
     Write-Host ">>>>> Trying to seed LCL files under [$lclFilesBaseDir] in repo..."
 
-    $languageSets = @{}
+    $locManifestJson = [System.IO.Path]::Combine($artifactsRoot, "loc", "LocPayload.json")
+    $locManifestObj = Get-Content -Path $locManifestJson | ConvertFrom-Json
 
+    $languageSets = @{}
     foreach ($languageSet in $locManifestObj.LanguageSets)
     {
         $languageSets[$languageSet.Name] = $languageSet.Languages -split ";"
