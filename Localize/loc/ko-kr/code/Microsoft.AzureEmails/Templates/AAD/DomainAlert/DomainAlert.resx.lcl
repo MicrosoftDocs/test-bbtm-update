@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="D:\a\1\s\code\Microsoft.AzureEmails\Templates\AAD\DomainAlert\DomainAlert.resx" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";DomainAlert.resx" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Answer1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your email is set up to receive Microsoft Entra Domain Services notifications about your managed domain, {0}. You may edit your <a href="{1}">notification settings</a> on the Azure portal any time.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your email is set up to receive Microsoft Entra Domain Services notifications about your managed domain, {0}. You may edit your <a href="{1}">notification settings</a> on the Azure portal any time.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 is model data, 1 is a link.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Answer2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Managed domains are checked for alerts every hour. If an alert is resolved, then it disappears from the Health page on the Azure portal. If there are no alerts visible, it could be that someone else resolved your alert or it had been automatically resolved.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Managed domains are checked for alerts every hour. If an alert is resolved, then it disappears from the Health page on the Azure portal. If there are no alerts visible, it could be that someone else resolved your alert or it had been automatically resolved.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Button_Text" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and resolve these alerts]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[View and resolve these alerts]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocProfileId" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[msazure]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[msazure]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Main_Heading" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have alerts on your managed domain]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You have alerts on your managed domain]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Meta_Purpose" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To email our customers when they have active alerts on their domain and help them resolve the problem.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To email our customers when they have active alerts on their domain and help them resolve the problem.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Paragraph1" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We detected critical or warning alerts on your Microsoft Entra Domain Services managed domain, {0}, on {1}. These issues may negatively affect your service—please resolve them as soon as possible. ]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[We detected critical or warning alerts on your Microsoft Entra Domain Services managed domain, {0}, on {1}. These issues may negatively affect your service—please resolve them as soon as possible. ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0, 1 are model data.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Paragraph2" ItemType="0;.resx" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To see your alerts and check the health of your managed domain, visit the Health page on the <a href="{0}">Azure portal</a>, or click the button below.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To see your alerts and check the health of your managed domain, visit the Health page on the <a href="{0}">Azure portal</a>, or click the button below.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[0 is a link.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";PreHeader_Content" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Resolve these alerts to ensure your service is not affected]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Resolve these alerts to ensure your service is not affected]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Question1" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Why am I receiving this email?]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Why am I receiving this email?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Question2" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Why are there no alerts on my Health page?]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Why are there no alerts on my Health page?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Subject" ItemType="0;.resx" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have alerts on your managed domain]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You have alerts on your managed domain]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>
