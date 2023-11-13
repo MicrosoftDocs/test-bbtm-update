@@ -66,7 +66,7 @@ function Main
         Write-Host ">>>>> There are $filesCount files to check-in."
     }
 
-    CheckinFiles -PullRequestSourceBranch $pullRequestSourceBranch
+    CheckinFiles
 }
 
 # Virtually associates Git commit with Localization Team service account to indicate who makes check-in, this is necessary to make Git push succeed in the end.
@@ -203,10 +203,6 @@ function GetStagedFilesCount
 
 function CheckinFiles
 {
-    param(
-        [string]$PullRequestSourceBranch
-    )
-
     Write-Host ">>>>> Checking-in files in repo..."
 
     Write-Host "##[command]git commit -m `"$commitMessage`" -- $locFilesBaseDir $lclFilesBaseDir"
@@ -227,7 +223,7 @@ function CheckinFiles
         throw "Git status error."
     }
 
-    PushChange -PullRequestSourceBranch $pullRequestSourceBranch
+    PushChange
     $pullRequestId = CreateGitHubPullRequest
     Start-Sleep -Seconds 10
     CompleteGitHubPullRequest -PullRequestId $pullRequestId
@@ -235,16 +231,12 @@ function CheckinFiles
 
 function PushChange
 {
-    param(
-        [string]$PullRequestSourceBranch
-    )
-
     Write-Host ">>>>> Pushing change in repo..."
 
     $base64Pat = [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("pat:$Pat"))
 
-    Write-Host "##[command]git -c http.extraheader=`"AUTHORIZATION: Basic ***`" push origin $PullRequestSourceBranch"
-    git -c http.extraheader="AUTHORIZATION: Basic $base64Pat" push origin $PullRequestSourceBranch
+    Write-Host "##[command]git -c http.extraheader=`"AUTHORIZATION: Basic ***`" push origin $pullRequestSourceBranch"
+    git -c http.extraheader="AUTHORIZATION: Basic $base64Pat" push origin $pullRequestSourceBranch
     if ($LastExitCode -ne 0)
     {
         throw "Git push error."
