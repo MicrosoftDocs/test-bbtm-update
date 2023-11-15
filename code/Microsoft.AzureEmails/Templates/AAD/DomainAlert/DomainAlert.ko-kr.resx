@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Main_Heading" xml:space="preserve">
-    <value>@You have alerts on your managed domain</value>
+    <value>You have alerts on your managed domain</value>
   </data>
   <data name="Meta_Purpose" xml:space="preserve">
     <value>To email our customers when they have active alerts on their domain and help them resolve the problem.</value>
